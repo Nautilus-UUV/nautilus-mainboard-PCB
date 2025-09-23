@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 60.96 69.85)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d3e5388-f42a-43a0-b49f-265ba4fa94a1")
+		(property "Sheetname" "RTC"
+			(at 60.96 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTC.kicad_sch"
+			(at 60.96 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 233.68 62.23)
 		(size 30.48 22.86)
 		(exclude_from_sim no)
