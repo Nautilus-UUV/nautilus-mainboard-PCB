@@ -440,6 +440,18 @@
     [
       "120542be-177c-42c5-bfb3-b8aded45be23",
       "LanCM4"
+    ],
+    [
+      "3057b5eb-f1b7-4f0b-8332-d97cb83907a8",
+      "CM4_Module1A"
+    ],
+    [
+      "645c2bce-13ff-40ac-8c2d-5f78164273e9",
+      "CM4_Module1B"
+    ],
+    [
+      "e0935ee6-fc77-4de6-a0ac-caf50bea3bcd",
+      "CM4_LED1"
     ]
   ],
   "text_variables": {}
