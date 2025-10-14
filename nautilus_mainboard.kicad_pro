@@ -414,12 +414,32 @@
       "Root"
     ],
     [
-      "f0840216-ad46-4ca9-a126-75f55925f474",
-      "PMU"
+      "46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae",
+      "STM"
     ],
     [
-      "8d3e5388-f42a-43a0-b49f-265ba4fa94a1",
-      "RTC"
+      "c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb",
+      "CM4"
+    ],
+    [
+      "7439593a-de4f-4d56-b463-481360a4f617",
+      "Piezzo"
+    ],
+    [
+      "fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc",
+      "PinoutSTM"
+    ],
+    [
+      "b11889ff-9e53-460e-a5df-2ddc3c461adc",
+      "PinoutCM4"
+    ],
+    [
+      "b861b505-f377-49fb-9e06-1714af927ea6",
+      "PowerSTM"
+    ],
+    [
+      "120542be-177c-42c5-bfb3-b8aded45be23",
+      "LanCM4"
     ]
   ],
   "text_variables": {}

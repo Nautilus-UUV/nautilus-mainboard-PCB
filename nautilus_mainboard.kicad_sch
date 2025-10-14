@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 60.96 69.85)
-		(size 12.7 16.51)
+		(at 25.4 25.4)
+		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "8d3e5388-f42a-43a0-b49f-265ba4fa94a1")
-		(property "Sheetname" "RTC"
-			(at 60.96 69.1384 0)
+		(uuid "46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae")
+		(property "Sheetname" "STM"
+			(at 25.4 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +30,92 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RTC.kicad_sch"
-			(at 60.96 86.9446 0)
+		(property "Sheetfile" "STM.kicad_sch"
+			(at 25.4 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7439593a-de4f-4d56-b463-481360a4f617")
+		(property "Sheetname" "Piezzo"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Piezzo.kicad_sch"
+			(at 177.8 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 25.4)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb")
+		(property "Sheetname" "CM4"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4.kicad_sch"
+			(at 101.6 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,58 +127,6 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 233.68 62.23)
-		(size 30.48 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f0840216-ad46-4ca9-a126-75f55925f474")
-		(property "Sheetname" "PMU"
-			(at 233.68 61.5184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PMU.kicad_sch"
-			(at 233.68 85.6746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+12v" output
-			(at 233.68 69.723 180)
-			(uuid "a435fdd6-1017-4708-89bc-f550deefc2b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
-					(page "2")
 				)
 			)
 		)
