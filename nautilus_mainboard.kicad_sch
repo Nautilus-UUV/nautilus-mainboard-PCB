@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 101.6 101.6)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ca810bd-6311-4873-a4c4-10e0b1989f7a")
+		(property "Sheetname" "LPHT-connector"
+			(at 101.6 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LPHT-connector.kicad_sch"
+			(at 101.6 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 25.4)
 		(size 50.8 50.8)
 		(exclude_from_sim no)

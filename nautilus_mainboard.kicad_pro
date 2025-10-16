@@ -661,6 +661,10 @@
     [
       "9f7bc1e5-4b64-43dc-b368-101a610271ca",
       "CM4_Ethernet"
+    ],
+    [
+      "8ca810bd-6311-4873-a4c4-10e0b1989f7a",
+      "LPHT-connector"
     ]
   ],
   "text_variables": {}

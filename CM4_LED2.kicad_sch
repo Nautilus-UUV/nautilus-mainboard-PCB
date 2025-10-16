@@ -752,6 +752,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 53.34 40.64)
+		(end 139.7 71.12)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 75c79178-41de-4b84-beca-72a085f899ba)
+	)
+	(text "Simple Activity LED with test point"
+		(exclude_from_sim no)
+		(at 72.644 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22b584a9-3b4f-4e2f-b952-f5c8eb91adee")
+	)
 	(text "Activity LED"
 		(exclude_from_sim no)
 		(at 119.126 69.088 0)
