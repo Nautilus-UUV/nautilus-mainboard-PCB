@@ -5,6 +5,86 @@
 	(uuid "ce1819b2-f280-40ed-834f-6fe4d12f809d")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08145cc2-d374-4658-80bf-e97f6e46fb09")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5180a9-6203-4b3c-b5c1-e3e18590c226")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 121.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173647dd-cdff-4f06-acc2-1de87eec55c2")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffa2b74-be02-4889-bac2-30a0972a0728")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 132.08 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b3b6e6-ceb3-42d2-98a5-3fe737962440")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e8837e-312a-4dce-8fae-913d6591db09")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea49f43e-4924-4386-93d5-387551f175a1")
+	)
+	(wire
+		(pts
+			(xy 124.46 76.2) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0a0e22-9512-4393-9bb6-d2717822a73a")
+	)
 	(sheet
 		(at 25.4 25.4)
 		(size 50.8 50.8)
@@ -90,7 +170,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 101.6)
+		(at 101.6 92.71)
 		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -106,7 +186,7 @@
 		)
 		(uuid "8ca810bd-6311-4873-a4c4-10e0b1989f7a")
 		(property "Sheetname" "LPHT-connector"
-			(at 101.6 100.8884 0)
+			(at 101.6 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,12 +195,92 @@
 			)
 		)
 		(property "Sheetfile" "LPHT-connector.kicad_sch"
-			(at 101.6 152.9846 0)
+			(at 101.6 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ET1" input
+			(at 121.92 92.71 90)
+			(uuid "0b93ae24-835a-498b-af86-55b2b5354f5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ET2" input
+			(at 124.46 92.71 90)
+			(uuid "7e63eb3b-918d-4002-ae29-a5dfefb10825")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ET3" input
+			(at 127 92.71 90)
+			(uuid "0b2d94af-2bb6-4874-840f-a54ccd52bd81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ET4" input
+			(at 129.54 92.71 90)
+			(uuid "04d8fa00-fecf-47b9-a90d-e3f0bd3a162f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ET5" input
+			(at 132.08 92.71 90)
+			(uuid "c5a3e62b-148f-46fd-a0e7-fab16a5ff10c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ET6" input
+			(at 134.62 92.71 90)
+			(uuid "58a6082e-462c-4ad7-877c-8f7aa24a5576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ET7" input
+			(at 137.16 92.71 90)
+			(uuid "a61a0bed-c1b4-40d0-822c-cbb6eb2bfaa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ET8" input
+			(at 139.7 92.71 90)
+			(uuid "ca9a1409-3d7d-4e96-8cfd-8ef63c3795a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -163,6 +323,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ET1" input
+			(at 121.92 76.2 270)
+			(uuid "6662ae4b-2bfa-4816-b4fb-e9f946f20fef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET2" input
+			(at 124.46 76.2 270)
+			(uuid "0a9ef4ba-b380-4046-ac7b-9335be86cfdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET3" input
+			(at 127 76.2 270)
+			(uuid "e09f6dd9-35e0-4a9a-8d1e-233a714bd91c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET4" input
+			(at 129.54 76.2 270)
+			(uuid "7acfd1c9-0505-4a99-8a77-99283b78f5b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET5" input
+			(at 132.08 76.2 270)
+			(uuid "6ad62b44-105a-4a73-9c82-bbfb29825ee4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET6" input
+			(at 134.62 76.2 270)
+			(uuid "c8ad6832-44d2-43ef-9805-bbada01896e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET7" input
+			(at 137.16 76.2 270)
+			(uuid "d4615a1a-1823-488e-8346-020a0fc5a6e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET8" input
+			(at 139.7 76.2 270)
+			(uuid "fd5031c7-7d2d-4aaa-a246-15dbfcabf927")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

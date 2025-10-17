@@ -5,8 +5,176 @@
 	(uuid "8ec25943-c49b-4dc1-a9a1-a011ef972b8c")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 83.82 59.69) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1216f095-de4e-4408-96e8-d7d36440b30b")
+	)
+	(wire
+		(pts
+			(xy 83.82 62.23) (xy 86.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e9df00-df6f-4d58-9de3-c44885557506")
+	)
+	(wire
+		(pts
+			(xy 83.82 54.61) (xy 86.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f952f56-4bc6-4315-8c6b-574d7f6e1963")
+	)
+	(wire
+		(pts
+			(xy 83.82 64.77) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e68289-a214-4a2a-82e1-620879cdd85b")
+	)
+	(wire
+		(pts
+			(xy 83.82 57.15) (xy 86.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817c01b2-f1fe-4bfe-a570-d1a9e156029d")
+	)
+	(wire
+		(pts
+			(xy 83.82 67.31) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9cce76a-88d2-49b0-8277-5dc27f8d1254")
+	)
+	(wire
+		(pts
+			(xy 83.82 72.39) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f601ce-8596-47de-8b11-d6f91ac34b8c")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 86.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86e4c12-2424-4937-881f-e3b2b1ee1744")
+	)
+	(hierarchical_label "ET5"
+		(shape input)
+		(at 83.82 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "051e528a-d246-4f3e-8ba2-e230d0836b20")
+	)
+	(hierarchical_label "ET2"
+		(shape input)
+		(at 83.82 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "291bd942-4ddd-4a87-b6a8-228f1a6b9d1c")
+	)
+	(hierarchical_label "ET1"
+		(shape input)
+		(at 83.82 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fe13722-f683-4166-ac9e-27661c8f74d0")
+	)
+	(hierarchical_label "ET6"
+		(shape input)
+		(at 83.82 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f63f039-b69d-4fc8-a7e9-4ca53b52c6fe")
+	)
+	(hierarchical_label "ET4"
+		(shape input)
+		(at 83.82 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67dc86f8-7e0f-426b-9ba5-22b29fc05852")
+	)
+	(hierarchical_label "ET8"
+		(shape input)
+		(at 83.82 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73971524-0a6c-4907-b835-e398c503f95e")
+	)
+	(hierarchical_label "ET7"
+		(shape input)
+		(at 83.82 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3a217e9-1bcb-45e4-9324-ed1756aed792")
+	)
+	(hierarchical_label "ET3"
+		(shape input)
+		(at 83.82 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c89462bf-34d5-47d9-955e-49793b389e02")
+	)
 	(sheet
-		(at 101.6 25.4)
+		(at 86.36 46.99)
 		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20,9 +188,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "120542be-177c-42c5-bfb3-b8aded45be23")
-		(property "Sheetname" "LanCM4"
-			(at 101.6 24.6884 0)
+		(uuid "0837dad1-ec16-488a-a684-981e55247089")
+		(property "Sheetname" "CM4_Module1A"
+			(at 86.36 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +198,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LanCM4.kicad_sch"
-			(at 101.6 76.7846 0)
+		(property "Sheetfile" "CM4_Module1A.kicad_sch"
+			(at 86.36 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,16 +207,96 @@
 				(justify left top)
 			)
 		)
+		(pin "ET1" input
+			(at 86.36 54.61 180)
+			(uuid "69beadaa-35f6-4d57-969c-b84f8d54f29a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET2" input
+			(at 86.36 57.15 180)
+			(uuid "07a61f62-88ed-4544-81b3-3c7ef5b17cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET3" input
+			(at 86.36 59.69 180)
+			(uuid "4fbb1348-6dc0-465f-a38f-b5dda222b83d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET4" input
+			(at 86.36 62.23 180)
+			(uuid "4df5db27-575d-4ad1-882f-037d6a20d3ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET5" input
+			(at 86.36 64.77 180)
+			(uuid "d0693895-bcc9-4320-bbdf-ece20dea3dd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET6" input
+			(at 86.36 67.31 180)
+			(uuid "cefa9473-d212-4973-957d-bb6f896c7268")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET7" input
+			(at 86.36 69.85 180)
+			(uuid "f9f0507f-8f4a-41bd-a6bc-05c19e3d7f89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ET8" input
+			(at 86.36 72.39 180)
+			(uuid "44df6be5-ff95-4bd4-970c-68977771786f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb"
-					(page "8")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
+		(at 162.56 46.99)
 		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62,9 +310,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b11889ff-9e53-460e-a5df-2ddc3c461adc")
-		(property "Sheetname" "PinoutCM4"
-			(at 25.4 24.6884 0)
+		(uuid "f5b638be-e0c1-4f77-ad7d-0ded62182f5f")
+		(property "Sheetname" "CM4_Module1B"
+			(at 162.56 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,8 +320,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PinoutCM4.kicad_sch"
-			(at 25.4 76.7846 0)
+		(property "Sheetfile" "CM4_Module1B.kicad_sch"
+			(at 162.56 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +332,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb"
-					(page "6")
+					(page "11")
 				)
 			)
 		)

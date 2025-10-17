@@ -1223,13 +1223,23 @@
 	)
 	(text "9-16 lan\n"
 		(exclude_from_sim no)
-		(at 170.434 85.598 0)
+		(at 182.88 86.106 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "747df627-b7da-4808-b811-b9a53c427609")
+	)
+	(text "This needs to be an \"LPHS-04-16-L-VP1\""
+		(exclude_from_sim no)
+		(at 149.86 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81a775b5-3f55-4ae2-b35e-9cda184406f0")
 	)
 	(junction
 		(at 138.43 107.95)
@@ -1305,6 +1315,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 85.09) (xy 171.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da5a4c9-15ff-42d8-9f14-3154e4e27f01")
+	)
+	(wire
+		(pts
 			(xy 138.43 107.95) (xy 138.43 110.49)
 		)
 		(stroke
@@ -1312,6 +1332,16 @@
 			(type default)
 		)
 		(uuid "0da8cbe1-351d-4da4-9917-9194aa9dea44")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 171.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee72fe4-a140-4b5a-abfd-5cc1811bd2ae")
 	)
 	(wire
 		(pts
@@ -1335,6 +1365,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 87.63) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d83eed-d45f-4ed5-9e83-62579a5d18bc")
+	)
+	(wire
+		(pts
 			(xy 163.83 118.11) (xy 163.83 120.65)
 		)
 		(stroke
@@ -1342,6 +1382,16 @@
 			(type default)
 		)
 		(uuid "45c75add-88cc-47ce-b856-7d58db32628a")
+	)
+	(wire
+		(pts
+			(xy 163.83 90.17) (xy 171.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50466c5c-8356-4c98-a2b4-e199ff0dafd5")
 	)
 	(wire
 		(pts
@@ -1375,6 +1425,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 77.47) (xy 171.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8723e4f5-26b4-4b85-a823-fadce4f2722d")
+	)
+	(wire
+		(pts
 			(xy 138.43 105.41) (xy 138.43 107.95)
 		)
 		(stroke
@@ -1392,6 +1452,16 @@
 			(type default)
 		)
 		(uuid "88a734dc-33d9-41a6-b52c-99e63f1b76d4")
+	)
+	(wire
+		(pts
+			(xy 163.83 92.71) (xy 171.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7288c4-fc5a-4156-9678-25d5472784a2")
 	)
 	(wire
 		(pts
@@ -1452,6 +1522,26 @@
 			(type default)
 		)
 		(uuid "e694eeda-c202-4b9b-89a2-39eb0f2e7ca0")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ddaf25-6390-432a-aea7-3f348a0b2c5d")
+	)
+	(wire
+		(pts
+			(xy 163.83 80.01) (xy 171.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5cd09f-f4dd-4ff7-a2cf-d35650d58cbf")
 	)
 	(wire
 		(pts
@@ -1522,6 +1612,94 @@
 			(justify left bottom)
 		)
 		(uuid "d41e2452-4455-4b41-8eca-d45cd733327e")
+	)
+	(hierarchical_label "ET1"
+		(shape input)
+		(at 171.45 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01af41b8-0406-4f66-b5d9-aab07f9adaf2")
+	)
+	(hierarchical_label "ET4"
+		(shape input)
+		(at 171.45 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11163abe-cbe9-458c-86eb-dc0d366a30f2")
+	)
+	(hierarchical_label "ET5"
+		(shape input)
+		(at 171.45 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1499d8c7-fc83-417d-a434-d0e3fb30c5d3")
+	)
+	(hierarchical_label "ET2"
+		(shape input)
+		(at 171.45 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21e785d8-9b74-4923-9ef3-287e8495ce4c")
+	)
+	(hierarchical_label "ET8"
+		(shape input)
+		(at 171.45 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "419e825f-ccc7-4cf7-84ae-35ebfdfc1ead")
+	)
+	(hierarchical_label "ET6"
+		(shape input)
+		(at 171.45 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "658fb57e-121e-46df-bffc-cbf3503b1398")
+	)
+	(hierarchical_label "ET7"
+		(shape input)
+		(at 171.45 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7aa3ed32-5c20-4f2a-9f3f-4083adbddfbb")
+	)
+	(hierarchical_label "ET3"
+		(shape input)
+		(at 171.45 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9883abfb-acae-47cc-8df3-44520d4c94b1")
 	)
 	(symbol
 		(lib_id "#dzdb:s_con/CON-SAMTEC-LPHT-04-16-L-RT1-GP")

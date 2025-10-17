@@ -627,28 +627,16 @@
       "Piezzo"
     ],
     [
+      "0837dad1-ec16-488a-a684-981e55247089",
+      "CM4_Module1A"
+    ],
+    [
       "fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc",
       "PinoutSTM"
     ],
     [
-      "b11889ff-9e53-460e-a5df-2ddc3c461adc",
-      "PinoutCM4"
-    ],
-    [
       "b861b505-f377-49fb-9e06-1714af927ea6",
       "PowerSTM"
-    ],
-    [
-      "120542be-177c-42c5-bfb3-b8aded45be23",
-      "LanCM4"
-    ],
-    [
-      "3057b5eb-f1b7-4f0b-8332-d97cb83907a8",
-      "CM4_Module1A"
-    ],
-    [
-      "645c2bce-13ff-40ac-8c2d-5f78164273e9",
-      "CM4_Module1B"
     ],
     [
       "e0935ee6-fc77-4de6-a0ac-caf50bea3bcd",
@@ -661,6 +649,10 @@
     [
       "9f7bc1e5-4b64-43dc-b368-101a610271ca",
       "CM4_Ethernet"
+    ],
+    [
+      "f5b638be-e0c1-4f77-ad7d-0ded62182f5f",
+      "CM4_Module1B"
     ],
     [
       "8ca810bd-6311-4873-a4c4-10e0b1989f7a",

@@ -861,7 +861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "000892c4-78f9-42f2-bf17-d2ff24bd19cf")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 86.36 55.88 90)
 			(effects
 				(font
@@ -1004,15 +1004,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd2a14f6-8b0d-4ad3-839a-66eae9795c46")
+			(uuid "0a1db8c0-b11a-4e6e-b977-401ea7d4ecff")
 		)
 		(pin "2"
-			(uuid "9f50afb3-fac8-4a29-a549-ff01d4caa813")
+			(uuid "9bb1ffd8-fd83-4048-8654-24ab1a7905b5")
 		)
 		(instances
-			(project ""
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/b11889ff-9e53-460e-a5df-2ddc3c461adc/3057b5eb-f1b7-4f0b-8332-d97cb83907a8/b50f6d86-4325-4d05-931a-73973954b099"
-					(reference "R3")
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/b50f6d86-4325-4d05-931a-73973954b099"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1028,7 +1028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10a9c386-dba5-4b0b-ad38-63db6f06c3e3")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 117.7925 55.88 0)
 			(effects
 				(font
@@ -1171,15 +1171,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "26367036-9e42-4651-a5a4-1373bd8d3544")
+			(uuid "6705c016-6c13-4740-b7c5-855f394e8ccd")
 		)
 		(pin "2"
-			(uuid "e60e5732-822b-49b4-be44-71cd0c253d7e")
+			(uuid "c7ed822c-6026-4ff2-a6ff-a1c7d8609d4b")
 		)
 		(instances
-			(project ""
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/b11889ff-9e53-460e-a5df-2ddc3c461adc/3057b5eb-f1b7-4f0b-8332-d97cb83907a8/b50f6d86-4325-4d05-931a-73973954b099"
-					(reference "D3")
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/b50f6d86-4325-4d05-931a-73973954b099"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1195,7 +1195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28c9fdc7-99b3-40d7-8726-c0941b515726")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 102.87 48.7679 0)
 			(effects
 				(font
@@ -1259,12 +1259,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd0d7623-ab15-49e5-9fba-8b3c70d22ac4")
+			(uuid "5b9a0bf8-bf1f-4059-8f46-1ad61616834b")
 		)
 		(instances
-			(project ""
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/b11889ff-9e53-460e-a5df-2ddc3c461adc/3057b5eb-f1b7-4f0b-8332-d97cb83907a8/b50f6d86-4325-4d05-931a-73973954b099"
-					(reference "TP2")
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/b50f6d86-4325-4d05-931a-73973954b099"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -1280,7 +1280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b9cb49e-7157-4a52-a23f-07225c0f4cd7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 135.89 66.04 0)
 			(effects
 				(font
@@ -1325,12 +1325,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "28c3c24a-2ec8-4fc5-b812-b561ed55d9e8")
+			(uuid "639f3cee-f154-4d3e-8f4b-1086eeada116")
 		)
 		(instances
-			(project ""
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/b11889ff-9e53-460e-a5df-2ddc3c461adc/3057b5eb-f1b7-4f0b-8332-d97cb83907a8/b50f6d86-4325-4d05-931a-73973954b099"
-					(reference "#PWR010")
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/b50f6d86-4325-4d05-931a-73973954b099"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
