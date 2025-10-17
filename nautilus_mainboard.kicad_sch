@@ -128,7 +128,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 25.4)
+		(at 25.4 92.71)
 		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -144,7 +144,7 @@
 		)
 		(uuid "7439593a-de4f-4d56-b463-481360a4f617")
 		(property "Sheetname" "Piezzo"
-			(at 177.8 24.6884 0)
+			(at 25.4 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +153,7 @@
 			)
 		)
 		(property "Sheetfile" "Piezzo.kicad_sch"
-			(at 177.8 76.7846 0)
+			(at 25.4 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -185,7 +185,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8ca810bd-6311-4873-a4c4-10e0b1989f7a")
-		(property "Sheetname" "LPHT-connector"
+		(property "Sheetname" "LPHS-connector"
 			(at 101.6 91.9984 0)
 			(effects
 				(font
