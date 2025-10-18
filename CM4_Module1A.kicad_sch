@@ -4368,6 +4368,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Serial needs clock?\n"
+		(exclude_from_sim no)
+		(at 175.514 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1cf1602f-4807-4330-a953-4f9db532dc1f")
+	)
 	(text "Disable Wlan and Bluetooth?"
 		(exclude_from_sim no)
 		(at 121.158 137.414 0)

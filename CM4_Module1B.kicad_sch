@@ -7527,6 +7527,16 @@
 		)
 		(uuid "c31e1f00-1416-473c-bbb5-17bdaa98ba62")
 	)
+	(text "safety shotky diode"
+		(exclude_from_sim no)
+		(at 170.942 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fce2713c-3a4a-4b6b-b4e2-3ce687d75e05")
+	)
 	(junction
 		(at 175.26 78.74)
 		(diameter 0)
