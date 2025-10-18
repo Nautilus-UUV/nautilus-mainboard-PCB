@@ -2647,6 +2647,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 43.18) (xy 218.44 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5965e138-38fb-413f-b1dc-4ac90a046ada")
+	)
+	(wire
+		(pts
 			(xy 92.71 81.28) (xy 96.52 81.28)
 		)
 		(stroke
@@ -2777,6 +2787,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 38.1) (xy 215.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b262dff7-1064-4a0c-9e7f-cfcd62d1ebe1")
+	)
+	(wire
+		(pts
 			(xy 135.89 123.19) (xy 135.89 135.89)
 		)
 		(stroke
@@ -2894,6 +2914,16 @@
 			(type default)
 		)
 		(uuid "f9b1011c-7fbd-42aa-a54d-72fd7cca8269")
+	)
+	(wire
+		(pts
+			(xy 203.2 43.18) (xy 218.44 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec677ec-7d98-4273-807f-268ee5b48bc0")
 	)
 	(label "CAN1_TX"
 		(at 176.53 77.47 0)
@@ -3035,6 +3065,16 @@
 		)
 		(uuid "8bf06baf-cab2-4ef9-b96a-c01350275a0f")
 	)
+	(label "Vss"
+		(at 203.2 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9565d4b9-858b-43aa-b02c-7bd3f830b0a9")
+	)
 	(label "Vdd"
 		(at 111.76 97.79 0)
 		(effects
@@ -3044,6 +3084,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e4d8648-ee8e-4747-8818-0b4277277252")
+	)
+	(label "Vdd"
+		(at 203.2 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "addcb79e-303a-4b50-b822-25296d05bf77")
 	)
 	(label "JTAG_TMS"
 		(at 176.53 74.93 0)
@@ -3134,6 +3184,83 @@
 			(justify left bottom)
 		)
 		(uuid "f66ab26d-5b5a-4043-8838-96d3e502967a")
+	)
+	(hierarchical_label "STM_VDD"
+		(shape input)
+		(at 215.9 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b72c4d64-7cda-4ea1-a789-9b55656b80bb")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b3f4a84-1ee9-4ac1-a4f9-5bc425d82d6e")
+		(property "Reference" "#PWR022"
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d44283-a285-4861-aef9-ac1fce967ac2")
+		)
+		(instances
+			(project ""
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
