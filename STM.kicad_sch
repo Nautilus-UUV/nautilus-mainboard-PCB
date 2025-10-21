@@ -17,6 +17,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 46.99) (xy 101.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db7cb7f-9d77-4edb-b466-e4fce37b3e23")
+	)
+	(wire
+		(pts
 			(xy 58.42 76.2) (xy 58.42 86.36)
 		)
 		(stroke
@@ -24,6 +34,16 @@
 			(type default)
 		)
 		(uuid "a29fc8ed-dd1e-455a-b9a9-6a2f9441d023")
+	)
+	(wire
+		(pts
+			(xy 76.2 54.61) (xy 101.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c02c28-a8fa-4fb5-9972-356bd0fddba4")
 	)
 	(hierarchical_label "STM_UART_TX"
 		(shape input)
@@ -81,6 +101,46 @@
 				(justify left top)
 			)
 		)
+		(pin "CAN_N" bidirectional
+			(at 152.4 50.8 0)
+			(uuid "faf5a15a-39e6-4888-8312-4305b0a8a0ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_P" bidirectional
+			(at 152.4 45.72 0)
+			(uuid "22593dc9-184f-4db1-aa03-f6c5a6bcce88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FDCAN_STM_RX" input
+			(at 101.6 46.99 180)
+			(uuid "6b14090e-ffef-474f-9b3e-8788700f6470")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN_STM_TX" input
+			(at 101.6 54.61 180)
+			(uuid "d5847d4d-95f8-4055-bd76-98d44c51347d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae"
@@ -134,7 +194,7 @@
 			)
 		)
 		(pin "CAN1_TX" input
-			(at 76.2 50.8 0)
+			(at 76.2 54.61 0)
 			(uuid "de545199-8f8a-4a56-b071-35c6fe8d0dda")
 			(effects
 				(font
