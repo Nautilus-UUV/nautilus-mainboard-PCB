@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b861b505-f377-49fb-9e06-1714af927ea6")
-		(property "Sheetname" "PowerSTM"
+		(property "Sheetname" "CAN_Interface"
 			(at 101.6 24.6884 0)
 			(effects
 				(font

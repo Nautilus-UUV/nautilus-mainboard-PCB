@@ -27,6 +27,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1036cf12-06c7-409c-a6f0-9b116b1d4a87")
+	)
+	(wire
+		(pts
 			(xy 121.92 76.2) (xy 121.92 92.71)
 		)
 		(stroke
@@ -44,6 +54,16 @@
 			(type default)
 		)
 		(uuid "1ffa2b74-be02-4889-bac2-30a0972a0728")
+	)
+	(wire
+		(pts
+			(xy 76.2 52.07) (xy 101.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819b691a-cb21-450f-a7eb-cfefb37f160f")
 	)
 	(wire
 		(pts
@@ -117,6 +137,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "STM_UART_RX" output
+			(at 76.2 52.07 0)
+			(uuid "d457ef4d-ccfc-4fbb-b803-956c90b8b301")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_UART_TX" input
+			(at 76.2 45.72 0)
+			(uuid "a743339a-f58c-4a22-9685-ab26721b415c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -398,6 +438,26 @@
 		(pin "ET8" input
 			(at 139.7 76.2 270)
 			(uuid "fd5031c7-7d2d-4aaa-a246-15dbfcabf927")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PI_RX" input
+			(at 101.6 45.72 180)
+			(uuid "0cbf9260-3440-4068-a634-639e1bcbf718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PI_TX" input
+			(at 101.6 52.07 180)
+			(uuid "f959af84-0c74-41b2-810a-c7820c160bfb")
 			(effects
 				(font
 					(size 1.27 1.27)
