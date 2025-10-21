@@ -386,6 +386,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 97.79) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575a5df2-611e-41bf-9460-14a436725ccf")
+	)
+	(wire
+		(pts
 			(xy 83.82 54.61) (xy 86.36 54.61)
 		)
 		(stroke
@@ -436,6 +446,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 97.79) (xy 128.27 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce353c28-da64-4204-8a29-f5b94c075c02")
+	)
+	(wire
+		(pts
 			(xy 83.82 72.39) (xy 86.36 72.39)
 		)
 		(stroke
@@ -475,6 +495,17 @@
 			(justify right)
 		)
 		(uuid "291bd942-4ddd-4a87-b6a8-228f1a6b9d1c")
+	)
+	(hierarchical_label "PI_RX"
+		(shape input)
+		(at 128.27 104.14 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29c5b3da-c873-4a87-b68b-60e103c9ad36")
 	)
 	(hierarchical_label "ET1"
 		(shape input)
@@ -519,6 +550,17 @@
 			(justify right)
 		)
 		(uuid "73971524-0a6c-4907-b835-e398c503f95e")
+	)
+	(hierarchical_label "PI_TX"
+		(shape input)
+		(at 124.46 104.14 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f0e2063-1de4-42b1-ba24-5610577224be")
 	)
 	(hierarchical_label "ET7"
 		(shape input)
@@ -892,6 +934,26 @@
 		(pin "GPIO_VREF" input
 			(at 86.36 81.28 180)
 			(uuid "e4ba744a-93bb-41d7-8397-abe3489e8c49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD0" input
+			(at 128.27 97.79 270)
+			(uuid "79e9c3db-d6fc-4061-a35d-79776b648aa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD0" input
+			(at 124.46 97.79 270)
+			(uuid "48ad677e-0ba9-409b-8ccb-06296a17ad7f")
 			(effects
 				(font
 					(size 1.27 1.27)
