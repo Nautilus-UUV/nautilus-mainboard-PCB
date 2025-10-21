@@ -3891,256 +3891,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+1V8"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V8"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -4388,6 +4138,16 @@
 		)
 		(uuid "1cf1602f-4807-4330-a953-4f9db532dc1f")
 	)
+	(text "connect Wlan to gnd if off, and leave floating for on.\nPlease use a 2 pin connector here with a jumper cap. (has to be done)"
+		(exclude_from_sim no)
+		(at 148.844 121.158 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "446243a1-3aad-41dc-a2cd-7aa165db42c5")
+	)
 	(text "Disable Wlan and Bluetooth?"
 		(exclude_from_sim no)
 		(at 121.158 137.414 0)
@@ -4403,12 +4163,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08e271f0-cf56-461a-b511-38ede17b76d8")
-	)
-	(junction
-		(at 40.64 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13b14add-ad33-4623-bb5d-96d6b2234a1d")
 	)
 	(junction
 		(at 106.68 64.77)
@@ -4433,12 +4187,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "411f9ad8-02df-474b-9553-445590dc7f9b")
-	)
-	(junction
-		(at 106.68 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a656ade-829b-4c3a-ad04-7b4564522cd3")
 	)
 	(junction
 		(at 38.1 115.57)
@@ -4489,12 +4237,6 @@
 		(uuid "8998b2fc-d375-4d5d-88ff-770ae278c9f4")
 	)
 	(junction
-		(at 35.56 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a5fecfc-e654-4ece-b52b-0130cf28b880")
-	)
-	(junction
 		(at 101.6 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4505,6 +4247,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0c13cf0-c004-4901-8b2e-1ec872e5209e")
+	)
+	(junction
+		(at 106.68 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a869c2a4-0844-415c-9978-f9913a9d0339")
 	)
 	(junction
 		(at 101.6 130.81)
@@ -4535,12 +4283,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3a232ad-90d8-4ced-b349-08438083b38e")
-	)
-	(junction
-		(at 40.64 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dccf0ac6-8886-4867-bda6-aa03cd834ba7")
 	)
 	(junction
 		(at 38.1 105.41)
@@ -4756,6 +4498,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 129.54) (xy 106.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7fb2e1-a774-4965-b217-b8e241e0440a")
+	)
+	(wire
+		(pts
 			(xy 101.6 130.81) (xy 101.6 133.35)
 		)
 		(stroke
@@ -4856,6 +4608,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 135.89) (xy 123.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a39c14-002a-4247-a7e6-805b52be9404")
+	)
+	(wire
+		(pts
 			(xy 101.6 92.71) (xy 152.4 92.71)
 		)
 		(stroke
@@ -4936,13 +4698,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 128.27) (xy 40.64 128.27)
+			(xy 106.68 129.54) (xy 120.65 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42340fd9-b3c1-41a9-804c-efdff0171c6e")
+		(uuid "428f0382-f876-45c4-a822-20bdd12038e7")
 	)
 	(wire
 		(pts
@@ -4953,16 +4715,6 @@
 			(type default)
 		)
 		(uuid "4290054c-cb08-4533-ab29-ad8543c01099")
-	)
-	(wire
-		(pts
-			(xy 27.94 133.35) (xy 40.64 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "452423c4-57e8-42f5-94d2-e3837f61330f")
 	)
 	(wire
 		(pts
@@ -5076,16 +4828,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 135.89) (xy 106.68 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67113dd1-7577-4536-8635-daba8d80227c")
-	)
-	(wire
-		(pts
 			(xy 26.67 59.69) (xy 40.64 59.69)
 		)
 		(stroke
@@ -5113,16 +4855,6 @@
 			(type default)
 		)
 		(uuid "6c146aa3-3e2b-40d3-8a17-aa0060664898")
-	)
-	(wire
-		(pts
-			(xy 27.94 128.27) (xy 35.56 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d95dc81-86e2-45e3-b3db-917954b084bd")
 	)
 	(wire
 		(pts
@@ -5296,13 +5028,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 120.65) (xy 40.64 120.65)
+			(xy 26.67 120.65) (xy 40.64 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e7248ae-03a7-4fb2-b636-cd8f6b622506")
+		(uuid "8de1162f-f2d3-455f-87a1-9432cd4685a8")
 	)
 	(wire
 		(pts
@@ -5343,16 +5075,6 @@
 			(type default)
 		)
 		(uuid "93054d51-ab24-44da-a8a5-2ef6879a4e31")
-	)
-	(wire
-		(pts
-			(xy 27.94 129.54) (xy 27.94 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "965b1852-787b-4b95-98f0-9e7aa4976ad2")
 	)
 	(wire
 		(pts
@@ -5446,16 +5168,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 128.27) (xy 35.56 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67d8b7e-ea80-4a90-803f-bda5c565e402")
-	)
-	(wire
-		(pts
 			(xy 26.67 64.77) (xy 40.64 64.77)
 		)
 		(stroke
@@ -5536,7 +5248,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 135.89) (xy 106.68 138.43)
+			(xy 106.68 113.03) (xy 106.68 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5563,16 +5275,6 @@
 			(type default)
 		)
 		(uuid "c4fb7895-b602-48fd-b4aa-fd56bc759a5c")
-	)
-	(wire
-		(pts
-			(xy 27.94 134.62) (xy 27.94 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c60d79aa-496b-4a28-acaa-6f7c17393270")
 	)
 	(wire
 		(pts
@@ -5686,16 +5388,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 129.54) (xy 27.94 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e009a35f-8217-42d2-8615-7f87b59a21b4")
-	)
-	(wire
-		(pts
 			(xy 38.1 24.13) (xy 38.1 31.75)
 		)
 		(stroke
@@ -5806,16 +5498,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 113.03) (xy 106.68 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f844f497-fecd-4157-8dba-a48ba49bd642")
-	)
-	(wire
-		(pts
 			(xy 26.67 26.67) (xy 40.64 26.67)
 		)
 		(stroke
@@ -5833,16 +5515,6 @@
 			(type default)
 		)
 		(uuid "fb5298fc-8881-46da-acab-f91162d94cce")
-	)
-	(wire
-		(pts
-			(xy 26.67 134.62) (xy 27.94 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd7b05ec-573a-4968-bf6e-0c17d4665dc2")
 	)
 	(label "TRD3_P"
 		(at 118.11 26.67 180)
@@ -6473,6 +6145,17 @@
 			(justify right)
 		)
 		(uuid "7e4b52e8-73fb-4de8-9cf9-d5608f01976f")
+	)
+	(hierarchical_label "GPIO_VREF"
+		(shape input)
+		(at 26.67 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99f08b39-ffdd-4a21-9f7c-b502649fa1dd")
 	)
 	(hierarchical_label "ET7"
 		(shape input)
@@ -7385,136 +7068,6 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 26.67 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a20b4bcf-36e5-4982-8c04-ea99862a2294")
-		(property "Reference" "#PWR03"
-			(at 26.67 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 23.114 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 26.67 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9afaaf3-e73d-4a27-a4ec-aafd81a4d27c")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 26.67 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7ee33c7-e05a-41d6-99c0-22b616fb7b58")
-		(property "Reference" "#PWR02"
-			(at 26.67 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 23.114 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 26.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f9c5087-4f53-47d2-967e-fedf3d8f5fb1")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
