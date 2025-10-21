@@ -81,6 +81,56 @@
 				(justify left top)
 			)
 		)
+		(pin "CAN1_RX" input
+			(at 76.2 46.99 0)
+			(uuid "2e07d885-9754-455d-9eb4-f07a02b10409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN1_TX" input
+			(at 76.2 50.8 0)
+			(uuid "de545199-8f8a-4a56-b071-35c6fe8d0dda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_USART_RX" input
+			(at 76.2 73.66 0)
+			(uuid "a96b59bb-d02e-49b4-80c3-a1abeb2168e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_USART_TX" input
+			(at 76.2 71.12 0)
+			(uuid "fd84fb42-86dc-4752-bf5c-497c8d3b4dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_VDD" input
+			(at 76.2 63.5 0)
+			(uuid "7e902060-f19b-40ba-896a-12d0630d8190")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae"
