@@ -9263,16 +9263,6 @@
 		)
 		(uuid "5b700e6b-98f6-4831-adb3-dd80e978e08a")
 	)
-	(label "USB_VBUS_IN"
-		(at 187.96 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6614d410-62ed-476f-83cc-fffc82e50681")
-	)
 	(label "USB_D-"
 		(at 215.9 41.91 0)
 		(effects
@@ -9312,6 +9302,17 @@
 			(justify left bottom)
 		)
 		(uuid "e0a14b23-ca64-4d5d-9b07-83337726b272")
+	)
+	(hierarchical_label "USB_VIN"
+		(shape bidirectional)
+		(at 210.82 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "201d2047-15fe-49a8-a95a-70a5ce35d8eb")
 	)
 	(symbol
 		(lib_id "power:GND")

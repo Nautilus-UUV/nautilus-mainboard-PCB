@@ -20,8 +20,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "58617765-d176-459f-be30-726b62920b6c")
-		(property "Sheetname" "CAN_STM"
+		(uuid "b861b505-f377-49fb-9e06-1714af927ea6")
+		(property "Sheetname" "PowerSTM"
 			(at 101.6 24.6884 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CAN_STM.kicad_sch"
+		(property "Sheetfile" "PowerSTM.kicad_sch"
 			(at 101.6 76.7846 0)
 			(effects
 				(font
@@ -42,7 +42,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae"
-					(page "12")
+					(page "7")
 				)
 			)
 		)
