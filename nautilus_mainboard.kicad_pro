@@ -635,10 +635,6 @@
       "PinoutSTM"
     ],
     [
-      "b861b505-f377-49fb-9e06-1714af927ea6",
-      "PowerSTM"
-    ],
-    [
       "e0935ee6-fc77-4de6-a0ac-caf50bea3bcd",
       "CM4_LED1"
     ],
@@ -653,6 +649,10 @@
     [
       "f5b638be-e0c1-4f77-ad7d-0ded62182f5f",
       "CM4_Module1B"
+    ],
+    [
+      "58617765-d176-459f-be30-726b62920b6c",
+      "CAN_STM"
     ],
     [
       "8ca810bd-6311-4873-a4c4-10e0b1989f7a",
