@@ -4368,6 +4368,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "no."
+		(exclude_from_sim no)
+		(at 173.228 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1670c342-eb2c-4c69-a2b6-c298f5c885bf")
+	)
 	(text "Serial needs clock?\n"
 		(exclude_from_sim no)
 		(at 175.514 89.916 0)

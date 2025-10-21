@@ -5669,6 +5669,246 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "#dzdb:s_dio/D-MCC-SMF5.0A-TP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF5.0A-TP"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "dz_dio:SMF50ATP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.ch/datasheet/3/225/1/SMF5.0A_SMF200CA(SOD-123FL).pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Protection Diodes / TVS Diodes TVS 200W 9.2V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "D-MCC-SMF5.0A-TP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SMF5.0A-TP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Micro Commercial Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Zener Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vf" "5V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "If" "20A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "833-SMF5.0A-TP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "dz_dio:SMF50ATP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "s_dio/D-MCC-SMF5.0A-TP_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "s_dio/D-MCC-SMF5.0A-TP_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "#dzdb:s_misc/IC-ESD-TPD4EUSB30"
 			(pin_names
 				(offset 1.016)
@@ -7527,16 +7767,6 @@
 		)
 		(uuid "c31e1f00-1416-473c-bbb5-17bdaa98ba62")
 	)
-	(text "safety shotky diode"
-		(exclude_from_sim no)
-		(at 170.942 83.058 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fce2713c-3a4a-4b6b-b4e2-3ce687d75e05")
-	)
 	(junction
 		(at 175.26 78.74)
 		(diameter 0)
@@ -7584,6 +7814,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f501200-3af0-4f55-9ec9-8daaa1243d1a")
+	)
+	(junction
+		(at 175.26 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3055967b-abf5-47f8-9f16-83f582f80a1c")
 	)
 	(junction
 		(at 158.75 91.44)
@@ -7662,6 +7898,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8be0aa6a-57ad-4181-ba9b-e518ea8c7b80")
+	)
+	(junction
+		(at 160.02 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "920c1fab-b910-4b8e-8e93-6ef1c1a8d6aa")
 	)
 	(junction
 		(at 223.52 104.14)
@@ -8033,16 +8275,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 86.36) (xy 175.26 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06704297-7981-4d99-8c3a-c5effdcd27bc")
-	)
-	(wire
-		(pts
 			(xy 165.1 113.03) (xy 165.1 116.84)
 		)
 		(stroke
@@ -8100,6 +8332,16 @@
 			(type default)
 		)
 		(uuid "14ad3dc9-1d8d-40e4-aa2f-b13882c4cb61")
+	)
+	(wire
+		(pts
+			(xy 160.02 82.55) (xy 160.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185f5613-6ec6-4e2d-9006-518c58a6abeb")
 	)
 	(wire
 		(pts
@@ -8293,7 +8535,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 91.44) (xy 158.75 91.44)
+			(xy 166.37 91.44) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8733,6 +8975,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 82.55) (xy 160.02 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7a9deb-2407-4235-b696-ca399fd279fb")
+	)
+	(wire
+		(pts
 			(xy 210.82 96.52) (xy 223.52 96.52)
 		)
 		(stroke
@@ -8763,6 +9015,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 82.55) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76effd7-cfd9-496f-b8af-6ea98c300ded")
+	)
+	(wire
+		(pts
 			(xy 58.42 72.39) (xy 54.61 72.39)
 		)
 		(stroke
@@ -8790,6 +9052,26 @@
 			(type default)
 		)
 		(uuid "dd85a811-78c4-4598-b542-93614e721e33")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 158.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c29886-5734-4e0f-b968-f86ac6688562")
+	)
+	(wire
+		(pts
+			(xy 175.26 82.55) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e129cdc9-5927-47fb-bd2f-ac24de7b127d")
 	)
 	(wire
 		(pts
@@ -9092,6 +9374,163 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:s_dio/D-MCC-SMF5.0A-TP")
+		(at 171.45 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03926e59-6d05-4735-857f-4c22cf5472d6")
+		(property "Reference" "D6"
+			(at 171.45 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMF5.0A-TP"
+			(at 171.704 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dz_dio:SMF50ATP"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/3/225/1/SMF5.0A_SMF200CA(SOD-123FL).pdf"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes TVS 200W 9.2V"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "D-MCC-SMF5.0A-TP"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMF5.0A-TP"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Components"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Zener Diode"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "5V"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "If" "20A"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "833-SMF5.0A-TP"
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61ba8ab1-1c58-4d27-a9bb-13aa0830d6d1")
+		)
+		(pin "2"
+			(uuid "ffb28d79-ffc0-4708-8db3-787d91780992")
+		)
+		(instances
+			(project ""
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
+					(reference "D6")
 					(unit 1)
 				)
 			)
