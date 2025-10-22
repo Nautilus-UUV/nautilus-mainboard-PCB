@@ -8955,6 +8955,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 34.29) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8774f16-6bf6-4dc6-8f56-73180322263a")
+	)
+	(wire
+		(pts
 			(xy 123.19 57.15) (xy 123.19 64.77)
 		)
 		(stroke
@@ -9313,6 +9323,17 @@
 			(justify left)
 		)
 		(uuid "201d2047-15fe-49a8-a95a-70a5ce35d8eb")
+	)
+	(hierarchical_label "USB_OTG_ID"
+		(shape input)
+		(at 121.92 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83bb968a-53fe-40f7-8de9-9b6b8282b687")
 	)
 	(symbol
 		(lib_id "power:GND")

@@ -609,24 +609,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 157.48 78.74)
-		(uuid "1d40a44f-f40c-42be-9d8a-414f217f8f31")
-	)
-	(no_connect
-		(at 157.48 86.36)
-		(uuid "52a35453-c195-4dcb-a8db-c36c1d66d0e0")
-	)
-	(wire
-		(pts
-			(xy 104.14 74.93) (xy 104.14 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9a71a8-503b-49a9-9e63-0cf09e04a33d")
-	)
 	(wire
 		(pts
 			(xy 121.92 78.74) (xy 127 78.74)
@@ -636,16 +618,6 @@
 			(type default)
 		)
 		(uuid "1e3a7584-4141-48bd-a659-7fa01df51596")
-	)
-	(wire
-		(pts
-			(xy 100.33 81.28) (xy 127 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23179afc-834b-485c-bebc-4a4620740c6f")
 	)
 	(wire
 		(pts
@@ -659,23 +631,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 127 83.82)
+			(xy 127 81.28) (xy 100.33 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29c1ba9e-629b-420f-9d42-0ee78f68f885")
+		(uuid "72bc1375-ed2e-4f9e-8cf0-8b67e9410b65")
 	)
 	(wire
 		(pts
-			(xy 157.48 81.28) (xy 168.91 81.28)
+			(xy 102.87 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "477b69ea-4aa8-46a2-8e71-3c8183c7b172")
+		(uuid "76000ae1-fc80-4b55-be87-83ff4aa8ce4a")
 	)
 	(wire
 		(pts
@@ -686,47 +658,6 @@
 			(type default)
 		)
 		(uuid "a17e154c-a9d1-4850-88a1-a908c7e86407")
-	)
-	(wire
-		(pts
-			(xy 157.48 83.82) (xy 168.91 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddaf134d-1324-40bb-a8d6-c9c64dd3e7ea")
-	)
-	(label "CAN_N"
-		(at 168.91 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5bccb33d-03fd-42f1-b458-8064e69518ae")
-	)
-	(label "CAN_P"
-		(at 168.91 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "affa1119-f6a9-4752-b416-a25be646d8c1")
-	)
-	(hierarchical_label "CAN_P"
-		(shape bidirectional)
-		(at 168.91 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a082748-91a7-4fde-ae57-2661771a2874")
 	)
 	(hierarchical_label "FDCAN_STM_RX"
 		(shape input)
@@ -749,17 +680,6 @@
 			(justify right)
 		)
 		(uuid "e4bc3802-abe0-492c-8083-f9bd8ac36b9d")
-	)
-	(hierarchical_label "CAN_N"
-		(shape bidirectional)
-		(at 168.91 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e7d8192e-4791-4f91-b170-ebe92db67d4d")
 	)
 	(symbol
 		(lib_id "#dzdb:s_comm/COMM-TI-TCAN3414DRBR")
@@ -1126,7 +1046,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 104.14 74.93 0)
+		(at 102.87 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1135,7 +1055,7 @@
 		(fields_autoplaced yes)
 		(uuid "d383054e-d1a5-4cb8-a4ca-4ca5436142b3")
 		(property "Reference" "#PWR028"
-			(at 104.14 78.74 0)
+			(at 102.87 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1064,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 104.14 69.85 0)
+			(at 102.87 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +1072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 74.93 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,7 +1081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 74.93 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1090,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 104.14 74.93 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

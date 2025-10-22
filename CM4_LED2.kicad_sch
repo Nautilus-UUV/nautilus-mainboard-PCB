@@ -764,6 +764,16 @@
 		)
 		(uuid 75c79178-41de-4b84-beca-72a085f899ba)
 	)
+	(text "should I put the resistor in front of the activity LED?\nthat would also mean its in front of the test point..."
+		(exclude_from_sim no)
+		(at 101.346 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0dc1c4d0-273c-40e0-a1b9-77cc45a01b8f")
+	)
 	(text "Simple Activity LED with test point"
 		(exclude_from_sim no)
 		(at 72.644 44.704 0)
