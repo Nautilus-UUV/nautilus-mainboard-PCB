@@ -2033,16 +2033,6 @@
 		)
 		(uuid "81a775b5-3f55-4ae2-b35e-9cda184406f0")
 	)
-	(text "3.3 not needed?\n"
-		(exclude_from_sim no)
-		(at 127.762 70.358 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f91e6b61-144f-4c7a-bcac-9cf5c2ee2c54")
-	)
 	(junction
 		(at 138.43 105.41)
 		(diameter 0)

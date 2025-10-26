@@ -7719,7 +7719,7 @@
 	)
 	(text "reduce EMI"
 		(exclude_from_sim no)
-		(at 171.196 124.206 0)
+		(at 206.756 139.446 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7729,7 +7729,7 @@
 	)
 	(text "USB 2.0 port (slim)"
 		(exclude_from_sim no)
-		(at 192.024 115.316 0)
+		(at 227.584 130.556 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7739,7 +7739,7 @@
 	)
 	(text "indicator LED :)"
 		(exclude_from_sim no)
-		(at 170.18 70.104 0)
+		(at 205.74 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7749,7 +7749,7 @@
 	)
 	(text "WIP, nRPI_BOOT? power only to certain parts? -> Diode (later)\n indication? (YES! LED)"
 		(exclude_from_sim no)
-		(at 195.58 133.858 0)
+		(at 231.14 149.098 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7768,13 +7768,13 @@
 		(uuid "c31e1f00-1416-473c-bbb5-17bdaa98ba62")
 	)
 	(junction
-		(at 175.26 78.74)
+		(at 210.82 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "012d98f1-7ec3-4625-b640-cb46840ec2c4")
 	)
 	(junction
-		(at 160.02 104.14)
+		(at 195.58 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07962262-516c-4ec9-be8c-0f5499f36dd9")
@@ -7816,13 +7816,13 @@
 		(uuid "2f501200-3af0-4f55-9ec9-8daaa1243d1a")
 	)
 	(junction
-		(at 175.26 82.55)
+		(at 210.82 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3055967b-abf5-47f8-9f16-83f582f80a1c")
 	)
 	(junction
-		(at 158.75 91.44)
+		(at 194.31 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b8421d1-6326-4272-8740-b247037ccc5d")
@@ -7894,19 +7894,19 @@
 		(uuid "7fc6541f-bec8-4cf3-b5a2-aa022e861e6e")
 	)
 	(junction
-		(at 175.26 113.03)
+		(at 210.82 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8be0aa6a-57ad-4181-ba9b-e518ea8c7b80")
 	)
 	(junction
-		(at 160.02 91.44)
+		(at 195.58 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "920c1fab-b910-4b8e-8e93-6ef1c1a8d6aa")
 	)
 	(junction
-		(at 223.52 104.14)
+		(at 259.08 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92c55ba7-edfb-4818-9fff-49eb0ea9cdc6")
@@ -7966,13 +7966,13 @@
 		(uuid "e612abab-16c0-475d-bdbf-4915feb9bdf1")
 	)
 	(junction
-		(at 165.1 113.03)
+		(at 200.66 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9868053-0f95-46bc-be5c-b8ed753dc53c")
 	)
 	(junction
-		(at 165.1 104.14)
+		(at 200.66 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eca28bff-08fc-47eb-9b3d-cb4bc9cb6ec4")
@@ -8008,7 +8008,7 @@
 		(uuid "08d8df2b-4ffc-43ba-bdda-1fee50728cef")
 	)
 	(no_connect
-		(at 210.82 91.44)
+		(at 246.38 106.68)
 		(uuid "103f3562-de3e-409e-9be5-88155e40dac9")
 	)
 	(no_connect
@@ -8022,6 +8022,10 @@
 	(no_connect
 		(at 119.38 143.51)
 		(uuid "1bc59a2b-ebb8-4c46-afd1-7a4bf6305dbb")
+	)
+	(no_connect
+		(at 119.38 100.33)
+		(uuid "2167714d-42fd-4dce-a0ca-9a51751a866d")
 	)
 	(no_connect
 		(at 119.38 87.63)
@@ -8156,7 +8160,7 @@
 		(uuid "9b24be98-ed63-4145-830b-f26962f83fee")
 	)
 	(no_connect
-		(at 175.26 99.06)
+		(at 210.82 114.3)
 		(uuid "a17c0d53-1671-4f90-bb77-ab55f30c3101")
 	)
 	(no_connect
@@ -8245,7 +8249,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 99.06) (xy 223.52 99.06)
+			(xy 256.54 114.3) (xy 259.08 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8275,7 +8279,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 113.03) (xy 165.1 116.84)
+			(xy 200.66 128.27) (xy 200.66 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8285,7 +8289,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 175.26 116.84)
+			(xy 210.82 128.27) (xy 210.82 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8305,7 +8309,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 99.06) (xy 223.52 104.14)
+			(xy 259.08 114.3) (xy 259.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8335,7 +8339,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 82.55) (xy 160.02 91.44)
+			(xy 195.58 97.79) (xy 195.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8435,7 +8439,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 167.64 78.74)
+			(xy 194.31 93.98) (xy 203.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8465,6 +8469,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5ccbb0-a4d1-4a35-9157-a8831416a144")
+	)
+	(wire
+		(pts
 			(xy 54.61 163.83) (xy 54.61 156.21)
 		)
 		(stroke
@@ -8475,7 +8489,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 91.44) (xy 158.75 104.14)
+			(xy 194.31 106.68) (xy 194.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8485,7 +8499,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 91.44) (xy 175.26 91.44)
+			(xy 49.53 44.45) (xy 58.42 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415f62ae-c332-4ba6-bb9f-bfd9a2fde2f1")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 210.82 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8535,7 +8559,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 91.44) (xy 160.02 91.44)
+			(xy 201.93 106.68) (xy 195.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8605,7 +8629,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 175.26 113.03)
+			(xy 210.82 124.46) (xy 210.82 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8675,7 +8699,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 165.1 104.14)
+			(xy 195.58 119.38) (xy 200.66 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8705,7 +8729,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 175.26 96.52)
+			(xy 195.58 111.76) (xy 210.82 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8715,7 +8739,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 158.75 91.44)
+			(xy 194.31 101.6) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8745,7 +8769,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 165.1 113.03)
+			(xy 200.66 119.38) (xy 200.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8755,7 +8779,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 113.03) (xy 165.1 113.03)
+			(xy 201.93 128.27) (xy 200.66 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8765,7 +8789,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 104.14) (xy 223.52 104.14)
+			(xy 246.38 119.38) (xy 259.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8782,6 +8806,16 @@
 			(type default)
 		)
 		(uuid "91d14386-bc5d-4e6d-ab7f-bdc111da5534")
+	)
+	(wire
+		(pts
+			(xy 49.53 52.07) (xy 58.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cc9c65-5432-41ac-98c3-539e81e2f97d")
 	)
 	(wire
 		(pts
@@ -8815,7 +8849,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 173.99 113.03)
+			(xy 210.82 128.27) (xy 209.55 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8825,7 +8859,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 116.84) (xy 166.37 116.84)
+			(xy 200.66 132.08) (xy 201.93 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8845,7 +8879,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 93.98) (xy 223.52 93.98)
+			(xy 246.38 109.22) (xy 259.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8895,7 +8929,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 78.74) (xy 175.26 76.2)
+			(xy 210.82 93.98) (xy 210.82 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8975,7 +9009,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 99.06) (xy 213.36 99.06)
+			(xy 246.38 114.3) (xy 248.92 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8985,7 +9019,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 82.55) (xy 160.02 82.55)
+			(xy 203.2 97.79) (xy 195.58 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8995,7 +9029,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 96.52) (xy 223.52 96.52)
+			(xy 246.38 111.76) (xy 259.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9015,7 +9049,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 104.14) (xy 160.02 104.14)
+			(xy 194.31 119.38) (xy 195.58 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9025,7 +9059,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 82.55) (xy 175.26 78.74)
+			(xy 210.82 97.79) (xy 210.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9045,7 +9079,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 76.2) (xy 210.82 76.2)
+			(xy 210.82 91.44) (xy 246.38 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9065,7 +9099,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 91.44) (xy 158.75 91.44)
+			(xy 195.58 106.68) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9075,7 +9109,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 82.55) (xy 175.26 86.36)
+			(xy 210.82 97.79) (xy 210.82 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9145,13 +9179,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 104.14) (xy 175.26 104.14)
+			(xy 200.66 119.38) (xy 210.82 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eb59d397-b1d0-4692-a44d-89d466dbf4d5")
+	)
+	(wire
+		(pts
+			(xy 49.53 54.61) (xy 58.42 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdea6a4-ed78-4563-ac6c-2f59e7ecceac")
 	)
 	(wire
 		(pts
@@ -9185,7 +9229,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 116.84) (xy 175.26 116.84)
+			(xy 209.55 132.08) (xy 210.82 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9195,7 +9239,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 76.2) (xy 210.82 86.36)
+			(xy 246.38 91.44) (xy 246.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9205,7 +9249,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 175.26 93.98)
+			(xy 49.53 62.23) (xy 58.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f790e492-5ac6-4c23-a7c2-77e0367f9a98")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 210.82 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9225,6 +9279,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 59.69) (xy 58.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe489333-086b-43d5-9bd7-de84d8eed6c4")
+	)
+	(wire
+		(pts
 			(xy 119.38 39.37) (xy 137.16 39.37)
 		)
 		(stroke
@@ -9234,7 +9298,7 @@
 		(uuid "fe52cb59-4e74-4056-b1f5-ea76f93ae1f8")
 	)
 	(label "USB_D+"
-		(at 223.52 96.52 0)
+		(at 259.08 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9244,7 +9308,7 @@
 		(uuid "0db8faf3-fb02-465e-b899-cc181ba90510")
 	)
 	(label "USB_D+"
-		(at 160.02 93.98 0)
+		(at 195.58 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9254,7 +9318,7 @@
 		(uuid "1f894ec0-6cb5-4da1-a5d2-2a47a5f84520")
 	)
 	(label "USB_D-"
-		(at 160.02 96.52 0)
+		(at 195.58 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9304,7 +9368,7 @@
 		(uuid "ca9aa5d9-adec-4099-92ed-a82e68e1be69")
 	)
 	(label "USB_D-"
-		(at 223.52 93.98 0)
+		(at 259.08 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9315,7 +9379,7 @@
 	)
 	(hierarchical_label "USB_VIN"
 		(shape bidirectional)
-		(at 210.82 76.2 0)
+		(at 246.38 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9323,6 +9387,28 @@
 			(justify left)
 		)
 		(uuid "201d2047-15fe-49a8-a95a-70a5ce35d8eb")
+	)
+	(hierarchical_label "PCIe_TX_P"
+		(shape bidirectional)
+		(at 49.53 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7237c47d-8f2c-467c-8a0d-b17455513749")
+	)
+	(hierarchical_label "PCIe_CLK_P"
+		(shape bidirectional)
+		(at 49.53 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e686255-31bd-41bc-9b7e-6fe34c17de05")
 	)
 	(hierarchical_label "USB_OTG_ID"
 		(shape input)
@@ -9335,9 +9421,53 @@
 		)
 		(uuid "83bb968a-53fe-40f7-8de9-9b6b8282b687")
 	)
+	(hierarchical_label "PCIe_TX_N"
+		(shape bidirectional)
+		(at 49.53 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "891b240b-03a7-4ef6-bd0b-20d121dbadff")
+	)
+	(hierarchical_label "PCIe_RX_P"
+		(shape bidirectional)
+		(at 49.53 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf04021c-e95a-447e-ac8b-bdbcbf53649e")
+	)
+	(hierarchical_label "PCIe_RX_N"
+		(shape bidirectional)
+		(at 49.53 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1266887-11e1-4cbe-8053-4f51e53ed705")
+	)
+	(hierarchical_label "PCIe_CLK_N"
+		(shape bidirectional)
+		(at 49.53 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec115f65-7ee6-4cc8-adfc-48eee0e316af")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 104.14 0)
+		(at 195.58 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9346,7 +9476,7 @@
 		(fields_autoplaced yes)
 		(uuid "02c4b8f3-16af-4147-b4fb-294dd066347f")
 		(property "Reference" "#PWR021"
-			(at 160.02 110.49 0)
+			(at 195.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +9485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 109.22 0)
+			(at 195.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +9493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 104.14 0)
+			(at 195.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9372,7 +9502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 104.14 0)
+			(at 195.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +9511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 104.14 0)
+			(at 195.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9403,7 +9533,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:s_dio/D-MCC-SMF5.0A-TP")
-		(at 171.45 82.55 0)
+		(at 207.01 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9411,7 +9541,7 @@
 		(dnp no)
 		(uuid "03926e59-6d05-4735-857f-4c22cf5472d6")
 		(property "Reference" "D6"
-			(at 171.45 86.614 0)
+			(at 207.01 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +9549,7 @@
 			)
 		)
 		(property "Value" "SMF5.0A-TP"
-			(at 171.704 84.836 0)
+			(at 207.264 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9427,7 +9557,7 @@
 			)
 		)
 		(property "Footprint" "dz_dio:SMF50ATP"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9436,7 +9566,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ch/datasheet/3/225/1/SMF5.0A_SMF200CA(SOD-123FL).pdf"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +9575,7 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes / TVS Diodes TVS 200W 9.2V"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,7 +9584,7 @@
 			)
 		)
 		(property "IPN" "D-MCC-SMF5.0A-TP"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,7 +9593,7 @@
 			)
 		)
 		(property "MPN" "SMF5.0A-TP"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9602,7 @@
 			)
 		)
 		(property "Manufacturer" "Micro Commercial Components"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9611,7 @@
 			)
 		)
 		(property "Type" "Zener Diode"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9620,7 @@
 			)
 		)
 		(property "Vf" "5V"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +9629,7 @@
 			)
 		)
 		(property "If" "20A"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9638,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9647,7 @@
 			)
 		)
 		(property "SPN" "833-SMF5.0A-TP"
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9656,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9665,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 171.45 82.55 0)
+			(at 207.01 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +9690,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:s_con/CON-TEC-2340901-1")
-		(at 193.04 96.52 0)
+		(at 228.6 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9569,7 +9699,7 @@
 		(fields_autoplaced yes)
 		(uuid "04f77d24-7930-4293-af75-fcc08ae49812")
 		(property "Reference" "J2"
-			(at 193.04 78.74 0)
+			(at 228.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +9707,7 @@
 			)
 		)
 		(property "Value" "2340901-1"
-			(at 193.04 81.28 0)
+			(at 228.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,7 +9715,7 @@
 			)
 		)
 		(property "Footprint" "dz_con:CON-TECON-2340901-1"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9595,7 +9725,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2340901&DocType=Customer+Drawing&DocLang=English&PartCntxt=2340901-1&DocFormat=pdf"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +9734,7 @@
 			)
 		)
 		(property "Description" "USB Type-C 2.0 Receptacle Mid-Mount Single Row SMT"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9613,7 +9743,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +9753,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.58mm"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +9763,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9773,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,7 +9783,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/2340901-1/TE+Connectivity/view-part/?ref=eda"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +9793,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9803,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,7 +9813,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2340901-1/TE+Connectivity/view-part/?ref=snap"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9823,7 @@
 			)
 		)
 		(property "MP" "2340901-1"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +9833,7 @@
 			)
 		)
 		(property "Description_1" "USB Connectors USB Type C 2.0 Conn Rec Mid-Mount One Ro"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +9843,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,7 +9853,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,7 +9863,7 @@
 			)
 		)
 		(property "IPN" "CON-TEC-2340901-1"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9742,7 +9872,7 @@
 			)
 		)
 		(property "MPN" "2340901-1"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,7 +9881,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9760,7 +9890,7 @@
 			)
 		)
 		(property "Symbol" "dz_con:CON-TECON-2340901-1"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +9899,7 @@
 			)
 		)
 		(property "Type" "Connector"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,7 +9908,7 @@
 			)
 		)
 		(property "Pin Count" "12"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9787,7 +9917,7 @@
 			)
 		)
 		(property "Pitch" "N/A"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9796,7 +9926,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,7 +9935,7 @@
 			)
 		)
 		(property "SPN" "571-2340901-1"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9814,7 +9944,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9823,7 +9953,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; gender=Female; orientation=Mid-Mount; note=USB-C 2.0 receptacle connector"
-			(at 193.04 96.52 0)
+			(at 228.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9890,7 +10020,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:s_dio/D-KIN-APHHS1005LCGCK")
-		(at 171.45 78.74 0)
+		(at 207.01 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9899,7 +10029,7 @@
 		(fields_autoplaced yes)
 		(uuid "14497a5c-a818-446a-9ab6-fc45544715e6")
 		(property "Reference" "D5"
-			(at 169.8625 72.39 0)
+			(at 205.4225 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9907,7 +10037,7 @@
 			)
 		)
 		(property "Value" "APHHS1005LCGCK"
-			(at 169.8625 74.93 0)
+			(at 205.4225 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,7 +10045,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +10054,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/spec/aphhs1005lcgck.pdf"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +10063,7 @@
 			)
 		)
 		(property "Description" "LED YELLOW-GREEN 570nm 3.5mcd@2mA 20mcd@11.43mA 2V"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +10072,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9951,7 +10081,7 @@
 			)
 		)
 		(property "IPN" "D-KIN-APHHS1005LCGCK"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9960,7 +10090,7 @@
 			)
 		)
 		(property "MPN" "APHHS1005LCGCK"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,7 +10099,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +10108,7 @@
 			)
 		)
 		(property "Type" "LED GREEN"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +10117,7 @@
 			)
 		)
 		(property "Vf" "1.9V"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,7 +10126,7 @@
 			)
 		)
 		(property "If" "2mA"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +10135,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +10144,7 @@
 			)
 		)
 		(property "SPN" "604-APHHS1005LCGCK"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,7 +10153,7 @@
 			)
 		)
 		(property "LCSC" "C5354975"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +10162,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active"
-			(at 171.45 78.74 0)
+			(at 207.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,7 +10187,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_cap/C-4.7n-0603")
-		(at 170.18 116.84 270)
+		(at 205.74 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10065,7 +10195,7 @@
 		(dnp no)
 		(uuid "2af80ab7-f6b4-4062-979b-ee480b6e9999")
 		(property "Reference" "C5"
-			(at 169.926 120.396 90)
+			(at 205.486 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10203,7 @@
 			)
 		)
 		(property "Value" "4.7nF"
-			(at 170.18 122.174 90)
+			(at 205.74 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10081,7 +10211,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.37 117.8052 0)
+			(at 201.93 133.0452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10090,7 +10220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206087.pdf"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,7 +10229,7 @@
 			)
 		)
 		(property "Description" "Cap 4.7nF 50V 0603 C0G ±10%"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10108,7 +10238,7 @@
 			)
 		)
 		(property "IPN" "C-4.7n-0603"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10117,7 +10247,7 @@
 			)
 		)
 		(property "MPN" "885012206087"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10126,7 +10256,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10135,7 +10265,7 @@
 			)
 		)
 		(property "Capacitance" "4.7nF"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,7 +10274,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10283,7 @@
 			)
 		)
 		(property "Material" "C0G"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10292,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10301,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +10310,7 @@
 			)
 		)
 		(property "SPN" "710-885012206087"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +10319,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +10328,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 170.18 116.84 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,7 +11453,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-2.7k-0603")
-		(at 158.75 82.55 0)
+		(at 194.31 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11332,7 +11462,7 @@
 		(fields_autoplaced yes)
 		(uuid "6358ad96-5e48-4cee-a9df-82a35509e1b8")
 		(property "Reference" "R9"
-			(at 161.29 81.2799 0)
+			(at 196.85 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,7 +11471,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 161.29 83.8199 0)
+			(at 196.85 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11480,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 156.972 82.55 90)
+			(at 192.532 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11359,7 +11489,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116010.pdf"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11368,7 +11498,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 2.7 kOhms 1 % 0.1 W 0603"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11377,7 +11507,7 @@
 			)
 		)
 		(property "IPN" "R-2.7k-0603"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +11516,7 @@
 			)
 		)
 		(property "MPN" "560112116010"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11395,7 +11525,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11404,7 +11534,7 @@
 			)
 		)
 		(property "Resistance" "2.7k"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,7 +11543,7 @@
 			)
 		)
 		(property "Power" "0.1 W"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,7 +11552,7 @@
 			)
 		)
 		(property "Material" "Thick film"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11431,7 +11561,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11570,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,7 +11579,7 @@
 			)
 		)
 		(property "SPN" "710-560112116010"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11588,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11467,7 +11597,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 158.75 82.55 0)
+			(at 194.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,7 +11622,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-1M-0603")
-		(at 170.18 113.03 90)
+		(at 205.74 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11501,7 +11631,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b67216d-15fd-4c12-8226-ab00fdd384bc")
 		(property "Reference" "R7"
-			(at 170.18 106.68 90)
+			(at 205.74 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +11639,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 170.18 109.22 90)
+			(at 205.74 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,7 +11647,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.18 114.808 90)
+			(at 205.74 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11526,7 +11656,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116074.pdf"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +11665,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 1 MOhms  1 % 0.1 W 0603"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11544,7 +11674,7 @@
 			)
 		)
 		(property "IPN" "R-1M-0603"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11553,7 +11683,7 @@
 			)
 		)
 		(property "MPN" "560112116074"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11562,7 +11692,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11571,7 +11701,7 @@
 			)
 		)
 		(property "Resistance" "1M"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,7 +11710,7 @@
 			)
 		)
 		(property "Power" "0.1 W"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11589,7 +11719,7 @@
 			)
 		)
 		(property "Material" "Thick film"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11598,7 +11728,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11607,7 +11737,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11616,7 +11746,7 @@
 			)
 		)
 		(property "SPN" "710-560112116074"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11625,7 +11755,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11634,7 +11764,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 170.18 113.03 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11659,7 +11789,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-4.99k-0603")
-		(at 170.18 91.44 90)
+		(at 205.74 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11667,7 +11797,7 @@
 		(dnp no)
 		(uuid "93cadb23-2fb3-4d22-a34a-43a3943e0e1b")
 		(property "Reference" "R5"
-			(at 170.434 91.44 90)
+			(at 205.994 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11675,7 +11805,7 @@
 			)
 		)
 		(property "Value" "4.99k"
-			(at 170.18 89.408 90)
+			(at 205.74 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11683,7 +11813,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.18 93.218 90)
+			(at 205.74 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11692,7 +11822,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116132.pdf"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11701,7 +11831,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 4.99 kOhms 1 % 0.1 W 0603"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11710,7 +11840,7 @@
 			)
 		)
 		(property "IPN" "R-4.99k-0603"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11719,7 +11849,7 @@
 			)
 		)
 		(property "MPN" "560112116132"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11728,7 +11858,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11737,7 +11867,7 @@
 			)
 		)
 		(property "Resistance" "4.99k"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11746,7 +11876,7 @@
 			)
 		)
 		(property "Power" "0.1 W"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11755,7 +11885,7 @@
 			)
 		)
 		(property "Material" "Thick film"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11764,7 +11894,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11773,7 +11903,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11782,7 +11912,7 @@
 			)
 		)
 		(property "SPN" "710-560112116132"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11791,7 +11921,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,7 +11930,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 170.18 91.44 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11891,7 +12021,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 104.14 0)
+		(at 259.08 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11900,7 +12030,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba3048aa-8f57-4d08-8c6f-000b0ee1bd8a")
 		(property "Reference" "#PWR020"
-			(at 223.52 110.49 0)
+			(at 259.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11909,7 +12039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 109.22 0)
+			(at 259.08 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11917,7 +12047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 104.14 0)
+			(at 259.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,7 +12056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 104.14 0)
+			(at 259.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +12065,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 104.14 0)
+			(at 259.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11957,7 +12087,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-4.99k-0603")
-		(at 217.17 99.06 90)
+		(at 252.73 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11965,7 +12095,7 @@
 		(dnp no)
 		(uuid "dfad0cb4-f4fa-4164-9099-951c8eac13c3")
 		(property "Reference" "R6"
-			(at 217.17 99.06 90)
+			(at 252.73 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11973,7 +12103,7 @@
 			)
 		)
 		(property "Value" "4.99k"
-			(at 217.17 101.092 90)
+			(at 252.73 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,7 +12111,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 217.17 100.838 90)
+			(at 252.73 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,7 +12120,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116132.pdf"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +12129,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 4.99 kOhms 1 % 0.1 W 0603"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12008,7 +12138,7 @@
 			)
 		)
 		(property "IPN" "R-4.99k-0603"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12017,7 +12147,7 @@
 			)
 		)
 		(property "MPN" "560112116132"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,7 +12156,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12035,7 +12165,7 @@
 			)
 		)
 		(property "Resistance" "4.99k"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,7 +12174,7 @@
 			)
 		)
 		(property "Power" "0.1 W"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12053,7 +12183,7 @@
 			)
 		)
 		(property "Material" "Thick film"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12062,7 +12192,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12071,7 +12201,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12080,7 +12210,7 @@
 			)
 		)
 		(property "SPN" "710-560112116132"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12089,7 +12219,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12098,7 +12228,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 217.17 99.06 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
