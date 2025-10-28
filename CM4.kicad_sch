@@ -1181,6 +1181,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 101.6) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7818668c-c486-491e-b017-b9adf66997d5")
+	)
+	(wire
+		(pts
 			(xy 83.82 57.15) (xy 86.36 57.15)
 		)
 		(stroke
@@ -1191,6 +1201,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 142.24) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8293333c-2deb-48f1-b01f-eb53df0d07b8")
+	)
+	(wire
+		(pts
 			(xy 160.02 82.55) (xy 162.56 82.55)
 		)
 		(stroke
@@ -1198,6 +1218,16 @@
 			(type default)
 		)
 		(uuid "84064d26-897b-41b8-a797-45accb6aff7a")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8638ffdc-a228-4c47-a1cb-d27eca861f04")
 	)
 	(wire
 		(pts
@@ -1348,6 +1378,16 @@
 			(type default)
 		)
 		(uuid "d3b10452-31fd-493f-a0f9-766de55cc385")
+	)
+	(wire
+		(pts
+			(xy 139.7 142.24) (xy 162.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da99f388-5554-46fb-b5aa-52f2c3f31070")
 	)
 	(wire
 		(pts
@@ -2388,6 +2428,16 @@
 				(justify left)
 			)
 		)
+		(pin "PCIe_nRST" input
+			(at 193.04 97.79 270)
+			(uuid "94fc12bf-c4ce-4b0b-b7e3-5a99e87f906c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb"
@@ -2483,6 +2533,16 @@
 		(pin "PCIE_TX_P" bidirectional
 			(at 138.43 127 90)
 			(uuid "3a7aa5eb-de24-4642-a0f7-4e372f8527ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_nRST" input
+			(at 139.7 142.24 0)
+			(uuid "f0d5f336-0d97-4c3d-b5bd-e88e4dcdeadf")
 			(effects
 				(font
 					(size 1.27 1.27)

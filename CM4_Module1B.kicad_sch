@@ -7924,6 +7924,12 @@
 		(uuid "9b7dc034-e22e-4a11-a47f-ca210175d1eb")
 	)
 	(junction
+		(at 228.6 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0ea2a9b-caf1-41cd-af7c-88dedd72b4bd")
+	)
+	(junction
 		(at 54.61 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8269,6 +8275,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 91.44) (xy 246.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047b055f-e4ac-47e0-9875-e9365b24f385")
+	)
+	(wire
+		(pts
 			(xy 123.19 64.77) (xy 123.19 72.39)
 		)
 		(stroke
@@ -8296,6 +8312,16 @@
 			(type default)
 		)
 		(uuid "0c4b04ad-c4bf-40e5-8640-5565269c0c1b")
+	)
+	(wire
+		(pts
+			(xy 119.38 44.45) (xy 128.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f53ada8-62fc-4f70-9096-c686b7fdeca6")
 	)
 	(wire
 		(pts
@@ -8999,6 +9025,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 77.47) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b04942-08bd-4e6e-824d-bedc51eb8c75")
+	)
+	(wire
+		(pts
 			(xy 123.19 57.15) (xy 123.19 64.77)
 		)
 		(stroke
@@ -9079,7 +9115,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 91.44) (xy 246.38 91.44)
+			(xy 210.82 91.44) (xy 228.6 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9377,17 +9413,6 @@
 		)
 		(uuid "e0a14b23-ca64-4d5d-9b07-83337726b272")
 	)
-	(hierarchical_label "USB_VIN"
-		(shape bidirectional)
-		(at 246.38 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "201d2047-15fe-49a8-a95a-70a5ce35d8eb")
-	)
 	(hierarchical_label "PCIe_TX_P"
 		(shape bidirectional)
 		(at 49.53 59.69 180)
@@ -9409,6 +9434,17 @@
 			(justify right)
 		)
 		(uuid "7e686255-31bd-41bc-9b7e-6fe34c17de05")
+	)
+	(hierarchical_label "PCIe_nRST"
+		(shape input)
+		(at 128.27 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "811aaeca-803c-4be4-912d-0be23bc174f3")
 	)
 	(hierarchical_label "USB_OTG_ID"
 		(shape input)
@@ -9442,6 +9478,17 @@
 			(justify right)
 		)
 		(uuid "cf04021c-e95a-447e-ac8b-bdbcbf53649e")
+	)
+	(hierarchical_label "USB_VIN"
+		(shape bidirectional)
+		(at 228.6 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d901519e-aef6-4d20-bb7e-0b5a5a710ba4")
 	)
 	(hierarchical_label "PCIe_RX_N"
 		(shape bidirectional)
@@ -11948,6 +11995,163 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:s_dio/D-MCC-SMF5.0A-TP")
+		(at 228.6 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad013062-979d-42b5-8727-3452e8bb7eac")
+		(property "Reference" "D9"
+			(at 231.648 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMF5.0A-TP"
+			(at 235.966 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dz_dio:SMF50ATP"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.ch/datasheet/3/225/1/SMF5.0A_SMF200CA(SOD-123FL).pdf"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes TVS 200W 9.2V"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "D-MCC-SMF5.0A-TP"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMF5.0A-TP"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Micro Commercial Components"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Zener Diode"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "5V"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "If" "20A"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "833-SMF5.0A-TP"
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46064615-38e6-4e54-9ed7-ffda22bb03ac")
+		)
+		(pin "2"
+			(uuid "58ad605d-21f6-470c-964a-fe28b3246334")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
+					(reference "D9")
 					(unit 1)
 				)
 			)
