@@ -5,6 +5,229 @@
 	(uuid "eb9639e0-f283-4421-83c8-a016bb0a2c63")
 	(paper "A4")
 	(lib_symbols
+		(symbol "#dzdb:g_res/R-0-0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "R-0-0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "560112116001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.1W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Material" "Thick film"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "710-560112116001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "CXXXXX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "lifecycle=Active; note=Auto-generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "g_res/R-0-0603_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "g_res/R-0-0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "#dzdb:g_res/R-1k-0603"
 			(pin_numbers
 				(hide yes)
@@ -2168,16 +2391,16 @@
 		(uuid "47b9f3d0-a276-4958-8b24-94b995958af7")
 	)
 	(junction
+		(at 30.48 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48acc401-2e69-4b4d-a1a0-bcd48195d484")
+	)
+	(junction
 		(at 96.52 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "655c59f5-df76-4af7-8df7-cc0347818273")
-	)
-	(junction
-		(at 31.75 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c7e8dfd-8cdb-4e17-9fd7-f0ac6662eaf8")
 	)
 	(junction
 		(at 158.75 91.44)
@@ -2186,22 +2409,16 @@
 		(uuid "71a8186e-3a25-431d-9636-4f4f7c7331f1")
 	)
 	(junction
-		(at 31.75 143.51)
+		(at 30.48 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "986fdabf-2a59-4e47-94d5-958dc5b2e86c")
+		(uuid "9ebe2fdb-f8f6-4e73-ad6e-04b3df599ebb")
 	)
 	(junction
 		(at 158.75 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a29e6d21-419f-4863-a845-d1168ae7c244")
-	)
-	(junction
-		(at 31.75 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a52aeb47-670d-4df5-bcf2-2a001626cb89")
 	)
 	(junction
 		(at 158.75 157.48)
@@ -2214,6 +2431,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bee91205-8437-468b-a0df-747d24e05a6d")
+	)
+	(junction
+		(at 30.48 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2197d50-c7bb-47ac-8dff-92fb78760346")
 	)
 	(junction
 		(at 96.52 160.02)
@@ -2453,17 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 146.05) (xy 31.75 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1671a391-db53-4fe3-b80e-baf99ac62c08")
-	)
-	(wire
-		(pts
-			(xy 31.75 148.59) (xy 38.1 148.59)
+			(xy 38.1 125.73) (xy 40.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 146.05) (xy 31.75 146.05)
+			(xy 40.64 123.19) (xy 38.1 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2543,6 +2756,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 125.73) (xy 30.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd1b65d-5140-4119-b3c3-376d5e3cb682")
+	)
+	(wire
+		(pts
 			(xy 99.06 99.06) (xy 118.11 99.06)
 		)
 		(stroke
@@ -2570,6 +2793,16 @@
 			(type default)
 		)
 		(uuid "488195e9-6234-42a2-a443-74f781976cbe")
+	)
+	(wire
+		(pts
+			(xy 30.48 118.11) (xy 30.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c11e7b-e315-443f-b1cf-2b1c10011349")
 	)
 	(wire
 		(pts
@@ -2623,13 +2856,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 140.97) (xy 31.75 143.51)
+			(xy 30.48 120.65) (xy 30.48 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ad7f2bb-b0b6-41d3-8dbb-dbdb81e144c8")
+		(uuid "567d7bd3-2804-4850-8fe7-62616e29bafc")
 	)
 	(wire
 		(pts
@@ -2783,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 123.19) (xy 30.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f14c398-5f97-4329-b9e0-b4f39d1a21d3")
+	)
+	(wire
+		(pts
 			(xy 143.51 152.4) (xy 148.59 152.4)
 		)
 		(stroke
@@ -2893,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 143.51) (xy 31.75 143.51)
+			(xy 40.64 120.65) (xy 38.1 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2903,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 140.97) (xy 31.75 140.97)
+			(xy 40.64 118.11) (xy 38.1 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3033,16 +3276,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 143.51) (xy 31.75 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2850bf6-d7e2-46fe-bde4-d6df5f4ef5a6")
-	)
-	(wire
-		(pts
 			(xy 99.06 91.44) (xy 118.11 91.44)
 		)
 		(stroke
@@ -3120,16 +3353,6 @@
 			(type default)
 		)
 		(uuid "d177273e-8e50-4e92-9015-9933143eaf6f")
-	)
-	(wire
-		(pts
-			(xy 31.75 148.59) (xy 31.75 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d20b7c96-5619-476d-8722-870ee2867e7c")
 	)
 	(wire
 		(pts
@@ -8639,7 +8862,7 @@
 		)
 	)
 	(label "CONFIG_3"
-		(at 38.1 148.59 0)
+		(at 40.64 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8659,7 +8882,7 @@
 		(uuid "11e4b4a7-4992-4fbb-94c2-c07fa793f02f")
 	)
 	(label "CONFIG_2"
-		(at 38.1 146.05 0)
+		(at 40.64 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8789,7 +9012,7 @@
 		(uuid "6526fdca-102e-4c2a-a1bf-3c05505aac5b")
 	)
 	(label "CONFIG_0"
-		(at 38.1 140.97 0)
+		(at 40.64 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8849,7 +9072,7 @@
 		(uuid "a6a479ba-d7cd-4c9a-9605-a9235d44b2fc")
 	)
 	(label "CONFIG_1"
-		(at 38.1 143.51 0)
+		(at 40.64 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9003,6 +9226,338 @@
 			(justify right)
 		)
 		(uuid "c58db00e-025b-4f36-8118-0df4a647cb8b")
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-0-0603")
+		(at 34.29 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "056da3e4-0976-4419-ae2a-138568692303")
+		(property "Reference" "R16"
+			(at 24.13 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 28.702 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 34.29 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "R-0-0603"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112116001"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "Thick film"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "710-560112116001"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "CXXXXX"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "559e9cb2-b339-40cc-883a-2a107de4002b")
+		)
+		(pin "1"
+			(uuid "7035338a-c6ed-42d9-ae45-ac6e921a2074")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f7f72d9d-a73c-4da1-b97a-073a2603b35d"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-0-0603")
+		(at 34.29 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13303380-d6e5-4e4e-b0c3-25aa0e47434b")
+		(property "Reference" "R15"
+			(at 24.13 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 28.702 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 34.29 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "R-0-0603"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112116001"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "Thick film"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "710-560112116001"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "CXXXXX"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0aaa317a-7e3c-4477-b108-02c86de62217")
+		)
+		(pin "1"
+			(uuid "e43e5a99-269a-4459-bf60-31c203dfca1b")
+		)
+		(instances
+			(project ""
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f7f72d9d-a73c-4da1-b97a-073a2603b35d"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "#dzdb:s_dio/D-KIN-APHHS1005LCGCK")
@@ -9173,7 +9728,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 152.4 0)
+		(at 30.48 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9182,7 +9737,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ea9c1c2-769c-4d63-9ab1-74d09c5e55ab")
 		(property "Reference" "#PWR031"
-			(at 31.75 158.75 0)
+			(at 30.48 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9191,7 +9746,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 157.48 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,7 +9754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 152.4 0)
+			(at 30.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9208,7 +9763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 152.4 0)
+			(at 30.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,7 +9772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 152.4 0)
+			(at 30.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,6 +9787,338 @@
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f7f72d9d-a73c-4da1-b97a-073a2603b35d"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-0-0603")
+		(at 34.29 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54976246-6735-4897-842d-a412fb6386d7")
+		(property "Reference" "R17"
+			(at 24.13 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 28.702 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 34.29 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "R-0-0603"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112116001"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "Thick film"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "710-560112116001"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "CXXXXX"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e072dc0-4688-4ac4-b338-970f9264cf97")
+		)
+		(pin "1"
+			(uuid "98564fd3-0664-42b6-bd92-c76ea9f0442e")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f7f72d9d-a73c-4da1-b97a-073a2603b35d"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-0-0603")
+		(at 34.29 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "631ccbac-e538-4e6f-9677-339457a835e3")
+		(property "Reference" "R18"
+			(at 24.13 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 28.702 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 34.29 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "R-0-0603"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112116001"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "Thick film"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "710-560112116001"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "CXXXXX"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df702168-a41f-41ed-baa7-258ab1b5aa0c")
+		)
+		(pin "1"
+			(uuid "934720c3-2cea-459e-a716-7538ee29b7ee")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f7f72d9d-a73c-4da1-b97a-073a2603b35d"
+					(reference "R18")
 					(unit 1)
 				)
 			)
