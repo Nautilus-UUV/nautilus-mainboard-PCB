@@ -661,6 +661,10 @@
     [
       "8ca810bd-6311-4873-a4c4-10e0b1989f7a",
       "LPHS-connector"
+    ],
+    [
+      "c1998c4d-3f9a-4761-b447-a813532738a0",
+      "Power_logic"
     ]
   ],
   "text_variables": {}
