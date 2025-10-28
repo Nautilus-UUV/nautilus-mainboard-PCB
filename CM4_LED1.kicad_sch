@@ -1131,17 +1131,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 71.12 45.72)
-		(end 175.26 99.06)
+	(text_box "Directly copied from the official CM4 io board (indicator LED for 3.3v)"
+		(exclude_from_sim no)
+		(at 66.04 40.64 0)
+		(size 111.76 58.42)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
 		)
-		(uuid 65f7ef7c-2f76-4cbe-ae90-1c14ec6470b9)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d5cea79a-b6ea-4368-9bdc-2dd9d2dffd22")
 	)
 	(junction
 		(at 146.05 74.93)

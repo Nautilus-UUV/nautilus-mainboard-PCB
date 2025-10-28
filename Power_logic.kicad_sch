@@ -728,6 +728,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Wont work... diodes are not perfect..."
+		(exclude_from_sim no)
+		(at 90.424 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33a4457d-4424-48f4-8fd2-ef5bb9e68c4d")
+	)
 	(text "if there is a battery connected,\nthe LED will light up and you should\nnot plug in your USB cable/STM connector."
 		(exclude_from_sim no)
 		(at 100.33 29.718 0)

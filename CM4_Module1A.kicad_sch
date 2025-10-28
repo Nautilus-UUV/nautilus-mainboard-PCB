@@ -4962,6 +4962,26 @@
 		)
 		(uuid "f7f5e036-7fca-46ec-8840-6161bc755bad")
 	)
+	(text_box "Ethernet connection"
+		(exclude_from_sim no)
+		(at 175.26 17.78 0)
+		(size 53.34 40.64)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a58156e2-c742-4682-af23-31a3d4343c7a")
+	)
 	(text_box "Decoupling for CM4 5V inputs"
 		(exclude_from_sim no)
 		(at 180.34 127 0)
