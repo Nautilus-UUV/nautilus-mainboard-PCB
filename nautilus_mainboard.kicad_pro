@@ -665,6 +665,18 @@
     [
       "c1998c4d-3f9a-4761-b447-a813532738a0",
       "Power_logic"
+    ],
+    [
+      "7fd5a03c-dea9-4dd3-96f2-bf31ea6dc8ac",
+      "5V_Logic"
+    ],
+    [
+      "85d0d345-ed3a-4658-9370-48b549969854",
+      "3.3V_Logic"
+    ],
+    [
+      "e46d3b44-477e-48ec-b385-9b4870813d66",
+      "GPIO_REF3.3V"
     ]
   ],
   "text_variables": {}

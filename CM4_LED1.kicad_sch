@@ -1005,136 +1005,51 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
+	)
+	(text "then I would in theory compare internal voltage with internal voltage... so probably not...\n"
+		(exclude_from_sim no)
+		(at 129.54 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
 		)
+		(uuid "0891152f-85f4-45ea-9431-92e31c36f99a")
+	)
+	(text "only use when connected completely? not over usb???"
+		(exclude_from_sim no)
+		(at 147.32 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c7a72cf-eb37-421e-84d1-a0d2e052cc8a")
+	)
+	(text "<---"
+		(exclude_from_sim no)
+		(at 129.54 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "874994db-f2ba-4660-8bce-209cc2883b0f")
+	)
+	(text "issue: will that logic work if I use USB vin only?"
+		(exclude_from_sim no)
+		(at 132.08 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2841849-db2b-4211-8549-b1f2242d1ea6")
 	)
 	(text_box "Directly copied from the official CM4 io board (indicator LED for 3.3v)"
 		(exclude_from_sim no)
 		(at 66.04 40.64 0)
-		(size 111.76 58.42)
+		(size 137.16 58.42)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1229,6 +1144,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 53.34) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28f87e8-f957-4ec2-b8fa-1035b7e8ad95")
+	)
+	(wire
+		(pts
 			(xy 137.16 74.93) (xy 146.05 74.93)
 		)
 		(stroke
@@ -1236,6 +1161,50 @@
 			(type default)
 		)
 		(uuid "f7900728-a44e-4491-9fe9-1ef3e59d784a")
+	)
+	(global_label "Battery_Out_3.3V"
+		(shape input)
+		(at 106.68 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c2a5418-ac7e-4e21-8ef1-0a574a406ef8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.6308 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CM4_LED_IN_3.3V"
+		(shape input)
+		(at 170.18 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48bc57e9-17a0-4103-9fc0-071b346d698a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.4937 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "nPWR_LED"
 		(shape input)
@@ -1258,7 +1227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "417f10fe-b2c1-4a40-94a5-fb803ad9115c")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 159.7025 81.28 0)
 			(effects
 				(font
@@ -1409,7 +1378,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/e0935ee6-fc77-4de6-a0ac-caf50bea3bcd"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1426,7 +1395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "421626b8-396a-45ff-bf1b-3052038bc6bf")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR018"
 			(at 105.41 97.79 0)
 			(effects
 				(font
@@ -1476,7 +1445,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/e0935ee6-fc77-4de6-a0ac-caf50bea3bcd"
-					(reference "#PWR011")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1640,72 +1609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 170.18 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82afc08b-ad4c-4234-b2ae-40c93fb03aeb")
-		(property "Reference" "#PWR012"
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 170.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 170.18 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28881bdd-6157-4f4f-aae2-fc9db7c3aed1")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/e0935ee6-fc77-4de6-a0ac-caf50bea3bcd"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "#dzdb:g_res/R-1k-0603")
 		(at 133.35 74.93 90)
 		(unit 1)
@@ -1715,7 +1618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ffa73ec-3d95-45f1-974c-8d1cd32de7e9")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 133.35 68.58 90)
 			(effects
 				(font
@@ -1866,73 +1769,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/e0935ee6-fc77-4de6-a0ac-caf50bea3bcd"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 105.41 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1726923-bc40-474b-8b3a-758215d2367f")
-		(property "Reference" "#PWR010"
-			(at 105.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 105.41 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 105.41 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52567155-1840-4183-b410-11d9b929c8bc")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/e0935ee6-fc77-4de6-a0ac-caf50bea3bcd"
-					(reference "#PWR010")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1948,7 +1785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db806cd4-81bb-40e8-8fc6-5970b8631b1e")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 148.59 58.9279 0)
 			(effects
 				(font
@@ -2017,7 +1854,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/e0935ee6-fc77-4de6-a0ac-caf50bea3bcd"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

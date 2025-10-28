@@ -7707,9 +7707,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Can be kept floating."
+	(text "Can be kept floating. if no usb is connected"
 		(exclude_from_sim no)
-		(at 121.158 29.464 0)
+		(at 130.048 28.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7878,6 +7878,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ab7999e-0d9d-4a7d-9012-5d801f889b98")
+	)
+	(junction
+		(at 228.6 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c50f289-21bd-41c6-acda-6352a328e0b0")
 	)
 	(junction
 		(at 123.19 125.73)
@@ -8785,6 +8791,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 77.47) (xy 228.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a556924-a07f-4d73-9e80-2569f422e088")
+	)
+	(wire
+		(pts
 			(xy 123.19 110.49) (xy 123.19 102.87)
 		)
 		(stroke
@@ -8965,6 +8981,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 77.47) (xy 232.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2232d4f-ed12-45b6-8556-3a17ac298774")
+	)
+	(wire
+		(pts
 			(xy 54.61 49.53) (xy 54.61 57.15)
 		)
 		(stroke
@@ -9002,6 +9028,16 @@
 			(type default)
 		)
 		(uuid "ab572019-b8cf-435a-b1dc-2b95fb00ccbc")
+	)
+	(wire
+		(pts
+			(xy 228.6 77.47) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b501d9a7-54f7-4249-a073-90813d2706e0")
 	)
 	(wire
 		(pts
@@ -9062,16 +9098,6 @@
 			(type default)
 		)
 		(uuid "c8774f16-6bf6-4dc6-8f56-73180322263a")
-	)
-	(wire
-		(pts
-			(xy 228.6 77.47) (xy 228.6 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b04942-08bd-4e6e-824d-bedc51eb8c75")
 	)
 	(wire
 		(pts
@@ -9453,6 +9479,39 @@
 		)
 		(uuid "e0a14b23-ca64-4d5d-9b07-83337726b272")
 	)
+	(global_label "USB_Out_5V"
+		(shape output)
+		(at 232.41 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5603406f-ff85-4042-9e03-7ed82f32f522")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.6437 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "USB_OTG_5V"
+		(shape input)
+		(at 224.79 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fb88166-8cf3-446a-a3a9-95367d74d647")
+	)
 	(hierarchical_label "PCIe_TX_P"
 		(shape bidirectional)
 		(at 49.53 59.69 180)
@@ -9519,17 +9578,6 @@
 		)
 		(uuid "cf04021c-e95a-447e-ac8b-bdbcbf53649e")
 	)
-	(hierarchical_label "USB_VIN"
-		(shape bidirectional)
-		(at 228.6 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d901519e-aef6-4d20-bb7e-0b5a5a710ba4")
-	)
 	(hierarchical_label "PCIe_RX_N"
 		(shape bidirectional)
 		(at 49.53 54.61 180)
@@ -9562,7 +9610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02c4b8f3-16af-4147-b4fb-294dd066347f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 195.58 125.73 0)
 			(effects
 				(font
@@ -9612,7 +9660,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9785,7 +9833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04f77d24-7930-4293-af75-fcc08ae49812")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 228.6 93.98 0)
 			(effects
 				(font
@@ -10099,7 +10147,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10281,7 +10329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2af80ab7-f6b4-4062-979b-ee480b6e9999")
-		(property "Reference" "C5"
+		(property "Reference" "C20"
 			(at 205.486 135.636 90)
 			(effects
 				(font
@@ -10432,7 +10480,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "C5")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -11717,7 +11765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b67216d-15fd-4c12-8226-ab00fdd384bc")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 205.74 121.92 90)
 			(effects
 				(font
@@ -11868,7 +11916,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11883,7 +11931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93cadb23-2fb3-4d22-a34a-43a3943e0e1b")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 205.994 106.68 90)
 			(effects
 				(font
@@ -12034,7 +12082,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12049,7 +12097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad013062-979d-42b5-8727-3452e8bb7eac")
-		(property "Reference" "D9"
+		(property "Reference" "D7"
 			(at 231.648 88.392 90)
 			(effects
 				(font
@@ -12191,7 +12239,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "D9")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12207,7 +12255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b214ff03-1082-44a8-a64c-f6d4d1eac462")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR024"
 			(at 215.9 58.42 0)
 			(effects
 				(font
@@ -12257,7 +12305,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12273,7 +12321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba3048aa-8f57-4d08-8c6f-000b0ee1bd8a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR025"
 			(at 259.08 125.73 0)
 			(effects
 				(font
@@ -12323,7 +12371,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "#PWR020")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12338,7 +12386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfad0cb4-f4fa-4164-9099-951c8eac13c3")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 252.73 114.3 90)
 			(effects
 				(font
@@ -12489,7 +12537,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12505,7 +12553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0128ba1-770a-4313-8445-a98d295f565e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR021"
 			(at 54.61 170.18 0)
 			(effects
 				(font
@@ -12555,7 +12603,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "#PWR07")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12571,7 +12619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f784fe54-fdba-4695-872e-af066c31304e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR022"
 			(at 123.19 170.18 0)
 			(effects
 				(font
@@ -12621,7 +12669,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f5b638be-e0c1-4f77-ad7d-0ded62182f5f"
-					(reference "#PWR08")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

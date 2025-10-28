@@ -1772,6 +1772,344 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "#dzdb:s_con/WURT-61300211121"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "61300211121"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "dz_con:Wurth_Con_61300211121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Sockel & Kabelgehäuse WR-PHD 2.54mm 2Pin T HT Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Connector Header Through Hole 2 position 0.100 (2.54mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/61300211121/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "61300211121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/61300211121/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "IPN" "WURT-61300211121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "61300211121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Wurth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Symbol" "dz_con:CON-Wurth-6130XX11121_61300211121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pitch" "2.54mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "710-61300211121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "note=Auto-generated part for Wurth Elektronik connector family WR-PHD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "dz_con:Wurth_Con_61300211121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "s_con/WURT-61300211121_0_0"
+				(rectangle
+					(start -3.81 -2.54)
+					(end 1.27 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "#dzdb:s_mcu/M-STM-STM32H7B0RBT6"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4766,256 +5104,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5138,15 +5226,26 @@
 		)
 		(uuid "54924625-ca8e-4caa-a691-af9512bf7a18")
 	)
-	(text "Need to add a diode\n"
+	(text "fan only active when battery is connected. \nMby add an external power pin to externally power the fan for testing."
 		(exclude_from_sim no)
-		(at 201.676 83.82 0)
+		(at 69.596 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dfc69a6-f0cc-41a2-9eba-d9b0aa9df438")
+	)
+	(text "logic handled in power section"
+		(exclude_from_sim no)
+		(at 213.36 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7d6f6aae-ea33-4ee2-b3a6-81f52c078d45")
+		(uuid "8083ca65-5b1f-4838-a2ea-346fe786fac1")
 	)
 	(text "External interfaces\n\n"
 		(exclude_from_sim no)
@@ -5157,6 +5256,26 @@
 			)
 		)
 		(uuid "abb9d205-b609-4fb9-bddd-7872922dd3d5")
+	)
+	(text "3v3 ext was first implemented here"
+		(exclude_from_sim no)
+		(at 265.938 13.716 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cdf086ba-9321-4bd4-a36c-dcf82778ec0e")
+	)
+	(text "-  +"
+		(exclude_from_sim no)
+		(at 63.5 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de93730c-6a35-41dd-9959-c7d4e59594cb")
 	)
 	(text_box "Fan controller"
 		(exclude_from_sim no)
@@ -5203,12 +5322,6 @@
 		(uuid "5de2d766-a86e-45a9-94a6-81d58746b803")
 	)
 	(junction
-		(at 187.96 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6209bf93-427d-47a4-9fce-cef34b61abeb")
-	)
-	(junction
 		(at 147.32 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5219,6 +5332,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7530cc58-8dbc-46b4-8164-1920552ee71d")
+	)
+	(junction
+		(at 38.1 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99c938a7-f786-415b-a1f5-8fcd01356c23")
 	)
 	(junction
 		(at 186.69 167.64)
@@ -5432,16 +5551,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 190.5 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0564f811-522c-4f57-91c8-998f2bd3b860")
-	)
-	(wire
-		(pts
 			(xy 209.55 55.88) (xy 218.44 55.88)
 		)
 		(stroke
@@ -5459,16 +5568,6 @@
 			(type default)
 		)
 		(uuid "0cb97c21-71c5-4cf6-b8e7-4d5340a387ea")
-	)
-	(wire
-		(pts
-			(xy 198.12 72.39) (xy 203.2 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cc3a3c1-9297-4e87-9342-fa7149258c44")
 	)
 	(wire
 		(pts
@@ -5512,6 +5611,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 16.51) (xy 251.46 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a755cc8-26f5-460b-92bb-1a7915a3a4a8")
+	)
+	(wire
+		(pts
 			(xy 125.73 80.01) (xy 140.97 80.01)
 		)
 		(stroke
@@ -5529,6 +5638,16 @@
 			(type default)
 		)
 		(uuid "1f172537-750d-480b-a1cc-43f5e27d9d6d")
+	)
+	(wire
+		(pts
+			(xy 60.96 24.13) (xy 55.88 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b46a55-c358-4dcc-91be-b9271ae128ed")
 	)
 	(wire
 		(pts
@@ -5562,6 +5681,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 16.51) (xy 250.19 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed5c028-daa1-492a-ba4e-07d5ada9f745")
+	)
+	(wire
+		(pts
 			(xy 50.8 86.36) (xy 53.34 86.36)
 		)
 		(stroke
@@ -5569,16 +5698,6 @@
 			(type default)
 		)
 		(uuid "33e8691c-39c1-40d2-989b-21546df81a05")
-	)
-	(wire
-		(pts
-			(xy 55.88 24.13) (xy 63.5 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346a916c-c6e5-49c8-8ee0-810005aa8d19")
 	)
 	(wire
 		(pts
@@ -5622,16 +5741,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 210.82 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42615855-8e89-4275-87ba-587948a1e0f3")
-	)
-	(wire
-		(pts
 			(xy 53.34 80.01) (xy 53.34 86.36)
 		)
 		(stroke
@@ -5642,16 +5751,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 187.96 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48524710-d0ab-4b57-ab71-cacd9a7afc75")
-	)
-	(wire
-		(pts
 			(xy 176.53 41.91) (xy 194.31 41.91)
 		)
 		(stroke
@@ -5659,6 +5758,16 @@
 			(type default)
 		)
 		(uuid "4882547f-d7db-4527-8f17-6f27757328a0")
+	)
+	(wire
+		(pts
+			(xy 38.1 43.18) (xy 62.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4962a87d-5ed8-49e7-8eae-a8331e314659")
 	)
 	(wire
 		(pts
@@ -5779,16 +5888,6 @@
 			(type default)
 		)
 		(uuid "73d69e92-c1f9-49aa-8be9-3f6f4b0865ac")
-	)
-	(wire
-		(pts
-			(xy 190.5 81.28) (xy 187.96 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7442bf1d-d89c-406b-ac0b-ec582f86ec0a")
 	)
 	(wire
 		(pts
@@ -5962,6 +6061,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 16.51) (xy 64.77 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38890e8-317b-4e1f-a989-5892e1cf2e4a")
+	)
+	(wire
+		(pts
 			(xy 134.62 167.64) (xy 147.32 167.64)
 		)
 		(stroke
@@ -6012,7 +6121,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 72.39) (xy 187.96 72.39)
+			(xy 182.88 72.39) (xy 203.2 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6289,6 +6398,16 @@
 			(type default)
 		)
 		(uuid "f3e5a9bc-20ac-4372-95ce-4d640c5b61cc")
+	)
+	(wire
+		(pts
+			(xy 64.77 16.51) (xy 64.77 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e3f9f0-323a-4692-8fb8-df18ccf5a2f0")
 	)
 	(wire
 		(pts
@@ -13466,16 +13585,6 @@
 		)
 		(uuid "240e241c-5094-4a93-a805-ec0a511ee698")
 	)
-	(label "3V3_ext"
-		(at 210.82 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "27c9d7ad-a48b-465a-878a-4856e84c4d58")
-	)
 	(label "nRST"
 		(at 243.84 44.45 0)
 		(effects
@@ -13485,16 +13594,6 @@
 			(justify left bottom)
 		)
 		(uuid "3a67d148-e53a-439a-93a0-05dc1017bd32")
-	)
-	(label "3V3_ext"
-		(at 251.46 20.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f8579a5-30ef-42f4-859b-0e0f7c1ffc21")
 	)
 	(label "Vdd"
 		(at 118.11 139.7 90)
@@ -13555,6 +13654,16 @@
 			(justify left bottom)
 		)
 		(uuid "53e0c078-02e0-4ca2-8157-20083a4016ca")
+	)
+	(label "3V3_ext"
+		(at 269.24 16.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f03ecf3-682f-4e1a-9e31-8068012499ee")
 	)
 	(label "nRST"
 		(at 176.53 41.91 0)
@@ -13836,6 +13945,72 @@
 		)
 		(uuid "f66ab26d-5b5a-4043-8838-96d3e502967a")
 	)
+	(global_label "STM_IN_3.3V"
+		(shape input)
+		(at 203.2 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06fb35f5-c82a-4d11-a67b-f803374a4898")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7966 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_Plug_3.3V"
+		(shape output)
+		(at 250.19 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83241f7e-ee0d-4b3a-8a8e-3189ead0343e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.2955 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Battery_Out_5V"
+		(shape input)
+		(at 60.96 24.13 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbcdfbb3-94ee-4612-81d8-9b16a819504c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 41.2665 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "STM_USART_RX"
 		(shape input)
 		(at 80.01 140.97 270)
@@ -13890,7 +14065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3f4a84-1ee9-4ac1-a4f9-5bc425d82d6e")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR011"
 			(at 198.12 96.52 0)
 			(effects
 				(font
@@ -13940,7 +14115,173 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR022")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-0-0603")
+		(at 60.96 20.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19faed42-543c-4c72-9f48-2b13fe81f545")
+		(property "Reference" "R4"
+			(at 56.642 20.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 58.674 20.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.738 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "R-0-0603"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112116001"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "Thick film"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "710-560112116001"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "CXXXXX"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ad3adfb-d97b-4ed7-8c10-b16235637b91")
+		)
+		(pin "1"
+			(uuid "7799fde5-6a83-4416-9f7d-b0ed2f08985d")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13956,7 +14297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "219903ed-a7e1-4474-99f1-61d268acc457")
-		(property "Reference" "C16"
+		(property "Reference" "C14"
 			(at 162.56 162.5599 0)
 			(effects
 				(font
@@ -14109,7 +14450,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C16")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -14125,7 +14466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25459edf-b7fc-4457-9535-1e7e8d428d4c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR07"
 			(at 50.8 101.6 0)
 			(effects
 				(font
@@ -14175,7 +14516,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR014")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -14191,7 +14532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b1a436-27c6-4ac9-ae8d-1eac9754631b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR013"
 			(at 248.92 39.37 0)
 			(effects
 				(font
@@ -14241,7 +14582,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR027")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14258,7 +14599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34fc80c5-0420-419c-af39-8ec94e22702b")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 265.43 24.1299 0)
 			(effects
 				(font
@@ -14402,7 +14743,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14693,7 +15034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a2230f6-8c64-4703-af3c-44c624c92d3b")
-		(property "Reference" "C14"
+		(property "Reference" "C12"
 			(at 138.43 162.5599 0)
 			(effects
 				(font
@@ -14846,173 +15187,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-0-0603")
-		(at 194.31 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a60bd51-37e4-4761-9837-3763ad10cfe2")
-		(property "Reference" "R14"
-			(at 194.564 68.072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 194.564 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.31 74.168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "R-0-0603"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112116001"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "Thick film"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "710-560112116001"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "CXXXXX"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 194.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f99a170f-8ed7-401e-8c53-f8ea4fbc0b15")
-		)
-		(pin "1"
-			(uuid "bac5a907-ff44-49ab-a618-d4bcc32f0410")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "R14")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15291,7 +15466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "439594a5-e0b9-4c6f-bcc4-4b5569d9e4b6")
-		(property "Reference" "C1"
+		(property "Reference" "C8"
 			(at 38.1 90.1699 0)
 			(effects
 				(font
@@ -15444,7 +15619,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15460,7 +15635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "468fff29-a631-4f4d-8d82-f3251b25a904")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR012"
 			(at 223.52 27.94 0)
 			(effects
 				(font
@@ -15510,73 +15685,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 203.2 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "475fd563-f916-4074-b2da-868184c314c2")
-		(property "Reference" "#PWR024"
-			(at 203.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 203.2 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 203.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af549bd0-6769-4d18-9386-52a966a6f39a")
-		)
-		(instances
-			(project ""
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR024")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15592,7 +15701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62aea2af-fcd3-45a6-9412-7e4fb0441cd3")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR014"
 			(at 266.7 60.96 0)
 			(effects
 				(font
@@ -15642,7 +15751,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR026")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15658,7 +15767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "702435f9-d059-4e68-9b8c-0e63b1bd3d04")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR09"
 			(at 134.62 179.07 0)
 			(effects
 				(font
@@ -15708,7 +15817,257 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR037")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:s_con/WURT-61300211121")
+		(at 62.23 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72481ba7-4474-47e7-bfdf-7e6f0293158e")
+		(property "Reference" "J2"
+			(at 67.31 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "61300211121"
+			(at 67.31 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "dz_con:Wurth_Con_61300211121"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sockel & Kabelgehäuse WR-PHD 2.54mm 2Pin T HT Header"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Through Hole 2 position 0.100 (2.54mm)"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/61300211121/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "61300211121"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/61300211121/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "IPN" "WURT-61300211121"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61300211121"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Symbol" "dz_con:CON-Wurth-6130XX11121_61300211121"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Connector"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pitch" "2.54mm"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "710-61300211121"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "note=Auto-generated part for Wurth Elektronik connector family WR-PHD"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21015734-a425-4eb8-a25d-b19171e0b702")
+		)
+		(pin "2"
+			(uuid "0b7cce21-aab3-4ef3-b270-843d21e4007b")
+		)
+		(instances
+			(project ""
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -15724,7 +16083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "810d63f4-d388-40c3-9d4e-aaaa709e5913")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR05"
 			(at 34.29 101.6 0)
 			(effects
 				(font
@@ -15774,7 +16133,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR015")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -15790,7 +16149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "845a67a1-8dcc-4ec4-b26f-cd366b17e4a9")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 116.84 143.5099 0)
 			(effects
 				(font
@@ -15943,7 +16302,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -15959,7 +16318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86c65c70-16f3-4bd3-b165-cbcece631d17")
-		(property "Reference" "C15"
+		(property "Reference" "C13"
 			(at 151.13 162.5599 0)
 			(effects
 				(font
@@ -16112,239 +16471,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-0-0603")
-		(at 194.31 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3055682-d91c-4ddb-b1b0-38230c65f445")
-		(property "Reference" "R10"
-			(at 194.564 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 194.564 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 194.31 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "R-0-0603"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112116001"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "Thick film"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "710-560112116001"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "CXXXXX"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 194.31 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17525b9a-383c-437f-83df-3f4b223306ef")
-		)
-		(pin "1"
-			(uuid "54c64539-d61d-40d4-8c99-d49e89a8835d")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3ca5158-6e55-46d2-bcd7-8873c263ab3d")
-		(property "Reference" "#PWR040"
-			(at 63.5 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 63.5 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bb4b065-5cca-423c-83b6-66b0ec0b2a3e")
-		)
-		(instances
-			(project ""
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR040")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -16360,7 +16487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a68ba3e2-4516-4c25-b9f2-2f572e7fc118")
-		(property "Reference" "R20"
+		(property "Reference" "R3"
 			(at 29.21 27.94 90)
 			(effects
 				(font
@@ -16511,7 +16638,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "R20")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16527,7 +16654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab20cb5c-33d3-4006-81f6-d5de80e625e7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR010"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -16577,7 +16704,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR01")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16742,7 +16869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb10e236-6445-453e-9ce2-64214fcd0b61")
-		(property "Reference" "C4"
+		(property "Reference" "C15"
 			(at 168.91 80.0099 0)
 			(effects
 				(font
@@ -16895,7 +17022,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C4")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -16911,7 +17038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccb698c2-222a-44bc-98ed-037dda7a0898")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 218.44 35.5599 0)
 			(effects
 				(font
@@ -17088,7 +17215,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -17104,7 +17231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0e56c1-e540-4cf1-982d-94ccd1b600d1")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 176.53 162.5599 0)
 			(effects
 				(font
@@ -17257,7 +17384,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -17750,7 +17877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d058b692-ff1e-433c-a9c4-27a2e61b227b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR06"
 			(at 38.1 49.53 0)
 			(effects
 				(font
@@ -17800,7 +17927,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR039")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17816,7 +17943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1937048-233f-469d-ae0b-00deda8bf63f")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 201.93 162.5599 0)
 			(effects
 				(font
@@ -17969,7 +18096,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -17985,7 +18112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3fbde7b-9d25-4a95-b9bb-baaed1c479cc")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 127 162.5599 0)
 			(effects
 				(font
@@ -18138,7 +18265,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -18154,7 +18281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d53f3068-525c-4808-b8e0-5455dc561884")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR08"
 			(at 113.03 154.94 0)
 			(effects
 				(font
@@ -18204,7 +18331,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "#PWR016")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -18220,7 +18347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e68b67a9-58a6-48b3-baec-7b48124cf671")
-		(property "Reference" "C6"
+		(property "Reference" "C19"
 			(at 255.27 48.2599 0)
 			(effects
 				(font
@@ -18373,7 +18500,7 @@
 		(instances
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C6")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -18389,7 +18516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa68114-f49a-4ce6-b008-c22aec2f0fab")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 190.5 162.5599 0)
 			(effects
 				(font
@@ -18542,7 +18669,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -18558,7 +18685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdd475bb-ddfc-4114-b560-f1e9d9aa6bdd")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 54.61 90.1699 0)
 			(effects
 				(font
@@ -18711,7 +18838,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
