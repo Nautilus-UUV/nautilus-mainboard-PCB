@@ -981,6 +981,26 @@
 		)
 		(uuid "2db036f0-6071-4bc4-8220-c78f925b71b3")
 	)
+	(text_box "Counterpiece to  LPHS-04-16-L-VP1-GP"
+		(exclude_from_sim no)
+		(at 185.42 60.96 0)
+		(size 83.82 71.12)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "25d7e800-0304-490b-9a03-7f85a778df39")
+	)
 	(junction
 		(at 242.57 115.57)
 		(diameter 0)
@@ -1334,7 +1354,7 @@
 		(uuid "f60bb6c4-679a-4696-9ed3-5bdb5ce2c2e3")
 	)
 	(image
-		(at 154.94 96.52)
+		(at 139.7 91.44)
 		(scale 0.431936)
 		(uuid "2a026149-2145-4b89-816e-619547785eca")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAhEAAANTCAIAAACfG9iWAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"

@@ -624,6 +624,20 @@
 		)
 		(uuid "3e21db82-b1cd-41cf-8c24-87ff54ed9925")
 	)
+	(text "maybe scrap this?"
+		(exclude_from_sim no)
+		(at 73.914 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 200 84 1)
+			)
+			(justify left)
+		)
+		(uuid "6b83dca5-2145-40ad-ac6a-16d505ec77d6")
+	)
 	(text "Whenever the CM4 runs, also run the LED signals AND the\nSSD voltage. all \"core\" tasks tied to the CM4.\n\nIf I forgot something please let me know."
 		(exclude_from_sim no)
 		(at 147.32 22.86 0)
@@ -678,8 +692,8 @@
 	)
 	(text_box "Simple Voltage Setup:"
 		(exclude_from_sim no)
-		(at 58.42 17.78 0)
-		(size 45.72 35.56)
+		(at 35.56 17.78 0)
+		(size 68.58 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

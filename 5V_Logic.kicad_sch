@@ -2373,6 +2373,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "for questions about wiring etc please consult the datasheet..."
+		(exclude_from_sim no)
+		(at 148.844 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "00f6d322-e729-472e-949a-21c8ff185105")
+	)
 	(text "V-div to 1.2V when IN1 = 5V"
 		(exclude_from_sim no)
 		(at 124.46 69.088 0)
@@ -2412,6 +2422,16 @@
 			)
 		)
 		(uuid "951a98b3-7862-4154-90ff-c06063160800")
+	)
+	(text "https://www.ti.com/lit/ds/symlink/tps2120.pdf?ts=1761678178328"
+		(exclude_from_sim no)
+		(at 150.114 51.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4b9e087-9dfa-4446-ae36-5d5cf4db237e")
 	)
 	(text "V-div to 1V when IN2=5V\n"
 		(exclude_from_sim no)
