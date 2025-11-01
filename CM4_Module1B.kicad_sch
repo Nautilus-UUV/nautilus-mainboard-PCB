@@ -7775,8 +7775,8 @@
 	)
 	(text_box "USB Connection for CM4"
 		(exclude_from_sim no)
-		(at 43.18 66.04 0)
-		(size 88.9 81.28)
+		(at 208.28 73.66 0)
+		(size 76.2 81.28)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

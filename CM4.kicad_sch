@@ -565,6 +565,16 @@
 		)
 		(uuid d0ba8cdb-1dc5-43d7-a984-c80995081335)
 	)
+	(text "do we need BSC master 0 data line and clock line? (for iic)"
+		(exclude_from_sim no)
+		(at 53.594 89.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4514ac38-9ed7-44f4-bc7e-e8434d62691f")
+	)
 	(text "5V in\n"
 		(exclude_from_sim no)
 		(at 197.866 112.776 90)
@@ -1730,6 +1740,36 @@
 		(pin "TXD0" input
 			(at 124.46 97.79 270)
 			(uuid "48ad677e-0ba9-409b-8ccb-06296a17ad7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nEXTRST" output
+			(at 86.36 85.09 180)
+			(uuid "cc5667ed-ef4b-4741-b603-055742112053")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL0" output
+			(at 86.36 87.63 180)
+			(uuid "9a0d87af-8747-49ba-b922-dd8fb491930f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA0" output
+			(at 86.36 90.17 180)
+			(uuid "1a84df04-4d1e-4096-b9c1-8428959b09e1")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4817,6 +4817,19 @@
 		)
 		(uuid "446243a1-3aad-41dc-a2cd-7aa165db42c5")
 	)
+	(text "GLOBAL_EN needs to be pulled low for >1ms after software shutdown."
+		(exclude_from_sim no)
+		(at 103.632 162.306 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 19 1)
+			)
+		)
+		(uuid "b14359a7-29fc-4302-90b7-a1f20ee9372a")
+	)
 	(text "Disable Wlan and Bluetooth?"
 		(exclude_from_sim no)
 		(at 121.158 137.414 0)
@@ -7031,16 +7044,6 @@
 		)
 		(uuid "83d25d4c-29e9-46a4-95f7-c11fbdd7f913")
 	)
-	(label "ETH_LED_Y"
-		(at 118.11 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "880c38e7-5c86-4ef0-8e8e-8dd5c88b208b")
-	)
 	(label "GPIO21"
 		(at 118.11 54.61 180)
 		(effects
@@ -7050,16 +7053,6 @@
 			(justify right bottom)
 		)
 		(uuid "8a1a071c-9629-48ab-86e0-e3e37e825d70")
-	)
-	(label "ETH_LED_G"
-		(at 118.11 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8cfd4aec-8bd9-4f62-91a0-ecf98ee65e86")
 	)
 	(label "GPIO24"
 		(at 118.11 80.01 180)
@@ -7250,6 +7243,26 @@
 			(justify left bottom)
 		)
 		(uuid "df9c95ea-c0a1-4fcc-9957-6c0c7f2b087c")
+	)
+	(label "ETH_LED_Y"
+		(at 118.11 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9669449-d81a-4ca4-a42c-fded69924a70")
+	)
+	(label "ETH_LED_G"
+		(at 118.11 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eaf6b758-ffab-4dd7-aa6d-fb079252fd65")
 	)
 	(label "TRD3_N"
 		(at 189.23 48.26 0)
