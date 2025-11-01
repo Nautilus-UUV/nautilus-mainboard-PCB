@@ -20918,7 +20918,7 @@
 		)
 	)
 	(gr_text "3.3V logic"
-		(at 95.615 104.225 90)
+		(at 95.5 120.425 90)
 		(layer "F.SilkS")
 		(uuid "366a25c3-8a9d-4ead-b93b-63391b286bd1")
 		(effects
@@ -20930,7 +20930,7 @@
 		)
 	)
 	(gr_text "GPIO_VREF"
-		(at 95.6 120.525 90)
+		(at 95.575 104.2 90)
 		(layer "F.SilkS")
 		(uuid "bd49de17-237a-4962-ac25-a221936896bd")
 		(effects
