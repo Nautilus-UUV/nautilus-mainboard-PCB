@@ -7516,10 +7516,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 17.78 -7.62 180)
 					(length 5.08)
-					(name "NC_6"
+					(name "Through_5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7534,10 +7534,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 17.78 -10.16 180)
 					(length 5.08)
-					(name "NC_7"
+					(name "Through_4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7552,10 +7552,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 17.78 -12.7 180)
 					(length 5.08)
-					(name "NC_9"
+					(name "Through_2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7570,10 +7570,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 17.78 -15.24 180)
 					(length 5.08)
-					(name "NC_10"
+					(name "Through_1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7753,7 +7753,7 @@
 		)
 		(uuid "c31e1f00-1416-473c-bbb5-17bdaa98ba62")
 	)
-	(text_box "ESP protection for the USB"
+	(text_box "ESD/EMP protection for the USB"
 		(exclude_from_sim no)
 		(at 157.48 17.78 0)
 		(size 71.12 53.34)
@@ -8152,6 +8152,10 @@
 		(uuid "7938f58f-3b54-4e12-9a55-9576a3780b46")
 	)
 	(no_connect
+		(at 210.82 59.69)
+		(uuid "7aa3ddcd-597e-4c37-ac9d-10bb1e8da82a")
+	)
+	(no_connect
 		(at 58.42 128.27)
 		(uuid "7e1da76d-1b80-4fb7-a030-a27ef2abdbb5")
 	)
@@ -8194,6 +8198,10 @@
 	(no_connect
 		(at 58.42 130.81)
 		(uuid "9b24be98-ed63-4145-830b-f26962f83fee")
+	)
+	(no_connect
+		(at 210.82 57.15)
+		(uuid "a0a99d53-3ed2-48f6-a5f1-896f9e9d6d3d")
 	)
 	(no_connect
 		(at 58.42 92.71)
@@ -8332,6 +8340,16 @@
 			(type default)
 		)
 		(uuid "0b205440-67dc-4ecc-9846-4e8b55abb9af")
+	)
+	(wire
+		(pts
+			(xy 210.82 62.23) (xy 217.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbba541-fb2d-40ad-b975-df57e8d98182")
 	)
 	(wire
 		(pts
@@ -8512,6 +8530,16 @@
 			(type default)
 		)
 		(uuid "2d5e473f-f5a0-441d-92c4-159daa54fd21")
+	)
+	(wire
+		(pts
+			(xy 210.82 64.77) (xy 217.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318a70c3-ffe3-4025-b1a1-c53463fda9f0")
 	)
 	(wire
 		(pts
@@ -9901,6 +9929,16 @@
 			"wAAAUlOBAQCkpgIDAEhNBQYAkJoKDAAgtf8Dy1tj/sNkI88AAAAASUVORK5CYII="
 		)
 	)
+	(label "USB_D-"
+		(at 217.17 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d438482-5ba7-4cf2-99a4-875a4b274848")
+	)
 	(label "USB_D+"
 		(at 252.73 106.68 0)
 		(effects
@@ -9950,6 +9988,16 @@
 			(justify left bottom)
 		)
 		(uuid "87eb785a-49c4-49b2-ad2f-24e69556bac1")
+	)
+	(label "USB_D+"
+		(at 217.17 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2fc9143-0e23-4a90-b847-05e903252938")
 	)
 	(label "USB_D+"
 		(at 137.16 39.37 0)
