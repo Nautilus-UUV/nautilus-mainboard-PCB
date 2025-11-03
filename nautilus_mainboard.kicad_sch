@@ -346,6 +346,48 @@
 		)
 	)
 	(sheet
+		(at 177.8 93.98)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bdf8f7d6-a5ee-4741-925d-5019e8cbdfce")
+		(property "Sheetname" "IMU"
+			(at 177.8 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 177.8 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 177.8 25.4)
 		(size 50.8 50.8)
 		(exclude_from_sim no)

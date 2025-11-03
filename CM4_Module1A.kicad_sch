@@ -4807,6 +4807,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "N/A"
+		(exclude_from_sim no)
+		(at 116.7877 132.0238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "037090e1-73f1-4c76-ab82-fbf405bb6185")
+	)
 	(text "connect Wlan to gnd if off, and leave floating for on.\nPlease use a 2 pin connector here with a jumper cap. (has to be done)"
 		(exclude_from_sim no)
 		(at 176.022 121.158 0)

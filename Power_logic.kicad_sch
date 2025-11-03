@@ -128,6 +128,16 @@
 		)
 		(uuid "3e21db82-b1cd-41cf-8c24-87ff54ed9925")
 	)
+	(text "If STM has power, power the gyro and accelerometer"
+		(exclude_from_sim no)
+		(at 137.16 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68cc19a4-c18f-4a8c-a61d-6ae5e0c618bd")
+	)
 	(text "maybe scrap this?"
 		(exclude_from_sim no)
 		(at 73.914 48.26 0)
@@ -185,7 +195,7 @@
 	)
 	(text "some rules:\nUSB wont power the STM32.\nSTM_Plug wont power the CM4\nThe GPIO_VREF of the CM4 needs to be STM32's 3.3V\nThe Lan Vin is only powered when running on Battery\nBattery preferrably powers everything."
 		(exclude_from_sim no)
-		(at 165.354 49.784 0)
+		(at 165.354 62.484 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -196,8 +206,8 @@
 	)
 	(text_box "Conditional Power routes:"
 		(exclude_from_sim no)
-		(at 109.22 40.64 0)
-		(size 109.22 96.52)
+		(at 109.22 53.34 0)
+		(size 109.22 81.28)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -237,7 +247,7 @@
 	(text_box "Unconditional Power routes:"
 		(exclude_from_sim no)
 		(at 109.22 17.78 0)
-		(size 109.22 20.32)
+		(size 109.22 30.48)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -255,7 +265,7 @@
 		(uuid "f76e80f2-9fe2-4a6e-a105-031502c2badf")
 	)
 	(junction
-		(at 168.91 90.17)
+		(at 168.91 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7908cb50-cc65-42cd-a0d4-2d6af40f5acd")
@@ -268,7 +278,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 73.66) (xy 170.18 73.66)
+			(xy 167.64 86.36) (xy 170.18 86.36)
 		)
 		(stroke
 			(width 0)
@@ -278,7 +288,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 149.86 92.71)
+			(xy 146.05 105.41) (xy 149.86 105.41)
 		)
 		(stroke
 			(width 0)
@@ -288,7 +298,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 76.2) (xy 149.86 76.2)
+			(xy 146.05 88.9) (xy 149.86 88.9)
 		)
 		(stroke
 			(width 0)
@@ -308,7 +318,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 110.49) (xy 149.86 110.49)
+			(xy 144.78 123.19) (xy 149.86 123.19)
 		)
 		(stroke
 			(width 0)
@@ -318,7 +328,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 92.71) (xy 175.26 92.71)
+			(xy 168.91 105.41) (xy 175.26 105.41)
 		)
 		(stroke
 			(width 0)
@@ -358,7 +368,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 99.06) (xy 147.32 99.06)
+			(xy 125.73 44.45) (xy 133.35 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d9be5d-ca0d-4e5c-8ec4-39b93bf5c2c3")
+	)
+	(wire
+		(pts
+			(xy 175.26 111.76) (xy 147.32 111.76)
 		)
 		(stroke
 			(width 0)
@@ -378,7 +398,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 92.71) (xy 175.26 99.06)
+			(xy 175.26 105.41) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -398,7 +418,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 87.63) (xy 149.86 87.63)
+			(xy 146.05 100.33) (xy 149.86 100.33)
 		)
 		(stroke
 			(width 0)
@@ -418,7 +438,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 90.17) (xy 168.91 92.71)
+			(xy 168.91 102.87) (xy 168.91 105.41)
 		)
 		(stroke
 			(width 0)
@@ -448,7 +468,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 149.86 105.41)
+			(xy 147.32 118.11) (xy 149.86 118.11)
 		)
 		(stroke
 			(width 0)
@@ -478,7 +498,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 90.17) (xy 170.18 90.17)
+			(xy 168.91 102.87) (xy 170.18 102.87)
 		)
 		(stroke
 			(width 0)
@@ -488,7 +508,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 99.06) (xy 147.32 105.41)
+			(xy 147.32 111.76) (xy 147.32 118.11)
 		)
 		(stroke
 			(width 0)
@@ -498,7 +518,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 107.95) (xy 170.18 107.95)
+			(xy 167.64 120.65) (xy 170.18 120.65)
 		)
 		(stroke
 			(width 0)
@@ -518,7 +538,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 71.12) (xy 149.86 71.12)
+			(xy 146.05 83.82) (xy 149.86 83.82)
 		)
 		(stroke
 			(width 0)
@@ -528,7 +548,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 90.17) (xy 168.91 90.17)
+			(xy 167.64 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1740,7 +1760,7 @@
 	)
 	(global_label "Battery_Out_3.3V"
 		(shape input)
-		(at 146.05 87.63 180)
+		(at 146.05 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1750,7 +1770,7 @@
 		)
 		(uuid "0302422d-bb38-414e-9e8f-c270217a2ce4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.0992 87.63 0)
+			(at 127.0992 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1826,7 @@
 	)
 	(global_label "CM4_OUT_3.3V"
 		(shape input)
-		(at 144.78 110.49 180)
+		(at 144.78 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1816,7 +1836,7 @@
 		)
 		(uuid "1607664d-429c-48d4-be20-da79b120e7e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.1877 110.49 0)
+			(at 128.1877 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1848,7 @@
 	)
 	(global_label "GPIO_VREF_3.3V"
 		(shape input)
-		(at 170.18 107.95 0)
+		(at 170.18 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1838,7 +1858,7 @@
 		)
 		(uuid "1708ad38-9c04-465d-bd96-afd66e2ccb6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2843 107.95 0)
+			(at 188.2843 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1870,7 @@
 	)
 	(global_label "CM4_IN_5V"
 		(shape input)
-		(at 170.18 73.66 0)
+		(at 170.18 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1860,7 +1880,51 @@
 		)
 		(uuid "2b6bc532-5ce1-4d9c-ad5f-f37301ac04e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.2647 73.66 0)
+			(at 183.2647 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_IN_3.3V"
+		(shape input)
+		(at 125.73 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e16c061-2682-4e3a-b561-2d6de114ca2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.1334 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BMI_IN_3.3V"
+		(shape input)
+		(at 133.35 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f4c143e-9b79-40a0-b3c9-ec92af8b05f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.6443 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +1958,7 @@
 	)
 	(global_label "STM_IN_3.3V"
 		(shape input)
-		(at 170.18 90.17 0)
+		(at 170.18 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1904,7 +1968,7 @@
 		)
 		(uuid "74f63345-9209-4d8a-8c21-32de2d202ffa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.7766 90.17 0)
+			(at 184.7766 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1980,7 @@
 	)
 	(global_label "USB_Out_5V"
 		(shape input)
-		(at 146.05 76.2 180)
+		(at 146.05 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1926,7 +1990,7 @@
 		)
 		(uuid "7cb889b2-e94c-4bcc-9dea-87762ea23ba5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.8163 76.2 0)
+			(at 131.8163 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +2024,7 @@
 	)
 	(global_label "STM_Plug_3.3V"
 		(shape input)
-		(at 146.05 92.71 180)
+		(at 146.05 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1970,7 +2034,7 @@
 		)
 		(uuid "af98434f-2a03-4863-b313-63d744087bf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1555 92.71 0)
+			(at 129.1555 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2068,7 @@
 	)
 	(global_label "Battery_Out_5V"
 		(shape input)
-		(at 146.05 71.12 180)
+		(at 146.05 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2014,7 +2078,7 @@
 		)
 		(uuid "c6e16077-3b7c-4e49-85a9-640911145704")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.9135 71.12 0)
+			(at 128.9135 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2155,7 @@
 		)
 	)
 	(sheet
-		(at 149.86 69.85)
+		(at 149.86 82.55)
 		(size 17.78 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2107,7 +2171,7 @@
 		)
 		(uuid "7fd5a03c-dea9-4dd3-96f2-bf31ea6dc8ac")
 		(property "Sheetname" "5V_Logic"
-			(at 149.86 69.1384 0)
+			(at 149.86 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2180,7 @@
 			)
 		)
 		(property "Sheetfile" "5V_Logic.kicad_sch"
-			(at 149.86 78.0546 0)
+			(at 149.86 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2189,7 @@
 			)
 		)
 		(pin "Battery_Out_5V" input
-			(at 149.86 71.12 180)
+			(at 149.86 83.82 180)
 			(uuid "2363faf1-d0ce-46e3-a237-7225d7320cbc")
 			(effects
 				(font
@@ -2135,7 +2199,7 @@
 			)
 		)
 		(pin "CM4_In_5V" output
-			(at 167.64 73.66 0)
+			(at 167.64 86.36 0)
 			(uuid "bf2bafb8-9f86-4c3e-9aa1-b95fcc5c1888")
 			(effects
 				(font
@@ -2145,7 +2209,7 @@
 			)
 		)
 		(pin "USB_Out_5V" input
-			(at 149.86 76.2 180)
+			(at 149.86 88.9 180)
 			(uuid "ec97ca4f-cefa-4cdc-ba4d-64ab2c071ca5")
 			(effects
 				(font
@@ -2163,7 +2227,7 @@
 		)
 	)
 	(sheet
-		(at 149.86 86.36)
+		(at 149.86 99.06)
 		(size 17.78 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2179,7 +2243,7 @@
 		)
 		(uuid "85d0d345-ed3a-4658-9370-48b549969854")
 		(property "Sheetname" "3.3V_Logic"
-			(at 149.86 85.6484 0)
+			(at 149.86 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2252,7 @@
 			)
 		)
 		(property "Sheetfile" "3.3V_Logic.kicad_sch"
-			(at 149.86 94.5646 0)
+			(at 149.86 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +2261,7 @@
 			)
 		)
 		(pin "Battery_Out_3.3V" output
-			(at 149.86 87.63 180)
+			(at 149.86 100.33 180)
 			(uuid "cf2a3d39-ea00-4c38-b9cb-9b6fdfebaff1")
 			(effects
 				(font
@@ -2207,7 +2271,7 @@
 			)
 		)
 		(pin "STM_IN_3.3V" output
-			(at 167.64 90.17 0)
+			(at 167.64 102.87 0)
 			(uuid "ca1b7544-493d-449e-9a81-1a820d962fe2")
 			(effects
 				(font
@@ -2217,7 +2281,7 @@
 			)
 		)
 		(pin "STM_Plug_3.3V" output
-			(at 149.86 92.71 180)
+			(at 149.86 105.41 180)
 			(uuid "b95c1305-31c3-488e-a449-813815624059")
 			(effects
 				(font
@@ -2235,7 +2299,7 @@
 		)
 	)
 	(sheet
-		(at 149.86 104.14)
+		(at 149.86 116.84)
 		(size 17.78 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2251,7 +2315,7 @@
 		)
 		(uuid "e46d3b44-477e-48ec-b385-9b4870813d66")
 		(property "Sheetname" "GPIO_REF3.3V"
-			(at 149.86 103.4284 0)
+			(at 149.86 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2324,7 @@
 			)
 		)
 		(property "Sheetfile" "GPIO_REF3.3V.kicad_sch"
-			(at 149.86 112.3446 0)
+			(at 149.86 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2333,7 @@
 			)
 		)
 		(pin "CM4_OUT_3.3V" output
-			(at 149.86 110.49 180)
+			(at 149.86 123.19 180)
 			(uuid "fc951667-1d0c-472d-ba64-8026fdf6e463")
 			(effects
 				(font
@@ -2279,7 +2343,7 @@
 			)
 		)
 		(pin "GPIO_VREF_3.3V" output
-			(at 167.64 107.95 0)
+			(at 167.64 120.65 0)
 			(uuid "e04440ce-7e28-4015-b1a1-0ca9aad271bf")
 			(effects
 				(font
@@ -2289,7 +2353,7 @@
 			)
 		)
 		(pin "STM_IN_3.3V" output
-			(at 149.86 105.41 180)
+			(at 149.86 118.11 180)
 			(uuid "16c49781-27e3-48a9-bfda-2c4d643e0885")
 			(effects
 				(font

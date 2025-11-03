@@ -1046,6 +1046,10 @@
       "CM4_Module1B"
     ],
     [
+      "aa94fdc5-ff6c-4519-87c9-a17e3d5a65da",
+      "IMU3"
+    ],
+    [
       "f7f72d9d-a73c-4da1-b97a-073a2603b35d",
       "PCIE_Interface"
     ],
@@ -1068,6 +1072,22 @@
     [
       "e46d3b44-477e-48ec-b385-9b4870813d66",
       "GPIO_REF3.3V"
+    ],
+    [
+      "bdf8f7d6-a5ee-4741-925d-5019e8cbdfce",
+      "IMU"
+    ],
+    [
+      "0c7afee2-dd12-41f0-a704-0f15387072b0",
+      "IMU1"
+    ],
+    [
+      "a7ffb13a-d9ae-4b81-b70f-0aefcfc6ef00",
+      "IMU2"
+    ],
+    [
+      "4edb01d0-d391-4e5b-8779-1c2a840c0f0f",
+      "IMU4"
     ]
   ],
   "text_variables": {}

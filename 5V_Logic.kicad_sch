@@ -8583,7 +8583,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TPS2121RUXT"
 			(at 146.05 119.38 0)
 			(effects
 				(font

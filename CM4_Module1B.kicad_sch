@@ -5674,7 +5674,7 @@
 					)
 				)
 			)
-			(property "Value" "SMF5.0A-TP"
+			(property "Value" "833-SMF5.0A-TP"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -5718,7 +5718,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SMF5.0A-TP"
+			(property "MPN" "833-SMF5.0A-TP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10212,7 +10212,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SMF5.0A-TP"
+		(property "MPN" "833-SMF5.0A-TP"
 			(at 257.81 96.52 0)
 			(effects
 				(font

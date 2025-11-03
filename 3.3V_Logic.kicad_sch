@@ -3094,7 +3094,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TPS2121RUXT"
 			(at 139.7 118.11 0)
 			(effects
 				(font
