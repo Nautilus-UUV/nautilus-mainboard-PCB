@@ -1477,10 +1477,6 @@
 		)
 		(instances
 			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/4edb01d0-d391-4e5b-8779-1c2a840c0f0f"
-					(reference "#PWR046")
-					(unit 1)
-				)
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/a7ffb13a-d9ae-4b81-b70f-0aefcfc6ef00"
 					(reference "#PWR039")
 					(unit 1)
@@ -1547,10 +1543,6 @@
 		)
 		(instances
 			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/4edb01d0-d391-4e5b-8779-1c2a840c0f0f"
-					(reference "#PWR044")
-					(unit 1)
-				)
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/a7ffb13a-d9ae-4b81-b70f-0aefcfc6ef00"
 					(reference "#PWR037")
 					(unit 1)
@@ -1720,10 +1712,6 @@
 		)
 		(instances
 			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/4edb01d0-d391-4e5b-8779-1c2a840c0f0f"
-					(reference "C50")
-					(unit 1)
-				)
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/a7ffb13a-d9ae-4b81-b70f-0aefcfc6ef00"
 					(reference "C46")
 					(unit 1)
@@ -1893,10 +1881,6 @@
 		)
 		(instances
 			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/4edb01d0-d391-4e5b-8779-1c2a840c0f0f"
-					(reference "C49")
-					(unit 1)
-				)
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/a7ffb13a-d9ae-4b81-b70f-0aefcfc6ef00"
 					(reference "C45")
 					(unit 1)
@@ -1963,10 +1947,6 @@
 		)
 		(instances
 			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/4edb01d0-d391-4e5b-8779-1c2a840c0f0f"
-					(reference "#PWR045")
-					(unit 1)
-				)
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/a7ffb13a-d9ae-4b81-b70f-0aefcfc6ef00"
 					(reference "#PWR038")
 					(unit 1)
@@ -2334,10 +2314,6 @@
 		)
 		(instances
 			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/4edb01d0-d391-4e5b-8779-1c2a840c0f0f"
-					(reference "U5")
-					(unit 1)
-				)
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/a7ffb13a-d9ae-4b81-b70f-0aefcfc6ef00"
 					(reference "U3")
 					(unit 1)
