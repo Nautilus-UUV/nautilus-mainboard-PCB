@@ -5784,6 +5784,10 @@
 		(uuid "3b5fd026-9b02-4533-bd2f-faadd4468771")
 	)
 	(no_connect
+		(at 115.57 54.61)
+		(uuid "3ff53ddb-33be-43cc-9957-2a01035ea47b")
+	)
+	(no_connect
 		(at 90.17 128.27)
 		(uuid "48218c1a-3f58-4d39-9c11-2f15b7207c09")
 	)
@@ -5814,6 +5818,10 @@
 	(no_connect
 		(at 107.95 54.61)
 		(uuid "6f421c93-5aea-48d9-ba2f-616dfae093a0")
+	)
+	(no_connect
+		(at 100.33 54.61)
+		(uuid "75fd7672-e423-4044-9242-c949c5b9787d")
 	)
 	(no_connect
 		(at 113.03 54.61)
@@ -5864,10 +5872,6 @@
 		(uuid "d91231a0-9c97-434d-b5b0-b86aedddd3d5")
 	)
 	(no_connect
-		(at 72.39 107.95)
-		(uuid "d91decba-c382-40e1-81df-2e00ed9ec3f4")
-	)
-	(no_connect
 		(at 110.49 128.27)
 		(uuid "e57a8ac4-d88c-4892-b18d-58017f6a6a0a")
 	)
@@ -5878,10 +5882,6 @@
 	(no_connect
 		(at 125.73 97.79)
 		(uuid "f66c3f47-eb0f-4092-be20-cf2a638dfcc8")
-	)
-	(no_connect
-		(at 72.39 105.41)
-		(uuid "f9db54ce-aaea-4e42-b622-01c5b5b07d77")
 	)
 	(no_connect
 		(at 125.73 100.33)
@@ -5896,6 +5896,16 @@
 			(type default)
 		)
 		(uuid "03533d4e-6f35-4de9-8fb5-9cac0139687d")
+	)
+	(wire
+		(pts
+			(xy 59.69 105.41) (xy 72.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069f5e7e-2e6f-4a02-bb44-6c6d901455f2")
 	)
 	(wire
 		(pts
@@ -6146,6 +6156,16 @@
 			(type default)
 		)
 		(uuid "4b9fcf23-0af7-4ccf-bb31-bd0d532cfd16")
+	)
+	(wire
+		(pts
+			(xy 59.69 107.95) (xy 72.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5062e32f-461a-43b5-b9ff-a98833a364c4")
 	)
 	(wire
 		(pts
@@ -14414,6 +14434,16 @@
 			"RERERERkq/8H2hzRcOHt4rAAAAAASUVORK5CYII="
 		)
 	)
+	(label "UART4_TX"
+		(at 60.96 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02fd2c8f-d50a-4831-8c4d-dbabdfcf8922")
+	)
 	(label "CAN1_TX"
 		(at 130.81 82.55 0)
 		(effects
@@ -14533,16 +14563,6 @@
 			(justify left bottom)
 		)
 		(uuid "53e0c078-02e0-4ca2-8157-20083a4016ca")
-	)
-	(label "3V3_ext"
-		(at 269.24 16.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f03ecf3-682f-4e1a-9e31-8068012499ee")
 	)
 	(label "nRST"
 		(at 176.53 41.91 0)
@@ -14774,6 +14794,16 @@
 		)
 		(uuid "dbe43dd7-c644-486b-97c3-20f75dc4c525")
 	)
+	(label "UART4_RX"
+		(at 60.96 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deb262c7-62d5-402d-91c7-92f896baf5be")
+	)
 	(label "Vss"
 		(at 82.55 139.7 90)
 		(effects
@@ -14846,6 +14876,28 @@
 			)
 		)
 	)
+	(global_label "STM_TX"
+		(shape input)
+		(at 59.69 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73f70bb7-4df2-4cf3-8b7e-a1bb98c33fa8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.9316 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STM_Plug_3.3V"
 		(shape output)
 		(at 250.19 16.51 180)
@@ -14859,6 +14911,28 @@
 		(uuid "83241f7e-ee0d-4b3a-8a8e-3189ead0343e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 233.2955 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_RX"
+		(shape input)
+		(at 59.69 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aee80142-1b99-401b-91d7-dcbe7e70d8d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.6292 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
