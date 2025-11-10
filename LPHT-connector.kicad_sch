@@ -2254,7 +2254,7 @@
 		)
 		(uuid "655f6b6f-e06f-49f5-a00a-a8d5315e2f4d")
 	)
-	(label "CAN_H"
+	(label "ST_CAN_P"
 		(at 205.74 90.17 0)
 		(effects
 			(font
@@ -2264,7 +2264,7 @@
 		)
 		(uuid "836e58db-0235-497c-9d6f-ef46671a8f37")
 	)
-	(label "CAN_L"
+	(label "ST_CAN_N"
 		(at 205.74 92.71 0)
 		(effects
 			(font
@@ -2306,6 +2306,28 @@
 			)
 		)
 	)
+	(global_label "ST_CAN_N"
+		(shape input)
+		(at 205.74 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fae5749-9974-4acf-8528-3644920ac34f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.6229 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Battery_Out_5V"
 		(shape output)
 		(at 205.74 100.33 180)
@@ -2319,6 +2341,28 @@
 		(uuid "cbf63fa5-e04c-40ef-a3ae-9142bab8db82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 188.6035 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ST_CAN_P"
+		(shape input)
+		(at 205.74 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8592d6f-e7b8-4d02-8d6c-84dd06778aab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.6834 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
