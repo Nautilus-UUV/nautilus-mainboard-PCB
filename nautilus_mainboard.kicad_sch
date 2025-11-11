@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(text "We should consider that we NEVER want the CM4 to power the unpowered STM\nover the TX pin. Found a neat part for that:\nhttps://www.mouser.ch/ProductDetail/Texas-Instruments/SN74LVC1G126DBVR?qs=pajgIaoyDUi3T2WgNNfd3w%3D%3D\n\nconnections:\nPin 5: VCC -> CM4_3V3\n\nPin 2: A -> CM4 TX (PLTX)\n\nPin 4: Y -> STM_UART_RX\n\nPin 1: OE -> STM_IN_3.3V\n\nPin 3: GND\n\n0.1uF decoupling cap VCC-GND\n\n220 Ohm series at Y (to STM). (current limiting)\n\n100 kOhm pull-down from OE to GND"
 		(exclude_from_sim no)
-		(at 51.816 187.198 0)
+		(at 67.056 121.92 0)
 		(effects
 			(font
 				(size 2 2)
@@ -71,6 +71,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 59.69) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726c35b5-e7ca-4d83-84e1-b1987430d389")
+	)
+	(wire
+		(pts
 			(xy 76.2 52.07) (xy 101.6 52.07)
 		)
 		(stroke
@@ -108,6 +118,16 @@
 			(type default)
 		)
 		(uuid "ea49f43e-4924-4386-93d5-387551f175a1")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 101.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9599363-b973-4c9b-93f9-979a0b6d2e32")
 	)
 	(wire
 		(pts
@@ -166,6 +186,26 @@
 		(pin "STM_UART_TX" input
 			(at 76.2 45.72 0)
 			(uuid "a743339a-f58c-4a22-9685-ab26721b415c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RUN_PG_CM4" input
+			(at 76.2 40.64 0)
+			(uuid "140a2226-c9a4-44cc-ae95-c3638862d202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GLOBAL_EN_CM4" input
+			(at 76.2 59.69 0)
+			(uuid "bb7e76e6-ffd1-4bd8-9c59-a55de694d0d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,6 +596,26 @@
 		(pin "PI_TX" input
 			(at 101.6 52.07 180)
 			(uuid "f959af84-0c74-41b2-810a-c7820c160bfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RUN_PG" input
+			(at 101.6 40.64 180)
+			(uuid "e0a9fbb7-4090-4e43-91ee-39850dfd2856")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GLOBAL_EN_CM4" input
+			(at 101.6 59.69 180)
+			(uuid "a996e75f-dded-4987-8461-01ebed0c90e1")
 			(effects
 				(font
 					(size 1.27 1.27)

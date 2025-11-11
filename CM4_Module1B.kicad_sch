@@ -7723,6 +7723,16 @@
 		)
 		(uuid "71910451-3cd1-4724-8056-b9dfd37fed5e")
 	)
+	(text "maybe RX and TX need to be switched"
+		(exclude_from_sim no)
+		(at 29.464 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88ebf4ff-95e0-402f-9a4e-c8c5371be2ac")
+	)
 	(text "indicator LED :)"
 		(exclude_from_sim no)
 		(at 260.096 83.312 0)
@@ -8152,10 +8162,6 @@
 		(uuid "7938f58f-3b54-4e12-9a55-9576a3780b46")
 	)
 	(no_connect
-		(at 210.82 59.69)
-		(uuid "7aa3ddcd-597e-4c37-ac9d-10bb1e8da82a")
-	)
-	(no_connect
 		(at 58.42 128.27)
 		(uuid "7e1da76d-1b80-4fb7-a030-a27ef2abdbb5")
 	)
@@ -8192,16 +8198,8 @@
 		(uuid "95e345f6-5a95-4020-a851-2987b4d6acce")
 	)
 	(no_connect
-		(at 175.26 39.37)
-		(uuid "980996c0-eef4-445d-b3e6-47c37c7db549")
-	)
-	(no_connect
 		(at 58.42 130.81)
 		(uuid "9b24be98-ed63-4145-830b-f26962f83fee")
-	)
-	(no_connect
-		(at 210.82 57.15)
-		(uuid "a0a99d53-3ed2-48f6-a5f1-896f9e9d6d3d")
 	)
 	(no_connect
 		(at 58.42 92.71)
@@ -8230,10 +8228,6 @@
 	(no_connect
 		(at 119.38 90.17)
 		(uuid "bf5be0f1-eb2b-4da3-ab47-690f6b3f68b4")
-	)
-	(no_connect
-		(at 175.26 41.91)
-		(uuid "c19d458e-8ced-4ccf-9f52-f244d2897524")
 	)
 	(no_connect
 		(at 58.42 34.29)
@@ -8340,16 +8334,6 @@
 			(type default)
 		)
 		(uuid "0b205440-67dc-4ecc-9846-4e8b55abb9af")
-	)
-	(wire
-		(pts
-			(xy 210.82 62.23) (xy 217.17 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbba541-fb2d-40ad-b975-df57e8d98182")
 	)
 	(wire
 		(pts
@@ -8530,16 +8514,6 @@
 			(type default)
 		)
 		(uuid "2d5e473f-f5a0-441d-92c4-159daa54fd21")
-	)
-	(wire
-		(pts
-			(xy 210.82 64.77) (xy 217.17 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "318a70c3-ffe3-4025-b1a1-c53463fda9f0")
 	)
 	(wire
 		(pts
@@ -8993,16 +8967,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 39.37) (xy 215.9 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b2e6fe5-3e39-44fd-82c0-5a6d8c44b978")
-	)
-	(wire
-		(pts
 			(xy 240.03 104.14) (xy 252.73 104.14)
 		)
 		(stroke
@@ -9080,16 +9044,6 @@
 			(type default)
 		)
 		(uuid "b757cffa-776d-40bb-80aa-2a5255ff6624")
-	)
-	(wire
-		(pts
-			(xy 210.82 41.91) (xy 215.9 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b783e595-60d9-4126-9eaf-e40a3df7eddc")
 	)
 	(wire
 		(pts
@@ -9243,7 +9197,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 52.07) (xy 215.9 52.07)
+			(xy 210.82 52.07) (xy 224.79 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9929,15 +9883,15 @@
 			"wAAAUlOBAQCkpgIDAEhNBQYAkJoKDAAgtf8Dy1tj/sNkI88AAAAASUVORK5CYII="
 		)
 	)
-	(label "USB_D-"
-		(at 217.17 62.23 0)
+	(label "USB_D+"
+		(at 210.82 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0d438482-5ba7-4cf2-99a4-875a4b274848")
+		(uuid "0aac0b4c-48a0-4613-a1c6-7de3c2e33777")
 	)
 	(label "USB_D+"
 		(at 252.73 106.68 0)
@@ -9950,6 +9904,16 @@
 		(uuid "0db8faf3-fb02-465e-b899-cc181ba90510")
 	)
 	(label "USB_D+"
+		(at 210.82 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13fe9d29-3c5a-48da-8eb7-3359756ac364")
+	)
+	(label "USB_D+"
 		(at 252.73 114.3 0)
 		(effects
 			(font
@@ -9959,25 +9923,35 @@
 		)
 		(uuid "185c4bb1-ad49-4e3e-b70d-7663a99eec2e")
 	)
+	(label "USB_D-"
+		(at 175.26 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "357ede8a-7531-4cd1-9102-9cc1c6c00c13")
+	)
 	(label "USB_D+"
-		(at 215.9 39.37 0)
+		(at 210.82 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5b700e6b-98f6-4831-adb3-dd80e978e08a")
+		(uuid "59b92eda-82e7-4ae8-831e-e99f5ab9a6a8")
 	)
 	(label "USB_D-"
-		(at 215.9 41.91 0)
+		(at 210.82 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6f652437-f571-4ba1-b45c-03ea87e095be")
+		(uuid "7dd98270-2264-4e15-aa96-94d87986b7b2")
 	)
 	(label "USB_D-"
 		(at 252.73 111.76 0)
@@ -9989,15 +9963,15 @@
 		)
 		(uuid "87eb785a-49c4-49b2-ad2f-24e69556bac1")
 	)
-	(label "USB_D+"
-		(at 217.17 64.77 0)
+	(label "USB_D-"
+		(at 210.82 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b2fc9143-0e23-4a90-b847-05e903252938")
+		(uuid "b8f02605-d19e-41d8-8091-d8f7ee095320")
 	)
 	(label "USB_D+"
 		(at 137.16 39.37 0)
@@ -10018,6 +9992,26 @@
 			(justify left bottom)
 		)
 		(uuid "ca9aa5d9-adec-4099-92ed-a82e68e1be69")
+	)
+	(label "USB_D+"
+		(at 210.82 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d75f5d52-36a7-46c9-afdb-ea6429fb4479")
+	)
+	(label "USB_D-"
+		(at 175.26 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9f8f682-e23d-4f15-bc11-4f8978d03c6c")
 	)
 	(label "USB_D-"
 		(at 252.73 104.14 0)
@@ -10153,7 +10147,6 @@
 	(symbol
 		(lib_id "#dzdb:s_dio/D-MCC-SMF5.0A-TP")
 		(at 257.81 96.52 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10169,7 +10162,7 @@
 			)
 		)
 		(property "Value" "SMF5.0A-TP"
-			(at 257.556 98.806 0)
+			(at 258.064 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12577,7 +12570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 52.07 0)
+		(at 224.79 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12586,7 +12579,7 @@
 		(fields_autoplaced yes)
 		(uuid "b214ff03-1082-44a8-a64c-f6d4d1eac462")
 		(property "Reference" "#PWR024"
-			(at 215.9 58.42 0)
+			(at 224.79 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,7 +12588,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 57.15 0)
+			(at 224.79 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12603,7 +12596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 52.07 0)
+			(at 224.79 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12612,7 +12605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 52.07 0)
+			(at 224.79 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,7 +12614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 52.07 0)
+			(at 224.79 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -753,6 +753,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f19683-13f2-4601-a200-002206a80b22")
+	)
+	(wire
+		(pts
 			(xy 196.85 97.79) (xy 196.85 115.57)
 		)
 		(stroke
@@ -930,6 +940,16 @@
 			(type default)
 		)
 		(uuid "a9cce76a-88d2-49b0-8277-5dc27f8d1254")
+	)
+	(wire
+		(pts
+			(xy 82.55 93.98) (xy 86.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad812b65-fd5d-47cf-9bcc-38646185c6bb")
 	)
 	(wire
 		(pts
@@ -1170,6 +1190,17 @@
 		)
 		(uuid "73971524-0a6c-4907-b835-e398c503f95e")
 	)
+	(hierarchical_label "GLOBAL_EN_CM4"
+		(shape input)
+		(at 82.55 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8009e521-619b-4570-a441-0fcf27c44801")
+	)
 	(hierarchical_label "PI_TX"
 		(shape input)
 		(at 124.46 104.14 270)
@@ -1202,6 +1233,17 @@
 			(justify right)
 		)
 		(uuid "c89462bf-34d5-47d9-955e-49793b389e02")
+	)
+	(hierarchical_label "RUN_PG"
+		(shape input)
+		(at 142.24 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4cb6de7-a833-4ab4-a4d8-145ac0ebbf09")
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-4.3k-0603")
@@ -1770,6 +1812,26 @@
 		(pin "SDA0" output
 			(at 86.36 90.17 180)
 			(uuid "1a84df04-4d1e-4096-b9c1-8428959b09e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RUN_PG" input
+			(at 137.16 57.15 0)
+			(uuid "e0dd7d45-6c5e-45a5-a667-7bf31a91f3c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GLOBAL_EN_CM4" input
+			(at 86.36 93.98 180)
+			(uuid "07772ba9-f61d-4ce1-8490-7dceae6b8e42")
 			(effects
 				(font
 					(size 1.27 1.27)

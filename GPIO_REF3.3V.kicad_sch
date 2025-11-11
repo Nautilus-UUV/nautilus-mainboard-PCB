@@ -5154,6 +5154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Order" "Ordered=True"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "1f0a9edd-ae57-4510-94c8-758814b0b584")
 		)

@@ -3268,6 +3268,15 @@
 				(hide yes)
 			)
 		)
+		(property "Order" "Ordered=True"
+			(at 125.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f7c6f879-eb2d-47f0-b82f-20c01c8b1a1a")
 		)

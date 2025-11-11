@@ -37,6 +37,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 76.2) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ad3607-89cd-4f27-b1fa-4641030e83cf")
+	)
+	(wire
+		(pts
 			(xy 58.42 76.2) (xy 58.42 86.36)
 		)
 		(stroke
@@ -44,6 +54,16 @@
 			(type default)
 		)
 		(uuid "a29fc8ed-dd1e-455a-b9a9-6a2f9441d023")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39700cb-3ed3-4c2e-ac2f-ff4ca41e58cd")
 	)
 	(hierarchical_label "STM_UART_TX"
 		(shape input)
@@ -66,6 +86,28 @@
 			(justify right)
 		)
 		(uuid "3d78b591-7b69-4a44-9686-7c17426802cc")
+	)
+	(hierarchical_label "GLOBAL_EN_CM4"
+		(shape input)
+		(at 53.34 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4316e83c-ce59-4215-b807-1daba72cb541")
+	)
+	(hierarchical_label "RUN_PG_CM4"
+		(shape input)
+		(at 68.58 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab0f2b8b-52f4-499b-aeb4-6bc043966b6c")
 	)
 	(sheet
 		(at 101.6 25.4)
@@ -196,6 +238,26 @@
 		(pin "STM_USART_TX" output
 			(at 63.5 76.2 270)
 			(uuid "46946d24-65f2-4ad4-9744-a74f3b2e5ca8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RUN_PG_CM4" input
+			(at 68.58 76.2 270)
+			(uuid "0fdc99f9-57aa-402b-ae30-6c31561c50c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GLOBAL_EN_CM4" input
+			(at 53.34 76.2 270)
+			(uuid "9e78617e-7c7c-470b-a5a1-5d5a7d16d153")
 			(effects
 				(font
 					(size 1.27 1.27)
