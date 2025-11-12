@@ -11,6 +11,14 @@ on:
       - '**.kicad_sch'
       - '**.kicad_pcb'
 
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      targets:
+        description: 'Specific targets to build (space separated, or "all")'
+        required: false
+        default: 'all'
+
 jobs:
   kibot:
     runs-on: ubuntu-latest
@@ -23,6 +31,7 @@ jobs:
         dir: outputs
         schema: nautilus_mainboard.kicad_sch
         board: nautilus_mainboard.kicad_pcb
+        targets: ${{ github.event.inputs.targets || 'all' }}
 
     - uses: actions/upload-artifact@v4
       with:
