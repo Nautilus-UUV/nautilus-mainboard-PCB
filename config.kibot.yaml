@@ -1,154 +1,49 @@
-# KiBot Configuration
+# Minimal KiBot Configuration
 kibot:
   version: 1
 
-# Preflight checks
+# Basic checks
 preflight:
-  run_erc: true                    # Enable ERC
-  run_drc: true                    # Enable DRC
-  check_zone_fills: true           # Check copper pours are filled
-  ignore_unconnected: false        # Report unconnected pins
+  run_erc: true
+  run_drc: true
 
-# Outputs
 outputs:
-  # ========== Fabrication Files ==========
-  
+  # Gerbers for fabrication
   - name: 'gerbers'
     comment: 'Gerber files for PCB fabrication'
     type: gerber
-    dir: Fabrication/Gerbers
-    options:
-      exclude_edge_layer: true
-      exclude_pads_from_silkscreen: true
-      use_aux_axis_as_origin: false
-      create_gerber_job_file: true
-    layers:
-      - F.Cu
-      - B.Cu
-      - F.SilkS
-      - B.SilkS
-      - F.Mask
-      - B.Mask
-      - F.Paste
-      - B.Paste
-      - Edge.Cuts
+    dir: Fabrication
+    layers: all
 
+  # Drill files
   - name: 'drill'
-    comment: 'Drill files (Excellon format)'
+    comment: 'Drill files'
     type: excellon
-    dir: Fabrication/Drill
-    options:
-      map:
-        type: pdf
+    dir: Fabrication
 
-  - name: 'position'
-    comment: 'Pick and place file'
-    type: position
-    dir: Fabrication/Assembly
-    options:
-      format: CSV
-      separate_files_for_front_and_back: false
-
-  # ========== Documentation ==========
-  
-  - name: 'bom_html'
-    comment: 'Interactive HTML Bill of Materials'
+  # Single BOM in Excel format
+  - name: 'bom'
+    comment: 'Bill of Materials'
     type: bom
-    dir: Documentation/BoM
-    options:
-      format: HTML
-      html:
-        style: modern-blue
-        highlight_empty: false
-
-  - name: 'bom_xlsx'
-    comment: 'Excel Bill of Materials'
-    type: bom
-    dir: Documentation/BoM
+    dir: Documentation
     options:
       format: XLSX
 
-  - name: 'bom_csv'
-    comment: 'CSV Bill of Materials'
-    type: bom
-    dir: Documentation/BoM
-    options:
-      format: CSV
-
+  # Simple PDF documentation
   - name: 'schematic_pdf'
-    comment: 'Schematic in PDF format'
+    comment: 'Schematic PDF'
     type: pdf_sch_print
-    dir: Documentation/Schematic
+    dir: Documentation
 
-  - name: 'pcb_top_pdf'
-    comment: 'PCB top view PDF'
-    type: pcb_print
-    dir: Documentation/PCB
-    options:
-      format: PDF
-      pages:
-        - layers: [ F.Cu, F.SilkS, Dwgs.User, Edge.Cuts ]
-          sheet: 'Top layer'
-
-  - name: 'pcb_bottom_pdf'
-    comment: 'PCB bottom view PDF'
-    type: pcb_print
-    dir: Documentation/PCB
-    options:
-      format: PDF
-      pages:
-        - layers: [ B.Cu, B.SilkS, Dwgs.User, Edge.Cuts ]
-          sheet: 'Bottom layer'
-          mirror: true
-
-  # ========== 3D Visualization ==========
-  
-  - name: 'pcb_top_3d'
-    comment: 'PCB 3D view - top'
+  # One 3D rendering
+  - name: 'pcb_3d'
+    comment: 'PCB 3D view'
     type: render_3d
-    dir: Documentation/3D
+    dir: Documentation
     options:
-      view: top
       ray_tracing: true
-      orthographic: true
 
-  - name: 'pcb_bottom_3d'
-    comment: 'PCB 3D view - bottom'
-    type: render_3d
-    dir: Documentation/3D
-    options:
-      view: bottom
-      ray_tracing: true
-      orthographic: true
-
-  - name: 'step'
-    comment: '3D model in STEP format'
-    type: step
-    dir: Documentation/3D
-
-  # ========== PCB Images ==========
-  
-  - name: 'pcb_top_svg'
-    comment: 'PCB top view SVG'
-    type: svg_pcb_print
-    dir: Documentation/Images
-    options:
-      output: '%f-top.%x'
-    layers: [ F.Cu, F.SilkS, Edge.Cuts ]
-
-  - name: 'pcb_bottom_svg'
-    comment: 'PCB bottom view SVG'
-    type: svg_pcb_print
-    dir: Documentation/Images
-    options:
-      output: '%f-bottom.%x'
-      mirror: true
-    layers: [ B.Cu, B.SilkS, Edge.Cuts ]
-
-  # ========== Navigate Interface ==========
-  
-  - name: 'navigate_results'
-    comment: 'Browsable web interface for all outputs'
+  # Navigate interface to browse results
+  - name: 'navigate'
+    comment: 'Browsable results'
     type: navigate_results
-    options:
-      link_from_root: 'index.html'
