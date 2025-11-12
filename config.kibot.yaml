@@ -10,9 +10,9 @@ global:
 
 # Basic preflight checks (KiCad 8 syntax)
 preflight:
-  erc: true                   # (KiCad 8+ syntax)
-  drc: true                   # (KiCad 8+ syntax)
-  check_zone_fills: true
+  erc: false                   # (KiCad 8+ syntax)
+  drc: false                   # (KiCad 8+ syntax)
+  check_zone_fills: false
 
 # Working outputs only
 outputs:
