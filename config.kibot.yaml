@@ -1,0 +1,90 @@
+# Simple KiBot Configuration - Core Functionality Only
+kibot:
+  version: 1
+
+# Basic preflight checks
+preflight:
+  erc: true
+  drc: true
+  check_zone_fills: true
+
+# Essential outputs only
+outputs:
+  # Quality checks
+  - name: 'erc_report'
+    comment: 'Electrical Rules Check'
+    type: erc
+
+  - name: 'drc_report'
+    comment: 'Design Rules Check'
+    type: drc
+
+  # Fabrication files
+  - name: 'gerbers'
+    comment: 'Gerber files'
+    type: gerber
+    layers:
+      - F.Cu
+      - B.Cu
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+
+  - name: 'drill'
+    comment: 'Drill files'
+    type: excellon
+
+  # Documentation
+  - name: 'bom'
+    comment: 'Bill of Materials'
+    type: bom
+
+  - name: 'schematic_pdf'
+    comment: 'Schematic PDF'
+    type: pdf_sch_print
+
+  - name: 'pcb_pdf'
+    comment: 'PCB layout PDF'
+    type: pdf_pcb_print
+    layers:
+      - F.Cu
+      - F.SilkS
+      - Edge.Cuts
+
+  # Web-friendly visualizations for GitHub Pages
+  - name: 'pcb_top_render'
+    comment: 'PCB top view (web)'
+    type: pcbdraw
+    options:
+      output: '%f-top.svg'
+
+  - name: 'pcb_bottom_render'
+    comment: 'PCB bottom view (web)'
+    type: pcbdraw
+    options:
+      output: '%f-bottom.svg'
+      bottom: true
+
+  - name: 'interactive_bom'
+    comment: 'Interactive HTML BoM'
+    type: ibom
+    options:
+      include_tracks: true
+      include_nets: true
+
+  - name: '3d_render'
+    comment: '3D render for web'
+    type: render_3d
+    options:
+      output: '%f-3D.png'
+      width: 1920
+      height: 1080
+
+  # Automatic website index generation
+  - name: 'navigate_results'
+    comment: 'Auto-generated website index'
+    type: navigate_results
+    options:
+      link_from_root: 'index.html'

@@ -1,0 +1,37 @@
+name: KiBot
+
+on:
+  push:
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+      - 'config.kibot.yaml'
+  pull_request:
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        config: config.kibot.yaml
+        dir: outputs
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: PCB-outputs
+        path: outputs
+
+    # Deploy web visualizations to GitHub Pages
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: outputs
+        destination_dir: pcb
