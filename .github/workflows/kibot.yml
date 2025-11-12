@@ -5,7 +5,6 @@ on:
     paths:
       - '**.kicad_sch'
       - '**.kicad_pcb'
-      - 'config.kibot.yaml'
       - '.github/workflows/kibot.yml'
   pull_request:
     paths:
@@ -13,89 +12,55 @@ on:
       - '**.kicad_pcb'
 
 jobs:
-  # ERC/DRC checks
-  checks:
+  quick:
     runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
+
     steps:
-      - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: '0'
 
-      - name: Cache KiBot dependencies
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cache/kibot
-            ~/.local/share/kibot
-          key: kibot-cache-${{ runner.os }}-${{ hashFiles('*.kicad_pcb', '*.kicad_sch') }}
-          restore-keys: |
-            kibot-cache-${{ runner.os }}-
+    - name: Quick Start
+      run: |
+        kibot --quick-start
 
-      - name: Run ERC/DRC
-        id: checks
-        uses: INTI-CMNB/KiBot@v2_k9
-        continue-on-error: true
-        with:
-          config: config.kibot.yaml
-          dir: outputs
-          targets: __NONE__
-      
-      - name: Upload check results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: ERC-DRC-Reports
-          path: outputs
-
-  # Build outputs
-  build:
-    runs-on: ubuntu-latest
-    needs: checks
-    if: always()
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Cache KiBot dependencies
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cache/kibot
-            ~/.local/share/kibot
-          key: kibot-cache-${{ runner.os }}-${{ hashFiles('*.kicad_pcb', '*.kicad_sch') }}
-          restore-keys: |
-            kibot-cache-${{ runner.os }}-
-
-      - uses: INTI-CMNB/KiBot@v2_k9
-        with:
-          config: config.kibot.yaml
-          dir: outputs
-          skip: run_erc,run_drc
-      
-      - uses: actions/upload-artifact@v4
-        with:
-          name: PCB-outputs
-          path: outputs
-      
-      - name: Disable Jekyll
-        run: |
-          mkdir -p outputs
-          touch outputs/.nojekyll
-      
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: outputs
+    - name: Retrieve results
+      uses: actions/upload-artifact@v4
+      with:
+        name: Automatic_outputs
+        path: Generated
 
   # Deploy to GitHub Pages
   deploy:
     if: github.ref == 'refs/heads/main'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: quick
     permissions:
       pages: write
       id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+    - uses: actions/checkout@v4
+
+    - name: Retrieve results
+      uses: actions/download-artifact@v4
+      with:
+        name: Automatic_outputs
+        path: Generated
+
+    - name: Disable Jekyll
+      run: |
+        touch Generated/.nojekyll
+
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: Generated
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
