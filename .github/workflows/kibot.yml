@@ -15,6 +15,13 @@ on:
 jobs:
   kibot:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
     - uses: actions/checkout@v4
 
@@ -30,11 +37,15 @@ jobs:
         name: PCB-outputs
         path: outputs
 
-    # Deploy web visualizations to GitHub Pages
+    # Upload Pages artifact
+    - name: Upload Pages artifact
+      if: github.ref == 'refs/heads/main'
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: outputs
+
+    # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: outputs
-        destination_dir: pcb
+      id: deployment
+      uses: actions/deploy-pages@v4
