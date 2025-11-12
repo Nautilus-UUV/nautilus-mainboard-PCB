@@ -23,7 +23,9 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: '0'
+        token: ${{ secrets.GITHUB_TOKEN }}
 
+    # kibot --quick-start -t bom -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t navigate_results
     - name: Quick Start
       run: |
           kibot --quick-start -t ibom -t navigate_results
@@ -48,6 +50,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Retrieve results
       uses: actions/download-artifact@v4
