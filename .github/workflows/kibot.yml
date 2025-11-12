@@ -18,7 +18,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
+      - name: Cache KiBot dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/kibot
+            ~/.local/share/kibot
+          key: kibot-cache-${{ runner.os }}-${{ hashFiles('*.kicad_pcb', '*.kicad_sch') }}
+          restore-keys: |
+            kibot-cache-${{ runner.os }}-
+
       - name: Run ERC/DRC
         id: checks
         uses: INTI-CMNB/KiBot@v2_k9
@@ -26,8 +36,6 @@ jobs:
         with:
           config: config.kibot.yaml
           dir: outputs
-          schema: nautilus_mainboard.kicad_sch
-          board: nautilus_mainboard.kicad_pcb
           targets: __NONE__
       
       - name: Upload check results
@@ -44,13 +52,21 @@ jobs:
     if: always()
     steps:
       - uses: actions/checkout@v4
-      
+
+      - name: Cache KiBot dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/kibot
+            ~/.local/share/kibot
+          key: kibot-cache-${{ runner.os }}-${{ hashFiles('*.kicad_pcb', '*.kicad_sch') }}
+          restore-keys: |
+            kibot-cache-${{ runner.os }}-
+
       - uses: INTI-CMNB/KiBot@v2_k9
         with:
           config: config.kibot.yaml
           dir: outputs
-          schema: nautilus_mainboard.kicad_sch
-          board: nautilus_mainboard.kicad_pcb
           skip: run_erc,run_drc
       
       - uses: actions/upload-artifact@v4
@@ -59,7 +75,7 @@ jobs:
           path: outputs
       
       - name: Disable Jekyll
-        run: touch outputs/.nojekyll
+        run: mkdir -p outputs && touch outputs/.nojekyll
       
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
