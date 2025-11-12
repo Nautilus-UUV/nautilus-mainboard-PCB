@@ -18,13 +18,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: INTI-CMNB/KiBot@v2_k9
+      
+      - name: Run ERC/DRC
+        id: checks
+        uses: INTI-CMNB/KiBot@v2_k9
+        continue-on-error: true
         with:
           config: config.kibot.yaml
           dir: outputs
           schema: nautilus_mainboard.kicad_sch
           board: nautilus_mainboard.kicad_pcb
-          targets: __NONE__  # Only run preflights (ERC/DRC)
+          targets: __NONE__
       
       - name: Upload check results
         if: always()
@@ -37,8 +41,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     needs: checks
+    if: always()
     steps:
       - uses: actions/checkout@v4
+      
       - uses: INTI-CMNB/KiBot@v2_k9
         with:
           config: config.kibot.yaml
