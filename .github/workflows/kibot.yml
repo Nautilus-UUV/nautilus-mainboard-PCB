@@ -21,6 +21,8 @@ jobs:
       with:
         config: config.kibot.yaml
         dir: outputs
+        schema: nautilus_mainboard.kicad_sch
+        board: nautilus_mainboard.kicad_pcb
 
     - uses: actions/upload-artifact@v4
       with:

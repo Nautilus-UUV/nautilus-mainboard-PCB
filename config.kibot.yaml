@@ -2,12 +2,16 @@
 kibot:
   version: 1
 
-# Basic preflight checks - run but don't fail on violations
+# Global filters to suppress warnings
+global:
+  filters:
+    - number: 58              # Suppress filtered ERC/DRC errors (they become warnings)
+      regex: '.*'
+
+# Basic preflight checks (KiCad 8 syntax)
 preflight:
-  run_erc: true
-  erc_warnings: true          # Treat ERC violations as warnings, not errors
-  run_drc: true
-  drc_warnings: true          # Treat DRC violations as warnings, not errors
+  erc: true                   # (KiCad 8+ syntax)
+  drc: true                   # (KiCad 8+ syntax)
   check_zone_fills: true
 
 # Working outputs only
