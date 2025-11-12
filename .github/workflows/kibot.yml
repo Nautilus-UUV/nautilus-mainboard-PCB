@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: INTI-CMNB/KiBot@v2_k8
+    - uses: INTI-CMNB/KiBot@v2_k9
       with:
         config: config.kibot.yaml
         dir: outputs
