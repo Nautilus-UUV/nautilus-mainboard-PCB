@@ -13,11 +13,11 @@ outputs:
   # Quality checks
   - name: 'erc_report'
     comment: 'Electrical Rules Check'
-    type: erc
+    type: erc_report
 
   - name: 'drc_report'
     comment: 'Design Rules Check'
-    type: drc
+    type: drc_report
 
   # Fabrication files
   - name: 'gerbers'
