@@ -1,10 +1,12 @@
-name: KiBot Quick Start
+name: KiBot
+
 on:
   workflow_dispatch:
   push:
     paths:
       - '**.kicad_sch'
       - '**.kicad_pcb'
+      - 'config.kibot.yaml'
       - '.github/workflows/kibot.yml'
   pull_request:
     paths:
@@ -14,30 +16,28 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
-    
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Quick Start
-        run: |
-          kibot --quick-start
-      
-      - name: Disable Jekyll
-        run: |
-          touch Generated/.nojekyll
-      
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: Automatic_outputs
-          path: Generated
-      
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: Generated
+    - uses: actions/checkout@v4
 
+    - uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        config: config.kibot.yaml
+        dir: outputs
+        schema: nautilus_mainboard.kicad_sch
+        board: nautilus_mainboard.kicad_pcb
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: PCB-outputs
+        path: outputs
+
+    # Upload Pages artifact
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: outputs
+
+  # Deploy job
   deploy:
     if: github.ref == 'refs/heads/main'
     environment:

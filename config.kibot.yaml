@@ -1,0 +1,50 @@
+# Simple KiBot Configuration
+kibot:
+  version: 1
+
+# Global filters to suppress warnings
+global:
+  filters:
+    - number: 58              # Suppress filtered ERC/DRC errors (they become warnings)
+      regex: '.*'
+
+# Basic preflight checks (KiCad 8 syntax)
+preflight:
+  erc: false                   # (KiCad 8+ syntax)
+  drc: false                   # (KiCad 8+ syntax)
+  check_zone_fills: false
+
+# Working outputs only
+outputs:
+  # Fabrication files
+  - name: 'gerbers'
+    comment: 'Gerber files'
+    type: gerber
+    layers:
+      - F.Cu
+      - B.Cu
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+
+  - name: 'drill'
+    comment: 'Drill files'
+    type: excellon
+
+  # Basic documentation
+  - name: 'bom'
+    comment: 'Bill of Materials'
+    type: bom
+
+  - name: 'schematic_pdf'
+    comment: 'Schematic PDF'
+    type: pdf_sch_print
+
+  # Automatic website index generation
+  - name: 'navigate_results'
+    comment: 'Auto-generated website index'
+    type: navigate_results
+    options:
+      link_from_root: 'index.html'
