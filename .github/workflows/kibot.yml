@@ -23,7 +23,7 @@ jobs:
 
     - name: Quick Start
       run: |
-        kibot --quick-start
+          kibot --quick-start -t bom -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t navigate_results
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
