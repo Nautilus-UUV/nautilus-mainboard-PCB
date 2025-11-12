@@ -75,7 +75,9 @@ jobs:
           path: outputs
       
       - name: Disable Jekyll
-        run: mkdir -p outputs && touch outputs/.nojekyll
+        run: |
+          mkdir -p outputs
+          touch outputs/.nojekyll
       
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
