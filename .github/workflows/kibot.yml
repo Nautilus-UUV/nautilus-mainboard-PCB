@@ -18,12 +18,13 @@ jobs:
     permissions:
       contents: read
       actions: write
+      metadata: read
 
     steps:
     - uses: actions/checkout@v4
       with:
         fetch-depth: '0'
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.NAUTILUS_CI_PAT_TOKEN }}
 
     # kibot --quick-start -t bom -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t navigate_results
     - name: Quick Start
