@@ -47,3 +47,5 @@ outputs:
   - name: 'navigate'
     comment: 'Browsable results'
     type: navigate_results
+    options:
+      link_from_root: index.html
