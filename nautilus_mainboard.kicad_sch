@@ -419,6 +419,26 @@
 				(justify left top)
 			)
 		)
+		(pin "Pack1_SCL" input
+			(at 184.15 93.98 90)
+			(uuid "965fbacc-baaa-4b5b-971a-2d7da1a0679b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pack1_SDA" input
+			(at 186.69 93.98 90)
+			(uuid "e2edc7c6-5225-4179-970e-43f4164f332f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"

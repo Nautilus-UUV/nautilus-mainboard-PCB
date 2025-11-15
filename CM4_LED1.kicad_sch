@@ -1459,7 +1459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "425321f7-9694-4536-a2ea-967471ea2162")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 110.236 84.074 0)
 			(effects
 				(font
@@ -1601,7 +1601,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/e0935ee6-fc77-4de6-a0ac-caf50bea3bcd"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)

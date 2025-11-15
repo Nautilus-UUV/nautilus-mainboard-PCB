@@ -1808,7 +1808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27f362eb-ac3c-4206-afcd-d8ecb8f00365")
-		(property "Reference" "BMI2"
+		(property "Reference" "BMI1"
 			(at 124.46 87.63 90)
 			(effects
 				(font
@@ -1959,7 +1959,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
-					(reference "BMI2")
+					(reference "BMI1")
 					(unit 1)
 				)
 			)
@@ -1974,7 +1974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "456a1b7a-2ca5-4ecc-958c-5203a5a6354d")
-		(property "Reference" "BMI2_SCL1"
+		(property "Reference" "BMI1_SCL1"
 			(at 124.46 97.79 90)
 			(effects
 				(font
@@ -2125,7 +2125,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
-					(reference "BMI2_SCL1")
+					(reference "BMI1_SCL1")
 					(unit 1)
 				)
 			)
@@ -2441,7 +2441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff27340-aba3-43d5-9c17-7dc62b4e598f")
-		(property "Reference" "BMI2_SDA1"
+		(property "Reference" "BMI1_SDA1"
 			(at 124.46 100.33 90)
 			(effects
 				(font
@@ -2592,7 +2592,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
-					(reference "BMI2_SDA1")
+					(reference "BMI1_SDA1")
 					(unit 1)
 				)
 			)
@@ -2777,7 +2777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc2f955e-c004-4113-941b-a6b0bd3077d3")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 148.59 72.39 0)
 			(effects
 				(font
@@ -3128,7 +3128,7 @@
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
