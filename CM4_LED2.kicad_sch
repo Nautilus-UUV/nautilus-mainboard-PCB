@@ -5,131 +5,6 @@
 	(uuid "993ea579-11ae-49ef-99ca-b0de6476e8c8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "#dzdb:g_mech/M-TEST-SMT_1.5mm_round"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Test Point"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMT Test Point 1.5mm round"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "IPN" "M-TEST-SMT_1.5mm_round"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comments" "TestPoint 1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TestPoint:TestPoint_Pad_D1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "g_mech/M-TEST-SMT_1.5mm_round_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "g_mech/M-TEST-SMT_1.5mm_round_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "#dzdb:g_res/R-1k-0603"
 			(pin_numbers
 				(hide yes)
@@ -639,7 +514,7 @@
 		)
 		(uuid 75c79178-41de-4b84-beca-72a085f899ba)
 	)
-	(text "Simple Activity LED with test point"
+	(text "Simple Activity LED"
 		(exclude_from_sim no)
 		(at 72.644 44.704 0)
 		(effects
@@ -659,25 +534,9 @@
 		)
 		(uuid "b4891bbf-11ae-42b5-80b9-eb5d9b7ab25c")
 	)
-	(junction
-		(at 100.33 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf863111-c5ce-41fb-b12d-b0d72bfa969a")
-	)
 	(wire
 		(pts
-			(xy 100.33 53.34) (xy 100.33 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2906a9bd-efea-4440-b553-79c7cc290702")
-	)
-	(wire
-		(pts
-			(xy 90.17 62.23) (xy 100.33 62.23)
+			(xy 90.17 62.23) (xy 115.57 62.23)
 		)
 		(stroke
 			(width 0)
@@ -704,16 +563,6 @@
 			(type default)
 		)
 		(uuid "49926ecd-d396-4609-9677-82708e7e00fa")
-	)
-	(wire
-		(pts
-			(xy 100.33 62.23) (xy 115.57 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0479813-faea-4d50-9bc6-6f54a235aa42")
 	)
 	(global_label "CM4_LED_IN_3.3V"
 		(shape input)
@@ -1077,91 +926,6 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/b50f6d86-4325-4d05-931a-73973954b099"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_mech/M-TEST-SMT_1.5mm_round")
-		(at 100.33 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28c9fdc7-99b3-40d7-8726-c0941b515726")
-		(property "Reference" "TP2"
-			(at 102.87 48.7679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test Point"
-			(at 102.87 51.3079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 105.41 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMT Test Point 1.5mm round"
-			(at 100.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "M-TEST-SMT_1.5mm_round"
-			(at 100.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" "TestPoint 1.5mm"
-			(at 100.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b9a0bf8-bf1f-4059-8f46-1ad61616834b")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/b50f6d86-4325-4d05-931a-73973954b099"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
