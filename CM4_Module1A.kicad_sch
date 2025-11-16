@@ -5818,6 +5818,10 @@
 		(uuid "d1921948-b632-48c8-9467-affdd7b7a5fe")
 	)
 	(no_connect
+		(at 26.67 140.97)
+		(uuid "d3cd0336-42e8-4b33-a7b3-104e95ed9513")
+	)
+	(no_connect
 		(at 40.64 110.49)
 		(uuid "d8a83274-e0d7-4ed7-90e8-f11fbf070c30")
 	)
@@ -5832,6 +5836,10 @@
 	(no_connect
 		(at 26.67 82.55)
 		(uuid "e23caca4-40b0-4abf-9475-d635864f3ad9")
+	)
+	(no_connect
+		(at 26.67 143.51)
+		(uuid "e2ada945-f9e3-45e0-a1be-e4ab0a4e1d00")
 	)
 	(no_connect
 		(at 118.11 69.85)
@@ -7633,16 +7641,6 @@
 		)
 		(uuid "1c8d7d1a-d5f5-4b2b-be57-89abc3b5d335")
 	)
-	(label "AIN0"
-		(at 26.67 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "215f934d-9456-4d69-813b-7bdc4553cefd")
-	)
 	(label "TRD0_N"
 		(at 189.23 33.02 0)
 		(effects
@@ -7972,16 +7970,6 @@
 			(justify right bottom)
 		)
 		(uuid "d1fd8092-6c54-4f51-a33f-ea970daf543f")
-	)
-	(label "AIN1"
-		(at 26.67 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db9481d3-2854-4f24-a231-781b7d9218dc")
 	)
 	(label "TRD3_P"
 		(at 189.23 50.8 0)

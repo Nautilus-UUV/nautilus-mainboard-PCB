@@ -1704,6 +1704,14 @@
 		(color 0 0 0 0)
 		(uuid "d4881925-1d3e-40c0-87fe-4eddb5c40335")
 	)
+	(no_connect
+		(at 172.72 66.04)
+		(uuid "405197ec-ba85-4957-9342-542411a97ec3")
+	)
+	(no_connect
+		(at 149.86 102.87)
+		(uuid "8d5d6efd-42ea-491d-94cb-3c0ecf0298e5")
+	)
 	(wire
 		(pts
 			(xy 172.72 80.01) (xy 163.83 80.01)
@@ -1833,28 +1841,6 @@
 			(type default)
 		)
 		(uuid "fefde082-cc1e-4ce3-906e-ef9d140bb5bf")
-	)
-	(hierarchical_label "Piezo_ctrl"
-		(shape input)
-		(at 149.86 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "145a97a2-ba4f-4e26-9984-1ce224464337")
-	)
-	(hierarchical_label "10V"
-		(shape input)
-		(at 172.72 66.04 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac05a19f-a999-4868-8a3f-81715a1dc57f")
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-1k-0603")

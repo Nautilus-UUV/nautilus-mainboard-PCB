@@ -981,6 +981,16 @@
 		)
 		(uuid "2db036f0-6071-4bc4-8220-c78f925b71b3")
 	)
+	(text "It does not make any sense to have separate UART connection to CM4 since we have a lan and USB connection already."
+		(exclude_from_sim no)
+		(at 224.79 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84cbf9db-00b6-40c6-b3db-1de5a56881af")
+	)
 	(text_box "Counterpiece to  LPHS-04-16-L-VP1-GP"
 		(exclude_from_sim no)
 		(at 185.42 60.96 0)
@@ -1052,6 +1062,10 @@
 		(uuid "29242c15-9bf2-43b0-9212-4602da17a8dc")
 	)
 	(no_connect
+		(at 205.74 80.01)
+		(uuid "5587353f-9847-4202-8c86-41127e217fc2")
+	)
+	(no_connect
 		(at 217.17 115.57)
 		(uuid "760e1f5b-5b5b-4e1f-8e0f-e5852a6fdff5")
 	)
@@ -1062,6 +1076,10 @@
 	(no_connect
 		(at 242.57 105.41)
 		(uuid "ac844ae8-feb5-470e-aa3e-a4fa89f1553b")
+	)
+	(no_connect
+		(at 205.74 82.55)
+		(uuid "b97cb544-0ead-4f05-9997-b0846394e1ca")
 	)
 	(no_connect
 		(at 242.57 100.33)
@@ -2244,16 +2262,6 @@
 		)
 		(uuid "4cdca534-54ec-4b73-a92a-ead0be84e31d")
 	)
-	(label "TX_PI"
-		(at 205.74 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "655f6b6f-e06f-49f5-a00a-a8d5315e2f4d")
-	)
 	(label "ST_CAN_P"
 		(at 205.74 90.17 0)
 		(effects
@@ -2273,16 +2281,6 @@
 			(justify left bottom)
 		)
 		(uuid "8d148146-2284-42a1-ba93-5ce35a5b7cd4")
-	)
-	(label "RX_PI"
-		(at 205.74 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad7d7176-5d05-446b-911f-10f048b60a8b")
 	)
 	(global_label "Battery_Out_3.3V"
 		(shape output)
