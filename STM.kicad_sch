@@ -27,6 +27,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 76.2) (xy 36.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4540f6ff-5b39-426a-bf86-d4429269a4e6")
+	)
+	(wire
+		(pts
 			(xy 76.2 50.8) (xy 101.6 50.8)
 		)
 		(stroke
@@ -44,6 +54,16 @@
 			(type default)
 		)
 		(uuid "76ad3607-89cd-4f27-b1fa-4641030e83cf")
+	)
+	(wire
+		(pts
+			(xy 33.02 76.2) (xy 33.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dff3ce2-f6fb-4de2-bf57-c77d073218fa")
 	)
 	(wire
 		(pts
@@ -97,6 +117,28 @@
 			(justify right)
 		)
 		(uuid "4316e83c-ce59-4215-b807-1daba72cb541")
+	)
+	(hierarchical_label "Pack1_SCL"
+		(shape input)
+		(at 33.02 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "440f0e6d-e4e0-4d92-8456-348f0e4c7a64")
+	)
+	(hierarchical_label "Pack1_SDA"
+		(shape input)
+		(at 36.83 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "724386b4-8bbe-489b-89a2-d01eec5ef9a9")
 	)
 	(hierarchical_label "RUN_PG_CM4"
 		(shape input)
@@ -258,6 +300,26 @@
 		(pin "GLOBAL_EN_CM4" input
 			(at 53.34 76.2 270)
 			(uuid "9e78617e-7c7c-470b-a5a1-5d5a7d16d153")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pack1_SCL" input
+			(at 33.02 76.2 270)
+			(uuid "9d0ad70f-b959-49eb-97c6-246dc3b24722")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pack1_SDA" input
+			(at 36.83 76.2 270)
+			(uuid "f35c5d05-a477-45b6-9eff-cf31dceada59")
 			(effects
 				(font
 					(size 1.27 1.27)
