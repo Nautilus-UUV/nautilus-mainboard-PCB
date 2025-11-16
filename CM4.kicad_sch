@@ -1789,36 +1789,6 @@
 				(justify left)
 			)
 		)
-		(pin "nEXTRST" output
-			(at 86.36 85.09 180)
-			(uuid "cc5667ed-ef4b-4741-b603-055742112053")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCL0" output
-			(at 86.36 87.63 180)
-			(uuid "9a0d87af-8747-49ba-b922-dd8fb491930f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDA0" output
-			(at 86.36 90.17 180)
-			(uuid "1a84df04-4d1e-4096-b9c1-8428959b09e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RUN_PG" input
 			(at 137.16 57.15 0)
 			(uuid "e0dd7d45-6c5e-45a5-a667-7bf31a91f3c9")
