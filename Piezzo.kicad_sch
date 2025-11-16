@@ -1682,6 +1682,16 @@
 		)
 		(uuid "37008d4b-71f5-4e1c-aecd-daaf1bc92d4e")
 	)
+	(text "Not in the PCB yet as we dont know if we actually need it."
+		(exclude_from_sim no)
+		(at 173.228 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fad5c8c8-c2c6-4d48-bb7d-3ce82a681538")
+	)
 	(junction
 		(at 172.72 88.9)
 		(diameter 0)
