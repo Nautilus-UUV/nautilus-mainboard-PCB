@@ -5558,7 +5558,7 @@
 		)
 		(uuid "19b8de6a-13e0-4394-a19b-0b8fbd81c979")
 	)
-	(text "Connected to PB12\n"
+	(text "Connected to PB7\n\n"
 		(exclude_from_sim no)
 		(at 35.56 54.356 0)
 		(effects
@@ -5742,10 +5742,6 @@
 		(uuid "f1fca199-ded3-46fe-8db6-d98d57561e06")
 	)
 	(no_connect
-		(at 92.71 54.61)
-		(uuid "04054682-056a-4878-b34e-b052d8d009d0")
-	)
-	(no_connect
 		(at 72.39 85.09)
 		(uuid "08be187d-1c5f-4477-b0be-493fb81c892f")
 	)
@@ -5856,6 +5852,10 @@
 	(no_connect
 		(at 110.49 54.61)
 		(uuid "cb4e30c2-f7a7-4a47-bc7c-ee7cefd7c545")
+	)
+	(no_connect
+		(at 125.73 110.49)
+		(uuid "cfb19c83-c045-4f87-bc9c-e30ac4d4c49a")
 	)
 	(no_connect
 		(at 87.63 128.27)
@@ -6255,16 +6255,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 142.24 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f1feac1-9f13-44b5-abfd-c7b56673eae3")
-	)
-	(wire
-		(pts
 			(xy 134.62 167.64) (xy 134.62 172.72)
 		)
 		(stroke
@@ -6442,6 +6432,16 @@
 			(type default)
 		)
 		(uuid "91bbf857-fde6-42f9-a7f9-e599412361f5")
+	)
+	(wire
+		(pts
+			(xy 92.71 44.45) (xy 92.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937982e0-c2a2-49f9-957e-f5f748de6ef5")
 	)
 	(wire
 		(pts
@@ -14641,12 +14641,12 @@
 		(uuid "64123297-6c18-412f-a79a-30ec26dfc932")
 	)
 	(label "Fan_ctrl"
-		(at 142.24 110.49 180)
+		(at 92.71 44.45 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "72a49999-3384-41a2-a350-263f1997fa17")
 	)
