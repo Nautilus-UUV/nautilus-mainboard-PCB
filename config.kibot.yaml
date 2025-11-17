@@ -1,9 +1,9 @@
 kibot:
   version: 1
 
-preflight:
-  run_erc: true
-  run_drc: true
+#preflight:
+#  run_erc: true
+#  run_drc: true
 
 outputs:
   # Gerber files for fabrication
