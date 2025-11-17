@@ -4,7 +4,128 @@
 	(generator_version "9.0")
 	(uuid "ce1819b2-f280-40ed-834f-6fe4d12f809d")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(text "We should consider that we NEVER want the CM4 to power the unpowered STM\nover the TX pin. Found a neat part for that:\nhttps://www.mouser.ch/ProductDetail/Texas-Instruments/SN74LVC1G126DBVR?qs=pajgIaoyDUi3T2WgNNfd3w%3D%3D\n\nconnections:\nPin 5: VCC -> CM4_3V3\n\nPin 2: A -> CM4 TX (PLTX)\n\nPin 4: Y -> STM_UART_RX\n\nPin 1: OE -> STM_IN_3.3V\n\nPin 3: GND\n\n0.1uF decoupling cap VCC-GND\n\n220 Ohm series at Y (to STM). (current limiting)\n\n100 kOhm pull-down from OE to GND"
 		(exclude_from_sim no)
 		(at 74.422 180.848 0)
@@ -18,6 +139,30 @@
 			(justify left)
 		)
 		(uuid "279aae38-a8e0-4a6b-811e-131a79e0f07f")
+	)
+	(junction
+		(at 78.74 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2728c5a6-6ca4-4393-a15d-f57cc93d8482")
+	)
+	(junction
+		(at 80.01 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bf52f9b-bfa4-474a-b05a-fbce59c8e41a")
+	)
+	(junction
+		(at 83.82 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9343dc68-e3e4-4902-96b3-4eb238b3451b")
+	)
+	(junction
+		(at 83.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c751e1cb-d297-40cb-aac3-44ce85aa824c")
 	)
 	(wire
 		(pts
@@ -41,16 +186,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 45.72) (xy 101.6 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1036cf12-06c7-409c-a6f0-9b116b1d4a87")
-	)
-	(wire
-		(pts
 			(xy 121.92 76.2) (xy 121.92 92.71)
 		)
 		(stroke
@@ -58,6 +193,16 @@
 			(type default)
 		)
 		(uuid "173647dd-cdff-4f06-acc2-1de87eec55c2")
+	)
+	(wire
+		(pts
+			(xy 76.2 45.72) (xy 80.01 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ee68af-9643-4ddf-b374-86660fd2cadb")
 	)
 	(wire
 		(pts
@@ -71,6 +216,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 52.07) (xy 78.74 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c9bf97-ccea-420b-ad2d-16d7e1a619dd")
+	)
+	(wire
+		(pts
 			(xy 184.15 93.98) (xy 184.15 90.17)
 		)
 		(stroke
@@ -81,7 +236,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 90.17) (xy 55.88 90.17)
+			(xy 78.74 52.07) (xy 101.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fb062c-a07e-42f5-8975-6352a9d09e26")
+	)
+	(wire
+		(pts
+			(xy 55.88 90.17) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -98,16 +263,6 @@
 			(type default)
 		)
 		(uuid "726c35b5-e7ca-4d83-84e1-b1987430d389")
-	)
-	(wire
-		(pts
-			(xy 76.2 52.07) (xy 101.6 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819b691a-cb21-450f-a7eb-cfefb37f160f")
 	)
 	(wire
 		(pts
@@ -131,13 +286,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 87.63) (xy 59.69 87.63)
+			(xy 186.69 87.63) (xy 83.82 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a020c9cb-4461-403a-a6d8-e9db15fbe6f3")
+	)
+	(wire
+		(pts
+			(xy 83.82 90.17) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47f7c03-d427-49f4-93cf-2eb5acc8c075")
 	)
 	(wire
 		(pts
@@ -151,6 +316,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 87.63) (xy 59.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb12037e-c886-4d21-9f3e-8bf1fedb06d7")
+	)
+	(wire
+		(pts
 			(xy 186.69 93.98) (xy 186.69 87.63)
 		)
 		(stroke
@@ -158,6 +333,16 @@
 			(type default)
 		)
 		(uuid "bd77351a-9d70-4bbc-9546-9c7ee828e13c")
+	)
+	(wire
+		(pts
+			(xy 80.01 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c586b90d-6572-47ea-a83b-610deb74172c")
 	)
 	(wire
 		(pts
@@ -198,6 +383,274 @@
 			(type default)
 		)
 		(uuid "fa0a0e22-9512-4393-9bb6-d2717822a73a")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 80.01 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34df33ec-2ac5-4042-826f-36bb04643fa8")
+		(property "Reference" "TP4"
+			(at 83.82 42.8624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 83.82 45.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad513a01-0e71-4228-b51f-9689d3b9b746")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 83.82 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73c480f0-fad0-4ed6-a061-aeca3fecaab2")
+		(property "Reference" "TP2"
+			(at 87.63 84.7724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 87.63 87.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 83.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d564e87-a3ff-4a64-b8aa-f9d591f09daf")
+		)
+		(instances
+			(project ""
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 83.82 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d56beda0-3a8d-49b5-a3cb-21db858ca9d6")
+		(property "Reference" "TP3"
+			(at 87.63 87.3124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 87.63 89.8524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 88.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae97d885-2d61-4709-9b9a-15ebd56a21de")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 78.74 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e453ccb9-bf8e-4bf0-a32d-ebbc3574afdc")
+		(property "Reference" "TP5"
+			(at 82.55 49.2124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 82.55 51.7524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 78.74 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b212f172-e074-466a-933b-acc19762cc6f")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 25.4 25.4)
