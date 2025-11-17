@@ -23,7 +23,6 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: '0'
-        token: ${{ secrets.NAUTILUS_CI_PAT_TOKEN }}
 
     # kibot --quick-start -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t export_3d -t populate -t kicanvas -t navigate_results
     - name: Quick Start
@@ -50,8 +49,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.NAUTILUS_CI_PAT_TOKEN }}
 
     - name: Retrieve results
       uses: actions/download-artifact@v4
