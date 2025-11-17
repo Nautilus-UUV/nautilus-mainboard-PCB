@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <body>
+    <script type="module" src="kicanvas.js"></script>
+    <div id="no_file_access" style="display: none; ">
+      <span>The browser can't read local files. Enable it to continue. I.e. use <i>--allow-file-access-from-files</i> on Chrome</span>
+    </div>
+    <kicanvas-embed controls="full">
+      <kicanvas-source src="nautilus_mainboard.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="CM4.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="CM4_Module1A.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="CM4_Ethernet.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="CM4_LED1.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="CM4_LED2.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="CM4_Module1B.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="PCIE_Interface.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="IMU.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="IMU1.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="IMU2.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="LPHT-connector.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="Piezzo.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="Power_logic.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="3.3V_Logic.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="5V_Logic.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="GPIO_REF3.3V.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="STM.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="PowerSTM.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="PinoutSTM.kicad_sch"></kicanvas-source>
+      <kicanvas-source src="nautilus_mainboard.kicad_pcb"></kicanvas-source>
+    </kicanvas-embed>
+    <script>
+
+function ready()
+{
+ try
+   {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open('GET', 'nautilus_mainboard.kicad_pcb', false);
+    xmlhttp.send();
+   }
+ catch (error)
+   {
+    if (window.location.protocol === 'file:')
+      {
+       document.getElementById('no_file_access').style.display = 'block';
+      }
+    throw(error);
+   }
+}
+
+window.addEventListener('DOMContentLoaded', ready);
+    </script>
+  </body>
+</html>
