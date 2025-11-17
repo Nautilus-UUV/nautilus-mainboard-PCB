@@ -1,3 +1,6 @@
+# Learn how to write .kibot.yaml, look up https://kibot.readthedocs.io/en/latest/configuration.html or run:
+# docker run --rm -v $(pwd):/work -w /work ghcr.io/inti-cmnb/kicad9_auto_full:latest kibot --example
+
 kibot:
   version: 1
 
