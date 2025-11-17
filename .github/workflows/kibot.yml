@@ -24,10 +24,69 @@ jobs:
       with:
         fetch-depth: '0'
 
-    # kibot --quick-start -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t export_3d -t populate -t kicanvas -t navigate_results
+    # kibot --quick-start -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t export_3d -t populate -t kicanvas -t navigate_results -t navigate_results_rb
+    # Options:
+    # docker run --rm ghcr.io/inti-cmnb/kicad9_auto_full:latest kibot --help-list-outputs
+    # WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+    # Supported outputs
+    #
+    # * Blender Export [blender_export]
+    # * BoardView [boardview]
+    # * BoM (Bill of Materials) [bom]
+    # * Archiver (files compressor) [compress]
+    # * Files copier [copy_files]
+    # * Diff [diff]
+    # * Datasheets downloader [download_datasheets]
+    # * DXF (Drawing Exchange Format) [dxf]
+    # * DXF Schematic Print (Drawing Exchange Format) [dxf_sch_print]
+    # * Excellon drill format [excellon]
+    # * Various 3D models exports using KiCad (BREP/GLB/STL/STEP/XAO) [export_3d]
+    # * GenCAD [gencad]
+    # * Gerber drill format [gerb_drill]
+    # * Gerber format [gerber]
+    # * HPGL (Hewlett & Packard Graphics Language) [hpgl]
+    # * HPGL Schematic Print (Hewlett & Packard Graphics Language) [hpgl_sch_print]
+    # * IBoM (Interactive HTML BoM) [ibom]
+    # * Info [info]
+    # * IPC-DPMX (IPC-2581) [ipc2581]
+    # * KiCad Jobset (batch execution) [jobset]
+    # * KiBoM (KiCad Bill of Materials) [kibom]
+    # * KiCanvas [kicanvas]
+    # * KiCost (KiCad Cost calculator) [kicost]
+    # * KiKit's Present - Project Presentation [kikit_present]
+    # * KiRi [kiri]
+    # * Navigate Results [navigate_results]
+    # * Navigate Results [navigate_results_rb]
+    # * Netlist [netlist]
+    # * ODB++ [odb]
+    # * Panelize [panelize]
+    # * PCB2Blender Tools [pcb2blender_tools]
+    # * PCB Print [pcb_print]
+    # * PCB with variant generator [pcb_variant]
+    # * PcbDraw - Beautiful 2D PCB render [pcbdraw]
+    # * PDF (Portable Document Format) [pdf]
+    # * PDF PCB Print (Portable Document Format) *Deprecated* [pdf_pcb_print]
+    # * PDF Schematic Print (Portable Document Format) [pdf_sch_print]
+    # * PDF joiner [pdfunite]
+    # * Populate - Assembly instructions builder [populate]
+    # * Pick & place [position]
+    # * PS (Postscript) [ps]
+    # * PS Schematic Print (Postscript) [ps_sch_print]
+    # * QR_Lib [qr_lib]
+    # * 3D render of the PCB [render_3d]
+    # * Design report [report]
+    # * Schematic with variant generator [sch_variant]
+    # * 3D Printed Stencils [stencil_3d]
+    # * Steel Stencils for Alignment Jig [stencil_for_jig]
+    # * STEP (ISO 10303-21 Clear Text Encoding of the Exchange Structure) [step]
+    # * SVG (Scalable Vector Graphics) [svg]
+    # * SVG PCB Print (Scalable Vector Graphics) *Deprecated* [svg_pcb_print]
+    # * SVG Schematic Print [svg_sch_print]
+    # * VRML (Virtual Reality Modeling Language) [vrml]
+    
     - name: Quick Start
       run: |
-          kibot --quick-start
+        kibot --quick-start -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t export_3d -t populate -t kicanvas -t navigate_results -t navigate_results_rb
 
     - name: Retrieve results
       uses: actions/upload-artifact@v4
