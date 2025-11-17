@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>/PCB/fabrication/gerber</title>
+ <title>/PCB/docs</title>
  <meta charset="UTF-8">
  <link rel="stylesheet" href="styles.css">
  <link rel="icon" href="favicon.ico">
@@ -99,7 +99,7 @@
 <span id="close-navbar" style="font-size:30px;cursor:pointer;display:none;" onclick="closeNav()">⨉</span>
 <button id="back-button" onclick="history.back()" style="font-size:30px;">↩</button>
 <button id="forward-button" onclick="history.forward()" style="font-size:30px;">↪</button>
-<button id="up-button" onclick="location.href='nautilus_mainboard-navigate_PCB_fabrication.html'" style="font-size:44px; position: relative; top: -3px;">⌅</button>
+<button id="up-button" onclick="location.href='nautilus_mainboard-navigate.html'" style="font-size:44px; position: relative; top: -3px;">⌅</button>
 <button id="home-button" onclick="location.href='nautilus_mainboard-navigate.html'" style="font-size:25px; position: relative; top: -2px;">🏠︎</button>
 
             <span style="
@@ -110,7 +110,7 @@
                 text-overflow: ellipsis;
                 flex: 1;
             ">
-                <a href="nautilus_mainboard-navigate.html" style="text-decoration:none;color:inherit;">PCB</a>/<wbr><a href="nautilus_mainboard-navigate_PCB_fabrication.html" style="text-decoration:none;color:inherit;">fabrication</a>/<wbr><a href="nautilus_mainboard-navigate_PCB_fabrication_gerber.html" style="text-decoration:none;color:inherit;">gerber</a>
+                <a href="nautilus_mainboard-navigate.html" style="text-decoration:none;color:inherit;">PCB</a>/<wbr><a href="nautilus_mainboard-navigate_PCB_docs.html" style="text-decoration:none;color:inherit;">docs</a>
             </span>
 </div>
 <div style="text-align: center; flex: 1; min-width: 200px;">
@@ -150,80 +150,25 @@
         </div>
 </div>
 <div id="main">
-<div class="output-virtual-box" id="gerber_modern">
-<div class="output-comment">Gerber files for PCB fabrication</div>
+<div class="output-virtual-box" id="basic_pcbdraw_svg_top">
+<div class="output-comment">PCB 2D render in SVG format (top)</div>
 <div class="items-container">
 
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-F_Cu.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-F_Cu.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-F_Cu.gbr</p>
-            <p class="output-name">gerber_modern</p>
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/nautilus_mainboard-top.svg'">
+            <img src="images/cat_basic_pcbdraw_svg_top_nautilus_mainboard-top.png" alt="nautilus_mainboard-top.svg" width="512" height="308">
+            <p class="filename">nautilus_mainboard-top.svg</p>
+            <p class="output-name">basic_pcbdraw_svg_top</p>
         </div>
+</div>
+</div>
+<div class="output-virtual-box" id="basic_pcbdraw_png_top">
+<div class="output-comment">PCB 2D render in PNG format (top)</div>
+<div class="items-container">
 
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-F_Mask.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-F_Mask.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-F_Mask.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-F_Silkscreen.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-F_Silkscreen.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-F_Silkscreen.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-F_Paste.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-F_Paste.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-F_Paste.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-In1_Cu.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-In1_Cu.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-In1_Cu.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-In2_Cu.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-In2_Cu.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-In2_Cu.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-B_Cu.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-B_Cu.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-B_Cu.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-B_Mask.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-B_Mask.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-B_Mask.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-B_Silkscreen.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-B_Silkscreen.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-B_Silkscreen.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-B_Paste.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-B_Paste.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-B_Paste.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-Edge_Cuts.gbr'">
-            <img src="images/file_gbr_64.png" alt="nautilus_mainboard-Edge_Cuts.gbr" width="64" height="64">
-            <p class="filename">nautilus_mainboard-Edge_Cuts.gbr</p>
-            <p class="output-name">gerber_modern</p>
-        </div>
-
-        <div class="output-box " onclick="location.href='../Gerbers_and_Drill/nautilus_mainboard-job.gbrjob'">
-            <img src="images/file_gerber_job_64.png" alt="nautilus_mainboard-job.gbrjob" width="64" height="64">
-            <p class="filename">nautilus_mainboard-job.gbrjob</p>
-            <p class="output-name">gerber_modern</p>
+        <div class="output-box wide" onclick="location.href='../PCB/2D_render/nautilus_mainboard-top.png'">
+            <img src="images/cat_basic_pcbdraw_png_top_nautilus_mainboard-top.png" alt="nautilus_mainboard-top.png" width="512" height="308">
+            <p class="filename">nautilus_mainboard-top.png</p>
+            <p class="output-name">basic_pcbdraw_png_top</p>
         </div>
 </div>
 </div>

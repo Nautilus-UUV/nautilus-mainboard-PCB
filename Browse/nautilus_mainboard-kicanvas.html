@@ -26,7 +26,6 @@
       <kicanvas-source src="STM.kicad_sch"></kicanvas-source>
       <kicanvas-source src="PowerSTM.kicad_sch"></kicanvas-source>
       <kicanvas-source src="PinoutSTM.kicad_sch"></kicanvas-source>
-      <kicanvas-source src="nautilus_mainboard.kicad_pcb"></kicanvas-source>
     </kicanvas-embed>
     <script>
 
@@ -35,7 +34,7 @@ function ready()
  try
    {
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open('GET', 'nautilus_mainboard.kicad_pcb', false);
+    xmlhttp.open('GET', 'PinoutSTM.kicad_sch', false);
     xmlhttp.send();
    }
  catch (error)
