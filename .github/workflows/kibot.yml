@@ -88,6 +88,10 @@ jobs:
       run: |
         kibot --quick-start -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t export_3d -t populate -t kicanvas -t navigate_results -t navigate_results_rb
 
+    - name: Create root index
+      run: |
+        cp Generated/Browse/*-navigate.html Generated/index.html 2>/dev/null || true
+
     - name: Retrieve results
       uses: actions/upload-artifact@v4
       with:
