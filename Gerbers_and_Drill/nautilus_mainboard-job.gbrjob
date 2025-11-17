@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.1+1"
     },
-    "CreationDate": "2025-11-17T18:38:26+00:00"
+    "CreationDate": "2025-11-17T23:34:24+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -53,26 +53,6 @@
       "FilePolarity": "Negative"
     },
     {
-      "Path": "nautilus_mainboard-F_Silkscreen.gbr",
-      "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "nautilus_mainboard-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "nautilus_mainboard-In1_Cu.gbr",
-      "FileFunction": "Copper,L5,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "nautilus_mainboard-In2_Cu.gbr",
-      "FileFunction": "Copper,L7,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "nautilus_mainboard-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
@@ -83,8 +63,38 @@
       "FilePolarity": "Negative"
     },
     {
+      "Path": "nautilus_mainboard-In1_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-In2_Cu.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "nautilus_mainboard-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
@@ -93,8 +103,48 @@
       "FilePolarity": "Positive"
     },
     {
+      "Path": "nautilus_mainboard-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-User_Eco1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-User_Eco2.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "nautilus_mainboard-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-User_1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "nautilus_mainboard-User_3.gbr",
+      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],
