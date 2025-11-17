@@ -11,18 +11,7 @@ outputs:
     comment: 'Gerber files for PCB fabrication'
     type: gerber
     dir: Generated/Gerbers_and_Drill
-    layers:
-      - F.Cu
-      - F.Mask
-      - F.Silkscreen
-      - F.Paste
-      - In1.Cu
-      - In2.Cu
-      - B.Cu
-      - B.Mask
-      - B.Silkscreen
-      - B.Paste
-      - Edge.Cuts
+    layers: "all"
 
   # Drill files
   - name: excellon
