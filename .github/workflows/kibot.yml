@@ -5,11 +5,13 @@ on:
     paths:
       - '**.kicad_sch'
       - '**.kicad_pcb'
+      - 'config.kibot.yaml'
       - '.github/workflows/kibot.yml'
   pull_request:
     paths:
       - '**.kicad_sch'
       - '**.kicad_pcb'
+      - 'config.kibot.yaml'
 
 jobs:
   quick:
@@ -84,9 +86,9 @@ jobs:
     # * SVG Schematic Print [svg_sch_print]
     # * VRML (Virtual Reality Modeling Language) [vrml]
     
-    - name: Quick Start
+    - name: Generate outputs with custom config
       run: |
-        kibot --quick-start -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t export_3d -t populate -t kicanvas -t kikit_present -t navigate_results -t navigate_results_rb -t kiri
+        kibot -c config.kibot.yaml
 
     - name: Create root index
       run: |

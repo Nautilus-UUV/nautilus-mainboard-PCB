@@ -1,0 +1,122 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  run_drc: true
+
+outputs:
+  # Gerber files for fabrication
+  - name: gerber_modern
+    comment: 'Gerber files for PCB fabrication'
+    type: gerber
+    dir: Generated/Gerbers_and_Drill
+    layers:
+      - F.Cu
+      - F.Mask
+      - F.Silkscreen
+      - F.Paste
+      - In1.Cu
+      - In2.Cu
+      - B.Cu
+      - B.Mask
+      - B.Silkscreen
+      - B.Paste
+      - Edge.Cuts
+
+  # Drill files
+  - name: basic_excellon
+    comment: 'Drill files'
+    type: excellon
+    dir: Generated/Gerbers_and_Drill
+
+  # Bill of Materials
+  - name: basic_ibom
+    comment: 'Interactive HTML BoM'
+    type: ibom
+    dir: Generated/Assembly
+
+  # Schematic PDF
+  - name: basic_pdf_sch_print
+    comment: 'Schematic PDF'
+    type: pdf_sch_print
+    dir: Generated/Schematic
+
+  # 3D renders
+  - name: basic_render_3d_top
+    comment: 'PCB 3D view from top'
+    type: render_3d
+    dir: Generated/PCB/3D
+    options:
+      ray_tracing: true
+      orthographic: true
+
+  - name: basic_render_3d_bottom
+    comment: 'PCB 3D view from bottom'
+    type: render_3d
+    dir: Generated/PCB/3D
+    options:
+      ray_tracing: true
+      orthographic: true
+      view: bottom
+
+  - name: basic_render_3d_30deg
+    comment: 'PCB 3D view at 30 degrees'
+    type: render_3d
+    dir: Generated/PCB/3D
+    options:
+      ray_tracing: true
+      rotate_x: 3
+      rotate_z: 3
+
+  # 3D model exports
+  - name: basic_export_3d_step
+    comment: 'PCB 3D model in STEP format'
+    type: export_3d
+    dir: Generated/PCB/3D
+    options:
+      format: step
+
+  - name: basic_export_3d_glb
+    comment: 'PCB 3D model in GLB format'
+    type: export_3d
+    dir: Generated/PCB/3D
+    options:
+      format: glb
+
+  - name: basic_export_3d_stl
+    comment: 'PCB 3D model in STL format'
+    type: export_3d
+    dir: Generated/PCB/3D
+    options:
+      format: stl
+
+  # PCB renders
+  - name: basic_pcbdraw_svg_top
+    comment: 'PCB 2D render in SVG format (top)'
+    type: pcbdraw
+    dir: Generated/PCB/2D_render
+    options:
+      format: svg
+
+  - name: basic_pcbdraw_png_top
+    comment: 'PCB 2D render in PNG format (top)'
+    type: pcbdraw
+    dir: Generated/PCB/2D_render
+    options:
+      format: png
+
+  # KiCanvas for browsing
+  - name: basic_kicanvas
+    comment: 'Web page to browse the schematic and PCB'
+    type: kicanvas
+    dir: Generated/Browse
+
+  # Navigate interface to browse all results - this is the important one!
+  - name: basic_navigate_results_rb
+    comment: 'Web page to browse all generated results'
+    type: navigate_results_rb
+    dir: Generated/Browse
+    options:
+      link_from_root: index.html
+      skip_not_run: true
