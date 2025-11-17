@@ -512,16 +512,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 78.74) (xy 127 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3a7584-4141-48bd-a659-7fa01df51596")
-	)
-	(wire
-		(pts
 			(xy 100.33 81.28) (xy 100.33 85.09)
 		)
 		(stroke
@@ -542,6 +532,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3347a4de-1d92-4c49-a0ab-d35494e7f864")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bcd368a-af22-49b9-ac9a-3b2dcef2b4e7")
+	)
+	(wire
+		(pts
 			(xy 127 81.28) (xy 100.33 81.28)
 		)
 		(stroke
@@ -559,16 +569,6 @@
 			(type default)
 		)
 		(uuid "76000ae1-fc80-4b55-be87-83ff4aa8ce4a")
-	)
-	(wire
-		(pts
-			(xy 120.65 86.36) (xy 127 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a17e154c-a9d1-4850-88a1-a908c7e86407")
 	)
 	(wire
 		(pts
@@ -698,7 +698,7 @@
 	)
 	(hierarchical_label "FDCAN_STM_RX"
 		(shape input)
-		(at 121.92 78.74 180)
+		(at 121.92 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -709,7 +709,7 @@
 	)
 	(hierarchical_label "FDCAN_STM_TX"
 		(shape input)
-		(at 120.65 86.36 180)
+		(at 120.65 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
