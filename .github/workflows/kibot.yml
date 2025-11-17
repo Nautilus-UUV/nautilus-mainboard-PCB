@@ -86,22 +86,23 @@ jobs:
     
     - name: Quick Start
       run: |
-        kibot --quick-start -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t export_3d -t populate -t kicanvas -t kikit_present -t navigate_results_rb
+        kibot --quick-start -t gerber -t excellon -t pdf_sch_print -t render_3d -t pcbdraw -t ibom -t export_3d -t populate -t kicanvas -t kikit_present -t navigate_results -t navigate_results_rb
 
     - name: Create root index
       run: |
-        if [ ! -f Generated/index.html ]; then
-          NAVIGATE_FILE=$(ls Generated/Browse/*-navigate.html 2>/dev/null | head -n1)
-          if [ -n "$NAVIGATE_FILE" ]; then
-            NAVIGATE_FILENAME=$(basename "$NAVIGATE_FILE")
-            cat > Generated/index.html << EOF
+        NAVIGATE_FILE=$(ls Generated/Browse/*-navigate.html 2>/dev/null | head -n1)
+        if [ -n "$NAVIGATE_FILE" ]; then
+          NAVIGATE_FILENAME=$(basename "$NAVIGATE_FILE")
+          cat > Generated/index.html << EOF
         <html>
         <head>
         <meta http-equiv="refresh" content="0; Browse/$NAVIGATE_FILENAME"/>
         </head>
         </html>
         EOF
-          fi
+          echo "Created index.html redirecting to Browse/$NAVIGATE_FILENAME"
+        else
+          echo "No navigate.html file found"
         fi
 
     - name: Retrieve results
