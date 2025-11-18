@@ -1071,11 +1071,11 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 163.83 110.49 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "1" (uuid "60545d20-ef0a-405b-8423-8daa2a6da94c"))
-    (pin "2" (uuid "ff894efe-1ffa-4113-842b-c5f209a450bb"))
+    (pin "1" (uuid "d8327d3d-9321-4fea-9af8-7ed05ff330a7"))
+    (pin "2" (uuid "7e29a2e5-a0f3-416d-b824-d11a1b3fec40"))
     (instances
-      (project ""
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+      (project "nautilus_mainboard"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "C39") (unit 1)
         )
       )
@@ -1133,11 +1133,11 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 165.1 92.71 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "2" (uuid "7e3587d5-0077-40fb-92ee-26a732b40e4a"))
-    (pin "1" (uuid "aca4fc70-8707-4ae9-a405-bc6d465c769d"))
+    (pin "2" (uuid "361ea828-c524-44b0-a2ad-99fa6bc0620f"))
+    (pin "1" (uuid "85c02755-15cf-4ca1-863d-df4097ce3134"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "C40") (unit 1)
         )
       )
@@ -1195,11 +1195,11 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 142.24 69.85 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "2" (uuid "24b65626-b764-4bb5-b3f9-9352cc00c4f9"))
-    (pin "1" (uuid "e3832f65-312f-4aa6-ae0b-fb8d9a8ca290"))
+    (pin "2" (uuid "e0ae17ed-4f0a-411e-9505-0666f46f7f0d"))
+    (pin "1" (uuid "ec927dd4-b907-4c21-b235-d874b66b3ac0"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "R26") (unit 1)
         )
       )
@@ -1209,7 +1209,7 @@
   (symbol (lib_id "#dzdb:g_res/R-15.4k-0603") (at 129.54 85.09 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid "39a579af-a12a-42de-804b-8c64cf0efa22")
-    (property "Reference" "R14" (at 129.54 87.122 90)
+    (property "Reference" "R25" (at 129.54 87.122 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15.4k" (at 130.81 86.36 0)
@@ -1257,12 +1257,12 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 129.54 85.09 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "2" (uuid "f7214592-6e94-4e6c-8dbe-d5578521c0d0"))
-    (pin "1" (uuid "32bb3739-64c2-41db-934f-7d918ad4a0e0"))
+    (pin "2" (uuid "78571ea0-463a-4b63-82a2-536f265cfa0f"))
+    (pin "1" (uuid "2eeded47-72f4-4dc5-b805-4a6f833c37eb"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
-          (reference "R14") (unit 1)
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1319,11 +1319,11 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 176.53 100.33 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "2" (uuid "95ca9dd7-ca22-402c-ab1a-696e7bc06e88"))
-    (pin "1" (uuid "3398e30a-4d5a-4c33-a197-66e7f74e44a8"))
+    (pin "2" (uuid "913a7fa7-6772-4b08-ae3e-8bf398130b4a"))
+    (pin "1" (uuid "283dac64-b5ba-4419-a6b4-3b3014cc4bea"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "R28") (unit 1)
         )
       )
@@ -1381,11 +1381,11 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 125.73 92.71 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "2" (uuid "1afc45de-2bc6-4c1a-a7d5-c1f9dc7de9d6"))
-    (pin "1" (uuid "33d63656-0f4a-4ba2-93bd-1baee1b98c0a"))
+    (pin "2" (uuid "2bb69d1e-cfde-43e5-ab87-81495a1bf7b1"))
+    (pin "1" (uuid "1972b92b-4367-4316-9751-53e5492aaec7"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "C37") (unit 1)
         )
       )
@@ -1395,7 +1395,7 @@
   (symbol (lib_id "power:GND") (at 168.91 123.19 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid "71ba29b9-88ac-4238-b208-59c15b2c166a")
-    (property "Reference" "#PWR033" (at 168.91 129.54 0)
+    (property "Reference" "#PWR030" (at 168.91 129.54 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
     (property "Value" "GND" (at 168.91 128.27 0)
@@ -1410,11 +1410,11 @@
     (property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 168.91 123.19 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "1" (uuid "41bafd9e-1e46-4856-9b20-dd9f392413c6"))
+    (pin "1" (uuid "b73ce97c-ff4f-459b-913b-ae4100105caf"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
-          (reference "#PWR033") (unit 1)
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1471,11 +1471,11 @@
     (property "Comment" "lifecycle=Active; note=High capacitance in 0805 package" (at 172.72 92.71 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "1" (uuid "3bc4692a-fd2a-4a9f-9aea-da162fa8491a"))
-    (pin "2" (uuid "febff1a6-9607-4015-8118-efc6f02a66f7"))
+    (pin "1" (uuid "4020ac42-61ba-4a31-b622-53471caad319"))
+    (pin "2" (uuid "34683453-dab2-4133-8992-5e85ed340525"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "C41") (unit 1)
         )
       )
@@ -1533,11 +1533,11 @@
     (property "Comment" "lifecycle=Active; Alternative part: Samsung CL32Y106KCVZNW (almost identical specs)" (at 116.84 92.71 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "1" (uuid "ba1a576a-3c20-4dc6-974e-be245d537832"))
-    (pin "2" (uuid "3bfe6137-5d93-4cf0-ad3b-14e72e3168a4"))
+    (pin "1" (uuid "6f25fa61-a1cc-45f6-9dd4-ce4f9daa2bb9"))
+    (pin "2" (uuid "bfc7d045-c5dc-4e23-8ea1-381eed3d6267"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "C35") (unit 1)
         )
       )
@@ -1595,11 +1595,11 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 176.53 107.95 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "2" (uuid "3f06c9b3-d51e-4d3f-af18-6c991bc52be3"))
-    (pin "1" (uuid "9b5fa907-f466-4cd4-a332-b73258e232cf"))
+    (pin "2" (uuid "e845bf6e-c1dd-4768-907b-0f47908c4b3e"))
+    (pin "1" (uuid "7899ab80-3d6c-4b4b-a5c9-a5b7acbee1fc"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "R29") (unit 1)
         )
       )
@@ -1657,11 +1657,11 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 177.8 92.71 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "2" (uuid "4ebb0c2d-47fe-4754-a787-5f5573fc2347"))
-    (pin "1" (uuid "df3886c9-003f-4585-985b-dfe527aa7341"))
+    (pin "2" (uuid "96c1dc45-d1a5-43ea-97b8-1468ec4e7905"))
+    (pin "1" (uuid "0131385a-5d77-4f9c-8d7e-eabe05b848a0"))
     (instances
-      (project ""
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+      (project "nautilus_mainboard"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "R30") (unit 1)
         )
       )
@@ -1719,11 +1719,11 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 125.73 107.95 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "2" (uuid "802dcd27-24b0-4d6b-90a7-552f27eb2cfd"))
-    (pin "1" (uuid "b286bcde-ff0e-4919-a64c-cc783f138f14"))
+    (pin "2" (uuid "adb6cf4b-62ca-4e48-8f99-11b903666014"))
+    (pin "1" (uuid "fa01feab-10e7-408b-bbaf-e49857bead94"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "C38") (unit 1)
         )
       )
@@ -1781,11 +1781,11 @@
     (property "Comment" "lifecycle=Active; note=Auto-generated" (at 163.83 106.68 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "2" (uuid "59ffd554-38eb-4621-b768-35fb2e992295"))
-    (pin "1" (uuid "654f3386-6d72-4366-b3d8-0bf131d480ba"))
+    (pin "2" (uuid "96d40132-bd06-49f9-b7ce-87d64da8a3db"))
+    (pin "1" (uuid "666a0232-957e-405e-8a7b-1e173c4bd87a"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "R27") (unit 1)
         )
       )
@@ -1795,7 +1795,7 @@
   (symbol (lib_id "#dzdb:s_misc/TEXA-595-TPS2121RUXT") (at 132.08 88.9 0) (unit 1)
     (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid "96f03783-f8e7-44f3-bab6-332bf9d673f9")
-    (property "Reference" "IC4" (at 146.05 119.38 0)
+    (property "Reference" "IC5" (at 146.05 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS2121RUXT" (at 146.05 121.92 0)
@@ -1855,22 +1855,22 @@
     (property "Order" "Ordered=True" (at 132.08 88.9 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "5" (uuid "1f0a9edd-ae57-4510-94c8-758814b0b584"))
-    (pin "4" (uuid "fe5333c4-f237-4465-8908-71b80364d964"))
-    (pin "10" (uuid "6714b813-e0c2-4e3b-a3e8-ed2d8fb2551d"))
-    (pin "3" (uuid "36dbd1dc-d3e8-4c0c-a317-4d329990a419"))
-    (pin "12" (uuid "afc651d6-fc7b-4ae4-b237-dfba4e7b511e"))
-    (pin "11" (uuid "5a101747-a528-47dd-ad54-eff7e5ebf4a1"))
-    (pin "7" (uuid "13c72b88-e22c-45af-98f3-a39760546c50"))
-    (pin "9" (uuid "84be16a9-28cb-4a23-a73c-11e54027229b"))
-    (pin "2" (uuid "16e34ba1-ec70-44fb-a57e-ac6773cbb226"))
-    (pin "6" (uuid "f763ee23-772f-443c-83dd-17beb984241d"))
-    (pin "1" (uuid "bfa2a6e7-b631-4337-89ba-ef150f2fd76c"))
-    (pin "8" (uuid "9bef6de2-d2ea-45fb-9cbc-0bc0ee5d4065"))
+    (pin "5" (uuid "f0a4871d-f76a-4dd1-b22e-500bd1a5336e"))
+    (pin "4" (uuid "acb03e60-f3a9-43c3-a95b-3f7c6bd45aea"))
+    (pin "10" (uuid "ee6cd84e-b24e-4b42-a6f3-999a5abbe704"))
+    (pin "3" (uuid "7dbb0b87-79f5-4b57-a822-df7c7bd9c636"))
+    (pin "12" (uuid "1966a35a-a4b7-4c9a-aacf-def2ba47462e"))
+    (pin "11" (uuid "b07f3959-e155-4919-96c4-df621cddabad"))
+    (pin "7" (uuid "1679a4e5-0698-463d-854f-5afe792b9db9"))
+    (pin "9" (uuid "66df4348-94c6-4f71-85c2-d0566475b59d"))
+    (pin "2" (uuid "9bc114d1-dd44-44c2-9831-25bac71cb97f"))
+    (pin "6" (uuid "862a67c0-8e6a-40f7-865a-4847ff917ae2"))
+    (pin "1" (uuid "f48f91e1-2190-4009-9955-b0f29ca04f9d"))
+    (pin "8" (uuid "f7e55010-542f-4511-ace6-653c64729a00"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
-          (reference "IC4") (unit 1)
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
+          (reference "IC5") (unit 1)
         )
       )
     )
@@ -1927,11 +1927,11 @@
     (property "Comment" "lifecycle=Active; Alternative part: Samsung CL32Y106KCVZNW (almost identical specs)" (at 116.84 107.95 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (pin "1" (uuid "e1a1731b-24d2-4b1a-ad3d-0199b9cda62f"))
-    (pin "2" (uuid "b8853239-e8fb-4c9d-a48b-43cd2063bc6f"))
+    (pin "1" (uuid "ed08f30e-bb13-4048-ba30-e2ca824cbb44"))
+    (pin "2" (uuid "c0ca5d58-7b8c-47f8-9571-1f3b3c47484e"))
     (instances
       (project "nautilus_mainboard"
-        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/e46d3b44-477e-48ec-b385-9b4870813d66"
+        (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0/b9b676f4-45ad-4d4b-96a9-894c1f9d02cb"
           (reference "C36") (unit 1)
         )
       )
