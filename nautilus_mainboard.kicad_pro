@@ -1068,6 +1068,10 @@
       "CM4_Module1B"
     ],
     [
+      "3997d1c1-5566-40cd-ab06-9f3399d8a463",
+      "5V_Logic"
+    ],
+    [
       "f7f72d9d-a73c-4da1-b97a-073a2603b35d",
       "PCIE_Interface"
     ],
@@ -1080,15 +1084,11 @@
       "Power_logic"
     ],
     [
-      "7fd5a03c-dea9-4dd3-96f2-bf31ea6dc8ac",
-      "5V_Logic"
-    ],
-    [
-      "85d0d345-ed3a-4658-9370-48b549969854",
+      "b867d855-894b-4aa9-b170-e48a88a70717",
       "3.3V_Logic"
     ],
     [
-      "e46d3b44-477e-48ec-b385-9b4870813d66",
+      "b9b676f4-45ad-4d4b-96a9-894c1f9d02cb",
       "GPIO_REF3.3V"
     ],
     [
