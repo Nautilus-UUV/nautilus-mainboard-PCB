@@ -15,6 +15,16 @@
 		)
 		(uuid "176afebb-960d-4303-a3ad-4c6c346ec090")
 	)
+	(bus
+		(pts
+			(xy 35.56 76.2) (xy 35.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201e34bc-dce0-4acc-89d0-95fbdcefcdb4")
+	)
 	(wire
 		(pts
 			(xy 63.5 76.2) (xy 63.5 86.36)
@@ -24,16 +34,6 @@
 			(type default)
 		)
 		(uuid "21dc993b-3880-48e4-a45a-18b9cf5f162c")
-	)
-	(wire
-		(pts
-			(xy 36.83 76.2) (xy 36.83 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4540f6ff-5b39-426a-bf86-d4429269a4e6")
 	)
 	(wire
 		(pts
@@ -54,16 +54,6 @@
 			(type default)
 		)
 		(uuid "76ad3607-89cd-4f27-b1fa-4641030e83cf")
-	)
-	(wire
-		(pts
-			(xy 33.02 76.2) (xy 33.02 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dff3ce2-f6fb-4de2-bf57-c77d073218fa")
 	)
 	(wire
 		(pts
@@ -118,27 +108,16 @@
 		)
 		(uuid "4316e83c-ce59-4215-b807-1daba72cb541")
 	)
-	(hierarchical_label "Pack1_SCL"
-		(shape input)
-		(at 33.02 86.36 270)
+	(hierarchical_label "{SCL SDA}"
+		(shape bidirectional)
+		(at 35.56 86.36 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "440f0e6d-e4e0-4d92-8456-348f0e4c7a64")
-	)
-	(hierarchical_label "Pack1_SDA"
-		(shape input)
-		(at 36.83 86.36 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "724386b4-8bbe-489b-89a2-d01eec5ef9a9")
+		(uuid "9607f335-f60a-47d9-8eb0-6d6e30fe9a61")
 	)
 	(hierarchical_label "RUN_PG_CM4"
 		(shape input)
@@ -307,19 +286,9 @@
 				(justify left)
 			)
 		)
-		(pin "Pack1_SCL" input
-			(at 33.02 76.2 270)
-			(uuid "9d0ad70f-b959-49eb-97c6-246dc3b24722")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Pack1_SDA" input
-			(at 36.83 76.2 270)
-			(uuid "f35c5d05-a477-45b6-9eff-cf31dceada59")
+		(pin "{SCL SDA}" bidirectional
+			(at 35.56 76.2 270)
+			(uuid "d65333bd-f94d-49a7-b2a5-4a7b0fa9910b")
 			(effects
 				(font
 					(size 1.27 1.27)

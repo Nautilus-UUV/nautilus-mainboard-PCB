@@ -5873,6 +5873,24 @@
 		(at 125.73 100.33)
 		(uuid "fb36625e-a03e-46ba-ac7d-21079a437ac0")
 	)
+	(bus_entry
+		(at 90.17 27.94)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d44c23a-a255-4248-a44f-01ab8f9e65ac")
+	)
+	(bus_entry
+		(at 90.17 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d566f9b8-ed0e-4526-a4ee-0da7d6f2281e")
+	)
 	(wire
 		(pts
 			(xy 34.29 86.36) (xy 31.75 86.36)
@@ -5932,16 +5950,6 @@
 			(type default)
 		)
 		(uuid "0f8a3257-04ce-4e16-ab53-3bebaa0950bf")
-	)
-	(wire
-		(pts
-			(xy 87.63 48.26) (xy 87.63 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155275e3-29eb-4777-800f-1636c60efbc7")
 	)
 	(wire
 		(pts
@@ -6055,6 +6063,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 27.94) (xy 85.09 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be7b798-3810-42d5-b220-2ecbdbdd7abc")
+	)
+	(wire
+		(pts
 			(xy 118.11 36.83) (xy 118.11 54.61)
 		)
 		(stroke
@@ -6072,6 +6090,16 @@
 			(type default)
 		)
 		(uuid "3ef616d5-ab7c-4930-a385-05bb352a7662")
+	)
+	(bus
+		(pts
+			(xy 90.17 24.13) (xy 90.17 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f213f00-ae3d-48a4-8bd9-c9e76813ce13")
 	)
 	(wire
 		(pts
@@ -6175,16 +6203,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 48.26) (xy 85.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50da5e16-097b-4022-aa4a-af92c6f51d1b")
-	)
-	(wire
-		(pts
 			(xy 53.34 80.01) (xy 72.39 80.01)
 		)
 		(stroke
@@ -6242,6 +6260,16 @@
 			(type default)
 		)
 		(uuid "5c82e6a6-271c-4e46-8a0a-1f73c89102a0")
+	)
+	(wire
+		(pts
+			(xy 87.63 30.48) (xy 87.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc7f70d-6000-4505-a4b6-4a90bcf3204b")
 	)
 	(wire
 		(pts
@@ -6322,6 +6350,16 @@
 			(type default)
 		)
 		(uuid "76d306f4-b74e-4c78-8be7-ac2d2f45e2f7")
+	)
+	(bus
+		(pts
+			(xy 90.17 25.4) (xy 90.17 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afde3bf-7d26-44a5-8b60-cdee4f178d0d")
 	)
 	(wire
 		(pts
@@ -6902,6 +6940,16 @@
 			(type default)
 		)
 		(uuid "fe0c7beb-c4b7-43b6-8fec-62c783d5ea7c")
+	)
+	(wire
+		(pts
+			(xy 85.09 30.48) (xy 85.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe27e65d-f626-49d7-a0fe-f93a606dfd9d")
 	)
 	(wire
 		(pts
@@ -9878,7 +9926,7 @@
 		)
 	)
 	(image
-		(at 86.36 27.94)
+		(at 35.56 68.58)
 		(scale 0.134951)
 		(uuid "4f0cff8c-2d8c-4169-982c-534365847742")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAqcAAAE/CAIAAAD0Wv3gAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -14500,6 +14548,26 @@
 		)
 		(uuid "05aa964c-9b94-4ab4-9e94-9f0352225689")
 	)
+	(label "SDA"
+		(at 85.09 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "096d594a-43c6-4ed6-bcc8-ec98575355d1")
+	)
+	(label "SCL"
+		(at 87.63 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bf48036-d24f-4c11-a489-6d3e62ed9b4c")
+	)
 	(label "USART2_RX"
 		(at 80.01 139.7 90)
 		(effects
@@ -15041,6 +15109,17 @@
 		)
 		(uuid "1be5c7c0-f14b-4962-be32-fa7f0ea196ce")
 	)
+	(hierarchical_label "{SCL SDA}"
+		(shape bidirectional)
+		(at 90.17 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c4241c4-0c61-4c5b-a24f-d3b41f568ce8")
+	)
 	(hierarchical_label "STM_USART_TX"
 		(shape output)
 		(at 59.69 110.49 180)
@@ -15063,17 +15142,6 @@
 		)
 		(uuid "67d8dea2-ca2f-4938-94ce-b36b115eacda")
 	)
-	(hierarchical_label "Pack1_SCL"
-		(shape input)
-		(at 87.63 48.26 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "700eedd5-28a7-42bb-89a9-7287e564afd9")
-	)
 	(hierarchical_label "CAN1_RX"
 		(shape input)
 		(at 140.97 85.09 0)
@@ -15084,17 +15152,6 @@
 			(justify left)
 		)
 		(uuid "98ee8280-4d24-4535-93e1-ef6a60196005")
-	)
-	(hierarchical_label "Pack1_SDA"
-		(shape input)
-		(at 85.09 48.26 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1c20d5e-f483-4b9b-a6ee-fe4217394efe")
 	)
 	(hierarchical_label "RUN_PG_CM4"
 		(shape input)

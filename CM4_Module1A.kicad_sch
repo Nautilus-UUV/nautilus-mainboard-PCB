@@ -5610,6 +5610,12 @@
 		(uuid "d3a232ad-90d8-4ced-b349-08438083b38e")
 	)
 	(junction
+		(at 265.43 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e217645a-3b23-4974-81ef-af3362ea4e76")
+	)
+	(junction
 		(at 38.1 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5626,6 +5632,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed7e9541-e20b-4d87-83d6-e67a7023f5f6")
+	)
+	(junction
+		(at 265.43 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f739a131-8098-41c4-aad4-ae5f85d669b4")
 	)
 	(junction
 		(at 106.68 39.37)
@@ -6145,7 +6157,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 139.7) (xy 233.68 143.51)
+			(xy 265.43 139.7) (xy 265.43 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6295,16 +6307,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 116.84) (xy 102.87 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47170a9d-23d4-4595-a2c7-e07d7c4578e7")
-	)
-	(wire
-		(pts
 			(xy 101.6 44.45) (xy 118.11 44.45)
 		)
 		(stroke
@@ -6402,16 +6404,6 @@
 			(type default)
 		)
 		(uuid "608e2e09-2883-456e-a9f3-bb5997cb8a90")
-	)
-	(wire
-		(pts
-			(xy 245.11 143.51) (xy 255.27 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d991e2-0a98-439a-82aa-d683503692c0")
 	)
 	(wire
 		(pts
@@ -6565,6 +6557,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 157.48) (xy 267.97 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac230da-dd2b-412c-9eda-92be244c558f")
+	)
+	(wire
+		(pts
 			(xy 26.67 140.97) (xy 40.64 140.97)
 		)
 		(stroke
@@ -6612,6 +6614,16 @@
 			(type default)
 		)
 		(uuid "7fdcce8f-e254-44e7-b8e6-c3019a72d74c")
+	)
+	(wire
+		(pts
+			(xy 255.27 143.51) (xy 245.11 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8571904d-78c8-40e4-9094-ceb9e07733af")
 	)
 	(wire
 		(pts
@@ -6855,16 +6867,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 116.84) (xy 110.49 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1505aa0-e30f-496f-9d9f-38adeb35af37")
-	)
-	(wire
-		(pts
 			(xy 101.6 34.29) (xy 118.11 34.29)
 		)
 		(stroke
@@ -7055,7 +7057,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 125.73) (xy 101.6 125.73)
+			(xy 101.6 125.73) (xy 114.3 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7752,7 +7754,7 @@
 		(uuid "63fa9652-db6e-497d-b177-e6c7c2979ae1")
 	)
 	(label "CM4_5v"
-		(at 233.68 139.7 0)
+		(at 265.43 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7762,7 +7764,7 @@
 		(uuid "6dde9676-5549-443d-9f74-95989f53990e")
 	)
 	(label "CM4_5v"
-		(at 110.49 116.84 0)
+		(at 114.3 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10880,6 +10882,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 267.97 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ded4ab79-7fc2-4b0c-b6b7-083f1bdbc85d")
+		(property "Reference" "#PWR030"
+			(at 267.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45359e3a-47d1-4f86-b7fb-8b102a7e5c28")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 38.1 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11288,9 +11356,9 @@
 				(justify left top)
 			)
 		)
-		(pin "PI_nLED_Activity" input
+		(pin "PI_nLED_Activity" output
 			(at 119.38 49.53 180)
-			(uuid "79397b7a-15e1-4de2-af3d-9e83bec74b63")
+			(uuid "dad4ccd5-1706-41d6-a6c7-75c0d81d6399")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,9 +11408,9 @@
 				(justify left top)
 			)
 		)
-		(pin "nPWR_LED" input
+		(pin "nPWR_LED" output
 			(at 119.38 143.51 180)
-			(uuid "3e71061c-6ad4-43eb-b547-267769d42488")
+			(uuid "12818a71-8ae1-4e54-b401-37d6bac229e4")
 			(effects
 				(font
 					(size 1.27 1.27)
