@@ -164,35 +164,25 @@
 		(color 0 0 0 0)
 		(uuid "c751e1cb-d297-40cb-aac3-44ce85aa824c")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 134.62 76.2) (xy 134.62 92.71)
+			(xy 132.08 76.2) (xy 132.08 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08145cc2-d374-4658-80bf-e97f6e46fb09")
+		(uuid "071742fc-abbd-4ea2-b9fa-ffcb971748f8")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 129.54 76.2) (xy 129.54 92.71)
+			(xy 127 76.2) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e5180a9-6203-4b3c-b5c1-e3e18590c226")
-	)
-	(wire
-		(pts
-			(xy 121.92 76.2) (xy 121.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "173647dd-cdff-4f06-acc2-1de87eec55c2")
+		(uuid "14d46f78-8a21-45b0-8e2a-d73b2d70b3f0")
 	)
 	(wire
 		(pts
@@ -203,16 +193,6 @@
 			(type default)
 		)
 		(uuid "18ee68af-9643-4ddf-b374-86660fd2cadb")
-	)
-	(wire
-		(pts
-			(xy 127 76.2) (xy 127 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ffa2b74-be02-4889-bac2-30a0972a0728")
 	)
 	(wire
 		(pts
@@ -264,25 +244,15 @@
 		)
 		(uuid "726c35b5-e7ca-4d83-84e1-b1987430d389")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 132.08 76.2) (xy 132.08 92.71)
+			(xy 116.84 76.2) (xy 116.84 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86b3b6e6-ceb3-42d2-98a5-3fe737962440")
-	)
-	(wire
-		(pts
-			(xy 139.7 76.2) (xy 139.7 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e8837e-312a-4dce-8fae-913d6591db09")
+		(uuid "756deb03-c2ff-4efe-b314-53fae9a43276")
 	)
 	(wire
 		(pts
@@ -344,15 +314,15 @@
 		)
 		(uuid "c586b90d-6572-47ea-a83b-610deb74172c")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 137.16 76.2) (xy 137.16 92.71)
+			(xy 121.92 76.2) (xy 121.92 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea49f43e-4924-4386-93d5-387551f175a1")
+		(uuid "dbf0c39a-b612-43bd-aaed-2b63dd5550ad")
 	)
 	(wire
 		(pts
@@ -373,16 +343,6 @@
 			(type default)
 		)
 		(uuid "f9599363-b973-4c9b-93f9-979a0b6d2e32")
-	)
-	(wire
-		(pts
-			(xy 124.46 76.2) (xy 124.46 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa0a0e22-9512-4393-9bb6-d2717822a73a")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
@@ -830,9 +790,19 @@
 				(justify left top)
 			)
 		)
-		(pin "ET1" input
+		(pin "TRD0{D+ D-}" bidirectional
+			(at 116.84 92.71 90)
+			(uuid "8b46a8fc-279a-4d60-ae73-519b110008ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRD1{D+ D-}" bidirectional
 			(at 121.92 92.71 90)
-			(uuid "0b93ae24-835a-498b-af86-55b2b5354f5d")
+			(uuid "1765eb3d-7e14-49de-89a2-db44493e54a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,19 +810,9 @@
 				(justify right)
 			)
 		)
-		(pin "ET2" input
-			(at 124.46 92.71 90)
-			(uuid "7e63eb3b-918d-4002-ae29-a5dfefb10825")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ET3" input
+		(pin "TRD2{D+ D-}" bidirectional
 			(at 127 92.71 90)
-			(uuid "0b2d94af-2bb6-4874-840f-a54ccd52bd81")
+			(uuid "b081867c-8727-4259-a152-44b14d9b1384")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,49 +820,9 @@
 				(justify right)
 			)
 		)
-		(pin "ET4" input
-			(at 129.54 92.71 90)
-			(uuid "04d8fa00-fecf-47b9-a90d-e3f0bd3a162f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ET5" input
+		(pin "TRD3{D+ D-}" bidirectional
 			(at 132.08 92.71 90)
-			(uuid "c5a3e62b-148f-46fd-a0e7-fab16a5ff10c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ET6" input
-			(at 134.62 92.71 90)
-			(uuid "58a6082e-462c-4ad7-877c-8f7aa24a5576")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ET7" input
-			(at 137.16 92.71 90)
-			(uuid "a61a0bed-c1b4-40d0-822c-cbb6eb2bfaa1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ET8" input
-			(at 139.7 92.71 90)
-			(uuid "ca9a1409-3d7d-4e96-8cfd-8ef63c3795a5")
+			(uuid "fc102633-0fb0-4e7f-8443-2f3338bf320e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,86 +976,6 @@
 				(justify left top)
 			)
 		)
-		(pin "ET1" input
-			(at 121.92 76.2 270)
-			(uuid "6662ae4b-2bfa-4816-b4fb-e9f946f20fef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ET2" input
-			(at 124.46 76.2 270)
-			(uuid "0a9ef4ba-b380-4046-ac7b-9335be86cfdd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ET3" input
-			(at 127 76.2 270)
-			(uuid "e09f6dd9-35e0-4a9a-8d1e-233a714bd91c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ET4" input
-			(at 129.54 76.2 270)
-			(uuid "7acfd1c9-0505-4a99-8a77-99283b78f5b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ET5" input
-			(at 132.08 76.2 270)
-			(uuid "6ad62b44-105a-4a73-9c82-bbfb29825ee4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ET6" input
-			(at 134.62 76.2 270)
-			(uuid "c8ad6832-44d2-43ef-9805-bbada01896e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ET7" input
-			(at 137.16 76.2 270)
-			(uuid "d4615a1a-1823-488e-8346-020a0fc5a6e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ET8" input
-			(at 139.7 76.2 270)
-			(uuid "fd5031c7-7d2d-4aaa-a246-15dbfcabf927")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PI_RX" input
 			(at 101.6 45.72 180)
 			(uuid "0cbf9260-3440-4068-a634-639e1bcbf718")
@@ -1169,6 +1009,46 @@
 		(pin "GLOBAL_EN_CM4" input
 			(at 101.6 59.69 180)
 			(uuid "a996e75f-dded-4987-8461-01ebed0c90e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRD0{D+ D-}" bidirectional
+			(at 116.84 76.2 270)
+			(uuid "87bdfe94-a1a6-49ba-b524-737ecf22144a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRD1{D+ D-}" bidirectional
+			(at 121.92 76.2 270)
+			(uuid "84cd9f54-155c-49a5-aa62-ad505fccaea0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRD2{D+ D-}" bidirectional
+			(at 127 76.2 270)
+			(uuid "ade69edf-2e93-45a3-9d0d-3f611fdcd2d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRD3{D+ D-}" bidirectional
+			(at 132.08 76.2 270)
+			(uuid "ebeaf875-f06f-4d2c-9327-1eaa6e136b9c")
 			(effects
 				(font
 					(size 1.27 1.27)
