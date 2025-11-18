@@ -2639,7 +2639,7 @@
 		(uuid "42539f89-b49d-4173-b2b2-68d1576696ea")
 	)
 	(junction
-		(at 224.79 43.18)
+		(at 184.15 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9649bbf3-5176-4b07-a567-60898f428c9c")
@@ -2790,7 +2790,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 44.45) (xy 208.28 44.45)
+			(xy 214.63 44.45) (xy 200.66 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +2820,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 43.18) (xy 224.79 43.18)
+			(xy 181.61 43.18) (xy 184.15 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2870,7 +2870,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 41.91) (xy 224.79 41.91)
+			(xy 193.04 41.91) (xy 184.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2940,7 +2940,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 44.45) (xy 186.69 44.45)
+			(xy 229.87 44.45) (xy 222.25 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 43.18) (xy 224.79 44.45)
+			(xy 184.15 43.18) (xy 184.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3100,7 +3100,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 41.91) (xy 194.31 41.91)
+			(xy 229.87 41.91) (xy 214.63 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3170,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 44.45) (xy 224.79 44.45)
+			(xy 193.04 44.45) (xy 184.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3200,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 41.91) (xy 224.79 43.18)
+			(xy 184.15 41.91) (xy 184.15 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3210,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 41.91) (xy 208.28 41.91)
+			(xy 207.01 41.91) (xy 200.66 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3398,28 +3398,6 @@
 		)
 		(uuid "d8ddf3fc-f028-40a1-8fc5-c80767b02c8c")
 	)
-	(global_label "LAN_IN_3.3V"
-		(shape input)
-		(at 227.33 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c365b72-fba8-45ab-899a-32ef17295f50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.7453 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "TRD3{D+ D-}"
 		(shape bidirectional)
 		(at 86.36 41.91 180)
@@ -3443,13 +3421,13 @@
 		(uuid "652281cd-38b7-48d6-ab7d-6aff6090c1b1")
 	)
 	(hierarchical_label "ETH_LED_Y"
-		(shape input)
-		(at 179.07 44.45 180)
+		(shape output)
+		(at 229.87 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "68340999-6175-4aaf-bce1-61b4a64c1db5")
 	)
@@ -3465,13 +3443,13 @@
 		(uuid "69a38b74-a303-4054-8927-43b70c9f6d7a")
 	)
 	(hierarchical_label "ETH_LED_G"
-		(shape input)
-		(at 179.07 41.91 180)
+		(shape output)
+		(at 229.87 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "807bb3ff-c963-4862-9e40-df130d607d79")
 	)
@@ -3529,6 +3507,17 @@
 			(justify right)
 		)
 		(uuid "eca78a72-4599-4ed0-80de-cd04b6d2da20")
+	)
+	(hierarchical_label "LAN_IN_3.3V"
+		(shape input)
+		(at 181.61 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb250f4a-caed-4d5b-8231-887753449a54")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3892,7 +3881,8 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-1k-0603")
-		(at 212.09 41.91 90)
+		(at 196.85 41.91 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3901,7 +3891,7 @@
 		(fields_autoplaced yes)
 		(uuid "99653e00-3257-405b-9f76-b50fb5a7657e")
 		(property "Reference" "R7"
-			(at 212.09 35.56 90)
+			(at 196.85 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3899,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 212.09 38.1 90)
+			(at 196.85 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3907,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 212.09 43.688 90)
+			(at 196.85 43.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +3916,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +3925,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 1 kOhms 1 % 0.1 W 0603"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3934,7 @@
 			)
 		)
 		(property "IPN" "R-1k-0603"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3943,7 @@
 			)
 		)
 		(property "MPN" "560112116014"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3952,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3961,7 @@
 			)
 		)
 		(property "Resistance" "1k"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +3970,7 @@
 			)
 		)
 		(property "Power" "0.1 W"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +3979,7 @@
 			)
 		)
 		(property "Material" "Thick film"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +3988,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +3997,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4006,7 @@
 			)
 		)
 		(property "SPN" "710-560112116014"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +4015,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4024,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 212.09 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,8 +4049,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-1k-0603")
-		(at 212.09 44.45 90)
-		(mirror x)
+		(at 196.85 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4068,7 +4057,7 @@
 		(dnp no)
 		(uuid "aec63f7b-4134-48b9-be45-a2760db000c3")
 		(property "Reference" "R8"
-			(at 212.09 50.8 90)
+			(at 196.85 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4065,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 212.09 48.26 90)
+			(at 196.85 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +4073,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 212.09 42.672 90)
+			(at 196.85 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4082,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4091,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 1 kOhms 1 % 0.1 W 0603"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4100,7 @@
 			)
 		)
 		(property "IPN" "R-1k-0603"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +4109,7 @@
 			)
 		)
 		(property "MPN" "560112116014"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4118,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +4127,7 @@
 			)
 		)
 		(property "Resistance" "1k"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4136,7 @@
 			)
 		)
 		(property "Power" "0.1 W"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +4145,7 @@
 			)
 		)
 		(property "Material" "Thick film"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4154,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4163,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4172,7 @@
 			)
 		)
 		(property "SPN" "710-560112116014"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4181,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4190,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 212.09 44.45 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4215,8 @@
 	)
 	(symbol
 		(lib_id "#dzdb:s_dio/D-KIN-APHHS1005LSYCK/J3-PF")
-		(at 190.5 44.45 0)
+		(at 218.44 44.45 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4234,7 +4224,7 @@
 		(dnp no)
 		(uuid "b0cf2761-3eba-4450-9ea5-695bdbe32bd9")
 		(property "Reference" "D3"
-			(at 188.9125 52.07 0)
+			(at 220.0275 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4232,7 @@
 			)
 		)
 		(property "Value" "APHHS1005LSYCK/J3-PF"
-			(at 188.9125 49.53 0)
+			(at 220.0275 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4240,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4249,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005LSYCK-J3-PF.pdf"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4258,7 @@
 			)
 		)
 		(property "Description" "LED YELLOW 590nm 20mcd@2mA 40mcd@4mA 1.87V"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4267,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4276,7 @@
 			)
 		)
 		(property "IPN" "D-KIN-APHHS1005LSYCK/J3-PF"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4285,7 @@
 			)
 		)
 		(property "MPN" "APHHS1005LSYCK/J3-PF"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4294,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4303,7 @@
 			)
 		)
 		(property "Type" "LED YELLOW"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4312,7 @@
 			)
 		)
 		(property "Vf" "1.85V"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4321,7 @@
 			)
 		)
 		(property "If" "2mA"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4330,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4339,7 @@
 			)
 		)
 		(property "SPN" "604-APHHS1005LSYCKJ3"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4348,7 @@
 			)
 		)
 		(property "LCSC" "C5354974"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4357,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active"
-			(at 190.5 44.45 0)
+			(at 218.44 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4382,8 @@
 	)
 	(symbol
 		(lib_id "#dzdb:s_dio/D-KIN-APHHS1005LZGCK-V")
-		(at 198.12 41.91 0)
+		(at 210.82 41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4401,7 +4392,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf1bb903-cf47-4bec-b023-c395ac4d355b")
 		(property "Reference" "D4"
-			(at 196.5325 35.56 0)
+			(at 212.4075 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4400,7 @@
 			)
 		)
 		(property "Value" "APHHS1005LZGCK-V"
-			(at 196.5325 38.1 0)
+			(at 212.4075 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4408,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4417,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005LZGCK-V.pdf"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4426,7 @@
 			)
 		)
 		(property "Description" "LED EMERALD GREEN 525nm 180mcd@2mA 40mcd@0.44mA 2.54V"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4444,7 +4435,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4444,7 @@
 			)
 		)
 		(property "IPN" "D-KIN-APHHS1005LZGCK-V"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4453,7 @@
 			)
 		)
 		(property "MPN" "APHHS1005LZGCK-V"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4462,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4471,7 @@
 			)
 		)
 		(property "Type" "LED GREEN"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4480,7 @@
 			)
 		)
 		(property "Vf" "2.65V"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4489,7 @@
 			)
 		)
 		(property "If" "2mA"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4498,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4507,7 @@
 			)
 		)
 		(property "SPN" "604-APHHS1005LZGCK-V"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4516,7 @@
 			)
 		)
 		(property "LCSC" "C5875752"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4525,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active"
-			(at 198.12 41.91 0)
+			(at 210.82 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1052,6 +1052,10 @@
 		(uuid "29242c15-9bf2-43b0-9212-4602da17a8dc")
 	)
 	(no_connect
+		(at 217.17 82.55)
+		(uuid "2bc210d6-5a51-4c8e-88d0-e184eab0b052")
+	)
+	(no_connect
 		(at 217.17 115.57)
 		(uuid "760e1f5b-5b5b-4e1f-8e0f-e5852a6fdff5")
 	)
@@ -1078,6 +1082,10 @@
 	(no_connect
 		(at 242.57 102.87)
 		(uuid "de8edb1f-95b2-4a05-b7e6-1221c7fe3eb3")
+	)
+	(no_connect
+		(at 217.17 80.01)
+		(uuid "e8a763d7-38a1-43ee-b7a8-50802f956741")
 	)
 	(no_connect
 		(at 217.17 120.65)
@@ -1177,16 +1185,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 82.55) (xy 217.17 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26117fb0-e2f3-484c-852f-2f3b687659d3")
-	)
-	(wire
-		(pts
 			(xy 242.57 113.03) (xy 242.57 115.57)
 		)
 		(stroke
@@ -1204,16 +1202,6 @@
 			(type default)
 		)
 		(uuid "2eb7b949-366c-4652-88cc-41e51972219c")
-	)
-	(wire
-		(pts
-			(xy 205.74 80.01) (xy 217.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "311a9442-63e1-462f-ad48-8dedad9d4e58")
 	)
 	(wire
 		(pts
@@ -2436,16 +2424,6 @@
 		)
 		(uuid "4cdca534-54ec-4b73-a92a-ead0be84e31d")
 	)
-	(label "TX_PI"
-		(at 205.74 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "655f6b6f-e06f-49f5-a00a-a8d5315e2f4d")
-	)
 	(label "ST_CAN_P"
 		(at 205.74 90.17 0)
 		(effects
@@ -2465,16 +2443,6 @@
 			(justify left bottom)
 		)
 		(uuid "8d148146-2284-42a1-ba93-5ce35a5b7cd4")
-	)
-	(label "RX_PI"
-		(at 205.74 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad7d7176-5d05-446b-911f-10f048b60a8b")
 	)
 	(label "TRD3.D+"
 		(at 254 92.71 180)
@@ -2539,7 +2507,7 @@
 		)
 	)
 	(global_label "STM_TX"
-		(shape input)
+		(shape output)
 		(at 205.74 85.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2583,7 +2551,7 @@
 		)
 	)
 	(global_label "ST_CAN_N"
-		(shape input)
+		(shape bidirectional)
 		(at 205.74 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2594,29 +2562,7 @@
 		)
 		(uuid "6fae5749-9974-4acf-8528-3644920ac34f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.6229 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Battery_Out_5V"
-		(shape output)
-		(at 205.74 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cbf63fa5-e04c-40ef-a3ae-9142bab8db82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.6035 100.33 0)
+			(at 192.5116 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2573,7 @@
 		)
 	)
 	(global_label "ST_CAN_P"
-		(shape input)
+		(shape bidirectional)
 		(at 205.74 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2638,7 +2584,7 @@
 		)
 		(uuid "f8592d6f-e7b8-4d02-8d6c-84dd06778aab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.6834 90.17 0)
+			(at 192.5721 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,6 +2605,17 @@
 		)
 		(uuid "52c1812a-cd99-4875-bbaf-a4a51e843b40")
 	)
+	(hierarchical_label "Battery_Out_3.3V"
+		(shape output)
+		(at 205.74 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "679dd3e5-1338-4462-aa03-d01671e758a1")
+	)
 	(hierarchical_label "TRD1{D+ D-}"
 		(shape bidirectional)
 		(at 261.62 77.47 0)
@@ -2669,6 +2626,17 @@
 			(justify left)
 		)
 		(uuid "9e41d420-4740-45d6-83a0-fd8912ea4ab9")
+	)
+	(hierarchical_label "Battery_Out_5V"
+		(shape output)
+		(at 205.74 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df7a2952-396c-4100-8ddd-20955861fa4d")
 	)
 	(hierarchical_label "TRD2{D+ D-}"
 		(shape bidirectional)
