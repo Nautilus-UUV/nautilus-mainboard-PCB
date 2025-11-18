@@ -674,42 +674,52 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#dzdb:g_res/R-1k-0603"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "#dzdb:s_dio/D-DIO-DDZ5V1B-7"
 			(pin_names
-				(offset 0)
+				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "1k"
-				(at 0 0 90)
+			(property "Value" "DDZ5V1B-7"
+				(at 11.43 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at -1.778 0 90)
+			(property "Footprint" "dz_dio:SOD3716X145N"
+				(at 11.43 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0004140741/DIOD-S-A0004140741-1.pdf?hkey=CECEF36DEECDED6468708AAF2E19C0C6"
+				(at 11.43 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener Diodes 500mW 5.1V Zener"
 				(at 0 0 0)
 				(effects
 					(font
@@ -718,7 +728,67 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 1 kOhms 1 % 0.1 W 0603"
+			(property "Description_1" "Diode Zener Single 5.07V 500mW Automotive 2-Pin SOD-123 T/R"
+				(at 11.43 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 11.43 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-DDZ5V1B-7"
+				(at 11.43 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DDZ5V1B-7?qs=SSucg2PyLi5mc%252BUUcOU%252BZw%3D%3D"
+				(at 11.43 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 11.43 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DDZ5V1B-7"
+				(at 11.43 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "IPN" "D-DIO-DDZ5V1B-7"
 				(at 0 0 0)
 				(effects
 					(font
@@ -727,7 +797,7 @@
 					(hide yes)
 				)
 			)
-			(property "IPN" "R-1k-0603"
+			(property "MPN" "DDZ5V1B-7"
 				(at 0 0 0)
 				(effects
 					(font
@@ -736,7 +806,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "560112116014"
+			(property "Manufacturer" "Diodes Incorporated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -745,7 +815,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Wurth Elektronik"
+			(property "Type" "Zener Diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -754,7 +824,7 @@
 					(hide yes)
 				)
 			)
-			(property "Resistance" "1k"
+			(property "Vf" "0.9V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -763,25 +833,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "0.1 W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Material" "Thick film"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1 %"
+			(property "If" "10mA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -799,7 +851,7 @@
 					(hide yes)
 				)
 			)
-			(property "SPN" "710-560112116014"
+			(property "SPN" "621-DDZ5V1B-7"
 				(at 0 0 0)
 				(effects
 					(font
@@ -808,7 +860,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "CXXXXX"
+			(property "LCSC" " "
 				(at 0 0 0)
 				(effects
 					(font
@@ -817,7 +869,7 @@
 					(hide yes)
 				)
 			)
-			(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(property "Comment" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -826,7 +878,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_fp_filters" "dz_dio:SOD3716X145N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -835,32 +887,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "g_res/R-1k-0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "g_res/R-1k-0603_1_1"
+			(symbol "s_dio/D-DIO-DDZ5V1B-7_0_0"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 0 0)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -877,8 +907,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 15.24 0 180)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -892,6 +922,56 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "s_dio/D-DIO-DDZ5V1B-7_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2008,6 +2088,18 @@
 		(uuid "fad5c8c8-c2c6-4d48-bb7d-3ce82a681538")
 	)
 	(junction
+		(at 172.72 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02ac5f26-ac0d-4396-a323-3e7a274a4068")
+	)
+	(junction
+		(at 172.72 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17866ba1-1af1-4509-b812-9bcfa75deb38")
+	)
+	(junction
 		(at 163.83 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2019,28 +2111,6 @@
 		(color 0 0 0 0)
 		(uuid "90dd83b9-ed1b-494f-955f-a35273e48916")
 	)
-	(junction
-		(at 172.72 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6810d9a-6d2c-43e1-8aa8-bc3006717cc8")
-	)
-	(junction
-		(at 172.72 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4881925-1d3e-40c0-87fe-4eddb5c40335")
-	)
-	(wire
-		(pts
-			(xy 172.72 80.01) (xy 163.83 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03fc4dc4-d69a-4002-9f03-e65f0b323ea3")
-	)
 	(wire
 		(pts
 			(xy 160.02 102.87) (xy 163.83 102.87)
@@ -2050,6 +2120,16 @@
 			(type default)
 		)
 		(uuid "07b4b771-c0bc-4b74-ace5-40261c70057b")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 172.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d0e8be-f8ac-4b04-a92d-6261b3c2e5b8")
 	)
 	(wire
 		(pts
@@ -2073,7 +2153,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 77.47) (xy 172.72 80.01)
+			(xy 172.72 77.47) (xy 172.72 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2083,23 +2163,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 88.9) (xy 172.72 95.25)
+			(xy 166.37 77.47) (xy 172.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cf02a1-e338-4d0d-bca6-fb067e604e1f")
+	)
+	(wire
+		(pts
+			(xy 172.72 87.63) (xy 172.72 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "48594925-b54b-40a0-93c5-b01c669f547b")
-	)
-	(wire
-		(pts
-			(xy 163.83 80.01) (xy 163.83 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d044249-b5ff-4b2a-a3cc-d59e255f8d79")
 	)
 	(wire
 		(pts
@@ -2113,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 64.77) (xy 172.72 69.85)
+			(xy 172.72 64.77) (xy 172.72 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2143,16 +2223,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 80.01) (xy 172.72 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b40c065c-7546-4bb4-85e2-9145677b10c9")
-	)
-	(wire
-		(pts
 			(xy 172.72 87.63) (xy 179.07 87.63)
 		)
 		(stroke
@@ -2160,16 +2230,6 @@
 			(type default)
 		)
 		(uuid "c2b72d08-8534-4159-8996-7a843aeb8248")
-	)
-	(wire
-		(pts
-			(xy 163.83 88.9) (xy 172.72 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd38b0ff-dd8d-4e28-a095-06d1a2a90350")
 	)
 	(wire
 		(pts
@@ -2203,13 +2263,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 172.72 88.9)
+			(xy 172.72 92.71) (xy 172.72 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fefde082-cc1e-4ce3-906e-ef9d140bb5bf")
+		(uuid "ee6f7f30-6d63-4307-bf59-5cea78b71603")
+	)
+	(wire
+		(pts
+			(xy 166.37 92.71) (xy 172.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9b788b-4f82-4ac2-a88d-d3feb06ac6d6")
 	)
 	(hierarchical_label "Piezo_ctrl"
 		(shape input)
@@ -2672,17 +2742,17 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_res/R-1k-0603")
-		(at 163.83 85.09 0)
+		(lib_id "#dzdb:s_dio/D-DIO-DDZ5V1B-7")
+		(at 166.37 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "993c9fb5-6245-48f8-adbc-7b8bd2aa8972")
-		(property "Reference" "R38"
-			(at 166.37 83.8199 0)
+		(uuid "939d2672-1bd9-4326-b02f-50aa680e11a4")
+		(property "Reference" "D9"
+			(at 170.18 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,8 +2760,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 166.37 86.3599 0)
+		(property "Value" "DDZ5V1B-7"
+			(at 170.18 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,8 +2769,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.052 85.09 90)
+		(property "Footprint" "dz_dio:SOD3716X145N"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0004140741/DIOD-S-A0004140741-1.pdf?hkey=CECEF36DEECDED6468708AAF2E19C0C6"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener Diodes 500mW 5.1V Zener"
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,8 +2798,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
-			(at 163.83 85.09 0)
+		(property "Description_1" "Diode Zener Single 5.07V 500mW Automotive 2-Pin SOD-123 T/R"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DDZ5V1B-7"
+			(at 156.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DDZ5V1B-7?qs=SSucg2PyLi5mc%252BUUcOU%252BZw%3D%3D"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DDZ5V1B-7"
+			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IPN" "D-DIO-DDZ5V1B-7"
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,8 +2867,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 1 kOhms 1 % 0.1 W 0603"
-			(at 163.83 85.09 0)
+		(property "MPN" "DDZ5V1B-7"
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,8 +2876,8 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "R-1k-0603"
-			(at 163.83 85.09 0)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,8 +2885,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112116014"
-			(at 163.83 85.09 0)
+		(property "Type" "Zener Diode"
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,8 +2894,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 163.83 85.09 0)
+		(property "Vf" "0.9V"
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,35 +2903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Resistance" "1k"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1 W"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "Thick film"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 163.83 85.09 0)
+		(property "If" "10mA"
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2913,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 163.83 85.09 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,8 +2921,8 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "710-560112116014"
-			(at 163.83 85.09 0)
+		(property "SPN" "621-DDZ5V1B-7"
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,8 +2930,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "CXXXXX"
-			(at 163.83 85.09 0)
+		(property "LCSC" " "
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,8 +2939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 163.83 85.09 0)
+		(property "Comment" ""
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,15 +2949,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "965c5af5-8bbc-410c-92c9-e54a890e4102")
+			(uuid "1828cd3a-368e-44b8-9e86-f843c9eea301")
 		)
 		(pin "2"
-			(uuid "13116e43-b747-414e-82e5-fef346b99720")
+			(uuid "ea61e3ff-6061-45c4-b591-e4efa7d11dcc")
 		)
 		(instances
-			(project "nautilus_mainboard"
+			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/7439593a-de4f-4d56-b463-481360a4f617"
-					(reference "R38")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3117,7 +3240,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-0-0603")
-		(at 172.72 73.66 0)
+		(at 172.72 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3126,7 +3249,7 @@
 		(fields_autoplaced yes)
 		(uuid "c86440e3-6808-460d-bab8-0e09b96d1e8b")
 		(property "Reference" "R39"
-			(at 175.26 72.3899 0)
+			(at 175.26 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +3258,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 175.26 74.9299 0)
+			(at 175.26 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3267,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.942 73.66 90)
+			(at 170.942 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3276,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3285,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3294,7 @@
 			)
 		)
 		(property "IPN" "R-0-0603"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3303,7 @@
 			)
 		)
 		(property "MPN" "560112116001"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3312,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3321,7 @@
 			)
 		)
 		(property "Resistance" "0"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3330,7 @@
 			)
 		)
 		(property "Power" "0.1W"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3339,7 @@
 			)
 		)
 		(property "Material" "Thick film"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +3348,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,7 +3357,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,7 +3366,7 @@
 			)
 		)
 		(property "SPN" "710-560112116001"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3252,7 +3375,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3384,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 172.72 73.66 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
