@@ -12370,7 +12370,7 @@
 		(dnp no)
 		(uuid "19faed42-543c-4c72-9f48-2b13fe81f545")
 		(property "Reference" "EXTERNALFAN5V1"
-			(at 56.642 20.066 90)
+			(at 49.53 13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14926,10 +14926,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d7a440d-b130-488e-bdca-9ad878fc437e")
 		(property "Reference" "C18"
-			(at 190.5 162.5599 0)
+			(at 189.992 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14938,7 +14937,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 190.5 165.0999 0)
+			(at 189.738 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17234,7 +17233,7 @@
 		(dnp no)
 		(uuid "fd83bad8-0ca6-4cc4-8840-4cbf209b6790")
 		(property "Reference" "C16"
-			(at 196.596 161.544 0)
+			(at 201.168 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17243,7 +17242,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 196.088 166.116 0)
+			(at 200.66 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
