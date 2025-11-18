@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "8df18bc4-4439-4418-9ac4-027c4bf39e0c")
 	(paper "A4")
+	(title_block
+		(date "2025-11-18")
+		(company "Davide")
+	)
 	(lib_symbols
 		(symbol "#dzdb:g_res/R-2.2k-0603"
 			(pin_numbers

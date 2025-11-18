@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "5195371c-3d40-4011-9928-218adcc4942d")
 	(paper "A4")
+	(title_block
+		(date "2025-11-18")
+		(company "Evan")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Probe"
 			(pin_numbers
@@ -157,6 +161,16 @@
 			(type default)
 		)
 		(uuid "21dc993b-3880-48e4-a45a-18b9cf5f162c")
+	)
+	(wire
+		(pts
+			(xy 44.45 76.2) (xy 44.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e227b0a-aeb3-4b98-90e8-ea05049abb9a")
 	)
 	(wire
 		(pts
@@ -323,6 +337,17 @@
 			(justify right)
 		)
 		(uuid "4ee3a2e8-dd26-40cb-8712-c8f54fca5327")
+	)
+	(hierarchical_label "Piezzo_Control"
+		(shape output)
+		(at 44.45 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63020422-96eb-4649-be4e-0c9ad187bb20")
 	)
 	(hierarchical_label "Pack1_SDA"
 		(shape bidirectional)
@@ -667,6 +692,16 @@
 		(pin "STM_Plug_3.3V" output
 			(at 73.66 76.2 270)
 			(uuid "a706ad19-1631-4638-8a13-6c10476936d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Piezzo_Control" output
+			(at 44.45 76.2 270)
+			(uuid "9d60a3e8-82f7-4fe7-ad99-d5ec15807761")
 			(effects
 				(font
 					(size 1.27 1.27)
