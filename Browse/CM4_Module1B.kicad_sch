@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2025-11-18")
+    (company "Davide")
+  )
+
   (lib_symbols
     (symbol "#dzdb:g_cap/C-4.7n-0603" (pin_numbers hide) (pin_names (offset 0.254)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)

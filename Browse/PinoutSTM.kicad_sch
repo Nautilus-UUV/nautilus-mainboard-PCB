@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2025-11-18")
+    (company "Evan")
+  )
+
   (lib_symbols
     (symbol "#dzdb:g_cap/C-100n-0603" (pin_numbers hide) (pin_names (offset 0.254)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
@@ -692,11 +697,11 @@
       )
       (embedded_fonts no))
     (symbol "#dzdb:s_con/CON-SAMTEC-FTSH-107-02-L-DV" (pin_names (offset 0.762)) (exclude_from_sim no) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 19.05 7.62 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Reference" "J1" (at 11.43 7.62 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "FTSH-107-02-L-DV" (at 19.05 5.08 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "FTSH-107-02-L-DV" (at 11.43 5.08 0)
+        (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "dz_con:FTSH-107-XX-YYY-DV" (at 19.05 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left) (hide yes))
@@ -819,7 +824,7 @@
           (number "14" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "s_con/CON-SAMTEC-FTSH-107-02-L-DV_0_1"
+      (symbol "s_con/CON-SAMTEC-FTSH-107-02-L-DV_1_1"
         (polyline
           (pts
             (xy 5.08 2.54)
@@ -828,8 +833,8 @@
             (xy 5.08 -17.78)
             (xy 5.08 2.54)
           )
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
         )
       )
       (embedded_fonts no))
@@ -2157,7 +2162,6 @@
   (no_connect (at 212.09 31.75) (uuid "d1674c90-3bf4-404d-a9e9-c800bca2e6e9"))
   (no_connect (at 87.63 128.27) (uuid "d91231a0-9c97-434d-b5b0-b86aedddd3d5"))
   (no_connect (at 110.49 128.27) (uuid "e57a8ac4-d88c-4892-b18d-58017f6a6a0a"))
-  (no_connect (at 125.73 97.79) (uuid "f66c3f47-eb0f-4092-be20-cf2a638dfcc8"))
   (no_connect (at 125.73 100.33) (uuid "fb36625e-a03e-46ba-ac7d-21079a437ac0"))
 
   (wire (pts (xy 34.29 86.36) (xy 31.75 86.36))
@@ -2364,6 +2368,10 @@
   (wire (pts (xy 241.3 27.94) (xy 259.08 27.94))
     (stroke (width 0) (type default))
     (uuid "8241625b-0069-4bd5-99db-48ac9c9d2b1c")
+  )
+  (wire (pts (xy 125.73 97.79) (xy 149.86 97.79))
+    (stroke (width 0) (type default))
+    (uuid "82dcd72a-8356-4ac2-bf50-8cd154cf1b3c")
   )
   (wire (pts (xy 241.3 38.1) (xy 241.3 40.64))
     (stroke (width 0) (type default))
@@ -6915,6 +6923,10 @@
     (effects (font (size 1.27 1.27)))
     (uuid "8083ca65-5b1f-4838-a2ea-346fe786fac1")
   )
+  (text "Chose a Pin here please." (exclude_from_sim no) (at 150.114 100.33 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid "89e2a5fd-da27-479e-818c-d6c864840d3e")
+  )
   (text "External interfaces\n\n" (exclude_from_sim no) (at 183.896 16.764 0)
     (effects (font (size 1.27 1.27)))
     (uuid "abb9d205-b609-4fb9-bddd-7872922dd3d5")
@@ -6926,6 +6938,10 @@
   (text "-  +" (exclude_from_sim no) (at 63.5 49.276 0)
     (effects (font (size 1.27 1.27)))
     (uuid "de93730c-6a35-41dd-9959-c7d4e59594cb")
+  )
+  (text "I chose 7 but please make sure its an actual pin evan. I just gambled." (exclude_from_sim no) (at 164.846 102.616 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid "f5b9129f-0cb0-4aaf-bc09-c4a3b7097751")
   )
 
   (label "UART4_TX" (at 60.96 105.41 0)
@@ -7139,6 +7155,10 @@
   (hierarchical_label "STM_Plug_3.3V" (shape output) (at 250.19 17.78 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid "43de752f-c2e2-4a4f-90e9-d730230b6e42")
+  )
+  (hierarchical_label "Piezzo_Control" (shape output) (at 149.86 97.79 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid "459135f1-3dd9-4ff3-b477-d496ca5989b8")
   )
   (hierarchical_label "STM_USART_TX" (shape output) (at 59.69 110.49 180)
     (effects (font (size 1.27 1.27)) (justify right))
