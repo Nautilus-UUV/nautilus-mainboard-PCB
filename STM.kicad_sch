@@ -239,7 +239,7 @@
 		(uuid "f39700cb-3ed3-4c2e-ac2f-ff4ca41e58cd")
 	)
 	(hierarchical_label "STM_UART_TX"
-		(shape input)
+		(shape output)
 		(at 63.5 86.36 270)
 		(effects
 			(font
@@ -250,7 +250,7 @@
 		(uuid "0e16eb39-22fa-46c8-8cfe-bb35476a0cea")
 	)
 	(hierarchical_label "STM_UART_RX"
-		(shape output)
+		(shape input)
 		(at 58.42 86.36 270)
 		(effects
 			(font
@@ -272,7 +272,7 @@
 		(uuid "4316e83c-ce59-4215-b807-1daba72cb541")
 	)
 	(hierarchical_label "Pack1_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 33.02 86.36 270)
 		(effects
 			(font
@@ -283,7 +283,7 @@
 		(uuid "440f0e6d-e4e0-4d92-8456-348f0e4c7a64")
 	)
 	(hierarchical_label "Pack1_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 36.83 86.36 270)
 		(effects
 			(font
@@ -544,16 +544,6 @@
 				(justify right)
 			)
 		)
-		(pin "CAN1_TX" input
-			(at 76.2 50.8 0)
-			(uuid "de545199-8f8a-4a56-b071-35c6fe8d0dda")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "STM_USART_RX" input
 			(at 58.42 76.2 270)
 			(uuid "f593e2da-de9a-46f0-9c85-6c77624a4851")
@@ -594,9 +584,19 @@
 				(justify left)
 			)
 		)
-		(pin "Pack1_SCL" input
+		(pin "CAN1_TX" output
+			(at 76.2 50.8 0)
+			(uuid "bbcd729d-590f-462e-85f5-ec01d6ad1ebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pack1_SCL" bidirectional
 			(at 33.02 76.2 270)
-			(uuid "9d0ad70f-b959-49eb-97c6-246dc3b24722")
+			(uuid "c8a452b9-ae7a-44ae-af66-fe36cb9e56ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -604,9 +604,9 @@
 				(justify left)
 			)
 		)
-		(pin "Pack1_SDA" input
+		(pin "Pack1_SDA" bidirectional
 			(at 36.83 76.2 270)
-			(uuid "f35c5d05-a477-45b6-9eff-cf31dceada59")
+			(uuid "eb322cba-53ce-411d-aea6-6182438ff798")
 			(effects
 				(font
 					(size 1.27 1.27)

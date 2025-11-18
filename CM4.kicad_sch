@@ -713,7 +713,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 86.36 81.28)
+			(xy 78.74 81.28) (xy 86.36 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1051,28 +1051,6 @@
 		)
 		(uuid "e38c5eef-700c-488a-8f74-c8315247d948")
 	)
-	(global_label "GPIO_VREF_3.3V"
-		(shape input)
-		(at 81.28 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1bc52e2-a883-4c6f-bf47-d17e3d51246f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1757 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "PI_RX"
 		(shape input)
 		(at 128.27 104.14 270)
@@ -1129,7 +1107,7 @@
 		(uuid "9c1d6ebe-7519-4dfa-9fc4-05d2031232eb")
 	)
 	(hierarchical_label "PI_TX"
-		(shape input)
+		(shape output)
 		(at 124.46 104.14 270)
 		(effects
 			(font
@@ -1138,6 +1116,17 @@
 			(justify right)
 		)
 		(uuid "9f0e2063-1de4-42b1-ba24-5610577224be")
+	)
+	(hierarchical_label "GPIO_VREF_3.3V"
+		(shape input)
+		(at 78.74 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecc22334-7517-40e3-877d-33287d067fd5")
 	)
 	(hierarchical_label "TRD2{D+ D-}"
 		(shape bidirectional)
@@ -1151,7 +1140,7 @@
 		(uuid "ecd50609-98e3-4686-92c6-a53fe5288938")
 	)
 	(hierarchical_label "RUN_PG"
-		(shape input)
+		(shape output)
 		(at 142.24 57.15 0)
 		(effects
 			(font
@@ -1615,7 +1604,7 @@
 				(justify left)
 			)
 		)
-		(pin "TXD0" input
+		(pin "TXD0" output
 			(at 124.46 97.79 270)
 			(uuid "48ad677e-0ba9-409b-8ccb-06296a17ad7f")
 			(effects
@@ -1625,7 +1614,7 @@
 				(justify left)
 			)
 		)
-		(pin "RUN_PG" input
+		(pin "RUN_PG" output
 			(at 137.16 57.15 0)
 			(uuid "e0dd7d45-6c5e-45a5-a667-7bf31a91f3c9")
 			(effects

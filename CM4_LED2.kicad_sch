@@ -564,7 +564,7 @@
 		)
 		(uuid "49926ecd-d396-4609-9677-82708e7e00fa")
 	)
-	(global_label "CM4_LED_IN_3.3V"
+	(global_label "Battery_Out_3.3V"
 		(shape input)
 		(at 135.89 62.23 0)
 		(fields_autoplaced yes)
@@ -576,7 +576,7 @@
 		)
 		(uuid "4b41e838-8ce1-451b-800f-65d7e446c753")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.2037 62.23 0)
+			(at 154.8408 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)

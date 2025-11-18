@@ -153,16 +153,16 @@
 		(uuid "2bf52f9b-bfa4-474a-b05a-fbce59c8e41a")
 	)
 	(junction
-		(at 83.82 90.17)
+		(at 49.53 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9343dc68-e3e4-4902-96b3-4eb238b3451b")
+		(uuid "64f4e02d-d5d2-44be-98df-724f00cadb31")
 	)
 	(junction
-		(at 83.82 87.63)
+		(at 69.85 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c751e1cb-d297-40cb-aac3-44ce85aa824c")
+		(uuid "66a71d87-fc59-4c6d-904f-0a7603d6c603")
 	)
 	(bus
 		(pts
@@ -196,6 +196,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 83.82) (xy 69.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d056d76-0a5c-4c12-8de2-39e552805eff")
+	)
+	(wire
+		(pts
 			(xy 76.2 52.07) (xy 78.74 52.07)
 		)
 		(stroke
@@ -206,7 +216,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 93.98) (xy 184.15 90.17)
+			(xy 49.53 96.52) (xy 49.53 90.17)
 		)
 		(stroke
 			(width 0)
@@ -223,16 +233,6 @@
 			(type default)
 		)
 		(uuid "50fb062c-a07e-42f5-8975-6352a9d09e26")
-	)
-	(wire
-		(pts
-			(xy 55.88 90.17) (xy 83.82 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6120cc0a-0246-490b-970c-a059f3147ffd")
 	)
 	(wire
 		(pts
@@ -256,53 +256,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 87.63) (xy 83.82 87.63)
+			(xy 152.4 62.23) (xy 177.8 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a020c9cb-4461-403a-a6d8-e9db15fbe6f3")
-	)
-	(wire
-		(pts
-			(xy 83.82 90.17) (xy 184.15 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a47f7c03-d427-49f4-93cf-2eb5acc8c075")
-	)
-	(wire
-		(pts
-			(xy 59.69 87.63) (xy 59.69 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fd38ec-ede4-4bdc-9a63-640e9240ba40")
-	)
-	(wire
-		(pts
-			(xy 83.82 87.63) (xy 59.69 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb12037e-c886-4d21-9f3e-8bf1fedb06d7")
-	)
-	(wire
-		(pts
-			(xy 186.69 93.98) (xy 186.69 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd77351a-9d70-4bbc-9546-9c7ee828e13c")
+		(uuid "b0685c2c-61ff-4823-a07e-426c590983c2")
 	)
 	(wire
 		(pts
@@ -326,7 +286,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 90.17) (xy 55.88 76.2)
+			(xy 69.85 83.82) (xy 69.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de23fb1b-4384-42f2-8a4b-3d919960cf5c")
+	)
+	(wire
+		(pts
+			(xy 49.53 90.17) (xy 49.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -352,10 +322,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34df33ec-2ac5-4042-826f-36bb04643fa8")
 		(property "Reference" "TP4"
-			(at 83.82 42.8624 0)
+			(at 83.566 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +333,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 83.82 45.4024 0)
+			(at 83.566 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -413,7 +382,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 83.82 87.63 0)
+		(at 69.85 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -422,7 +391,7 @@
 		(fields_autoplaced yes)
 		(uuid "73c480f0-fad0-4ed6-a061-aeca3fecaab2")
 		(property "Reference" "TP2"
-			(at 87.63 84.7724 0)
+			(at 73.66 80.9624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +400,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 87.63 87.3124 0)
+			(at 73.66 83.5024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +409,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 88.9 87.63 0)
+			(at 74.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +418,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 87.63 0)
+			(at 74.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,7 +427,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 83.82 87.63 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -480,7 +449,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 83.82 90.17 0)
+		(at 49.53 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -489,7 +458,7 @@
 		(fields_autoplaced yes)
 		(uuid "d56beda0-3a8d-49b5-a3cb-21db858ca9d6")
 		(property "Reference" "TP3"
-			(at 87.63 87.3124 0)
+			(at 53.34 87.3124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,7 +467,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 87.63 89.8524 0)
+			(at 53.34 89.8524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,7 +476,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 88.9 90.17 0)
+			(at 54.61 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,7 +485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 90.17 0)
+			(at 54.61 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,7 +494,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 83.82 90.17 0)
+			(at 49.53 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,10 +522,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e453ccb9-bf8e-4bf0-a32d-ebbc3574afdc")
 		(property "Reference" "TP5"
-			(at 82.55 49.2124 0)
+			(at 82.296 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,7 +533,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 82.55 51.7524 0)
+			(at 82.296 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,26 +614,6 @@
 				(justify left top)
 			)
 		)
-		(pin "STM_UART_RX" output
-			(at 76.2 52.07 0)
-			(uuid "d457ef4d-ccfc-4fbb-b803-956c90b8b301")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "STM_UART_TX" input
-			(at 76.2 45.72 0)
-			(uuid "a743339a-f58c-4a22-9685-ab26721b415c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RUN_PG_CM4" input
 			(at 76.2 40.64 0)
 			(uuid "140a2226-c9a4-44cc-ae95-c3638862d202")
@@ -687,7 +635,7 @@
 			)
 		)
 		(pin "Pack1_SCL" input
-			(at 55.88 76.2 270)
+			(at 49.53 76.2 270)
 			(uuid "274b8679-3853-4f7f-9243-1cc7ae940b39")
 			(effects
 				(font
@@ -697,13 +645,33 @@
 			)
 		)
 		(pin "Pack1_SDA" input
-			(at 59.69 76.2 270)
+			(at 69.85 76.2 270)
 			(uuid "e2f673a0-dfad-4e53-9b91-50e542825f55")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "STM_UART_RX" input
+			(at 76.2 52.07 0)
+			(uuid "7fb464fb-4945-420a-a315-2a2c833e3640")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM_UART_TX" output
+			(at 76.2 45.72 0)
+			(uuid "65a593d5-6aa6-4ec8-92d0-fff1af407454")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -715,7 +683,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 92.71)
+		(at 176.53 93.98)
 		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -731,7 +699,7 @@
 		)
 		(uuid "7439593a-de4f-4d56-b463-481360a4f617")
 		(property "Sheetname" "Piezzo"
-			(at 25.4 91.9984 0)
+			(at 176.53 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -740,7 +708,7 @@
 			)
 		)
 		(property "Sheetfile" "Piezzo.kicad_sch"
-			(at 25.4 144.0946 0)
+			(at 176.53 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +807,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 93.98)
+		(at 25.4 96.52)
 		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -855,7 +823,7 @@
 		)
 		(uuid "bdf8f7d6-a5ee-4741-925d-5019e8cbdfce")
 		(property "Sheetname" "IMU"
-			(at 177.8 93.2684 0)
+			(at 25.4 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +832,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 177.8 145.3646 0)
+			(at 25.4 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +841,7 @@
 			)
 		)
 		(pin "Pack1_SCL" input
-			(at 184.15 93.98 90)
+			(at 49.53 96.52 90)
 			(uuid "965fbacc-baaa-4b5b-971a-2d7da1a0679b")
 			(effects
 				(font
@@ -883,7 +851,7 @@
 			)
 		)
 		(pin "Pack1_SDA" input
-			(at 186.69 93.98 90)
+			(at 69.85 96.52 90)
 			(uuid "e2edc7c6-5225-4179-970e-43f4164f332f")
 			(effects
 				(font
@@ -932,6 +900,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GPIO_VREF_3.3V" output
+			(at 177.8 62.23 180)
+			(uuid "91d7cf2d-d3aa-472b-bdbb-ec9226ba2f62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -986,7 +964,7 @@
 				(justify left)
 			)
 		)
-		(pin "PI_TX" input
+		(pin "PI_TX" output
 			(at 101.6 52.07 180)
 			(uuid "f959af84-0c74-41b2-810a-c7820c160bfb")
 			(effects
@@ -996,7 +974,7 @@
 				(justify left)
 			)
 		)
-		(pin "RUN_PG" input
+		(pin "RUN_PG" output
 			(at 101.6 40.64 180)
 			(uuid "e0a9fbb7-4090-4e43-91ee-39850dfd2856")
 			(effects
@@ -1054,6 +1032,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GPIO_VREF_3.3V" input
+			(at 152.4 62.23 0)
+			(uuid "e70a92ba-c9f8-4a6d-ad34-a972172b3e74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

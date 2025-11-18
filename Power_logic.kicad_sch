@@ -500,16 +500,6 @@
 		)
 		(uuid "2c3ff299-3e28-4b39-9fbf-80fe9d371223")
 	)
-	(text "Directly connected if plug is in"
-		(exclude_from_sim no)
-		(at 129.032 139.954 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "391c193e-4c84-410e-9a3d-0eb9bd5f930f")
-	)
 	(text "some rules:\nUSB wont power the STM32.\nSTM_Plug wont power the CM4\nThe GPIO_VREF of the CM4 needs to be STM32's 3.3V\nThe Lan Vin is only powered when running on Battery\nBattery preferrably powers everything."
 		(exclude_from_sim no)
 		(at 231.394 68.834 0)
@@ -620,12 +610,6 @@
 		(uuid "3b5eef6c-1ee3-4211-81ec-8e78330a03a6")
 	)
 	(junction
-		(at 99.06 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c50ecf4-04c8-4059-9598-3678e8e1c81b")
-	)
-	(junction
 		(at 140.97 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -650,12 +634,6 @@
 		(uuid "a6886874-7662-4d8c-979f-3457e25839ad")
 	)
 	(junction
-		(at 110.49 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aebd1ae3-473f-4924-b82c-2f69ca5e204c")
-	)
-	(junction
 		(at 104.14 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -678,18 +656,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3d261a9-26e0-41fa-885a-36dc9775affb")
-	)
-	(junction
-		(at 191.77 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc3d62a2-7304-4740-9472-13ef4a2e1fb6")
-	)
-	(junction
-		(at 190.5 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3937f07-196b-4502-925d-0ee550babbf6")
 	)
 	(junction
 		(at 99.06 85.09)
@@ -795,16 +761,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 142.24) (xy 191.77 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2207cfb4-779c-4b15-a43d-302c4655eb17")
-	)
-	(wire
-		(pts
 			(xy 149.86 124.46) (xy 153.67 124.46)
 		)
 		(stroke
@@ -815,7 +771,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 160.02) (xy 190.5 160.02)
+			(xy 152.4 160.02) (xy 198.12 160.02)
 		)
 		(stroke
 			(width 0)
@@ -925,17 +881,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 127) (xy 99.06 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57451142-38be-4458-9d0b-ac34b31a1f39")
-	)
-	(wire
-		(pts
-			(xy 99.06 127) (xy 101.6 127)
+			(xy 52.07 127) (xy 101.6 127)
 		)
 		(stroke
 			(width 0)
@@ -962,16 +908,6 @@
 			(type default)
 		)
 		(uuid "602311ed-e200-4d46-b222-c1272d75462c")
-	)
-	(wire
-		(pts
-			(xy 110.49 137.16) (xy 110.49 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655290f0-9439-4f0a-b068-8264ec282f47")
 	)
 	(wire
 		(pts
@@ -1075,16 +1011,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 139.7) (xy 99.06 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918666fc-90d8-4432-9b90-90bb3ecd8efb")
-	)
-	(wire
-		(pts
 			(xy 140.97 72.39) (xy 153.67 72.39)
 		)
 		(stroke
@@ -1092,16 +1018,6 @@
 			(type default)
 		)
 		(uuid "95095af6-4cc1-444d-9c0b-2a18b54af18b")
-	)
-	(wire
-		(pts
-			(xy 191.77 87.63) (xy 196.85 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97df0f20-2079-40c5-b99f-bff8e86dce3b")
 	)
 	(wire
 		(pts
@@ -1122,16 +1038,6 @@
 			(type default)
 		)
 		(uuid "9b418566-dc02-4908-a147-8db698a0eaf7")
-	)
-	(wire
-		(pts
-			(xy 110.49 139.7) (xy 110.49 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e4c26cb-c8e3-40bc-8e85-7d00368a9709")
 	)
 	(wire
 		(pts
@@ -1182,16 +1088,6 @@
 			(type default)
 		)
 		(uuid "a74ca228-8911-4a91-bc94-e890925fa48b")
-	)
-	(wire
-		(pts
-			(xy 190.5 160.02) (xy 198.12 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac7c1f82-260a-4b75-913c-edd779450c25")
 	)
 	(wire
 		(pts
@@ -1252,16 +1148,6 @@
 			(type default)
 		)
 		(uuid "c342f92e-6d8c-4c7c-b0fd-3d0396e5a253")
-	)
-	(wire
-		(pts
-			(xy 110.49 139.7) (xy 99.06 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5bd2b44-6e06-46fe-a860-7acca5ccd046")
 	)
 	(wire
 		(pts
@@ -1375,17 +1261,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 137.16) (xy 196.85 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f90e0c03-8539-42d1-9084-e9d180378799")
-	)
-	(wire
-		(pts
-			(xy 153.67 87.63) (xy 191.77 87.63)
+			(xy 153.67 87.63) (xy 196.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1402,28 +1278,6 @@
 			(type default)
 		)
 		(uuid "fa9f2b87-b7bb-402f-8bdd-6684912dcb52")
-	)
-	(global_label "STM_IN_3.3V"
-		(shape output)
-		(at 196.85 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19282bd0-1a4e-4d51-a200-c3341c3a0ac1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4466 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "USB_Out_5V"
 		(shape input)
@@ -1491,50 +1345,6 @@
 			)
 		)
 	)
-	(global_label "CM4_LED_IN_3.3V"
-		(shape output)
-		(at 191.77 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ac30841-a908-4c99-a308-e1cb6b873a71")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.0837 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SSD_IN_3.3V"
-		(shape output)
-		(at 196.85 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f1c06d6-c06b-4bb9-b464-68f00ac410c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.5071 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Battery_Out_3.3V"
 		(shape input)
 		(at 52.07 85.09 180)
@@ -1553,28 +1363,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CM4_IN_5V"
-		(shape output)
-		(at 198.12 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bfeb28b1-3df3-46ca-b4cd-579189d5d361")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.2047 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1623,31 +1411,20 @@
 			)
 		)
 	)
-	(global_label "GPIO_VREF_3.3V"
+	(hierarchical_label "GPIO_VREF_3.3V"
 		(shape output)
 		(at 193.04 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e00c0b8d-a92f-45d7-a46a-8be18ced24f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.1443 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "312b40bc-892c-4965-b248-bb872236a771")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 191.77 87.63 0)
+		(at 196.85 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1655,7 +1432,7 @@
 		(dnp no)
 		(uuid "04792a2e-8609-4e26-a60c-199c36b36bb2")
 		(property "Reference" "#PWR031"
-			(at 191.77 91.44 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +1441,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 187.96 85.598 0)
+			(at 193.04 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 87.63 0)
+			(at 196.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 87.63 0)
+			(at 196.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 191.77 87.63 0)
+			(at 196.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,6 +1668,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "0"
@@ -2376,172 +2154,6 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-0-0603")
-		(at 111.76 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "31c2beef-064b-47b0-a8ef-a71991f51d46")
-		(property "Reference" "R43"
-			(at 111.76 129.286 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 111.76 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 111.76 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "R-0-0603"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112116001"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "Thick film"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "710-560112116001"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "CXXXXX"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b502f80-7c59-4d2d-89f6-0015a07ef80b")
-		)
-		(pin "2"
-			(uuid "1a660f0b-ef1b-46d2-abb3-eda11c0db207")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-0-0603")
 		(at 113.03 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2867,6 +2479,172 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_res/R-0-0603")
+		(at 111.76 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bc08ff6-e269-4a19-b4da-379b4d1263f6")
+		(property "Reference" "R43"
+			(at 111.76 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 111.76 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.76 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "R-0-0603"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112116001"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "0"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.1W"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" "Thick film"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "710-560112116001"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "CXXXXX"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "637f914e-fb80-40a9-a3e0-38e27e2afcc1")
+		)
+		(pin "2"
+			(uuid "a284629a-4a55-4aec-81aa-fe7763b1a7d9")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c1998c4d-3f9a-4761-b447-a813532738a0"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3704,7 +3482,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 160.02 0)
+		(at 198.12 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3713,7 +3491,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4a15547-bf76-462c-953e-1630d5a89a0b")
 		(property "Reference" "#PWR032"
-			(at 190.5 163.83 0)
+			(at 198.12 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3500,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 154.94 0)
+			(at 198.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 160.02 0)
+			(at 198.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 160.02 0)
+			(at 198.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 160.02 0)
+			(at 198.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
