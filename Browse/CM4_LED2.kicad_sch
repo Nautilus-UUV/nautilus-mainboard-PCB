@@ -222,10 +222,10 @@
     (uuid "b4891bbf-11ae-42b5-80b9-eb5d9b7ab25c")
   )
 
-  (global_label "CM4_LED_IN_3.3V" (shape input) (at 135.89 62.23 0) (fields_autoplaced)
+  (global_label "Battery_Out_3.3V" (shape input) (at 135.89 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid "4b41e838-8ce1-451b-800f-65d7e446c753")
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 155.2037 62.23 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 154.8408 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left) (hide yes))
     )
   )
