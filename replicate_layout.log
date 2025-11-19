@@ -1,93 +1,49 @@
-11-03 20:54:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Plugin executed on: 'win32'
-11-03 20:54:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 410:Plugin executed with python version: '3.11.5 (main, Jun 15 2025, 06:45:45) [MSC v.1942 64 bit (AMD64)]'
-11-03 20:54:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 411:KiCad build version: 9.0.4
-11-03 20:54:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 412:Plugin version: 4.0.3
-11-03 20:54:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 413:Frame repr: <wx._core.Frame object at 0x00000205C8C0C4C0>
-11-03 20:54:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 437:Preparing replicator with U4 as a reference
-11-03 20:54:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
-11-03 20:54:21 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 485:source anchor footprint is 'U4'
-Located on: ['IMU', 'IMU3']
-With filenames: ['IMU.kicad_sch', 'IMU1.kicad_sch']
-With sheet_id:['IMU', 'IMU3']
-11-03 20:54:21 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 492:Corresponding footprints are 
-[('U2', ['IMU', 'IMU1']), ('U4', ['IMU', 'IMU3'])]
-11-03 20:54:21 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 504:Showing dialog
-11-03 20:54:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'IMU3', file:'IMU1.kicad_sch'
-11-03 20:54:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['IMU', 'IMU1']]
-11-03 20:54:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1512:Level selected: ['IMU', 'IMU3']
-11-03 20:54:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1336:Filtering list of tracks
-11-03 20:54:21 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 510:Toolbar position: wx.Point(3014, -988)
-11-03 20:54:21 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 515:Dialog position: wx.Point(2575, -988)
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'IMU3', file:'IMU1.kicad_sch'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['IMU', 'IMU1']]
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['IMU', 'IMU1']]
-on level: ['IMU', 'IMU3']
+11-19 23:01:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Plugin executed on: 'win32'
+11-19 23:01:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 410:Plugin executed with python version: '3.11.5 (main, Jun 15 2025, 06:45:45) [MSC v.1942 64 bit (AMD64)]'
+11-19 23:01:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 411:KiCad build version: 9.0.4
+11-19 23:01:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 412:Plugin version: 4.0.3
+11-19 23:01:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 413:Frame repr: <wx._core.Frame object at 0x000001E2C35F1E10>
+11-19 23:01:04 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 437:Preparing replicator with IC5 as a reference
+11-19 23:01:04 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+11-19 23:01:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 485:source anchor footprint is 'IC5'
+Located on: ['/Power_logic/', '/Power_logic/5V_Logic/']
+With filenames: ['Power_logic.kicad_sch', '5V_Logic.kicad_sch']
+With sheet_id:['/Power_logic/', '/Power_logic/5V_Logic/']
+11-19 23:01:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 492:Corresponding footprints are 
+[('IC5', ['/Power_logic/', '/Power_logic/5V_Logic/'])]
+11-19 23:01:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 504:Showing dialog
+11-19 23:01:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'/Power_logic/5V_Logic/', file:'5V_Logic.kicad_sch'
+11-19 23:01:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[]
+11-19 23:01:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1512:Level selected: ['/Power_logic/', '/Power_logic/5V_Logic/']
+11-19 23:01:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1336:Filtering list of tracks
+11-19 23:01:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 510:Toolbar position: wx.Point(1094, -985)
+11-19 23:01:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 515:Dialog position: wx.Point(655, -985)
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'/Power_logic/5V_Logic/', file:'5V_Logic.kicad_sch'
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[]
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: []
+on level: ['/Power_logic/', '/Power_logic/5V_Logic/']
 with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-11-03 20:54:25 root 340:updating GUI message: 'Preparing for replication'
-11-03 20:54:25 root 345:updating GUI with: 0
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1336:Filtering list of tracks
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
-11-03 20:54:25 root 345:updating GUI with: 66
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
-11-03 20:54:25 root 340:updating GUI message: 'Replicating footprints'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 863:Replicating footprints
-11-03 20:54:25 root 345:updating GUI with: 0
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 870:Replicating footprints on sheet ['IMU', 'IMU1']
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'U4'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'U2'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:6ad6e2f5-fd4b-4e0d-950a-2a49d58b7ab2
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:8dce6d75-b35b-48b2-9bb3-fd304146a289
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:1faa5ced-644d-4355-95f1-de3043f7c440
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:d095cb57-c8f7-4467-98f3-c588c010c0ec
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C48'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '92258D49-4B52-41A2-A45F-8265C46EE61A'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '92258D49-4B52-41A2-A45F-8265C46EE61A'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C43'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:e2006ce0-213d-4130-aa2b-473feee1bf8f
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:12eee6cd-dbf5-4d8b-a803-76ffabf4b84f
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:dee924eb-2c47-4086-af5c-a61921c99e69
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:e906f4f2-e386-4909-b0d0-a85eb5eda975
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:37346152-7ac6-49fc-bb8b-890278430f24
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:bf1a96ed-0d0a-4dbd-916a-f90c61b7f363
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 888:Replicating footprint: 'C47'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: '5F0D7B99-BF7A-49C8-B1B9-1460D497C105'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: '5F0D7B99-BF7A-49C8-B1B9-1460D497C105'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:found match in dst footprint: 'C44'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:c6b8c43f-eded-4080-9eac-e425d2f49bcc
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:bd82e16b-c21a-4694-81b0-bbd41f15ec06
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:fd82f593-8065-4d74-ac53-bdb89f1f323e
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:35d382b8-93cf-4726-a5cd-ed44f9d21d48
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 990:Src text UUid:dbd64b62-a85c-4cfb-bbdf-639486f35efb
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 991:Dst text UUid:a3be0dee-88c8-4037-9333-3ba1419341b4
-11-03 20:54:25 root 340:updating GUI message: 'Replicating tracks'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1014:Replicating tracks
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1020:Replicating tracks on sheet ['IMU', 'IMU1']
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['IMU', 'IMU1'] :[('unconnected-(U4-INT1-Pad16)', 'unconnected-(U2-INT1-Pad16)'), ('unconnected-(U4-INT3-Pad12)', 'unconnected-(U2-INT3-Pad12)'), ('GND', 'GND'), ('unconnected-(U4-INT2-Pad1)', 'unconnected-(U2-INT2-Pad1)'), ('BMI_IN_3.3V', 'BMI_IN_3.3V'), ('/IMU/Pack2_SDA', '/IMU/Pack1_SDA'), ('unconnected-(U4-CSB2-Pad5)', 'unconnected-(U2-CSB2-Pad5)'), ('unconnected-(U4-INT4-Pad13)', 'unconnected-(U2-INT4-Pad13)'), ('/IMU/Pack2_SCL', '/IMU/Pack1_SCL')]
-11-03 20:54:25 root 340:updating GUI message: 'Replicating zones'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1084:Replicating zones
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1091:Replicating zones on sheet ['IMU', 'IMU1']
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['IMU', 'IMU1'] :[('unconnected-(U4-INT1-Pad16)', 'unconnected-(U2-INT1-Pad16)'), ('unconnected-(U4-INT3-Pad12)', 'unconnected-(U2-INT3-Pad12)'), ('GND', 'GND'), ('unconnected-(U4-INT2-Pad1)', 'unconnected-(U2-INT2-Pad1)'), ('BMI_IN_3.3V', 'BMI_IN_3.3V'), ('/IMU/Pack2_SDA', '/IMU/Pack1_SDA'), ('unconnected-(U4-CSB2-Pad5)', 'unconnected-(U2-CSB2-Pad5)'), ('unconnected-(U4-INT4-Pad13)', 'unconnected-(U2-INT4-Pad13)'), ('/IMU/Pack2_SCL', '/IMU/Pack1_SCL')]
-11-03 20:54:25 root 340:updating GUI message: 'Replicating text'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1173:Replicating text
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1180:Replicating text on sheet ['IMU', 'IMU1']
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 root 340:updating GUI message: 'Replicating drawings'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1224:Replicating drawings
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1230:Replicating drawings on sheet ['IMU', 'IMU1']
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Src fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 839:Dst fp.id: 'CC2F955E-C004-4113-941B-A6B0BD3077D3'
-11-03 20:54:25 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
+11-19 23:01:09 root 340:updating GUI message: 'Preparing for replication'
+11-19 23:01:09 root 345:updating GUI with: 0
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1336:Filtering list of tracks
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
+11-19 23:01:09 root 345:updating GUI with: 66
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
+11-19 23:01:09 root 345:updating GUI with: 83
+11-19 23:01:09 root 340:updating GUI message: 'Replicating footprints'
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 863:Replicating footprints
+11-19 23:01:09 root 340:updating GUI message: 'Replicating tracks'
+11-19 23:01:09 root 345:updating GUI with: 0
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1014:Replicating tracks
+11-19 23:01:09 root 340:updating GUI message: 'Replicating zones'
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1084:Replicating zones
+11-19 23:01:09 root 340:updating GUI message: 'Replicating text'
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1173:Replicating text
+11-19 23:01:09 root 340:updating GUI message: 'Replicating drawings'
+11-19 23:01:09 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1224:Replicating drawings
+11-19 23:01:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete

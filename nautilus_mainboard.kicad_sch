@@ -503,10 +503,10 @@
 		)
 		(uuid "9aada2e5-e04d-49a2-8f98-5c1b0002e995")
 	)
-	(text_box "Changelog:\n\n+ Added Bus where it seems reasonable.\n+ Added unified LED symbol (Red power, Yellow data)\n+ Added Buzzer logic and Buzzer\n+ Added Sheet titles, Authors, Date, Revision\n+ Added ESD protection on all Plugs (not sure if 3.3V is correct like that)\n\n- Removed Overengineered Power distribution system\n+ Implemented simpler Power distribution system\n- Reduced Globals to a minimum, used +3.3V and +5V for voltage of parts\n+ Introduced a lot of TestPoints with symbol that catches the eye fast.\n\n* Redesigned some Symbols\n* Cleaned up rubbish and wiring sphagetti\n\n- Removed PCB for new layout. (WIP)\n\nNotes:\n-> Fan not yet updated, still a screw terminal.\n-> Piezzo randomly connected to an STM Pin. Evan should check this.\n-> PCB in the making.\n\n"
+	(text_box "Changelog:\n\n+ Added Bus where it seems reasonable.\n+ Added unified LED symbol (Red power, Yellow data)\n+ Added Buzzer logic and Buzzer\n+ Added Sheet titles, Authors, Date, Revision\n+ Added ESD protection on all Plugs (not sure if 3.3V is correct like that)\n\n- Removed Overengineered Power distribution system\n+ Implemented simpler Power distribution system\n- Reduced Globals to a minimum, used +3.3V and +5V for voltage of parts\n+ Introduced a lot of TestPoints with symbol that catches the eye fast.\n\n* Redesigned some Symbols\n* Cleaned up rubbish and wiring sphagetti\n\n- Removed PCB for new layout. (WIP)\n\nNotes:\n-> Fan not yet updated, still a screw terminal.\n-> Piezzo randomly connected to an STM Pin. Evan should check this.\n-> PCB in the making.\nIssue: Footprint and Model for SSD holder not present anymore @evan\n"
 		(exclude_from_sim no)
-		(at 17.78 149.86 0)
-		(size 78.74 48.26)
+		(at 12.7 147.32 0)
+		(size 78.74 50.8)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2595,7 +2595,7 @@
 	)
 	(sheet
 		(at 25.4 96.52)
-		(size 50.8 50.8)
+		(size 50.8 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2610,7 +2610,7 @@
 		)
 		(uuid "bdf8f7d6-a5ee-4741-925d-5019e8cbdfce")
 		(property "Sheetname" "IMU"
-			(at 25.4 95.8084 0)
+			(at 24.6884 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2619,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 25.4 147.9046 0)
+			(at 76.7846 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
