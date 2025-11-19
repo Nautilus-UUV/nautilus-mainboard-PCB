@@ -5,6 +5,7 @@
 	(uuid "5195371c-3d40-4011-9928-218adcc4942d")
 	(paper "A4")
 	(title_block
+		(title "Nautilus_Mainboard")
 		(date "2025-11-19")
 		(rev "0")
 		(company "Evan")
@@ -163,9 +164,19 @@
 		)
 		(uuid "21dc993b-3880-48e4-a45a-18b9cf5f162c")
 	)
+	(bus
+		(pts
+			(xy 49.53 76.2) (xy 49.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abaf93d-2590-496b-a358-6a0706350ea6")
+	)
 	(wire
 		(pts
-			(xy 44.45 76.2) (xy 44.45 86.36)
+			(xy 40.64 76.2) (xy 40.64 86.36)
 		)
 		(stroke
 			(width 0)
@@ -243,6 +254,16 @@
 		)
 		(uuid "a29fc8ed-dd1e-455a-b9a9-6a2f9441d023")
 	)
+	(bus
+		(pts
+			(xy 128.27 76.2) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a3e734-dd54-4d42-97c7-71f6d83fec4b")
+	)
 	(wire
 		(pts
 			(xy 96.52 29.21) (xy 101.6 29.21)
@@ -317,6 +338,17 @@
 		)
 		(uuid "440f0e6d-e4e0-4d92-8456-348f0e4c7a64")
 	)
+	(hierarchical_label "STM{RX,TX}"
+		(shape bidirectional)
+		(at 49.53 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "474bafed-6fe7-43ca-b3f5-576c8fdd44d1")
+	)
 	(hierarchical_label "Battery_Out_3.3V"
 		(shape input)
 		(at 96.52 29.21 180)
@@ -341,7 +373,7 @@
 	)
 	(hierarchical_label "Piezzo_Control"
 		(shape output)
-		(at 44.45 86.36 270)
+		(at 40.64 86.36 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -371,6 +403,17 @@
 			(justify right)
 		)
 		(uuid "ab0f2b8b-52f4-499b-aeb4-6bc043966b6c")
+	)
+	(hierarchical_label "ST_CAN{P,N}"
+		(shape bidirectional)
+		(at 128.27 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c93aca8d-75ed-4f1b-a75a-bbc7a6048357")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
@@ -568,6 +611,16 @@
 				(justify left)
 			)
 		)
+		(pin "ST_CAN{P,N}" bidirectional
+			(at 128.27 76.2 270)
+			(uuid "6fd559bf-e790-499a-a576-f1ddf58398ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae"
@@ -701,8 +754,18 @@
 			)
 		)
 		(pin "Piezzo_Control" output
-			(at 44.45 76.2 270)
+			(at 40.64 76.2 270)
 			(uuid "9d60a3e8-82f7-4fe7-ad99-d5ec15807761")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM{RX,TX}" bidirectional
+			(at 49.53 76.2 270)
+			(uuid "3003b562-3daf-4daf-9ee2-974a8e40c111")
 			(effects
 				(font
 					(size 1.27 1.27)

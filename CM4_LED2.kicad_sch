@@ -5,6 +5,7 @@
 	(uuid "993ea579-11ae-49ef-99ca-b0de6476e8c8")
 	(paper "A4")
 	(title_block
+		(title "Nautilus_Mainboard")
 		(date "2025-11-19")
 		(rev "0")
 		(company "Davide")
