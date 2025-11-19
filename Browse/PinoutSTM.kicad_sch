@@ -5,7 +5,8 @@
   (paper "A4")
 
   (title_block
-    (date "2025-11-18")
+    (date "2025-11-19")
+    (rev "0")
     (company "Evan")
   )
 
@@ -697,11 +698,11 @@
       )
       (embedded_fonts no))
     (symbol "#dzdb:s_con/CON-SAMTEC-FTSH-107-02-L-DV" (pin_names (offset 0.762)) (exclude_from_sim no) (in_bom yes) (on_board yes)
-      (property "Reference" "J1" (at 11.43 7.62 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Reference" "J" (at 19.05 7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "FTSH-107-02-L-DV" (at 11.43 5.08 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "FTSH-107-02-L-DV" (at 19.05 5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "dz_con:FTSH-107-XX-YYY-DV" (at 19.05 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left) (hide yes))
@@ -824,7 +825,7 @@
           (number "14" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "s_con/CON-SAMTEC-FTSH-107-02-L-DV_1_1"
+      (symbol "s_con/CON-SAMTEC-FTSH-107-02-L-DV_0_1"
         (polyline
           (pts
             (xy 5.08 2.54)
@@ -833,8 +834,8 @@
             (xy 5.08 -17.78)
             (xy 5.08 2.54)
           )
-          (stroke (width 0.254) (type solid))
-          (fill (type background))
+          (stroke (width 0.1524) (type solid))
+          (fill (type none))
         )
       )
       (embedded_fonts no))

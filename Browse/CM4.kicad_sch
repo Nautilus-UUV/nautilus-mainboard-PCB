@@ -5,7 +5,8 @@
   (paper "A4")
 
   (title_block
-    (date "2025-11-18")
+    (date "2025-11-19")
+    (rev "0")
     (company "Davide")
   )
 
@@ -385,9 +386,17 @@
     (effects (font (size 1.27 1.27)))
     (uuid "80d64379-da1c-4eda-8e46-a3b1e3465b26")
   )
+  (text "5*4.3k / (2.2k+4.3k) = 5*0.6615 = 3.3075" (exclude_from_sim no) (at 203.962 139.954 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid "8ea08cdc-6fa1-4efe-9f4b-e50766a6e26d")
+  )
   (text "3.3V out" (exclude_from_sim no) (at 204.47 114.046 90)
     (effects (font (size 1.27 1.27)))
     (uuid "caa7fb8d-6062-4213-b3e5-77dee40a7069")
+  )
+  (text "V_{out}= V_{in} * (R_{2}/(R_{1}+R_{2})" (exclude_from_sim no) (at 194.31 130.81 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid "f14c588c-0b3f-4bbf-bd84-677063fc14b2")
   )
 
   (hierarchical_label "PI_RX" (shape input) (at 128.27 104.14 270)
@@ -674,10 +683,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid "941e6baf-0a73-4708-a059-36150748237e")
     )
-    (pin "PCIe_nRST" input (at 193.04 97.79 270)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid "94fc12bf-c4ce-4b0b-b7e3-5a99e87f906c")
-    )
     (pin "USB_OTG_5V" output (at 196.85 97.79 270)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid "dec5287e-770b-40e7-8cc3-e57d502d4734")
@@ -697,6 +702,10 @@
     (pin "PCIE_TX{_N,_P}" bidirectional (at 162.56 74.93 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid "7b5ea268-f0dd-4cd9-8ba1-36bb4291c261")
+    )
+    (pin "PCIE_nRST" input (at 193.04 97.79 270)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid "81c904d6-3e94-4147-848d-1dab4110eca2")
     )
     (instances
       (project "nautilus_mainboard"
