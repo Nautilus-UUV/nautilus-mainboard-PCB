@@ -5,7 +5,7 @@
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -51,7 +51,7 @@
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffef",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",
@@ -92,17 +92,17 @@
       11
     ],
     "col_widths": [
-      9,
-      8,
-      7,
-      7,
-      7,
-      7,
-      7,
-      7,
-      7,
-      7,
-      7,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
       133
     ],
     "custom_group_rules": [],
