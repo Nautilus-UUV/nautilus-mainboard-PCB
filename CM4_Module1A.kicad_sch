@@ -5,7 +5,8 @@
 	(uuid "4a118266-0c2b-47c6-bc9c-a078043d954a")
 	(paper "A4")
 	(title_block
-		(date "2025-11-18")
+		(date "2025-11-19")
+		(rev "0")
 		(company "Davide")
 	)
 	(lib_symbols
@@ -11591,9 +11592,9 @@
 				(justify left top)
 			)
 		)
-		(pin "PI_nLED_Activity" input
-			(at 135.89 49.53 180)
-			(uuid "79397b7a-15e1-4de2-af3d-9e83bec74b63")
+		(pin "Battery_Out_3.3V" input
+			(at 135.89 46.99 180)
+			(uuid "aa2ec818-7f27-45a4-ba0d-33fbb47228ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,9 +11602,9 @@
 				(justify left)
 			)
 		)
-		(pin "Battery_Out_3.3V" input
-			(at 135.89 46.99 180)
-			(uuid "aa2ec818-7f27-45a4-ba0d-33fbb47228ac")
+		(pin "PI_nLED_Activity" output
+			(at 135.89 49.53 180)
+			(uuid "87a7de34-e71e-49ad-b22f-dd8805aa6b1e")
 			(effects
 				(font
 					(size 1.27 1.27)

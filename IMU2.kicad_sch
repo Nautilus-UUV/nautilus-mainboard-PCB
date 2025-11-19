@@ -5,7 +5,8 @@
 	(uuid "3347ff98-2f01-49e4-92ab-80a747601a08")
 	(paper "A4")
 	(title_block
-		(date "2025-11-18")
+		(date "2025-11-19")
+		(rev "0")
 		(company "Davide")
 	)
 	(lib_symbols

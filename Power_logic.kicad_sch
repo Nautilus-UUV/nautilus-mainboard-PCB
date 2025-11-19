@@ -5,7 +5,8 @@
 	(uuid "ccff0d8e-e935-4f7a-8c5b-7c2b30d9cef0")
 	(paper "A4")
 	(title_block
-		(date "2025-11-18")
+		(date "2025-11-19")
+		(rev "1")
 		(company "Davide")
 	)
 	(lib_symbols
@@ -495,7 +496,7 @@
 	)
 	(text "Whenever the CM4 runs, also run the LED signals AND the\nSSD voltage. all \"core\" tasks tied to the CM4."
 		(exclude_from_sim no)
-		(at 223.52 33.528 0)
+		(at 101.6 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -516,7 +517,7 @@
 	)
 	(text "some rules:\nUSB wont power the STM32.\nSTM_Plug wont power the CM4\nThe GPIO_VREF of the CM4 needs to be STM32's 3.3V\nThe Lan Vin is only powered when running on Battery\nBattery preferrably powers everything."
 		(exclude_from_sim no)
-		(at 223.266 24.638 0)
+		(at 101.346 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)

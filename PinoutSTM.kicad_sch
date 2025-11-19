@@ -5,7 +5,8 @@
 	(uuid "5efbfe39-9454-4a0b-93a2-665d184150d4")
 	(paper "A4")
 	(title_block
-		(date "2025-11-18")
+		(date "2025-11-19")
+		(rev "0")
 		(company "Evan")
 	)
 	(lib_symbols
@@ -1979,20 +1980,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 11.43 7.62 0)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "FTSH-107-02-L-DV"
-				(at 11.43 5.08 0)
+				(at 19.05 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "dz_con:FTSH-107-XX-YYY-DV"
@@ -2446,17 +2449,17 @@
 					)
 				)
 			)
-			(symbol "s_con/CON-SAMTEC-FTSH-107-02-L-DV_1_1"
+			(symbol "s_con/CON-SAMTEC-FTSH-107-02-L-DV_0_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -17.78) (xy 5.08 -17.78) (xy 5.08 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type solid)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 			)

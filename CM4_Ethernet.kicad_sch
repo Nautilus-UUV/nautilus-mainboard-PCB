@@ -5,7 +5,8 @@
 	(uuid "5f285317-4d2d-412c-a45d-2e67eddae046")
 	(paper "A4")
 	(title_block
-		(date "2025-11-18")
+		(date "2025-11-19")
+		(rev "0")
 		(company "Davide")
 	)
 	(lib_symbols
@@ -232,34 +233,52 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#dzdb:s_dio/D-KIN-APHHS1005LSYCK/J3-PF"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "#dzdb:s_dio/D-WURT-710-150060VS83000"
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "LED"
+				(at 6.604 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "APHHS1005LSYCK/J3-PF"
-				(at 0 -2.54 0)
+			(property "Value" "710-150060VS83000"
+				(at 6.096 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(property "Footprint" "dz_dio:Wuerth_LED_150060RS83000"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS83000.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Einfarbige LEDs leds WL-SMCW SMT 0603 Dome Bright Green Typ  300mcd 2V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -268,7 +287,57 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005LSYCK-J3-PF.pdf"
+			(property "Height" "0.95"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "150060RS83000"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "IPN" "D-WURT-710-150060VS83000"
 				(at 0 0 0)
 				(effects
 					(font
@@ -277,7 +346,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED YELLOW 590nm 20mcd@2mA 40mcd@4mA 1.87V"
+			(property "MPN" "710-150060VS83000"
 				(at 0 0 0)
 				(effects
 					(font
@@ -286,7 +355,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "Manufacturer" "Wurth Elektronik"
 				(at 0 0 0)
 				(effects
 					(font
@@ -295,7 +364,7 @@
 					(hide yes)
 				)
 			)
-			(property "IPN" "D-KIN-APHHS1005LSYCK/J3-PF"
+			(property "Type" "Einfarbige LEDs leds"
 				(at 0 0 0)
 				(effects
 					(font
@@ -304,7 +373,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "APHHS1005LSYCK/J3-PF"
+			(property "Vf" "2 V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -313,34 +382,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Kingbright"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Type" "LED YELLOW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Vf" "1.85V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "If" "2mA"
+			(property "If" "20 mA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -358,7 +400,7 @@
 					(hide yes)
 				)
 			)
-			(property "SPN" "604-APHHS1005LSYCKJ3"
+			(property "SPN" "710-150060VS83000"
 				(at 0 0 0)
 				(effects
 					(font
@@ -367,7 +409,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C5354974"
+			(property "LCSC" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -376,7 +418,7 @@
 					(hide yes)
 				)
 			)
-			(property "Comment" "lifecycle=Active"
+			(property "Comment" "lifecycle=New Product"
 				(at 0 0 0)
 				(effects
 					(font
@@ -385,7 +427,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_fp_filters" "dz_dio:Wuerth_LED_150060RS83000"
 				(at 0 0 0)
 				(effects
 					(font
@@ -394,55 +436,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED_SMD:LED_0402_1005Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "s_dio/D-KIN-APHHS1005LSYCK/J3-PF_0_1"
+			(symbol "s_dio/D-WURT-710-150060VS83000_1_1"
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -2.54 2.54) (xy 0 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -454,7 +451,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.524 4.318) (xy -0.762 3.556) (xy 0 5.08) (xy -1.524 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 2.54 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -464,19 +473,53 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "s_dio/D-KIN-APHHS1005LSYCK/J3-PF_1_1"
+				(polyline
+					(pts
+						(xy 1.016 4.318) (xy 1.778 3.556) (xy 2.54 5.08) (xy 1.016 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -487,14 +530,14 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -505,34 +548,52 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#dzdb:s_dio/D-KIN-APHHS1005LZGCK-V"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "#dzdb:s_dio/D-WURT-710-150060YS83000"
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "LED"
+				(at 6.604 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "APHHS1005LZGCK-V"
-				(at 0 -2.54 0)
+			(property "Value" "710-150060YS83000"
+				(at 6.096 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(property "Footprint" "dz_dio:Wuerth_LED_150060RS83000"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060SY83000.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Einfarbige LEDs leds WL-SMCW SMT 0603 Dome Yellow Typ 650mcd 2V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -541,7 +602,57 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005LZGCK-V.pdf"
+			(property "Height" "0.95"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "150060RS83000"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "IPN" "D-WURT-710-150060YS83000"
 				(at 0 0 0)
 				(effects
 					(font
@@ -550,7 +661,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED EMERALD GREEN 525nm 180mcd@2mA 40mcd@0.44mA 2.54V"
+			(property "MPN" "710-150060YS83000"
 				(at 0 0 0)
 				(effects
 					(font
@@ -559,7 +670,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "Manufacturer" "Wurth Elektronik"
 				(at 0 0 0)
 				(effects
 					(font
@@ -568,7 +679,7 @@
 					(hide yes)
 				)
 			)
-			(property "IPN" "D-KIN-APHHS1005LZGCK-V"
+			(property "Type" "Einfarbige LEDs leds"
 				(at 0 0 0)
 				(effects
 					(font
@@ -577,7 +688,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "APHHS1005LZGCK-V"
+			(property "Vf" "2V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -586,34 +697,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Kingbright"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Type" "LED GREEN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Vf" "2.65V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "If" "2mA"
+			(property "If" "20 mA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -631,7 +715,7 @@
 					(hide yes)
 				)
 			)
-			(property "SPN" "604-APHHS1005LZGCK-V"
+			(property "SPN" "710-150060YS83000"
 				(at 0 0 0)
 				(effects
 					(font
@@ -640,7 +724,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C5875752"
+			(property "LCSC" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -649,7 +733,7 @@
 					(hide yes)
 				)
 			)
-			(property "Comment" "lifecycle=Active"
+			(property "Comment" "lifecycle=New Product"
 				(at 0 0 0)
 				(effects
 					(font
@@ -658,7 +742,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_fp_filters" "dz_dio:Wuerth_LED_150060RS83000"
 				(at 0 0 0)
 				(effects
 					(font
@@ -667,55 +751,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED_SMD:LED_0402_1005Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "s_dio/D-KIN-APHHS1005LZGCK-V_0_1"
+			(symbol "s_dio/D-WURT-710-150060YS83000_1_1"
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -2.54 2.54) (xy 0 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -727,7 +766,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.524 4.318) (xy -0.762 3.556) (xy 0 5.08) (xy -1.524 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 2.54 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -737,19 +788,53 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "s_dio/D-KIN-APHHS1005LZGCK-V_1_1"
+				(polyline
+					(pts
+						(xy 1.016 4.318) (xy 1.778 3.556) (xy 2.54 5.08) (xy 1.016 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -760,14 +845,14 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2600,16 +2685,6 @@
 		)
 		(uuid d26c0be1-df9e-4fdd-80b1-a36b16209dd4)
 	)
-	(text "Optimal: Yellow: 725 Ohm (3.3-1.85)/0.002"
-		(exclude_from_sim no)
-		(at 200.406 32.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "34b44e6e-a4f6-4957-bdfb-cf407fb87ded")
-	)
 	(text "POE Protection"
 		(exclude_from_sim no)
 		(at 92.202 28.448 0)
@@ -2619,16 +2694,6 @@
 			)
 		)
 		(uuid "f469481c-3ed7-4d7b-be3a-6119adf924ce")
-	)
-	(text "Optimal: Green: 325 Ohm (3.3-2.65)/0.002"
-		(exclude_from_sim no)
-		(at 200.406 29.464 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f4c20549-96ec-4593-8909-f5997c80b638")
 	)
 	(junction
 		(at 134.62 54.61)
@@ -2914,6 +2979,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 41.91) (xy 229.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37787c82-0e7e-411f-ad24-6f1dbb24cb61")
+	)
+	(wire
+		(pts
 			(xy 134.62 90.17) (xy 143.51 90.17)
 		)
 		(stroke
@@ -2961,6 +3036,16 @@
 			(type default)
 		)
 		(uuid "4a7ea4cc-7116-4570-82c8-d3c3b2639dc3")
+	)
+	(wire
+		(pts
+			(xy 200.66 41.91) (xy 205.74 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53031936-410c-40cf-b7ea-5a24479b144a")
 	)
 	(bus
 		(pts
@@ -3104,16 +3189,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 41.91) (xy 214.63 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad472a3f-4c89-4ce6-97f1-305cb95bc65d")
-	)
-	(wire
-		(pts
 			(xy 134.62 44.45) (xy 143.51 44.45)
 		)
 		(stroke
@@ -3211,16 +3286,6 @@
 			(type default)
 		)
 		(uuid "e689e591-7dbe-4904-8f67-ff122c7df1a6")
-	)
-	(wire
-		(pts
-			(xy 207.01 41.91) (xy 200.66 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e840429a-6ed7-432f-95f3-d7d932f51928")
 	)
 	(bus
 		(pts
@@ -4218,32 +4283,52 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:s_dio/D-KIN-APHHS1005LSYCK/J3-PF")
+		(lib_id "#dzdb:s_dio/D-WURT-710-150060YS83000")
 		(at 218.44 44.45 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b0cf2761-3eba-4450-9ea5-695bdbe32bd9")
-		(property "Reference" "D3"
-			(at 220.0275 52.07 0)
+		(uuid "b444e458-f887-4202-ab7f-783e1a6f37e0")
+		(property "Reference" "LED6"
+			(at 223.266 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "APHHS1005LSYCK/J3-PF"
-			(at 220.0275 49.53 0)
+		(property "Value" "710-150060YS83000"
+			(at 225.552 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "dz_dio:Wuerth_LED_150060RS83000"
+			(at 231.14 -49.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060SY83000.pdf"
+			(at 231.14 -149.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Einfarbige LEDs leds WL-SMCW SMT 0603 Dome Yellow Typ 650mcd 2V"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4252,7 +4337,57 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005LSYCK-J3-PF.pdf"
+		(property "Height" "0.95"
+			(at 231.14 -349.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 231.14 -449.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 231.14 -549.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 231.14 -649.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS83000"
+			(at 231.14 -749.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IPN" "D-WURT-710-150060YS83000"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4261,7 +4396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED YELLOW 590nm 20mcd@2mA 40mcd@4mA 1.87V"
+		(property "MPN" "710-150060YS83000"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4270,7 +4405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4279,7 +4414,7 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "D-KIN-APHHS1005LSYCK/J3-PF"
+		(property "Type" "Einfarbige LEDs leds"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4288,7 +4423,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "APHHS1005LSYCK/J3-PF"
+		(property "Vf" "2V"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4297,34 +4432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
-			(at 218.44 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "LED YELLOW"
-			(at 218.44 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vf" "1.85V"
-			(at 218.44 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "If" "2mA"
+		(property "If" "20 mA"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4342,7 +4450,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "604-APHHS1005LSYCKJ3"
+		(property "SPN" "710-150060YS83000"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4351,7 +4459,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5354974"
+		(property "LCSC" ""
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4360,7 +4468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "lifecycle=Active"
+		(property "Comment" "lifecycle=New Product"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -4370,49 +4478,67 @@
 			)
 		)
 		(pin "1"
-			(uuid "48c0eb3c-2fa7-4dd3-b008-2b880bb9526b")
+			(uuid "01bebb91-b019-4147-80c3-86e63d80ba11")
 		)
 		(pin "2"
-			(uuid "4b7bfad9-a404-458f-bca3-703e40602bfa")
+			(uuid "bc152363-edf5-4243-a70d-420be0ba0080")
 		)
 		(instances
-			(project "nautilus_mainboard"
+			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/9f7bc1e5-4b64-43dc-b368-101a610271ca"
-					(reference "D3")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:s_dio/D-KIN-APHHS1005LZGCK-V")
-		(at 210.82 41.91 0)
-		(mirror y)
+		(lib_id "#dzdb:s_dio/D-WURT-710-150060VS83000")
+		(at 209.55 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf1bb903-cf47-4bec-b023-c395ac4d355b")
-		(property "Reference" "D4"
-			(at 212.4075 35.56 0)
+		(uuid "d1b85004-ac7a-48c9-8bb6-f48a35f8f251")
+		(property "Reference" "LED5"
+			(at 215.392 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "APHHS1005LZGCK-V"
-			(at 212.4075 38.1 0)
+		(property "Value" "710-150060VS83000"
+			(at 216.408 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 210.82 41.91 0)
+		(property "Footprint" "dz_dio:Wuerth_LED_150060RS83000"
+			(at 222.25 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS83000.pdf"
+			(at 222.25 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Einfarbige LEDs leds WL-SMCW SMT 0603 Dome Bright Green Typ  300mcd 2V"
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,8 +4546,58 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005LZGCK-V.pdf"
-			(at 210.82 41.91 0)
+		(property "Height" "0.95"
+			(at 222.25 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 222.25 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 222.25 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 222.25 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS83000"
+			(at 222.25 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IPN" "D-WURT-710-150060VS83000"
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,8 +4605,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED EMERALD GREEN 525nm 180mcd@2mA 40mcd@0.44mA 2.54V"
-			(at 210.82 41.91 0)
+		(property "MPN" "710-150060VS83000"
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,8 +4614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 41.91 0)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,8 +4623,8 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "D-KIN-APHHS1005LZGCK-V"
-			(at 210.82 41.91 0)
+		(property "Type" "Einfarbige LEDs leds"
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,8 +4632,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "APHHS1005LZGCK-V"
-			(at 210.82 41.91 0)
+		(property "Vf" "2 V"
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,35 +4641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
-			(at 210.82 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "LED GREEN"
-			(at 210.82 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vf" "2.65V"
-			(at 210.82 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "If" "2mA"
-			(at 210.82 41.91 0)
+		(property "If" "20 mA"
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4651,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 210.82 41.91 0)
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4510,8 +4659,8 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "604-APHHS1005LZGCK-V"
-			(at 210.82 41.91 0)
+		(property "SPN" "710-150060VS83000"
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,8 +4668,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5875752"
-			(at 210.82 41.91 0)
+		(property "LCSC" ""
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,8 +4677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "lifecycle=Active"
-			(at 210.82 41.91 0)
+		(property "Comment" "lifecycle=New Product"
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,15 +4687,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3b837047-132c-49e6-8978-77d0297852e6")
+			(uuid "208ecf5b-7446-49dd-81f1-794a17d4ccfe")
 		)
 		(pin "1"
-			(uuid "3805e22a-b9ad-475a-8279-f9d2c0f6270d")
+			(uuid "e6d614bd-bc91-4d08-9daa-6c24b1790c55")
 		)
 		(instances
-			(project "nautilus_mainboard"
+			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/9f7bc1e5-4b64-43dc-b368-101a610271ca"
-					(reference "D4")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
