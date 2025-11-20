@@ -503,6 +503,26 @@
 		)
 		(uuid "9aada2e5-e04d-49a2-8f98-5c1b0002e995")
 	)
+	(text_box "20.11.2025\nSwitched R18 from 1k to 2.2k for equal led strength\n\n+ Added more routing in PCB."
+		(exclude_from_sim no)
+		(at 93.98 147.32 0)
+		(size 58.42 50.8)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "886184da-c697-4c81-bdb1-678befa54f31")
+	)
 	(text_box "Changelog:\n\n+ Added Bus where it seems reasonable.\n+ Added unified LED symbol (Red power, Yellow data)\n+ Added Buzzer logic and Buzzer\n+ Added Sheet titles, Authors, Date, Revision\n+ Added ESD protection on all Plugs (not sure if 3.3V is correct like that)\n\n- Removed Overengineered Power distribution system\n+ Implemented simpler Power distribution system\n- Reduced Globals to a minimum, used +3.3V and +5V for voltage of parts\n+ Introduced a lot of TestPoints with symbol that catches the eye fast.\n\n* Redesigned some Symbols\n* Cleaned up rubbish and wiring sphagetti\n\n- Removed PCB for new layout. (WIP)\n\nNotes:\n-> Fan not yet updated, still a screw terminal.\n-> Piezzo randomly connected to an STM Pin. Evan should check this.\n-> PCB in the making.\nIssue: Footprint and Model for SSD holder not present anymore @evan\n"
 		(exclude_from_sim no)
 		(at 12.7 147.32 0)
