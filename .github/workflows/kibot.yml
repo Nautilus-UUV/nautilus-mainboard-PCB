@@ -1,79 +1,15 @@
 name: KiBot
 on:
-  workflow_dispatch:
   push:
-    paths:
-      - '**.kicad_sch'
-      - '**.kicad_pcb'
-      - 'config.kibot.yaml'
-      - '.github/workflows/kibot.yml'
-  pull_request:
     paths:
       - '**.kicad_sch'
       - '**.kicad_pcb'
       - 'config.kibot.yaml'
 
 jobs:
-  quick:
+  pcb:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad9_auto_full:latest
-    permissions:
-      contents: read
-      actions: write
-
     steps:
     - uses: actions/checkout@v4
-      with:
-        fetch-depth: '0'
-    
-    - name: Generate outputs with custom config
-      run: |
-        kibot -c config.kibot.yaml
-
-    - name: Create root index
-      run: |
-        NAVIGATE_FILE=$(ls Generated/Browse/*-navigate.html 2>/dev/null | head -n1)
-        if [ -n "$NAVIGATE_FILE" ]; then
-          NAVIGATE_FILENAME=$(basename "$NAVIGATE_FILE")
-          cat > Generated/index.html << EOF
-        <html>
-        <head>
-        <meta http-equiv="refresh" content="0; Browse/$NAVIGATE_FILENAME"/>
-        </head>
-        </html>
-        EOF
-          echo "Created index.html redirecting to Browse/$NAVIGATE_FILENAME"
-        else
-          echo "No navigate.html file found"
-        fi
-
-    - name: Retrieve results
-      uses: actions/upload-artifact@v4
-      with:
-        name: Automatic_outputs
-        path: Generated
-
-  # Deploy to GitHub Pages
-  deploy:
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    needs: quick
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Retrieve results
-      uses: actions/download-artifact@v4
-      with:
-        name: Automatic_outputs
-        path: Generated
-
-    - name: Disable Jekyll
-      run: |
-        touch Generated/.nojekyll
-
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        branch: gh-pages
-        folder: Generated
+    - uses: Nautilus-UUV/nautilus-kibot-action@main
