@@ -11,7 +11,7 @@
 		(company "Evan")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint_Probe"
+		(symbol "#dzdb:g_mech/M-TEST-SMT_1.5mm_round"
 			(pin_numbers
 				(hide yes)
 			)
@@ -23,22 +23,22 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 1.651 5.842 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TestPoint_Probe"
-				(at 1.651 4.064 0)
+			(property "Value" "Test Point"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -56,7 +56,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "test point (alternative probe-style design)"
+			(property "Description" "SMT Test Point 1.5mm round"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "M-TEST-SMT_1.5mm_round"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comments" "TestPoint 1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +92,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_fp_filters" "TestPoint:TestPoint_Pad_D1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,36 +101,23 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_Probe_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
-					)
+			(symbol "g_mech/M-TEST-SMT_1.5mm_round_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
+						(type none)
 					)
 				)
 			)
-			(symbol "TestPoint_Probe_1_1"
+			(symbol "g_mech/M-TEST-SMT_1.5mm_round_1_1"
 				(pin passive line
 					(at 0 0 90)
-					(length 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -133,26 +138,16 @@
 		)
 	)
 	(junction
-		(at 82.55 50.8)
+		(at 83.82 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "109ec5cd-9924-47a3-a1ce-7e3d2007958c")
+		(uuid "1f0b91bc-21b6-4fb6-b6be-a5a6e5a6f091")
 	)
 	(junction
-		(at 82.55 46.99)
+		(at 83.82 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fd7c96f4-8e34-4391-84db-62e46d319648")
-	)
-	(wire
-		(pts
-			(xy 76.2 46.99) (xy 82.55 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "176afebb-960d-4303-a3ad-4c6c346ec090")
+		(uuid "cae44b25-a010-497a-9888-441f61a668e9")
 	)
 	(wire
 		(pts
@@ -206,17 +201,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 82.55 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c6a8452-fc9d-450c-89f1-b597e634528c")
-	)
-	(wire
-		(pts
-			(xy 82.55 46.99) (xy 101.6 46.99)
+			(xy 76.2 46.99) (xy 83.82 46.99)
 		)
 		(stroke
 			(width 0)
@@ -246,6 +231,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 46.99) (xy 101.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d91aa8-83c7-419c-8b3a-7756e7063847")
+	)
+	(wire
+		(pts
 			(xy 58.42 76.2) (xy 58.42 86.36)
 		)
 		(stroke
@@ -253,6 +248,16 @@
 			(type default)
 		)
 		(uuid "a29fc8ed-dd1e-455a-b9a9-6a2f9441d023")
+	)
+	(wire
+		(pts
+			(xy 83.82 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bb2f9d-6893-48e1-9ba0-c760e999d115")
 	)
 	(bus
 		(pts
@@ -276,7 +281,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 50.8) (xy 101.6 50.8)
+			(xy 76.2 50.8) (xy 83.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -416,16 +421,17 @@
 		(uuid "c93aca8d-75ed-4f1b-a75a-bbc7a6048357")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 82.55 46.99 0)
+		(lib_id "#dzdb:g_mech/M-TEST-SMT_1.5mm_round")
+		(at 83.82 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "62ea44b9-3baa-4f4f-a0c4-fcc364947828")
+		(fields_autoplaced yes)
+		(uuid "09125cdc-af09-4b55-b0a7-99dd014493dd")
 		(property "Reference" "TP6"
-			(at 86.36 44.1324 0)
+			(at 86.36 42.4179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -433,8 +439,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
-			(at 86.36 45.72 0)
+		(property "Value" "Test Point"
+			(at 86.36 44.9579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,8 +448,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 87.63 46.99 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 88.9 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,7 +458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 46.99 0)
+			(at 88.9 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,8 +466,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 82.55 46.99 0)
+		(property "Description" "SMT Test Point 1.5mm round"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "M-TEST-SMT_1.5mm_round"
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "TestPoint 1.5mm"
+			(at 83.82 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +494,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab018e41-2aad-43ba-9d19-04790dc8ab25")
+			(uuid "bb0fb6f6-a915-4412-8243-c1d956efc965")
 		)
 		(instances
 			(project "nautilus_mainboard"
@@ -482,34 +506,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 82.55 50.8 0)
+		(lib_id "#dzdb:g_mech/M-TEST-SMT_1.5mm_round")
+		(at 83.82 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b775c621-8e1e-4d70-9cb3-0bbca5a089d7")
+		(fields_autoplaced yes)
+		(uuid "53662ce8-f0a5-45f5-b1d7-44151ff3bacf")
 		(property "Reference" "TP7"
-			(at 86.36 47.9424 0)
+			(at 86.36 52.8319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "TestPoint_Probe"
-			(at 86.36 49.784 0)
+		(property "Value" "Test Point"
+			(at 86.36 55.3719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 87.63 50.8 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,7 +543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 50.8 0)
+			(at 78.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,8 +551,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 82.55 50.8 0)
+		(property "Description" "SMT Test Point 1.5mm round"
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "M-TEST-SMT_1.5mm_round"
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "TestPoint 1.5mm"
+			(at 83.82 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,7 +579,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "300d7a7a-49a0-4f15-86fd-4578d0c5c463")
+			(uuid "a6b97a8e-c3c4-4005-8193-627f20880bbc")
 		)
 		(instances
 			(project "nautilus_mainboard"
