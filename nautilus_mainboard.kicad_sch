@@ -1936,7 +1936,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_mech/M-TEST-SMT_1.5mm_round")
-		(at 236.22 92.71 0)
+		(at 236.22 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1945,7 +1945,7 @@
 		(fields_autoplaced yes)
 		(uuid "b435479b-547d-44aa-a48e-7c84934d2888")
 		(property "Reference" "TP11"
-			(at 238.76 88.1379 0)
+			(at 238.76 89.4079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1954,7 @@
 			)
 		)
 		(property "Value" "Test Point"
-			(at 238.76 90.6779 0)
+			(at 238.76 91.9479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1963,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 241.3 92.71 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1972,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 92.71 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1981,7 @@
 			)
 		)
 		(property "Description" "SMT Test Point 1.5mm round"
-			(at 236.22 92.71 0)
+			(at 236.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1990,7 @@
 			)
 		)
 		(property "IPN" "M-TEST-SMT_1.5mm_round"
-			(at 236.22 92.71 0)
+			(at 236.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1999,7 @@
 			)
 		)
 		(property "Comments" "TestPoint 1.5mm"
-			(at 236.22 92.71 0)
+			(at 236.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
