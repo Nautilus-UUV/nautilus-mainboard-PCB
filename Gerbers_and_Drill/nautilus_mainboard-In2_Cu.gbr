@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.1+1*%
-%TF.CreationDate,2025-11-25T15:39:20+00:00*%
+%TF.CreationDate,2025-11-25T16:43:04+00:00*%
 %TF.ProjectId,nautilus_mainboard,6e617574-696c-4757-935f-6d61696e626f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L3,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.1+1) date 2025-11-25 15:39:20*
+G04 Created by KiCad (PCBNEW 9.0.1+1) date 2025-11-25 16:43:04*
 %MOMM*%
 %LPD*%
 G01*
@@ -349,8 +349,10 @@ X254030000Y-157930000D03*
 X260610000Y-153110000D03*
 %TO.N,/LPHS-connector/ST_CAN.P*%
 X146846064Y-161060000D03*
+X147950000Y-165939718D03*
 %TO.N,/LPHS-connector/ST_CAN.N*%
 X146200000Y-160480000D03*
+X146070000Y-165620000D03*
 %TO.N,/CM4/CM4_Module1B/USB_D+*%
 X247890000Y-159500000D03*
 X247320521Y-123189479D03*
