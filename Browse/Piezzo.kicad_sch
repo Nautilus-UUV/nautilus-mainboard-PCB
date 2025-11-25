@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Nautilus_Mainboard")
+    (date "2025-11-19")
+    (rev "0")
+    (company "Evan")
+  )
+
   (lib_symbols
     (symbol "#dzdb:g_res/R-0-0603" (pin_numbers hide) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
@@ -875,6 +882,10 @@
   (wire (pts (xy 166.37 92.71) (xy 172.72 92.71))
     (stroke (width 0) (type default))
     (uuid "ee9b788b-4f82-4ac2-a88d-d3feb06ac6d6")
+  )
+  (text "Optimally replace the 1k with a\nfast switching diode. \n" (exclude_from_sim no) (at 146.05 84.328 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid "26b66c32-a850-4863-bbf7-2b84073ff726")
   )
   (text "This 0R is a placeholder. \nApply different resistors to get different volumes\n" (exclude_from_sim no) (at 204.47 73.66 0)
     (effects (font (size 1.27 1.27)))
