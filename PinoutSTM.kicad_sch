@@ -487,244 +487,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#dzdb:g_cap/C-4.7p-0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4.7pF"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM1555C1H4R7CA01D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Cap 4.7pF 50V 0402 C0G ±0.25pF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "IPN" "C-4.7p-0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "GRM1555C1H4R7CA01"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Capacitance" "4.7pF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Material" "C0G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±0.25pF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SPN" "81-GRM1555C1H4R7CA1D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C76946"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comment" "lifecycle=Active"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "g_cap/C-4.7p-0402_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "g_cap/C-4.7p-0402_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "#dzdb:g_res/R-0-0603"
 			(pin_numbers
 				(hide yes)
@@ -1627,6 +1389,318 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "#dzdb:s_clock/Y-Wuerth-830205028309"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 44.45 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "32.768 kHz"
+				(at 44.45 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "dz_act:830205028309"
+				(at 44.45 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/830205028309.pdf"
+				(at 44.45 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard Clock Oscillators WE-SPXO 32.7680kHz 25ppm 3.2 x 2.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "WE-SPXO Crystal Oscillator CFPS-104; 3.2 x 2.5mm; 32.7680 kHz; Tol = IN; Stab = +/-25 ppm; CMOS; Temp Range: -40 to 85 C; Vsupply = 3.3 V"
+				(at 44.45 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 44.45 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-830205028309"
+				(at 44.45 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830205028309?qs=hd1VzrDQEGiNEWaILlEaRA%3D%3D"
+				(at 44.45 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 44.45 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "830205028309"
+				(at 44.45 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "IPN" "Y-Wuerth-830205028309"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "830205028309"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Frequency" "32.768 kHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LoadCap" "15 pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ESR" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stability" "25ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "710-830205028309"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "lifecycle=Active "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "dz_act:830205028309"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "s_clock/Y-Wuerth-830205028309_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "STANDBY_OPERATION"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 0 180)
+					(length 5.08)
+					(name "OUTPUT_"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "s_clock/Y-Wuerth-830205028309_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 38.1 2.54) (xy 38.1 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -5926,362 +6000,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#dzdb:s_sens/D-Micro_Crystal-CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "dz_sens:CC4VT1A"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Crystal oscillator 32.768 kHz"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.9"
-				(at 8.89 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "428-203148-MG02"
-				(at 8.89 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC?qs=7bTaA%2FLYtSYW6wr3L2oxGw%3D%3D"
-				(at 8.89 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Micro Crystal AG"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CC4V-T1A-32.768KHZ-6PF-20PPM-TA-QC"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "IPN" "D-Micro_Crystal-CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Micro Crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Type" "Crystal Oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Channels" "1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Vin Range" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Output" "Mouser"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Current" "428-203148-MG02"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Features" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Protection" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC4V-T1A.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Temp Range" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SPN" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comment" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "dz_sens:CC4VT1A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "s_sens/D-Micro_Crystal-CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC_1_1"
-				(polyline
-					(pts
-						(xy 3.048 2.54) (xy 3.048 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.064 3.556)
-					(end 6.096 -3.556)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -6678,7 +6396,7 @@
 	)
 	(text "must be hirarchical lable RX,TX"
 		(exclude_from_sim no)
-		(at 29.464 112.014 0)
+		(at 60.706 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6790,12 +6508,6 @@
 		(uuid "0e47e509-92fa-410f-91fa-b319ba03f7aa")
 	)
 	(junction
-		(at 34.29 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ed0bcc5-f1af-4275-beec-65ffa0178dfe")
-	)
-	(junction
 		(at 52.07 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6812,12 +6524,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cc0a29a-4247-460c-aa0d-23bbd17e2c54")
-	)
-	(junction
-		(at 34.29 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5de2d766-a86e-45a9-94a6-81d58746b803")
 	)
 	(junction
 		(at 186.69 160.02)
@@ -6892,12 +6598,6 @@
 		(uuid "babe7051-59d1-4e5c-9063-40475c96fb42")
 	)
 	(junction
-		(at 50.8 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0a31632-96e7-4492-8db9-7c5b117aa529")
-	)
-	(junction
 		(at 135.89 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6920,6 +6620,10 @@
 	(no_connect
 		(at 100.33 128.27)
 		(uuid "13aa37e5-c58a-4e1d-8031-80b29c19c743")
+	)
+	(no_connect
+		(at 72.39 80.01)
+		(uuid "142e4f3d-298f-4be7-89cd-c747555752d0")
 	)
 	(no_connect
 		(at 72.39 82.55)
@@ -6990,6 +6694,10 @@
 		(uuid "912889ab-201d-4256-aa2a-741132f21d85")
 	)
 	(no_connect
+		(at 33.02 128.27)
+		(uuid "96eea5f8-d5e8-4943-a90f-08d9d7269390")
+	)
+	(no_connect
 		(at 95.25 128.27)
 		(uuid "9e20ad63-1153-4262-8fa2-36a31e222c7c")
 	)
@@ -7057,16 +6765,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 86.36) (xy 31.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03533d4e-6f35-4de9-8fb5-9cac0139687d")
-	)
-	(wire
-		(pts
 			(xy 125.73 82.55) (xy 140.97 82.55)
 		)
 		(stroke
@@ -7084,6 +6782,16 @@
 			(type default)
 		)
 		(uuid "0f05263c-3bdf-47ab-8bd4-35d2659ca7ea")
+	)
+	(wire
+		(pts
+			(xy 38.1 85.09) (xy 38.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7f3150-1ef2-4161-bbf3-d051a834c067")
 	)
 	(wire
 		(pts
@@ -7247,16 +6955,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 86.36) (xy 53.34 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33e8691c-39c1-40d2-989b-21546df81a05")
-	)
-	(wire
-		(pts
 			(xy 151.13 49.53) (xy 166.37 49.53)
 		)
 		(stroke
@@ -7314,16 +7012,6 @@
 			(type default)
 		)
 		(uuid "41ed7c63-9411-405c-8924-66305b7fb012")
-	)
-	(wire
-		(pts
-			(xy 53.34 80.01) (xy 53.34 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "432c19b5-b917-4863-9c67-ea510d6bbc06")
 	)
 	(wire
 		(pts
@@ -7397,26 +7085,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 95.25) (xy 50.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b4e958f-59b2-401b-bb24-b60a12c0d388")
-	)
-	(wire
-		(pts
-			(xy 72.39 77.47) (xy 31.75 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b9fcf23-0af7-4ccf-bb31-bd0d532cfd16")
-	)
-	(wire
-		(pts
 			(xy 68.58 95.25) (xy 72.39 95.25)
 		)
 		(stroke
@@ -7457,16 +7125,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 80.01) (xy 72.39 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54241896-5c30-4ffb-9e94-f4eb672bfb32")
-	)
-	(wire
-		(pts
 			(xy 49.53 24.13) (xy 49.53 21.59)
 		)
 		(stroke
@@ -7497,16 +7155,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 86.36) (xy 50.8 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c82e6a6-271c-4e46-8a0a-1f73c89102a0")
-	)
-	(wire
-		(pts
 			(xy 115.57 36.83) (xy 115.57 54.61)
 		)
 		(stroke
@@ -7534,16 +7182,6 @@
 			(type default)
 		)
 		(uuid "6170cfe5-7244-4409-a02b-cce9a2021a74")
-	)
-	(wire
-		(pts
-			(xy 34.29 86.36) (xy 34.29 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63c34877-47f3-4db4-adc7-c443490a1114")
 	)
 	(wire
 		(pts
@@ -7707,6 +7345,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 132.08) (xy 24.13 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809edb28-c226-4eba-9c6b-2932c5adb9d7")
+	)
+	(wire
+		(pts
 			(xy 241.3 27.94) (xy 259.08 27.94)
 		)
 		(stroke
@@ -7814,6 +7462,16 @@
 			(type default)
 		)
 		(uuid "90c0fe90-f6ac-4936-8340-6e9b5eb53fd8")
+	)
+	(wire
+		(pts
+			(xy 30.48 85.09) (xy 30.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918db424-cd37-4160-b972-9427e4f3d337")
 	)
 	(wire
 		(pts
@@ -7927,6 +7585,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 128.27) (xy 30.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c739ea-45b2-4351-b8ca-9910479f4b6e")
+	)
+	(wire
+		(pts
 			(xy 82.55 128.27) (xy 82.55 139.7)
 		)
 		(stroke
@@ -8024,6 +7692,16 @@
 			(type default)
 		)
 		(uuid "b54d6d1e-a194-40b7-9a37-ed268df3e0d6")
+	)
+	(wire
+		(pts
+			(xy 24.13 132.08) (xy 24.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b568e935-2070-45b8-900f-4c61768bb941")
 	)
 	(wire
 		(pts
@@ -8167,16 +7845,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 86.36) (xy 50.8 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbadf05d-6f8e-4b60-b576-0b0cab4e5ee9")
-	)
-	(wire
-		(pts
 			(xy 215.9 46.99) (xy 215.9 48.26)
 		)
 		(stroke
@@ -8194,6 +7862,16 @@
 			(type default)
 		)
 		(uuid "cdc5c84b-2785-4592-b8e7-39253740cee0")
+	)
+	(wire
+		(pts
+			(xy 30.48 77.47) (xy 72.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff3d1b9-3e36-4f39-979c-3840ff47c607")
 	)
 	(wire
 		(pts
@@ -8357,6 +8035,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 85.09) (xy 38.1 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb887e0a-d4d1-477c-8247-092bec11721b")
+	)
+	(wire
+		(pts
 			(xy 207.01 36.83) (xy 207.01 26.67)
 		)
 		(stroke
@@ -8394,26 +8082,6 @@
 			(type default)
 		)
 		(uuid "ef9f8e2e-50d4-4e1c-b39a-2bccfe4b226f")
-	)
-	(wire
-		(pts
-			(xy 36.83 86.36) (xy 34.29 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efd08339-b50c-4c21-9f4a-b5c7075c3ba9")
-	)
-	(wire
-		(pts
-			(xy 31.75 77.47) (xy 31.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0df5cfd-cc8d-4196-9a17-03dc210fc3d4")
 	)
 	(wire
 		(pts
@@ -13817,7 +13485,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 95.25 0)
+		(at 38.1 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13826,7 +13494,7 @@
 		(fields_autoplaced yes)
 		(uuid "25459edf-b7fc-4457-9535-1e7e8d428d4c")
 		(property "Reference" "#PWR07"
-			(at 34.29 101.6 0)
+			(at 38.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13835,7 +13503,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 100.33 0)
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13843,7 +13511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 95.25 0)
+			(at 38.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13852,7 +13520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 95.25 0)
+			(at 38.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13861,7 +13529,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 95.25 0)
+			(at 38.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14378,438 +14046,6 @@
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:s_sens/D-Micro_Crystal-CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC")
-		(at 36.83 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f1e148f-526d-43ab-bad5-19e8e2352bcc")
-		(property "Reference" "Y1"
-			(at 41.91 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC"
-			(at 42.418 79.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "dz_sens:CC4VT1A"
-			(at 45.72 182.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 282.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Crystal oscillator 32.768 kHz"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 45.72 482.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "428-203148-MG02"
-			(at 45.72 582.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC?qs=7bTaA%2FLYtSYW6wr3L2oxGw%3D%3D"
-			(at 45.72 682.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Micro Crystal AG"
-			(at 45.72 782.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC4V-T1A-32.768KHZ-6PF-20PPM-TA-QC"
-			(at 45.72 882.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "IPN" "D-Micro_Crystal-CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC4V-T1A-32.768kHz-6pF-20PPM-TA-QC"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Micro Crystal"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Crystal Oscillator"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Channels" "1"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vin Range" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Output" "Mouser"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Current" "428-203148-MG02"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Features" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Protection" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC4V-T1A.pdf"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temp Range" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e9f4dc3-a149-426a-95aa-dd4d415986de")
-		)
-		(pin "2"
-			(uuid "2cf8e790-167a-4fe1-9372-2c56a83232a1")
-		)
-		(instances
-			(project ""
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_cap/C-4.7p-0402")
-		(at 34.29 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "439594a5-e0b9-4c6f-bcc4-4b5569d9e4b6")
-		(property "Reference" "C8"
-			(at 38.1 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7pF"
-			(at 38.1 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 35.2552 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM1555C1H4R7CA01D"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap 4.7pF 50V 0402 C0G ±0.25pF"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "C-4.7p-0402"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM1555C1H4R7CA01"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "4.7pF"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "C0G"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±0.25pF"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "81-GRM1555C1H4R7CA1D"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C76946"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 34.29 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc9ae087-eeca-44d8-bc41-cb8bb14f0813")
-		)
-		(pin "1"
-			(uuid "490e42ee-ef6d-49ce-9abc-054368b24825")
-		)
-		(instances
-			(project ""
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16779,6 +16015,240 @@
 		)
 	)
 	(symbol
+		(lib_id "#dzdb:s_clock/Y-Wuerth-830205028309")
+		(at 30.48 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0dc6383-6359-43f5-88d1-53638ddc8a29")
+		(property "Reference" "Y1"
+			(at 22.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "32.768 kHz"
+			(at 25.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dz_act:830205028309"
+			(at 27.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/830205028309.pdf"
+			(at 30.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard Clock Oscillators WE-SPXO 32.7680kHz 25ppm 3.2 x 2.5mm"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "WE-SPXO Crystal Oscillator CFPS-104; 3.2 x 2.5mm; 32.7680 kHz; Tol = IN; Stab = +/-25 ppm; CMOS; Temp Range: -40 to 85 C; Vsupply = 3.3 V"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-830205028309"
+			(at 38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/830205028309?qs=hd1VzrDQEGiNEWaILlEaRA%3D%3D"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "830205028309"
+			(at 45.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "IPN" "Y-Wuerth-830205028309"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "830205028309"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" "32.768 kHz"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LoadCap" "15 pF"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ESR" ""
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stability" "25ppm"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "710-830205028309"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "N/A"
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "lifecycle=Active "
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3b22a032-d5a2-461b-a3b9-1687601c4e0b")
+		)
+		(pin "2"
+			(uuid "a0ee88c2-b494-4da3-887f-305cd940bbf2")
+		)
+		(pin "4"
+			(uuid "141e51d3-d6c0-4038-a1e6-7415a29196c9")
+		)
+		(pin "1"
+			(uuid "e96bb97b-ba31-48b0-9d12-05f07b787013")
+		)
+		(instances
+			(project ""
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#dzdb:g_res/R-1k-0603")
 		(at 29.21 34.29 90)
 		(unit 1)
@@ -17341,6 +16811,71 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 24.13 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3eb5d87-08bf-4d63-b613-1adc80509db3")
+		(property "Reference" "#PWR024"
+			(at 24.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 24.13 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 24.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad415ef1-454f-4834-8f5c-e534e3de29b0")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -19176,175 +18711,6 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_cap/C-4.7p-0402")
-		(at 50.8 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdd475bb-ddfc-4114-b560-f1e9d9aa6bdd")
-		(property "Reference" "C9"
-			(at 54.61 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7pF"
-			(at 54.61 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 51.7652 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM1555C1H4R7CA01D"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Cap 4.7pF 50V 0402 C0G ±0.25pF"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "C-4.7p-0402"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM1555C1H4R7CA01"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "4.7pF"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "C0G"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±0.25pF"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "81-GRM1555C1H4R7CA1D"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C76946"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "lifecycle=Active"
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eac24e5f-eeb2-40ef-9036-037522320bb7")
-		)
-		(pin "1"
-			(uuid "50afb67d-2d81-4744-8849-c8d52efaa2e0")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "C9")
 					(unit 1)
 				)
 			)
