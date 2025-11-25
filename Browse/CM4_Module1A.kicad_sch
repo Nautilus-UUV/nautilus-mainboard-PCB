@@ -2804,7 +2804,7 @@
     )
   )
 
-  (hierarchical_label "TXD0" (shape input) (at 152.4 92.71 0)
+  (hierarchical_label "TXD0" (shape output) (at 152.4 92.71 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid "1ed6299b-9845-4f15-9be6-d2c3ecd30a46")
   )
