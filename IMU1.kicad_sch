@@ -249,42 +249,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "#dzdb:g_res/R-0-0603"
+		(symbol "#dzdb:g_mech/Jumper-2P1.3mm_Rounded"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "0"
-				(at 0 0 90)
+			(property "Value" "-"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
+			(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -293,7 +285,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -302,7 +294,7 @@
 					(hide yes)
 				)
 			)
-			(property "IPN" "R-0-0603"
+			(property "Description" "Solder Jumper"
 				(at 0 0 0)
 				(effects
 					(font
@@ -311,7 +303,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "560112116001"
+			(property "IPN" "Jumper-2P1.3mm_Rounded"
 				(at 0 0 0)
 				(effects
 					(font
@@ -320,7 +312,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Wurth Elektronik"
+			(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -329,7 +321,7 @@
 					(hide yes)
 				)
 			)
-			(property "Resistance" "0"
+			(property "ki_keywords" "solder jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -338,7 +330,7 @@
 					(hide yes)
 				)
 			)
-			(property "Power" "0.1W"
+			(property "ki_fp_filters" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -347,84 +339,73 @@
 					(hide yes)
 				)
 			)
-			(property "Material" "Thick film"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "g_mech/Jumper-2P1.3mm_Rounded_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
 					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "5%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "Mouser"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SPN" "710-560112116001"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "CXXXXX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comment" "lifecycle=Active; note=Auto-generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "g_res/R-0-0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -432,11 +413,11 @@
 					)
 				)
 			)
-			(symbol "g_res/R-0-0603_1_1"
+			(symbol "g_mech/Jumper-2P1.3mm_Rounded_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -452,9 +433,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1615,172 +1596,6 @@
 		(uuid "c224d808-0736-4617-bab2-5716138eb855")
 	)
 	(symbol
-		(lib_id "#dzdb:g_res/R-0-0603")
-		(at 124.46 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02615f3b-ce57-4686-a945-53727fabe9c5")
-		(property "Reference" "R51"
-			(at 124.46 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 124.46 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 124.46 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "R-0-0603"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112116001"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "Thick film"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "710-560112116001"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "CXXXXX"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55117d13-e9a2-4db4-9a61-640ea0e9804e")
-		)
-		(pin "2"
-			(uuid "7cfc0019-e4c3-49be-aa5c-edbe05d5e9f1")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 182.88 90.17 0)
 		(unit 1)
@@ -1907,172 +1722,6 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_res/R-0-0603")
-		(at 124.46 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39b6f202-202e-4919-b8d0-f17df55b63bd")
-		(property "Reference" "R50"
-			(at 124.46 95.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 124.46 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 124.46 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "R-0-0603"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112116001"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "Thick film"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "710-560112116001"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "CXXXXX"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e81f11bc-b71f-4bef-b094-78f728e9bba7")
-		)
-		(pin "2"
-			(uuid "1f21658b-a05f-4263-a935-693fb497034d")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
-					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -2242,6 +1891,91 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_mech/Jumper-2P1.3mm_Rounded")
+		(at 124.46 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "64319ce5-c8b4-4432-b3cb-aeb9bd81650a")
+		(property "Reference" "JP21"
+			(at 124.46 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-"
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "Jumper-2P1.3mm_Rounded"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0435955-4275-41a3-9277-6a84ebcacb33")
+		)
+		(pin "1"
+			(uuid "aa50c145-4eb9-4106-95e1-17e5ee4916ee")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
+					(reference "JP21")
 					(unit 1)
 				)
 			)
@@ -2549,41 +2283,32 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:g_res/R-0-0603")
-		(at 124.46 87.63 90)
+		(lib_id "#dzdb:g_mech/Jumper-2P1.3mm_Rounded")
+		(at 124.46 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "aef9c013-3b7f-4281-9db8-5b3d252aa61c")
-		(property "Reference" "R53"
-			(at 124.46 85.344 90)
+		(uuid "9de21d99-fd30-4c58-80ad-ab0f1ecb687e")
+		(property "Reference" "JP19"
+			(at 124.46 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 124.46 87.63 90)
+		(property "Value" "-"
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 124.46 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
-			(at 124.46 87.63 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 124.46 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,8 +2316,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS <0.05 Ohms  0.1 W Jumper 0603"
-			(at 124.46 87.63 0)
+		(property "Datasheet" "~"
+			(at 124.46 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,8 +2325,8 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "R-0-0603"
-			(at 124.46 87.63 0)
+		(property "Description" "Solder Jumper"
+			(at 124.46 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,8 +2334,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112116001"
-			(at 124.46 87.63 0)
+		(property "IPN" "Jumper-2P1.3mm_Rounded"
+			(at 124.46 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,97 +2343,110 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 124.46 87.63 0)
+		(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
+			(at 124.46 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Resistance" "0"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "0.1W"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" "Thick film"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "710-560112116001"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "CXXXXX"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7c1a71c-1702-4441-86af-77c6444e8929")
 		)
 		(pin "2"
-			(uuid "ffd0d1e2-7ce1-4601-98d0-3c7cb62f0dd8")
+			(uuid "bae5828f-719b-42dc-b9d3-870ccc0ac0cf")
+		)
+		(pin "1"
+			(uuid "db2ef74d-a86c-40b3-9edd-af9a9ad9a947")
 		)
 		(instances
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
-					(reference "R53")
+					(reference "JP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_mech/Jumper-2P1.3mm_Rounded")
+		(at 124.46 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6468c8a-11bf-460c-b3b4-910550816fee")
+		(property "Reference" "JP20"
+			(at 124.46 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "Jumper-2P1.3mm_Rounded"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdccfb93-1c69-40de-9116-f500ea71f845")
+		)
+		(pin "1"
+			(uuid "f685a4bb-0801-4cd7-9b19-618450574e43")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/bdf8f7d6-a5ee-4741-925d-5019e8cbdfce/0c7afee2-dd12-41f0-a704-0f15387072b0"
+					(reference "JP20")
 					(unit 1)
 				)
 			)

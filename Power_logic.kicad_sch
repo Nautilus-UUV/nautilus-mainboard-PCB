@@ -3286,7 +3286,7 @@
 			)
 		)
 		(property "Value" "-"
-			(at 133.35 76.962 0)
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3879,7 @@
 			)
 		)
 		(property "Value" "-"
-			(at 133.35 69.85 0)
+			(at 133.35 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
