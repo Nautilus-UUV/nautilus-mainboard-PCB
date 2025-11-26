@@ -233,6 +233,10 @@
           (name "MP_1" (effects (font (size 1.27 1.27))))
           (number "76" (effects (font (size 1.27 1.27))))
         )
+        (pin no_connect non_logic (at 0 -3.81 0) (length 5.08)
+          (name "Screw" (effects (font (size 1.27 1.27))))
+          (number "59" (effects (font (size 1.27 1.27))))
+        )
         (pin passive line (at 7.62 12.7 270) (length 5.08)
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1892,6 +1896,7 @@
     (pin "72" (uuid "bed7f1fe-a7ff-4e3b-bea0-78a33872616d"))
     (pin "57" (uuid "846c6178-5ca7-46ee-90f8-15cb9466b8af"))
     (pin "56" (uuid "0e6617e4-5db7-4d8f-a18c-227a39c3a201"))
+    (pin "59" (uuid "03177766-bdeb-4c33-ac15-354638349866"))
     (instances
       (project "nautilus_mainboard"
         (path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/f7f72d9d-a73c-4da1-b97a-073a2603b35d"
