@@ -6987,6 +6987,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 49.53) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0432d397-6d08-4a88-892f-f089bf3f17f8")
+	)
+	(wire
+		(pts
 			(xy 125.73 82.55) (xy 140.97 82.55)
 		)
 		(stroke
@@ -7054,6 +7064,16 @@
 			(type default)
 		)
 		(uuid "1785ea78-75ba-4100-8301-583de4ec8236")
+	)
+	(wire
+		(pts
+			(xy 189.23 49.53) (xy 209.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19113aea-3500-4a1c-ba5e-4c717cb62af2")
 	)
 	(wire
 		(pts
@@ -7287,6 +7307,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 46.99) (xy 213.36 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b423a5-7762-4b13-a00f-3b311ad4b36b")
+	)
+	(wire
+		(pts
 			(xy 38.1 43.18) (xy 62.23 43.18)
 		)
 		(stroke
@@ -7347,6 +7377,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 46.99) (xy 207.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f3c4d8-a46b-4a54-9110-fa1e4a3a5389")
+	)
+	(wire
+		(pts
 			(xy 49.53 24.13) (xy 49.53 21.59)
 		)
 		(stroke
@@ -7354,6 +7394,16 @@
 			(type default)
 		)
 		(uuid "54b07561-5050-4f5a-b369-cc34e05dbde7")
+	)
+	(wire
+		(pts
+			(xy 207.01 46.99) (xy 207.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f48ae9-1747-45d1-8ec8-7d8c147da690")
 	)
 	(wire
 		(pts
@@ -7427,7 +7477,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 41.91) (xy 189.23 41.91)
+			(xy 213.36 41.91) (xy 189.23 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7497,7 +7547,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 44.45) (xy 205.74 44.45)
+			(xy 189.23 44.45) (xy 213.36 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7524,6 +7574,16 @@
 			(type default)
 		)
 		(uuid "76d306f4-b74e-4c78-8be7-ac2d2f45e2f7")
+	)
+	(wire
+		(pts
+			(xy 207.01 48.26) (xy 213.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8830f4-6766-4066-9c54-ace1ccd55961")
 	)
 	(wire
 		(pts
@@ -7614,16 +7674,6 @@
 			(type default)
 		)
 		(uuid "84cda635-4d41-4926-a9da-4e59d153a40c")
-	)
-	(wire
-		(pts
-			(xy 189.23 46.99) (xy 205.74 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8743cc7e-476f-4e5c-8bf4-9e1e78ba2db3")
 	)
 	(wire
 		(pts
@@ -7907,16 +7957,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 49.53) (xy 205.74 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b54d6d1e-a194-40b7-9a37-ed268df3e0d6")
-	)
-	(wire
-		(pts
 			(xy 24.13 132.08) (xy 24.13 127)
 		)
 		(stroke
@@ -8077,6 +8117,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 48.26) (xy 213.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1b3cfe-0bbf-4dc9-bd8f-f0cd06a02919")
+	)
+	(wire
+		(pts
 			(xy 59.69 102.87) (xy 72.39 102.87)
 		)
 		(stroke
@@ -8087,7 +8137,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 46.99) (xy 215.9 48.26)
+			(xy 223.52 46.99) (xy 223.52 48.26)
 		)
 		(stroke
 			(width 0)
@@ -15960,7 +16010,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 48.26 0)
+		(at 223.52 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15969,7 +16019,7 @@
 		(fields_autoplaced yes)
 		(uuid "904a84de-b8b0-4050-96c0-b265a4ef3381")
 		(property "Reference" "#PWR070"
-			(at 215.9 54.61 0)
+			(at 223.52 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15978,7 +16028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 53.34 0)
+			(at 223.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15986,7 +16036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 48.26 0)
+			(at 223.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15995,7 +16045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 48.26 0)
+			(at 223.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16004,7 +16054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 48.26 0)
+			(at 223.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16727,7 +16777,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:s_dio/WURT-710-82402374")
-		(at 210.82 46.99 90)
+		(at 218.44 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16735,7 +16785,7 @@
 		(dnp no)
 		(uuid "c0f432d9-5e34-4708-9d33-5ecc3b1ec905")
 		(property "Reference" "D3"
-			(at 216.916 40.64 90)
+			(at 224.536 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16743,7 +16793,7 @@
 			)
 		)
 		(property "Value" "710-82402374"
-			(at 221.742 42.926 90)
+			(at 229.362 42.926 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16751,7 +16801,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 212.09 39.37 0)
+			(at 219.71 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16761,7 +16811,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/82402374.pdf"
-			(at 207.645 43.815 0)
+			(at 215.265 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16770,7 +16820,7 @@
 			)
 		)
 		(property "Description" "ESD-Schutzdioden / TVS-Dioden WE-TVS Standard 2.5uA 5VDC 4Channel"
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16779,7 +16829,7 @@
 			)
 		)
 		(property "IPN" "WURT-710-82402374"
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16788,7 +16838,7 @@
 			)
 		)
 		(property "MPN" "710-82402374"
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16797,7 +16847,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16806,7 +16856,7 @@
 			)
 		)
 		(property "Type" "ESD-Schutzdioden / TVS-Dioden"
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16815,7 +16865,7 @@
 			)
 		)
 		(property "Vf" "0.6-1V"
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16824,7 +16874,7 @@
 			)
 		)
 		(property "If" ""
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16833,7 +16883,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16842,7 +16892,7 @@
 			)
 		)
 		(property "SPN" "710-82402374"
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16851,7 +16901,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16860,7 +16910,7 @@
 			)
 		)
 		(property "Comment" "note=Auto-generated"
-			(at 210.82 46.99 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
