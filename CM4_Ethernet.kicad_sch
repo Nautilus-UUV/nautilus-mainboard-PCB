@@ -2860,13 +2860,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 44.45) (xy 200.66 44.45)
+			(xy 209.55 44.45) (xy 222.25 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bac28a0-6492-4a85-b068-08a3dafdf56a")
+		(uuid "06c57704-908b-4ca6-bacf-282cdcc5cf6a")
 	)
 	(wire
 		(pts
@@ -2980,16 +2980,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 41.91) (xy 229.87 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37787c82-0e7e-411f-ad24-6f1dbb24cb61")
-	)
-	(wire
-		(pts
 			(xy 134.62 90.17) (xy 143.51 90.17)
 		)
 		(stroke
@@ -3020,16 +3010,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 44.45) (xy 222.25 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4399d2-dd57-468f-bf2d-dc1a9fd084c5")
-	)
-	(wire
-		(pts
 			(xy 90.17 90.17) (xy 99.06 90.17)
 		)
 		(stroke
@@ -3037,16 +3017,6 @@
 			(type default)
 		)
 		(uuid "4a7ea4cc-7116-4570-82c8-d3c3b2639dc3")
-	)
-	(wire
-		(pts
-			(xy 200.66 41.91) (xy 205.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53031936-410c-40cf-b7ea-5a24479b144a")
 	)
 	(bus
 		(pts
@@ -3087,6 +3057,16 @@
 			(type default)
 		)
 		(uuid "78510c4b-bb2e-46af-96e9-c77bf3cd7f5c")
+	)
+	(wire
+		(pts
+			(xy 200.66 41.91) (xy 222.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2f4a51-d879-4ede-a595-baeed69b98d5")
 	)
 	(bus
 		(pts
@@ -3250,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 44.45) (xy 184.15 44.45)
+			(xy 184.15 44.45) (xy 201.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3951,7 +3931,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-1k-0603")
-		(at 196.85 41.91 270)
+		(at 226.06 41.91 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3961,7 +3941,7 @@
 		(fields_autoplaced yes)
 		(uuid "99653e00-3257-405b-9f76-b50fb5a7657e")
 		(property "Reference" "R7"
-			(at 196.85 35.56 90)
+			(at 226.06 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3949,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 196.85 38.1 90)
+			(at 226.06 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3957,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 196.85 43.688 90)
+			(at 226.06 43.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3966,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +3975,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 1 kOhms 1 % 0.1 W 0603"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +3984,7 @@
 			)
 		)
 		(property "IPN" "R-1k-0603"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +3993,7 @@
 			)
 		)
 		(property "MPN" "560112116014"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4002,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4011,7 @@
 			)
 		)
 		(property "Resistance" "1k"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +4020,7 @@
 			)
 		)
 		(property "Power" "0.1 W"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +4029,7 @@
 			)
 		)
 		(property "Material" "Thick film"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4038,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,7 +4047,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4056,7 @@
 			)
 		)
 		(property "SPN" "710-560112116014"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4065,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4074,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 196.85 41.91 0)
+			(at 226.06 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4099,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_res/R-1k-0603")
-		(at 196.85 44.45 270)
+		(at 226.06 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4127,7 +4107,7 @@
 		(dnp no)
 		(uuid "aec63f7b-4134-48b9-be45-a2760db000c3")
 		(property "Reference" "R8"
-			(at 196.85 50.8 90)
+			(at 226.06 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4115,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 196.85 48.26 90)
+			(at 226.06 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4123,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 196.85 42.672 90)
+			(at 226.06 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4132,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4141,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD WRIS-RSKS 1 kOhms 1 % 0.1 W 0603"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4150,7 @@
 			)
 		)
 		(property "IPN" "R-1k-0603"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4159,7 @@
 			)
 		)
 		(property "MPN" "560112116014"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4168,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4177,7 @@
 			)
 		)
 		(property "Resistance" "1k"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4186,7 @@
 			)
 		)
 		(property "Power" "0.1 W"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4195,7 @@
 			)
 		)
 		(property "Material" "Thick film"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4204,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4213,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4222,7 @@
 			)
 		)
 		(property "SPN" "710-560112116014"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4231,7 @@
 			)
 		)
 		(property "LCSC" "CXXXXX"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4240,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
-			(at 196.85 44.45 0)
+			(at 226.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4265,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:s_dio/D-WURT-710-150060YS83000")
-		(at 218.44 44.45 0)
+		(at 205.74 44.45 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4294,7 +4274,7 @@
 		(dnp no)
 		(uuid "b444e458-f887-4202-ab7f-783e1a6f37e0")
 		(property "Reference" "LED6"
-			(at 223.266 47.498 0)
+			(at 210.566 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4282,7 @@
 			)
 		)
 		(property "Value" "710-150060YS83000"
-			(at 225.552 50.8 0)
+			(at 212.852 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4290,7 @@
 			)
 		)
 		(property "Footprint" "dz_dio:Wuerth_LED_150060RS83000"
-			(at 231.14 -49.2 0)
+			(at 218.44 -49.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4300,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060SY83000.pdf"
-			(at 231.14 -149.2 0)
+			(at 218.44 -149.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +4310,7 @@
 			)
 		)
 		(property "Description" "Einfarbige LEDs leds WL-SMCW SMT 0603 Dome Yellow Typ 650mcd 2V"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4319,7 @@
 			)
 		)
 		(property "Height" "0.95"
-			(at 231.14 -349.2 0)
+			(at 218.44 -349.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4329,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 231.14 -449.2 0)
+			(at 218.44 -449.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4339,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 231.14 -549.2 0)
+			(at 218.44 -549.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4349,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 231.14 -649.2 0)
+			(at 218.44 -649.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4359,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150060RS83000"
-			(at 231.14 -749.2 0)
+			(at 218.44 -749.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4369,7 @@
 			)
 		)
 		(property "IPN" "D-WURT-710-150060YS83000"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4378,7 @@
 			)
 		)
 		(property "MPN" "710-150060YS83000"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4387,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4396,7 @@
 			)
 		)
 		(property "Type" "Einfarbige LEDs leds"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4405,7 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4414,7 @@
 			)
 		)
 		(property "If" "20 mA"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4423,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4432,7 @@
 			)
 		)
 		(property "SPN" "710-150060YS83000"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +4441,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +4450,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=New Product"
-			(at 218.44 44.45 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4465,7 @@
 			(uuid "bc152363-edf5-4243-a70d-420be0ba0080")
 		)
 		(instances
-			(project ""
+			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/9f7bc1e5-4b64-43dc-b368-101a610271ca"
 					(reference "LED6")
 					(unit 1)
@@ -4495,7 +4475,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:s_dio/D-WURT-710-150060VS83000")
-		(at 209.55 41.91 0)
+		(at 196.85 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4503,7 +4483,7 @@
 		(dnp no)
 		(uuid "d1b85004-ac7a-48c9-8bb6-f48a35f8f251")
 		(property "Reference" "LED5"
-			(at 215.392 38.608 0)
+			(at 202.692 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4491,7 @@
 			)
 		)
 		(property "Value" "710-150060VS83000"
-			(at 216.408 35.306 0)
+			(at 203.708 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,7 +4499,7 @@
 			)
 		)
 		(property "Footprint" "dz_dio:Wuerth_LED_150060RS83000"
-			(at 222.25 135.56 0)
+			(at 209.55 135.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4509,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS83000.pdf"
-			(at 222.25 235.56 0)
+			(at 209.55 235.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4519,7 @@
 			)
 		)
 		(property "Description" "Einfarbige LEDs leds WL-SMCW SMT 0603 Dome Bright Green Typ  300mcd 2V"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4528,7 @@
 			)
 		)
 		(property "Height" "0.95"
-			(at 222.25 435.56 0)
+			(at 209.55 435.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4538,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 222.25 535.56 0)
+			(at 209.55 535.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4548,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 222.25 635.56 0)
+			(at 209.55 635.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4558,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 222.25 735.56 0)
+			(at 209.55 735.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4568,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150060RS83000"
-			(at 222.25 835.56 0)
+			(at 209.55 835.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4578,7 @@
 			)
 		)
 		(property "IPN" "D-WURT-710-150060VS83000"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4587,7 @@
 			)
 		)
 		(property "MPN" "710-150060VS83000"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4596,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4605,7 @@
 			)
 		)
 		(property "Type" "Einfarbige LEDs leds"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4614,7 @@
 			)
 		)
 		(property "Vf" "2 V"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4623,7 @@
 			)
 		)
 		(property "If" "20 mA"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4632,7 @@
 			)
 		)
 		(property "Supplier" "Mouser"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4641,7 @@
 			)
 		)
 		(property "SPN" "710-150060VS83000"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4650,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4659,7 @@
 			)
 		)
 		(property "Comment" "lifecycle=New Product"
-			(at 209.55 41.91 0)
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +4674,7 @@
 			(uuid "e6d614bd-bc91-4d08-9daa-6c24b1790c55")
 		)
 		(instances
-			(project ""
+			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/c2b6dac3-d6fd-4d5d-bd17-0cff91db88eb/0837dad1-ec16-488a-a684-981e55247089/9f7bc1e5-4b64-43dc-b368-101a610271ca"
 					(reference "LED5")
 					(unit 1)

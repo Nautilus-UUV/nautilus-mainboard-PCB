@@ -1394,7 +1394,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 76.2) (xy 63.5 86.36)
+			(xy 35.56 76.2) (xy 35.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203c7cd7-b248-4b3a-af27-f0f9519bf0ea")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 68.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1404,7 +1414,7 @@
 	)
 	(bus
 		(pts
-			(xy 49.53 76.2) (xy 49.53 86.36)
+			(xy 60.96 76.2) (xy 60.96 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 76.2) (xy 40.64 86.36)
+			(xy 57.15 76.2) (xy 57.15 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1424,13 +1434,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 76.2) (xy 36.83 86.36)
+			(xy 48.26 76.2) (xy 48.26 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4540f6ff-5b39-426a-bf86-d4429269a4e6")
+		(uuid "34c53e0d-364a-4482-9d08-60a4c3d907e4")
 	)
 	(wire
 		(pts
@@ -1444,6 +1454,36 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 76.2) (xy 50.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa65d9e-c317-413e-a1aa-87621e256ff5")
+	)
+	(wire
+		(pts
+			(xy 38.1 76.2) (xy 38.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5462ea82-f9cf-485c-8c9e-cd61bd20df41")
+	)
+	(wire
+		(pts
+			(xy 33.02 76.2) (xy 33.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63439ed0-152a-45be-b656-36b241cab2fe")
+	)
+	(wire
+		(pts
 			(xy 76.2 46.99) (xy 83.82 46.99)
 		)
 		(stroke
@@ -1454,23 +1494,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 76.2) (xy 53.34 86.36)
+			(xy 45.72 76.2) (xy 45.72 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f37301-d081-4fe1-ae4b-f2d86909a363")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 63.5 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76ad3607-89cd-4f27-b1fa-4641030e83cf")
-	)
-	(wire
-		(pts
-			(xy 33.02 76.2) (xy 33.02 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dff3ce2-f6fb-4de2-bf57-c77d073218fa")
 	)
 	(wire
 		(pts
@@ -1484,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 76.2) (xy 58.42 86.36)
+			(xy 66.04 76.2) (xy 66.04 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1514,6 +1554,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 76.2) (xy 40.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df043cc5-9479-4653-a716-6ce4dc958309")
+	)
+	(wire
+		(pts
 			(xy 96.52 29.21) (xy 101.6 29.21)
 		)
 		(stroke
@@ -1534,7 +1584,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 68.58 86.36)
+			(xy 71.12 76.2) (xy 71.12 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1542,9 +1592,20 @@
 		)
 		(uuid "f39700cb-3ed3-4c2e-ac2f-ff4ca41e58cd")
 	)
+	(hierarchical_label "BMI_MISO"
+		(shape input)
+		(at 48.26 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ccd1aab-e7f4-43e9-b0e9-af62bda8e5e6")
+	)
 	(hierarchical_label "STM_UART_TX"
 		(shape output)
-		(at 63.5 86.36 270)
+		(at 68.58 86.36 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1553,9 +1614,31 @@
 		)
 		(uuid "0e16eb39-22fa-46c8-8cfe-bb35476a0cea")
 	)
+	(hierarchical_label "BMI_MOSI"
+		(shape output)
+		(at 50.8 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1012d975-4abf-4e42-b11d-4222d0d318ae")
+	)
+	(hierarchical_label "BMI1_CSB_ACCEL"
+		(shape output)
+		(at 40.64 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "228558b5-f61e-4582-94f0-a0dab361dac3")
+	)
 	(hierarchical_label "STM_UART_RX"
 		(shape input)
-		(at 58.42 86.36 270)
+		(at 66.04 86.36 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1566,7 +1649,7 @@
 	)
 	(hierarchical_label "GLOBAL_EN_CM4"
 		(shape input)
-		(at 53.34 86.36 270)
+		(at 63.5 86.36 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1575,20 +1658,9 @@
 		)
 		(uuid "4316e83c-ce59-4215-b807-1daba72cb541")
 	)
-	(hierarchical_label "Pack1_SCL"
-		(shape bidirectional)
-		(at 33.02 86.36 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "440f0e6d-e4e0-4d92-8456-348f0e4c7a64")
-	)
 	(hierarchical_label "STM{RX,TX}"
 		(shape bidirectional)
-		(at 49.53 86.36 270)
+		(at 60.96 86.36 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1621,7 +1693,7 @@
 	)
 	(hierarchical_label "Piezzo_Control"
 		(shape output)
-		(at 40.64 86.36 270)
+		(at 57.15 86.36 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1630,20 +1702,42 @@
 		)
 		(uuid "63020422-96eb-4649-be4e-0c9ad187bb20")
 	)
-	(hierarchical_label "Pack1_SDA"
-		(shape bidirectional)
-		(at 36.83 86.36 270)
+	(hierarchical_label "BMI1_CSB_GYRO"
+		(shape output)
+		(at 38.1 86.36 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "724386b4-8bbe-489b-89a2-d01eec5ef9a9")
+		(uuid "6eb1546f-5216-48ac-8698-36c29bacfb39")
+	)
+	(hierarchical_label "BMI_SCK"
+		(shape output)
+		(at 45.72 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71ee2a16-b116-4b2d-8b41-a5e05daffaf5")
+	)
+	(hierarchical_label "BMI2_CSB_ACCEL"
+		(shape output)
+		(at 35.56 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75a5e454-11e4-4770-81a8-f7282cb23ebe")
 	)
 	(hierarchical_label "RUN_PG_CM4"
 		(shape input)
-		(at 68.58 86.36 270)
+		(at 71.12 86.36 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1662,6 +1756,17 @@
 			(justify right)
 		)
 		(uuid "c93aca8d-75ed-4f1b-a75a-bbc7a6048357")
+	)
+	(hierarchical_label "BMI2_CSB_GYRO"
+		(shape output)
+		(at 33.02 86.36 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e795ab89-260c-4845-b17f-70a9c3bb5a69")
 	)
 	(symbol
 		(lib_id "#dzdb:g_mech/M-TEST-SMT_1.5mm_round")
@@ -1921,7 +2026,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1940,7 +2044,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerSTM.kicad_sch"
-			(at 101.6 76.7846 0)
+			(at 117.348 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2107,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2022,7 +2125,7 @@
 			)
 		)
 		(property "Sheetfile" "PinoutSTM.kicad_sch"
-			(at 25.4 76.7846 0)
+			(at 38.1 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2144,7 @@
 			)
 		)
 		(pin "STM_USART_RX" input
-			(at 58.42 76.2 270)
+			(at 66.04 76.2 270)
 			(uuid "f593e2da-de9a-46f0-9c85-6c77624a4851")
 			(effects
 				(font
@@ -2051,7 +2154,7 @@
 			)
 		)
 		(pin "STM_USART_TX" output
-			(at 63.5 76.2 270)
+			(at 68.58 76.2 270)
 			(uuid "46946d24-65f2-4ad4-9744-a74f3b2e5ca8")
 			(effects
 				(font
@@ -2061,7 +2164,7 @@
 			)
 		)
 		(pin "RUN_PG_CM4" input
-			(at 68.58 76.2 270)
+			(at 71.12 76.2 270)
 			(uuid "0fdc99f9-57aa-402b-ae30-6c31561c50c6")
 			(effects
 				(font
@@ -2071,7 +2174,7 @@
 			)
 		)
 		(pin "GLOBAL_EN_CM4" input
-			(at 53.34 76.2 270)
+			(at 63.5 76.2 270)
 			(uuid "9e78617e-7c7c-470b-a5a1-5d5a7d16d153")
 			(effects
 				(font
@@ -2090,26 +2193,6 @@
 				(justify right)
 			)
 		)
-		(pin "Pack1_SCL" bidirectional
-			(at 33.02 76.2 270)
-			(uuid "c8a452b9-ae7a-44ae-af66-fe36cb9e56ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Pack1_SDA" bidirectional
-			(at 36.83 76.2 270)
-			(uuid "eb322cba-53ce-411d-aea6-6182438ff798")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "STM_Plug_3.3V" output
 			(at 73.66 76.2 270)
 			(uuid "a706ad19-1631-4638-8a13-6c10476936d8")
@@ -2121,7 +2204,7 @@
 			)
 		)
 		(pin "Piezzo_Control" output
-			(at 40.64 76.2 270)
+			(at 57.15 76.2 270)
 			(uuid "9d60a3e8-82f7-4fe7-ad99-d5ec15807761")
 			(effects
 				(font
@@ -2131,8 +2214,78 @@
 			)
 		)
 		(pin "STM{RX,TX}" bidirectional
-			(at 49.53 76.2 270)
+			(at 60.96 76.2 270)
 			(uuid "3003b562-3daf-4daf-9ee2-974a8e40c111")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI1_CSB_ACCEL" output
+			(at 40.64 76.2 270)
+			(uuid "a21260d9-e971-43ad-a6c5-c20d4ad1c9fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI1_CSB_GYRO" output
+			(at 38.1 76.2 270)
+			(uuid "593aedde-8483-4ebd-a4b0-8a5894b8ab2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI2_CSB_ACCEL" output
+			(at 35.56 76.2 270)
+			(uuid "781f073f-b2b1-4a43-af2c-8949c885cc92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI2_CSB_GYRO" output
+			(at 33.02 76.2 270)
+			(uuid "ba67b652-89d5-4fc0-93a1-f18f2c12644c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI_MISO" input
+			(at 48.26 76.2 270)
+			(uuid "c195b38e-5a54-43e6-bf54-674855e0e345")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI_MOSI" output
+			(at 50.8 76.2 270)
+			(uuid "a95052d9-205e-4da8-9636-3ebea0e18215")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI_SCK" output
+			(at 45.72 76.2 270)
+			(uuid "370c05e8-cb78-4102-aa61-fd31bc3c54d0")
 			(effects
 				(font
 					(size 1.27 1.27)

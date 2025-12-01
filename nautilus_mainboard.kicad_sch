@@ -1261,6 +1261,18 @@
 		(uuid "89e823df-61b1-4a46-a8a4-246fb9a3b8f6")
 	)
 	(junction
+		(at 59.69 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0206dd83-0bb5-438d-86e9-d1bba0159b50")
+	)
+	(junction
+		(at 64.77 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05441042-cad1-48a6-ac23-a29ae635ec17")
+	)
+	(junction
 		(at 163.83 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1273,10 +1285,10 @@
 		(uuid "68e9b6c2-8d03-4d0a-a46b-44619f32d34c")
 	)
 	(junction
-		(at 66.04 86.36)
+		(at 62.23 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7ae89af1-714f-419d-9b6b-80d596aa1ad3")
+		(uuid "6c1828e3-bdfa-4f52-b789-98fa3911451f")
 	)
 	(junction
 		(at 80.01 38.1)
@@ -1301,12 +1313,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de0381d1-3095-4cbe-a2b0-5ac8a81ff5c2")
-	)
-	(junction
-		(at 45.72 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e42ca0b3-b4f0-48a3-a1da-b652d6adbcfa")
 	)
 	(wire
 		(pts
@@ -1370,6 +1376,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 90.17) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21357239-e3ba-4c76-9969-b5058567bb34")
+	)
+	(wire
+		(pts
 			(xy 92.71 147.32) (xy 92.71 59.69)
 		)
 		(stroke
@@ -1400,16 +1416,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 76.2) (xy 66.04 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d056d76-0a5c-4c12-8de2-39e552805eff")
-	)
-	(wire
-		(pts
 			(xy 76.2 44.45) (xy 80.01 44.45)
 		)
 		(stroke
@@ -1427,6 +1433,16 @@
 			(type default)
 		)
 		(uuid "3a77ebfc-b2c8-48e8-b618-5db9d28f5763")
+	)
+	(wire
+		(pts
+			(xy 62.23 87.63) (xy 62.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8c3914-72df-4798-870b-f7b8a4160922")
 	)
 	(bus
 		(pts
@@ -1447,6 +1463,16 @@
 			(type default)
 		)
 		(uuid "481cdf6b-4769-4e01-a9e8-46ccec72b94d")
+	)
+	(wire
+		(pts
+			(xy 59.69 76.2) (xy 59.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5ebe3c-9aed-4d7b-a815-d3032e558dfc")
 	)
 	(bus
 		(pts
@@ -1470,13 +1496,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 76.2) (xy 45.72 86.36)
+			(xy 62.23 87.63) (xy 67.31 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58c6ad74-51f0-4ee0-8e78-654be6e28e37")
+		(uuid "60b2cf09-fa9b-4a77-bb95-a941b09c0672")
+	)
+	(wire
+		(pts
+			(xy 46.99 76.2) (xy 46.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62548ee5-ac9d-4bff-89c9-f1c475f167e4")
 	)
 	(wire
 		(pts
@@ -1580,13 +1616,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 86.36) (xy 66.04 96.52)
+			(xy 62.23 76.2) (xy 62.23 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a63af26-24f5-4447-ab76-c3641e7c4ddd")
+		(uuid "99564970-9981-4e71-b843-57f726fde7ea")
 	)
 	(wire
 		(pts
@@ -1637,6 +1673,16 @@
 			(type default)
 		)
 		(uuid "a6e89bfa-537c-40b9-a159-ad926f04d909")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 59.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8096153-aaf7-4ece-9a5d-cf37ad3d2a5d")
 	)
 	(wire
 		(pts
@@ -1720,6 +1766,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 76.2) (xy 52.07 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb37d5dd-a76f-469e-bc1b-a246e1be0336")
+	)
+	(wire
+		(pts
 			(xy 167.64 27.94) (xy 177.8 27.94)
 		)
 		(stroke
@@ -1780,13 +1836,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 86.36) (xy 45.72 96.52)
+			(xy 64.77 85.09) (xy 67.31 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea0e811f-2325-4a76-bfb1-820464a3301d")
+		(uuid "e651eccb-d901-4ad0-9147-9f94522b7d28")
+	)
+	(wire
+		(pts
+			(xy 64.77 85.09) (xy 64.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb36b750-85a0-42ab-bf23-5eeb2176f453")
 	)
 	(wire
 		(pts
@@ -1807,6 +1873,36 @@
 			(type default)
 		)
 		(uuid "ed8719f9-ad10-45b1-bafc-0bfa7f965459")
+	)
+	(wire
+		(pts
+			(xy 54.61 76.2) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0d40f1-d527-4900-8e0c-9aacf57a6968")
+	)
+	(wire
+		(pts
+			(xy 49.53 76.2) (xy 49.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12c791b-8981-408a-ad7f-4dd27d8f4628")
+	)
+	(wire
+		(pts
+			(xy 64.77 76.2) (xy 64.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2786e62-139e-4e64-a82e-26f3b8adf1c8")
 	)
 	(wire
 		(pts
@@ -2257,7 +2353,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_mech/M-TEST-SMT_1.5mm_round")
-		(at 66.04 86.36 270)
+		(at 67.31 87.63 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2266,7 +2362,7 @@
 		(dnp no)
 		(uuid "610d2987-f22e-4fee-bdce-b6f09e924215")
 		(property "Reference" "TP1"
-			(at 69.342 81.28 90)
+			(at 83.566 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2370,7 @@
 			)
 		)
 		(property "Value" "Test Point"
-			(at 72.39 83.82 90)
+			(at 76.2 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2378,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 66.04 81.28 0)
+			(at 67.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 81.28 0)
+			(at 67.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2396,7 @@
 			)
 		)
 		(property "Description" "SMT Test Point 1.5mm round"
-			(at 66.04 86.36 0)
+			(at 67.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2405,7 @@
 			)
 		)
 		(property "IPN" "M-TEST-SMT_1.5mm_round"
-			(at 66.04 86.36 0)
+			(at 67.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2414,7 @@
 			)
 		)
 		(property "Comments" "TestPoint 1.5mm"
-			(at 66.04 86.36 0)
+			(at 67.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,6 +2495,89 @@
 			(project "nautilus_mainboard"
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "#dzdb:g_mech/M-TEST-SMT_1.5mm_round")
+		(at 67.31 90.17 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "699fd04d-dc1e-463a-8b81-40ff32584772")
+		(property "Reference" "TP14"
+			(at 84.074 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test Point"
+			(at 76.2 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 67.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT Test Point 1.5mm round"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IPN" "M-TEST-SMT_1.5mm_round"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "TestPoint 1.5mm"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6daea49-c719-4d27-bdec-0dd27d5fcafd")
+		)
+		(instances
+			(project "nautilus_mainboard"
+				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -3234,7 +3413,7 @@
 	)
 	(symbol
 		(lib_id "#dzdb:g_mech/M-TEST-SMT_1.5mm_round")
-		(at 45.72 86.36 270)
+		(at 67.31 85.09 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3243,7 +3422,7 @@
 		(dnp no)
 		(uuid "f09b6dab-7013-4c9b-9ddd-a78970771e85")
 		(property "Reference" "TP2"
-			(at 49.022 81.28 90)
+			(at 83.566 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3430,7 @@
 			)
 		)
 		(property "Value" "Test Point"
-			(at 52.324 83.82 90)
+			(at 76.454 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3438,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 45.72 81.28 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 81.28 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3456,7 @@
 			)
 		)
 		(property "Description" "SMT Test Point 1.5mm round"
-			(at 45.72 86.36 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3465,7 @@
 			)
 		)
 		(property "IPN" "M-TEST-SMT_1.5mm_round"
-			(at 45.72 86.36 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3474,7 @@
 			)
 		)
 		(property "Comments" "TestPoint 1.5mm"
-			(at 45.72 86.36 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,26 +3548,6 @@
 				(justify right)
 			)
 		)
-		(pin "Pack1_SCL" input
-			(at 45.72 76.2 270)
-			(uuid "274b8679-3853-4f7f-9243-1cc7ae940b39")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Pack1_SDA" input
-			(at 66.04 76.2 270)
-			(uuid "e2f673a0-dfad-4e53-9b91-50e542825f55")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "STM_UART_RX" input
 			(at 76.2 44.45 0)
 			(uuid "7fb464fb-4945-420a-a315-2a2c833e3640")
@@ -3452,6 +3611,76 @@
 		(pin "ST_CAN{P,N}" bidirectional
 			(at 71.12 76.2 270)
 			(uuid "4c251408-5ffb-4809-b3b7-282b2ad4bad7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI1_CSB_ACCEL" output
+			(at 46.99 76.2 270)
+			(uuid "2725b68e-d26a-4d2b-af98-2c198c9f34e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI1_CSB_GYRO" output
+			(at 49.53 76.2 270)
+			(uuid "13d14e56-5d73-4d04-b809-8360840b8919")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI2_CSB_ACCEL" output
+			(at 52.07 76.2 270)
+			(uuid "fb48f8a0-0b08-40bc-bb88-7f973e681394")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI2_CSB_GYRO" output
+			(at 54.61 76.2 270)
+			(uuid "d403e39e-a810-406e-8e45-f34a323ea9c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI_MISO" input
+			(at 59.69 76.2 270)
+			(uuid "ab6a53f7-5fe8-472a-9533-df881a845863")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI_MOSI" output
+			(at 62.23 76.2 270)
+			(uuid "285b628e-d9c8-4ec9-a479-0b4cb24dde7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMI_SCK" output
+			(at 64.77 76.2 270)
+			(uuid "2e3c9b49-abce-425d-9a9e-d326717b4407")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,9 +3904,9 @@
 				(justify left top)
 			)
 		)
-		(pin "Pack1_SCL" input
-			(at 45.72 96.52 90)
-			(uuid "965fbacc-baaa-4b5b-971a-2d7da1a0679b")
+		(pin "BMI1_CSB_ACCEL" input
+			(at 46.99 96.52 90)
+			(uuid "ae4c0fc4-3979-4737-bf71-4a8c9aac2a90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,9 +3914,59 @@
 				(justify right)
 			)
 		)
-		(pin "Pack1_SDA" input
-			(at 66.04 96.52 90)
-			(uuid "e2edc7c6-5225-4179-970e-43f4164f332f")
+		(pin "BMI1_CSB_GYRO" input
+			(at 49.53 96.52 90)
+			(uuid "36a66bac-1f58-45c1-a1f1-703915473414")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMI2_CSB_ACCEL" input
+			(at 52.07 96.52 90)
+			(uuid "07fe92e9-b91b-49ec-a770-6ec965afc0e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMI2_CSB_GYRO" input
+			(at 54.61 96.52 90)
+			(uuid "52ed7115-fc16-412c-8f9c-7e676106c517")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMI_MISO" output
+			(at 59.69 96.52 90)
+			(uuid "79a79a3a-e885-4942-a885-067b1fd6d764")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMI_MOSI" input
+			(at 62.23 96.52 90)
+			(uuid "4ec06612-0e74-42d3-9ba2-b155b1ea1dab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMI_SCK" input
+			(at 64.77 96.52 90)
+			(uuid "d999f0f1-2e63-45e2-98a8-3f42afe2473b")
 			(effects
 				(font
 					(size 1.27 1.27)

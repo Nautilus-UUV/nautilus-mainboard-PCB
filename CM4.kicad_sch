@@ -1271,6 +1271,16 @@
 		)
 		(uuid d0ba8cdb-1dc5-43d7-a984-c80995081335)
 	)
+	(text "This for some reason does not sync..."
+		(exclude_from_sim no)
+		(at 263.144 147.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28bcb36c-4f8e-4e50-bf0d-febeb7f9f4d3")
+	)
 	(text "5V in\n"
 		(exclude_from_sim no)
 		(at 177.546 110.236 90)

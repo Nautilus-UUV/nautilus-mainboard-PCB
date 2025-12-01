@@ -1092,16 +1092,16 @@
       "GPIO_REF3.3V"
     ],
     [
+      "3fd3275c-6c0d-4151-aef0-c5be0b7c3810",
+      "IMU2"
+    ],
+    [
       "bdf8f7d6-a5ee-4741-925d-5019e8cbdfce",
       "IMU"
     ],
     [
       "0c7afee2-dd12-41f0-a704-0f15387072b0",
       "IMU1"
-    ],
-    [
-      "a7ffb13a-d9ae-4b81-b70f-0aefcfc6ef00",
-      "IMU2"
     ]
   ],
   "text_variables": {}
