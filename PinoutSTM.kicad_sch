@@ -6290,16 +6290,6 @@
 		)
 		(uuid "cdf086ba-9321-4bd4-a36c-dcf82778ec0e")
 	)
-	(text "-  +"
-		(exclude_from_sim no)
-		(at 63.5 49.276 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "de93730c-6a35-41dd-9959-c7d4e59594cb")
-	)
 	(text "This part should be changed... implement directly a fan\nnot this 3 pin screw terminal that I randomly found @evan"
 		(exclude_from_sim no)
 		(at 42.418 63.5 0)
@@ -6380,12 +6370,6 @@
 		(uuid "83818350-4dc9-4553-bb1d-07d021b20e5d")
 	)
 	(junction
-		(at 38.1 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99c938a7-f786-415b-a1f5-8fcd01356c23")
-	)
-	(junction
 		(at 123.19 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6420,12 +6404,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad80f9dc-4edf-478e-b7ee-2887a309df11")
-	)
-	(junction
-		(at 60.96 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adeedd67-3408-4d23-a288-629c07be8fde")
 	)
 	(junction
 		(at 266.7 53.34)
@@ -6930,16 +6908,6 @@
 			(type default)
 		)
 		(uuid "48b423a5-7762-4b13-a00f-3b311ad4b36b")
-	)
-	(wire
-		(pts
-			(xy 38.1 43.18) (xy 62.23 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4962a87d-5ed8-49e7-8eae-a8331e314659")
 	)
 	(wire
 		(pts
@@ -7503,16 +7471,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 39.37) (xy 64.77 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afdf1384-b01a-412a-9011-8cff9240b002")
-	)
-	(wire
-		(pts
 			(xy 58.42 72.39) (xy 72.39 72.39)
 		)
 		(stroke
@@ -7970,16 +7928,6 @@
 			(type default)
 		)
 		(uuid "f490fc6c-cc78-48fb-8281-0e1008dfcd2a")
-	)
-	(wire
-		(pts
-			(xy 64.77 39.37) (xy 64.77 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7e3f9f0-323a-4692-8fb8-df18ccf5a2f0")
 	)
 	(wire
 		(pts
@@ -14519,256 +14467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "#dzdb:s_con/WURT-61300211121")
-		(at 62.23 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72481ba7-4474-47e7-bfdf-7e6f0293158e")
-		(property "Reference" "J2"
-			(at 67.31 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "61300211121"
-			(at 67.31 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "dz_con:Wurth_Con_61300211121"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sockel & Kabelgehäuse WR-PHD 2.54mm 2Pin T HT Header"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Connector Header Through Hole 2 position 0.100 (2.54mm)"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/61300211121/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "61300211121"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/61300211121/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IPN" "WURT-61300211121"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "61300211121"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Symbol" "dz_con:CON-Wurth-6130XX11121_61300211121"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Connector"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pitch" "2.54mm"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Mouser"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SPN" "710-61300211121"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" "note=Auto-generated part for Wurth Elektronik connector family WR-PHD"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21015734-a425-4eb8-a25d-b19171e0b702")
-		)
-		(pin "2"
-			(uuid "0b7cce21-aab3-4ef3-b270-843d21e4007b")
-		)
-		(instances
-			(project ""
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "#dzdb:s_con/CON-SAMTEC-FTSH-107-02-L-DV")
 		(at 166.37 34.29 0)
 		(unit 1)
@@ -17946,91 +17644,6 @@
 			(project ""
 				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "#dzdb:g_mech/Jumper-2P1.3mm_Rounded")
-		(at 60.96 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d89492e3-939f-4d04-8b37-7e50ebec6659")
-		(property "Reference" "JP13"
-			(at 58.928 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-"
-			(at 59.69 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 60.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper"
-			(at 60.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IPN" "Jumper-2P1.3mm_Rounded"
-			(at 60.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
-			(at 60.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc517323-0710-4d73-9964-0f8b7f83a55a")
-		)
-		(pin "1"
-			(uuid "4e66de44-7659-46f3-81c2-4d71e24b540d")
-		)
-		(instances
-			(project "nautilus_mainboard"
-				(path "/ce1819b2-f280-40ed-834f-6fe4d12f809d/46fb4fb5-44f2-465b-b1ff-e4e0fbef74ae/fadabe7f-e4de-4ec7-8fb6-d9f38e9db4fc"
-					(reference "JP13")
 					(unit 1)
 				)
 			)
