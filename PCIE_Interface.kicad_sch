@@ -4236,6 +4236,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 34.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d55ef460-7d2f-43e6-a5b3-0d55aeb8623e")
 		)
@@ -4379,6 +4397,24 @@
 			)
 		)
 		(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 34.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 34.29 125.73 0)
 			(effects
 				(font
@@ -4556,6 +4592,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c06f2dbe-01ec-4f4d-af2d-612573ee1673")
 		)
@@ -4633,6 +4687,24 @@
 			)
 		)
 		(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 34.29 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 34.29 118.11 0)
 			(effects
 				(font
@@ -4842,6 +4914,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=New Product"
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 189.23 72.39 0)
 			(effects
 				(font
@@ -5072,6 +5162,24 @@
 			)
 		)
 		(property "Order" "Ordered=True"
+			(at 130.81 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 130.81 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 130.81 71.12 90)
 			(effects
 				(font
@@ -5493,6 +5601,24 @@
 			)
 		)
 		(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 34.29 120.65 0)
 			(effects
 				(font

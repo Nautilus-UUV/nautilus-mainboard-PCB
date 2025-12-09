@@ -2949,6 +2949,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c71a9231-8b2a-4a7f-ae1f-b4c0f0c5ca33")
 		)
@@ -3107,6 +3125,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 160.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 160.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -3325,6 +3361,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "23012d43-66b3-4e5b-8963-91b963732b72")
 		)
@@ -3516,6 +3570,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 172.72 81.28 0)
 			(effects
 				(font
@@ -3890,6 +3962,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70079ee7-380d-4d5b-8a35-0d5b03c7517b")
 		)
@@ -4122,6 +4212,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 153.67 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 153.67 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96d40132-bd06-49f9-b7ce-87d64da8a3db")
 		)
@@ -4282,6 +4390,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 107.95 105.41 0)
 			(effects
 				(font
@@ -4458,6 +4584,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c34ffab2-df62-4028-b20f-1d2bd400a195")
 		)
@@ -4618,6 +4762,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; Alternative part: Samsung CL32Y106KCVZNW (almost identical specs)"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 99.06 105.41 0)
 			(effects
 				(font
@@ -4794,6 +4956,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "97c62c6d-4363-447c-9722-272b00376583")
 		)
@@ -4873,6 +5053,24 @@
 			)
 		)
 		(property "Comments" "TestPoint 1.5mm"
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 172.72 77.47 0)
 			(effects
 				(font

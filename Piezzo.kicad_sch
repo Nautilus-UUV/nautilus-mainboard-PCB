@@ -2544,6 +2544,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6487caf-c7c4-4ab7-bd55-6186c54c4788")
 		)
@@ -2705,6 +2723,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 163.83 110.49 0)
 			(effects
 				(font
@@ -2935,6 +2971,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 166.37 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1828cd3a-368e-44b8-9e86-f843c9eea301")
 		)
@@ -3013,6 +3067,24 @@
 		)
 		(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
 			(at 172.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 172.72 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 172.72 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,6 +3364,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 170.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 170.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c41343fe-a220-45fa-98e6-4f4bee603b7e")
 		)
@@ -3455,6 +3545,24 @@
 		)
 		(property "Comment" "lifecycle=Active; TCR=±100ppm/°C"
 			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 156.21 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 156.21 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)

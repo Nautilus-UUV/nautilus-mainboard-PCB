@@ -1841,6 +1841,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb0fb6f6-a915-4412-8243-c1d956efc965")
 		)
@@ -1999,6 +2017,24 @@
 			)
 		)
 		(property "Comments" "TestPoint 1.5mm"
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 83.82 50.8 0)
 			(effects
 				(font

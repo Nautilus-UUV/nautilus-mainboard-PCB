@@ -4800,6 +4800,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 146.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 146.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92293281-e4a6-43dc-8ff7-f807b6ac22be")
 		)
@@ -5208,6 +5226,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 147.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14850730-ddb5-4186-bd47-139d99eff266")
 		)
@@ -5360,6 +5396,24 @@
 		)
 		(property "Comment" "note=Auto-generated"
 			(at 226.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 226.06 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 226.06 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,6 +5589,24 @@
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
 			(at 134.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 134.62 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 134.62 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,6 +5814,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; orientation=Right Angle; note=16 position 1.27mm pitch right angle header connector"
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 153.67 97.79 0)
 			(effects
 				(font
@@ -6013,6 +6103,24 @@
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
 			(at 134.62 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 134.62 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 134.62 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)

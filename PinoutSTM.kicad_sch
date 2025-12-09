@@ -13085,6 +13085,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 52.07 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 52.07 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "79f47633-7297-4101-9c11-715ea4a2f9be")
 		)
@@ -13697,6 +13715,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 264.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 264.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a46fdb1e-74d3-4617-b09e-e0f87f18403b")
 		)
@@ -13978,6 +14014,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 35.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 35.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b60e167b-0b0c-4e06-93cd-56da5931ca34")
 		)
@@ -14150,6 +14204,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 135.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 135.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e39e5d4-f6cd-48f1-ad81-12956fb12552")
 		)
@@ -14311,6 +14383,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 148.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 148.59 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 148.59 163.83 0)
 			(effects
 				(font
@@ -14679,6 +14769,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 166.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "5cdb706b-ac7f-43ba-b1e4-182c165da093")
 		)
@@ -14884,6 +14992,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 173.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 173.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d4ab1e39-46da-47b2-93a4-6efee4903250")
 		)
@@ -15044,6 +15170,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 186.69 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 186.69 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 186.69 163.83 0)
 			(effects
 				(font
@@ -15221,6 +15365,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aee805dd-4282-475e-963f-b19fec9f2e83")
 		)
@@ -15298,6 +15460,24 @@
 			)
 		)
 		(property "Comments" "Rounded Jumper Pads 1.0x1.5mm"
+			(at 41.91 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 41.91 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 41.91 24.13 0)
 			(effects
 				(font
@@ -15467,6 +15647,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 113.03 144.78 0)
 			(effects
 				(font
@@ -15835,6 +16033,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 30.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3b22a032-d5a2-461b-a3b9-1687601c4e0b")
 		)
@@ -16001,6 +16217,24 @@
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
 			(at 29.21 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 29.21 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 29.21 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16233,6 +16467,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 219.71 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 219.71 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "b1091fab-ddd1-463c-84cb-ac4052106649")
 		)
@@ -16393,6 +16645,24 @@
 		)
 		(property "Comment" "note=Auto-generated"
 			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 218.44 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 218.44 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16623,6 +16893,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 259.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3b1f357-d5b1-475e-9506-84ddd3873e4d")
 		)
@@ -16773,6 +17061,24 @@
 			)
 		)
 		(property "Comment" "note=Auto-generated"
+			(at 180.34 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 180.34 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 180.34 19.05 0)
 			(effects
 				(font
@@ -17139,6 +17445,24 @@
 			)
 		)
 		(property "Comment" ""
+			(at 72.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 72.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 72.39 72.39 0)
 			(effects
 				(font
@@ -17568,6 +17892,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 123.19 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 123.19 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f5ba4a7-9638-4cfb-8bba-ef1922fde003")
 		)
@@ -17803,6 +18145,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 110.49 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.49 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f8fe844b-dacc-4099-b4ca-28b73a716318")
 		)
@@ -17964,6 +18324,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 161.29 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 161.29 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 161.29 163.83 0)
 			(effects
 				(font
@@ -18141,6 +18519,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 251.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 251.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c08a8066-f99b-4342-9c69-5966ae74a682")
 		)
@@ -18302,6 +18698,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 38.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -18479,6 +18893,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "251a67e6-b7c3-4596-8072-29d5119c426d")
 		)
@@ -18639,6 +19071,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; Alternative part: Samsung CL32Y106KCVZNW (almost identical specs)"
+			(at 198.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 198.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 198.12 163.83 0)
 			(effects
 				(font

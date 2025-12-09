@@ -754,7 +754,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C597931.pdf"
 				(at 142.24 -26.67 0)
 				(effects
 					(font
@@ -862,7 +862,7 @@
 					(hide yes)
 				)
 			)
-			(property "Pin Count" "Mouser"
+			(property "Pin Count" "51"
 				(at 0 0 0)
 				(effects
 					(font
@@ -871,7 +871,7 @@
 					(hide yes)
 				)
 			)
-			(property "Pitch" "798-DF40C-100DS-04V51"
+			(property "Pitch" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -880,7 +880,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier" "N/A"
+			(property "Supplier" "mouser"
 				(at 0 0 0)
 				(effects
 					(font
@@ -889,7 +889,7 @@
 					(hide yes)
 				)
 			)
-			(property "SPN" "https://www.lcsc.com/datasheet/C597931.pdf"
+			(property "SPN" "798-DF40C100DS0.4V51"
 				(at 0 0 0)
 				(effects
 					(font
@@ -898,7 +898,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "lifecycle=Active; note=100-pin 0.4mm pitch connector"
+			(property "LCSC" "N/A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -907,7 +907,7 @@
 					(hide yes)
 				)
 			)
-			(property "Comment" ""
+			(property "Comment" "lifecycle=Active; note=100-pin 0.4mm pitch connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8671,6 +8671,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 222.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 222.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c288b849-82e5-4e09-bc4b-5e8aaa2d4335")
 		)
@@ -8898,6 +8916,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 199.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 199.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 199.39 151.13 0)
 			(effects
 				(font
@@ -9141,6 +9177,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 176.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 176.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "990f2a32-1315-4b2a-b5f9-ae7a09c4287f")
 		)
@@ -9191,7 +9245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C597931.pdf"
 			(at 215.9 106.68 0)
 			(effects
 				(font
@@ -9299,7 +9353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Pin Count" "Mouser"
+		(property "Pin Count" "51"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -9317,7 +9371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "N/A"
+		(property "Supplier" "mouser"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -9326,7 +9380,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "https://www.lcsc.com/datasheet/C597931.pdf"
+		(property "SPN" "798-DF40C100DS0.4V51"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -9335,7 +9389,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "lifecycle=Active; note=100-pin 0.4mm pitch connector"
+		(property "LCSC" "N/A"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -9344,7 +9398,25 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "lifecycle=Active; note=100-pin 0.4mm pitch connector"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -10115,6 +10187,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 265.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a136aad1-8fa9-4228-af14-d422c6a3f872")
 		)
@@ -10284,6 +10374,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "342c91ba-474b-4d74-b64f-6a56cc4b2a42")
 		)
@@ -10445,6 +10553,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 245.11 151.13 0)
 			(effects
 				(font
@@ -10688,6 +10814,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 233.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 233.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "827bcb9c-8174-4889-ab63-0b26ee0eef62")
 		)
@@ -10849,6 +10993,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 210.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 210.82 151.13 0)
 			(effects
 				(font
@@ -11121,6 +11283,24 @@
 			)
 		)
 		(property "Comment" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 200.66 83.82 0)
 			(effects
 				(font
@@ -11425,6 +11605,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(at 187.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 187.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 187.96 151.13 0)
 			(effects
 				(font

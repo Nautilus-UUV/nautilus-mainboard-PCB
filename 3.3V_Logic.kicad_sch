@@ -295,7 +295,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Cap 330nF 50V 0603 C0G ±10%"
+			(property "Description" "Cap 330nF 10V 0603 C0G ±10%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -313,7 +313,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "885012206098"
+			(property "MPN" "885012106007"
 				(at 0 0 0)
 				(effects
 					(font
@@ -340,7 +340,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "50V"
+			(property "Voltage" "10V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -358,7 +358,7 @@
 					(hide yes)
 				)
 			)
-			(property "Tolerance" "10%"
+			(property "Tolerance" "20%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -376,7 +376,7 @@
 					(hide yes)
 				)
 			)
-			(property "SPN" "710-885012206098"
+			(property "SPN" "710-885012106007"
 				(at 0 0 0)
 				(effects
 					(font
@@ -394,7 +394,7 @@
 					(hide yes)
 				)
 			)
-			(property "Comment" "lifecycle=Active; note=Auto-generated"
+			(property "Comment" "lifecycle=Active; note: previous part not found."
 				(at 0 0 0)
 				(effects
 					(font
@@ -5759,6 +5759,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 104.14 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6aa3b05e-eeca-4853-be38-b02208cb4bd2")
 		)
@@ -5993,6 +6011,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1edac707-b6fa-479d-969c-675447cf48e8")
 		)
@@ -6051,7 +6087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Cap 330nF 50V 0603 C0G ±10%"
+		(property "Description" "Cap 330nF 10V 0603 C0G ±10%"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -6069,7 +6105,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "885012206098"
+		(property "MPN" "885012106007"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -6096,7 +6132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "10V"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -6114,7 +6150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Tolerance" "20%"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -6132,7 +6168,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "710-885012206098"
+		(property "SPN" "710-885012106007"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -6150,7 +6186,25 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "lifecycle=Active; note=Auto-generated"
+		(property "Comment" "lifecycle=Active; note: previous part not found."
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -6435,6 +6489,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 123.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "56e67afc-4a89-4152-be88-343e1eaf8ef1")
 		)
@@ -6633,6 +6705,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "965cd0f7-6a74-45ef-acef-879a47ac9c80")
 		)
@@ -6792,6 +6882,24 @@
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
 			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 158.75 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 158.75 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,6 +7067,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; Alternative part: Samsung CL32Y106KCVZNW (almost identical specs)"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -7135,6 +7261,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62a481d1-86da-4657-849d-b675828b2ff3")
 		)
@@ -7295,6 +7439,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=Active; note=High capacitance in 0805 package"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 172.72 86.36 0)
 			(effects
 				(font

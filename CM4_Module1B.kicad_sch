@@ -947,7 +947,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C597931.pdf"
 				(at 142.24 -26.67 0)
 				(effects
 					(font
@@ -1055,7 +1055,7 @@
 					(hide yes)
 				)
 			)
-			(property "Pin Count" "Mouser"
+			(property "Pin Count" "51"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1064,7 +1064,7 @@
 					(hide yes)
 				)
 			)
-			(property "Pitch" "798-DF40C-100DS-04V51"
+			(property "Pitch" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1073,7 +1073,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier" "N/A"
+			(property "Supplier" "mouser"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1082,7 +1082,7 @@
 					(hide yes)
 				)
 			)
-			(property "SPN" "https://www.lcsc.com/datasheet/C597931.pdf"
+			(property "SPN" "798-DF40C100DS0.4V51"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1091,7 +1091,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "lifecycle=Active; note=100-pin 0.4mm pitch connector"
+			(property "LCSC" "N/A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1100,7 +1100,7 @@
 					(hide yes)
 				)
 			)
-			(property "Comment" ""
+			(property "Comment" "lifecycle=Active; note=100-pin 0.4mm pitch connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9023,6 +9023,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61ba8ab1-1c58-4d27-a9bb-13aa0830d6d1")
 		)
@@ -9235,6 +9253,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3cbe85de-3778-41cf-86aa-90dd3c50e9d6")
 		)
@@ -9398,6 +9434,24 @@
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
 			(at 255.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 255.27 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 255.27 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,6 +9691,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 210.82 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 210.82 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "662e7c45-80e7-4f26-99d2-b9304753396a")
 		)
@@ -9687,7 +9759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C597931.pdf"
 			(at 91.44 121.92 0)
 			(effects
 				(font
@@ -9795,7 +9867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Pin Count" "Mouser"
+		(property "Pin Count" "51"
 			(at -50.8 95.25 0)
 			(effects
 				(font
@@ -9813,7 +9885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "N/A"
+		(property "Supplier" "mouser"
 			(at -50.8 95.25 0)
 			(effects
 				(font
@@ -9822,7 +9894,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN" "https://www.lcsc.com/datasheet/C597931.pdf"
+		(property "SPN" "798-DF40C100DS0.4V51"
 			(at -50.8 95.25 0)
 			(effects
 				(font
@@ -9831,7 +9903,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "lifecycle=Active; note=100-pin 0.4mm pitch connector"
+		(property "LCSC" "N/A"
 			(at -50.8 95.25 0)
 			(effects
 				(font
@@ -9840,7 +9912,25 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" ""
+		(property "Comment" "lifecycle=Active; note=100-pin 0.4mm pitch connector"
+			(at -50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at -50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at -50.8 95.25 0)
 			(effects
 				(font
@@ -10676,6 +10766,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 210.82 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 210.82 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2dd3ce1-ec02-4544-b024-cdac209dd3bb")
 		)
@@ -10835,6 +10943,24 @@
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
 			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 218.44 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 218.44 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,6 +11247,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=New Product; note=Auto-generated part for Same Sky / CUI USB Type-C connector family"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 201.93 116.84 0)
 			(effects
 				(font
@@ -11446,6 +11590,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44cd4dcd-53c7-4429-a28f-d25b68ccf457")
 		)
@@ -11671,6 +11833,24 @@
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
 			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 218.44 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 218.44 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)

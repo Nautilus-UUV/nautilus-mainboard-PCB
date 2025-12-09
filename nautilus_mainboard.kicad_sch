@@ -2708,6 +2708,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 161.29 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 161.29 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b3d312a-a3ac-4546-a121-511faa6879ca")
 		)
@@ -3004,6 +3022,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 67.31 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 67.31 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f4756c3-6387-4593-ae4f-cfb04c56e667")
 		)
@@ -3153,6 +3189,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 67.31 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 67.31 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6daea49-c719-4d27-bdec-0dd27d5fcafd")
 		)
@@ -3231,6 +3285,24 @@
 		)
 		(property "Comments" "TestPoint 1.5mm"
 			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 238.76 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 238.76 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,6 +3461,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68c60063-247a-47c8-9012-d68799e37868")
 		)
@@ -3466,6 +3556,24 @@
 			)
 		)
 		(property "Comments" "TestPoint 1.5mm"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 236.22 81.28 0)
 			(effects
 				(font
@@ -3559,6 +3667,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 236.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 236.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1220ae98-158a-4bfb-8b9a-8d305bfef0a0")
 		)
@@ -3635,6 +3761,24 @@
 			)
 		)
 		(property "Comments" "TestPoint 1.5mm"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 80.01 38.1 0)
 			(effects
 				(font
@@ -3808,6 +3952,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 163.83 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c44433b-faf5-4f21-a0b0-7fe014e492e6")
 		)
@@ -3893,6 +4055,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 259.08 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 259.08 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "162fc558-6c7a-4d71-beca-1e2ba425430f")
 		)
@@ -3970,6 +4150,24 @@
 			)
 		)
 		(property "Comments" "TestPoint 1.5mm"
+			(at 256.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 256.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 256.54 81.28 0)
 			(effects
 				(font
@@ -4063,6 +4261,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 256.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 256.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab14066f-1a1c-4c95-84aa-d2a73c30fd89")
 		)
@@ -4139,6 +4355,24 @@
 		)
 		(property "Comments" "TestPoint 1.5mm"
 			(at 67.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 67.31 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 67.31 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)

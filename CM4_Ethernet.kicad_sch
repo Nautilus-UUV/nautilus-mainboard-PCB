@@ -3890,6 +3890,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 116.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 116.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "8e1b9ae8-a580-4d8c-9605-638fce685536")
 		)
@@ -4082,6 +4100,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 226.06 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 226.06 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "970841af-1a5a-4fc2-bf89-5893a03c34ee")
 		)
@@ -4241,6 +4277,24 @@
 		)
 		(property "Comment" "lifecycle=Active; note=Auto-generated"
 			(at 226.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 226.06 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 226.06 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,6 +4512,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 205.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 205.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01bebb91-b019-4147-80c3-86e63d80ba11")
 		)
@@ -4659,6 +4731,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=New Product"
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 196.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 196.85 41.91 0)
 			(effects
 				(font
@@ -4996,6 +5086,24 @@
 			)
 		)
 		(property "Comment" ""
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 116.84 100.33 0)
 			(effects
 				(font

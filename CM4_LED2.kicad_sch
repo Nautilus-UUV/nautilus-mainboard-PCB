@@ -787,6 +787,24 @@
 				(hide yes)
 			)
 		)
+		(property "Field16" ""
+			(at 124.46 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 124.46 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a1db8c0-b11a-4e6e-b977-401ea7d4ecff")
 		)
@@ -989,6 +1007,24 @@
 			)
 		)
 		(property "Comment" "lifecycle=New Product"
+			(at 91.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field16" ""
+			(at 91.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 91.44 62.23 0)
 			(effects
 				(font
